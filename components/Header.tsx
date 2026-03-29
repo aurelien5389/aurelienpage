@@ -84,9 +84,10 @@ export default function Header() {
             <a
               href="#"
               onClick={closeMenu}
-              className="font-space-grotesk font-bold text-lg sm:text-xl text-off-white hover:text-cyan transition-colors duration-200"
+              aria-label="Aurélien PAGE - Accueil"
+              className="flex items-center justify-center w-10 h-10 rounded-xl bg-cyan text-navy font-space-grotesk font-bold text-base hover:bg-cyan-hover transition-colors duration-200 select-none"
             >
-              Aurélien PAGE
+              AP
             </a>
 
             {/* Navigation desktop */}
