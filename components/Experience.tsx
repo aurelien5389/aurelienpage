@@ -24,7 +24,7 @@ const EXPERIENCES = [
     period: 'Fév. 2020 → Déc. 2024',
     current: false,
     tasks: [
-      'SEO de sites à fort trafic : Usine Digitale, Usine Nouvelle (millions de sessions/mois)',
+      'SEO de sites à fort trafic : Usine Digitale, Usine Nouvelle (plusieurs millions de sessions/mois)',
       'Audits SEO complets (technique, contenu, popularité) · définition et déploiement de stratégies',
       'Création, gestion et optimisation de campagnes Google Ads & Meta Ads',
       'Suivi des performances : GA4 · Search Console · tableaux de bord Looker Studio',
