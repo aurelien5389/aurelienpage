@@ -8,7 +8,6 @@ const NAV_LINKS = [
   { label: 'Services', href: '#services' },
   { label: 'Expériences', href: '#experience' },
   { label: 'Compétences', href: '#skills' },
-  { label: 'Contact', href: '#contact' },
 ]
 
 // IDs de toutes les sections à observer (inclut education même sans lien nav)
