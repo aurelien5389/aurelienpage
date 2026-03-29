@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 
 const STATS = [
   { value: '10+', label: "ans d'expérience" },
-  { value: 'Millions', label: 'sessions/mois gérées' },
   { value: 'SEO · SEA\nGEO · IA', label: 'Expertises' },
 ]
 
