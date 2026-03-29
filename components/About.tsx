@@ -27,13 +27,13 @@ export default function About() {
             <div className="space-y-5 text-gray-secondary leading-relaxed text-base sm:text-lg">
               <p>
                 Plus de 10 ans d&apos;expérience en marketing digital. Mon parcours a démarré
-                par le journalisme et la rédaction web — ce qui structure encore ma façon
+                par le journalisme et la rédaction web, ce qui structure encore ma façon
                 d&apos;aborder le SEO : partir du contenu, du sens et des usages avant la
                 technique.
               </p>
               <p>
-                Aujourd&apos;hui je coordonne des projets digitaux transversaux — refonte de
-                site, stratégie de contenu, automatisation de workflows — en environnement
+                Aujourd&apos;hui je coordonne des projets digitaux transversaux : refonte de
+                site, stratégie de contenu, automatisation de workflows, en environnement
                 salarié comme en freelance.
               </p>
               <p>

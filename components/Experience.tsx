@@ -18,7 +18,7 @@ const EXPERIENCES = [
     ],
   },
   {
-    title: 'Consultant SEO & SEA — Freelance & Salarié',
+    title: 'Consultant SEO & SEA, Freelance & Salarié',
     company: 'Useweb / Infopro Digital / 410 Gone',
     location: 'France (remote)',
     period: 'Fév. 2020 → Déc. 2024',

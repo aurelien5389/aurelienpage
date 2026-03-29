@@ -140,7 +140,7 @@ export default function Hero() {
           className="max-w-2xl text-base sm:text-lg lg:text-xl text-gray-secondary leading-relaxed mb-10"
         >
           J&apos;aide les entreprises et organismes de formation à développer
-          leur visibilité et leurs leads —{' '}
+          leur visibilité et leurs leads :{' '}
           <span className="text-off-white font-medium">
             SEO · SEA · GEO · Automatisation
           </span>
