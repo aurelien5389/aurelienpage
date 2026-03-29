@@ -166,6 +166,16 @@ export default function Hero() {
           >
             Me contacter
           </a>
+          <a
+            href="/cv-aurelien-page.pdf.pdf"
+            download
+            className="inline-flex items-center justify-center gap-2 px-7 py-3.5 border border-steel text-off-white font-semibold text-base rounded-xl hover:border-cyan hover:text-cyan transition-all duration-200"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16" />
+            </svg>
+            Télécharger mon CV
+          </a>
         </motion.div>
         </div>
 
