@@ -1,11 +1,13 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const NAV_LINKS = [
   { label: 'À propos', href: '#about' },
   { label: 'Services', href: '#services' },
+  { label: 'Prestations', href: '/prestations', external: true },
   { label: 'Expériences', href: '#experience' },
   { label: 'Compétences', href: '#skills' },
 ]
@@ -92,17 +94,13 @@ export default function Header() {
             {/* Navigation desktop */}
             <nav className="hidden md:flex items-center gap-1" aria-label="Navigation principale">
               {NAV_LINKS.map((link) => {
-                const sectionId = link.href.slice(1)
-                const isActive = activeSection === sectionId
-                return (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    className={`relative px-3 py-2 text-sm font-medium rounded-lg transition-colors duration-200 ${
-                      isActive ? 'text-cyan' : 'text-gray-secondary hover:text-off-white'
-                    }`}
-                  >
-                    {/* Indicateur de section active animé */}
+                const sectionId = link.href.startsWith('#') ? link.href.slice(1) : ''
+                const isActive = sectionId ? activeSection === sectionId : false
+                const className = `relative px-3 py-2 text-sm font-medium rounded-lg transition-colors duration-200 ${
+                  isActive ? 'text-cyan' : 'text-gray-secondary hover:text-off-white'
+                }`
+                const inner = (
+                  <>
                     {isActive && (
                       <motion.span
                         layoutId="activeNavIndicator"
@@ -111,6 +109,15 @@ export default function Header() {
                       />
                     )}
                     <span className="relative z-10">{link.label}</span>
+                  </>
+                )
+                return link.external ? (
+                  <Link key={link.href} href={link.href} className={className}>
+                    {inner}
+                  </Link>
+                ) : (
+                  <a key={link.href} href={link.href} className={className}>
+                    {inner}
                   </a>
                 )
               })}
@@ -163,19 +170,28 @@ export default function Header() {
             className="fixed inset-0 z-40 bg-navy/97 backdrop-blur-xl flex flex-col items-center justify-center md:hidden"
           >
             <nav className="flex flex-col items-center gap-7" aria-label="Navigation mobile">
-              {NAV_LINKS.map((link, i) => (
-                <motion.a
-                  key={link.href}
-                  href={link.href}
-                  onClick={closeMenu}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.06 + 0.05, duration: 0.3 }}
-                  className="font-space-grotesk font-bold text-3xl text-off-white hover:text-cyan transition-colors duration-200"
-                >
-                  {link.label}
-                </motion.a>
-              ))}
+              {NAV_LINKS.map((link, i) => {
+                const mobileClassName = "font-space-grotesk font-bold text-3xl text-off-white hover:text-cyan transition-colors duration-200"
+                const motionProps = {
+                  key: link.href,
+                  onClick: closeMenu,
+                  initial: { opacity: 0, y: 20 },
+                  animate: { opacity: 1, y: 0 },
+                  transition: { delay: i * 0.06 + 0.05, duration: 0.3 },
+                  className: mobileClassName,
+                }
+                return link.external ? (
+                  <motion.div {...motionProps}>
+                    <Link href={link.href} onClick={closeMenu} className={mobileClassName}>
+                      {link.label}
+                    </Link>
+                  </motion.div>
+                ) : (
+                  <motion.a {...motionProps} href={link.href}>
+                    {link.label}
+                  </motion.a>
+                )
+              })}
               <motion.a
                 href="#contact"
                 onClick={closeMenu}
