@@ -8,7 +8,8 @@ const ROLES = [
   'Consultant SEO',
   'Chef de Projet Digital',
   'Traffic Manager',
-  'Expert GEO & IA',
+  'Consultant SEO & GEO',
+  'Consultant IA',
 ]
 
 /**
