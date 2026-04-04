@@ -5,7 +5,6 @@ import { motion, useReducedMotion } from 'framer-motion'
 import Image from 'next/image'
 
 const ROLES = [
-  'Consultant SEO',
   'Chef de Projet Digital',
   'Traffic Manager',
   'Consultant SEO & GEO',
