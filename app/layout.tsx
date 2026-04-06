@@ -68,7 +68,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
   description:
-    "Consultant SEO & GEO, Traffic Manager SEA, Consultant IA, Chef de Projet Digital et Formateur No Code. J'accompagne entreprises et organismes de formation. Basé à Rennes, remote.",
+    "Consultant freelance spécialisé en SEO, SEA, GEO, IA et automatisation no-code. Basé à Rennes, interventions remote. Diagnostic offert.",
   keywords: [
     'consultant SEO',
     'consultant GEO',
@@ -95,25 +95,24 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'fr_FR',
     url: siteUrl,
-    title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
-    description:
-      "Consultant SEO & GEO, Traffic Manager SEA, Consultant IA, Chef de Projet Digital et Formateur No Code. Basé à Rennes, remote.",
     siteName: 'Aurélien PAGE',
+    title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code',
+    description:
+      "J'accompagne les entreprises et organismes de formation à améliorer leur visibilité, automatiser leurs workflows et se positionner dans les environnements IA — SEO · SEA · GEO · No-code.",
     images: [
       {
-        url: '/og',
+        url: '/og-default.png',
         width: 1200,
         height: 630,
-        alt: 'Aurélien PAGE · Consultant SEO & Chef de Projet Digital',
+        alt: 'Aurélien PAGE — Consultant SEO & Marketing Digital · Rennes',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aurélien PAGE · Consultant SEO & Chef de Projet Digital',
-    description:
-      "Expert SEO, SEA et automatisation marketing. Basé à Rennes, remote.",
-    images: ['/og'],
+    title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code',
+    description: 'Consultant freelance basé à Rennes — SEO · SEA · GEO · IA · No-code. Diagnostic offert.',
+    images: ['/og-default.png'],
   },
   robots: {
     index: true,
