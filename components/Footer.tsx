@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import AvailabilityBadge from '@/components/AvailabilityBadge'
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -11,10 +12,13 @@ export default function Footer() {
     <footer className="border-t border-steel/30 py-8 bg-navy">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
-          <p className="text-gray-secondary">
-            © 2026 Aurélien PAGE ·{' '}
-            <span className="text-off-white/60">aurelienpage.fr</span>
-          </p>
+          <div className="flex flex-col sm:flex-row items-center gap-3">
+            <p className="text-gray-secondary">
+              © 2026 Aurélien PAGE ·{' '}
+              <span className="text-off-white/60">aurelienpage.fr</span>
+            </p>
+            <AvailabilityBadge />
+          </div>
 
           <div className="flex items-center gap-6">
             <a

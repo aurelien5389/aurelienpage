@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { motion, useReducedMotion } from 'framer-motion'
 import Image from 'next/image'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
+import AvailabilityBadge from '@/components/AvailabilityBadge'
 
 const ROLES = [
   'Consultant SEO & GEO',
@@ -87,11 +88,21 @@ export default function Hero() {
             variants={fadeUp}
             initial="hidden"
             animate="visible"
-            className="font-space-grotesk font-bold text-5xl sm:text-7xl lg:text-8xl text-off-white leading-[1.05] mb-6"
+            className="font-space-grotesk font-bold text-5xl sm:text-7xl lg:text-8xl text-off-white leading-[1.05] mb-4"
           >
             Aurélien{' '}
             <span className="text-cyan">PAGE</span>
           </motion.h1>
+
+          <motion.div
+            custom={0.15}
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            className="mb-6"
+          >
+            <AvailabilityBadge />
+          </motion.div>
 
           <motion.div
             custom={0.2}
