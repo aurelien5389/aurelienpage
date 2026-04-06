@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { motion, useReducedMotion } from 'framer-motion'
 import Image from 'next/image'
+import DiagnosticCTA from '@/components/DiagnosticCTA'
 
 const ROLES = [
   'Consultant SEO & GEO',
@@ -151,6 +152,8 @@ export default function Hero() {
               Télécharger mon CV
             </a>
           </motion.div>
+
+          <DiagnosticCTA variant="compact" />
         </div>
 
         <motion.div

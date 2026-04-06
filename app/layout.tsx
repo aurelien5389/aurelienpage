@@ -32,32 +32,36 @@ const personSchema = {
   name: 'Aurélien PAGE',
   url: siteUrl,
   image: `${siteUrl}/photo.jpg`,
-  jobTitle: 'Consultant SEO & Chef de Projet Digital',
-  worksFor: {
-    '@type': 'Organization',
-    name: 'Indépendant / Freelance',
-  },
+  jobTitle: 'Consultant SEO & GEO, Traffic Manager, Consultant IA, Formateur No Code',
+  telephone: '+33781981114',
+  email: 'aurelienpage89@gmail.com',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Rennes',
+    addressRegion: 'Bretagne',
     addressCountry: 'FR',
   },
-  email: 'aurelienpage89@gmail.com',
-  telephone: '+33781981114',
   sameAs: ['https://www.linkedin.com/in/aurelienpage'],
-  knowsAbout: [
-    'SEO',
-    'SEA',
-    'Google Ads',
-    'Marketing digital',
-    'GEO',
-    'Automatisation No-code',
-    'Make',
-    'Airtable',
-    'Gestion de projet digital',
-  ],
+  knowsAbout: ['SEO', 'GEO', 'SEA', 'Google Ads', 'Meta Ads', 'Marketing digital', 'IA générative', 'Automatisation No-code', 'Make', 'Airtable', 'Claude AI', 'Gestion de projet digital'],
   description:
-    "Consultant SEO & Chef de Projet Digital basé à Rennes. J'aide les entreprises et organismes de formation à développer leur visibilité organique et leurs leads via le SEO, le SEA et l'automatisation.",
+    "Consultant SEO & GEO, Traffic Manager SEA, Consultant IA et Formateur No Code basé à Rennes. J'accompagne entreprises et organismes de formation.",
+}
+
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: 'Aurélien PAGE — Consultant SEO & Marketing Digital',
+  url: siteUrl,
+  telephone: '+33781981114',
+  email: 'aurelienpage89@gmail.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Rennes',
+    addressRegion: 'Bretagne',
+    addressCountry: 'FR',
+  },
+  areaServed: 'France',
+  priceRange: '€€',
 }
 
 export const metadata: Metadata = {
@@ -155,6 +159,12 @@ export default function RootLayout({
           id="schema-person"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+          strategy="beforeInteractive"
+        />
+        <Script
+          id="schema-local-business"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
           strategy="beforeInteractive"
         />
         {children}

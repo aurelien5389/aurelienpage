@@ -78,6 +78,39 @@ export default function Contact() {
           </p>
         </motion.div>
 
+        {/* Bloc Calendly */}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-60px' }}
+          transition={{ duration: 0.5 }}
+          className="mb-10 p-6 sm:p-7 bg-steel/20 border border-cyan/20 rounded-2xl flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-8"
+        >
+          <div className="flex-1 min-w-0">
+            <p className="font-space-grotesk font-semibold text-off-white text-base mb-1">
+              Préfères-tu qu&apos;on en parle directement ?
+            </p>
+            <p className="text-gray-secondary text-sm">
+              Réserve un créneau de 30 min — c&apos;est gratuit et sans engagement.
+            </p>
+          </div>
+          <a
+            href="https://calendly.com/aurelienpage89/diagnostic-offert-30-min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-cyan text-navy font-space-grotesk font-semibold text-sm rounded-xl hover:bg-cyan-hover transition-colors duration-200"
+          >
+            Choisir un créneau →
+          </a>
+        </motion.div>
+
+        {/* Séparateur "ou" */}
+        <div className="flex items-center gap-4 mb-10">
+          <div className="flex-1 h-px bg-steel/40" />
+          <span className="text-xs text-gray-secondary font-mono px-2">ou</span>
+          <div className="flex-1 h-px bg-steel/40" />
+        </div>
+
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-start">
           {/* Formulaire */}
           <motion.div

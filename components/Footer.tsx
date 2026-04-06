@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 export default function Footer() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -23,6 +25,12 @@ export default function Footer() {
             >
               LinkedIn
             </a>
+            <Link
+              href="/mentions-legales"
+              className="text-gray-secondary hover:text-cyan transition-colors duration-200"
+            >
+              Mentions légales
+            </Link>
             <button
               type="button"
               onClick={scrollToTop}
