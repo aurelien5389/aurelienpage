@@ -9,7 +9,6 @@ const NAV_LINKS = [
   { label: 'Prestations', href: '/prestations' },
   { label: 'Formations', href: '/#formations' },
   { label: 'À propos', href: '/#about' },
-  { label: 'Contact', href: '/#contact' },
 ]
 
 const SECTION_IDS = ['about', 'services', 'experience', 'skills', 'formations', 'contact']
