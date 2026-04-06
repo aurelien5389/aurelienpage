@@ -2,17 +2,14 @@ import type { Metadata } from 'next'
 import PrestationDetail, { type PrestationData } from '@/components/PrestationDetail'
 
 export const metadata: Metadata = {
-  title: 'Formateur No Code & IA Rennes · Make, Airtable, Claude · Aurélien PAGE',
+  title: 'Formateur No Code & IA · Make, Airtable, Claude · Aurélien PAGE',
   description:
     'Formations no-code et IA générative pour équipes marketing : Make, Airtable, Claude AI. Présentiel Rennes ou distanciel. Diagnostic offert.',
   alternates: { canonical: 'https://aurelienpage.fr/prestations/formateur-no-code-ia' },
   openGraph: {
-    type: 'website',
-    locale: 'fr_FR',
+    title: 'Formateur No Code & IA · Make, Airtable, Claude · Aurélien PAGE',
+    description: 'Formations Make, Airtable et Claude AI pour équipes marketing. Présentiel Rennes ou distanciel. Diagnostic offert.',
     url: 'https://aurelienpage.fr/prestations/formateur-no-code-ia',
-    title: 'Formateur No Code & IA Rennes · Make, Airtable, Claude · Aurélien PAGE',
-    description: 'Formations Make, Airtable, Claude AI pour équipes marketing. Rennes ou distanciel.',
-    siteName: 'Aurélien PAGE',
   },
 }
 

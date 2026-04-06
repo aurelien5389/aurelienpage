@@ -2,17 +2,14 @@ import type { Metadata } from 'next'
 import PrestationDetail, { type PrestationData } from '@/components/PrestationDetail'
 
 export const metadata: Metadata = {
-  title: 'Consultant SEO & GEO Rennes · Audit et stratégie · Aurélien PAGE',
+  title: 'Consultant SEO & GEO Rennes · Aurélien PAGE',
   description:
     'Audit SEO technique, cocons sémantiques, optimisation GEO pour les moteurs IA. Freelance basé à Rennes, interventions remote. Diagnostic offert.',
   alternates: { canonical: 'https://aurelienpage.fr/prestations/consultant-seo-geo' },
   openGraph: {
-    type: 'website',
-    locale: 'fr_FR',
-    url: 'https://aurelienpage.fr/prestations/consultant-seo-geo',
     title: 'Consultant SEO & GEO Rennes · Aurélien PAGE',
-    description: 'Audit SEO, cocons sémantiques, GEO pour les moteurs IA. Diagnostic offert.',
-    siteName: 'Aurélien PAGE',
+    description: 'Audit SEO technique, cocons sémantiques, optimisation GEO pour les moteurs IA. Freelance basé à Rennes. Diagnostic offert.',
+    url: 'https://aurelienpage.fr/prestations/consultant-seo-geo',
   },
 }
 

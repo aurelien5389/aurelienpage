@@ -2,17 +2,14 @@ import type { Metadata } from 'next'
 import PrestationDetail, { type PrestationData } from '@/components/PrestationDetail'
 
 export const metadata: Metadata = {
-  title: 'Traffic Manager SEA Rennes · Google Ads & Meta Ads · Aurélien PAGE',
+  title: 'Traffic Manager SEA · Google Ads & Meta Ads · Aurélien PAGE',
   description:
     'Création, pilotage et optimisation de campagnes Google Ads et Meta Ads. Freelance SEA basé à Rennes. Audit de compte offert sur demande.',
   alternates: { canonical: 'https://aurelienpage.fr/prestations/traffic-manager-sea' },
   openGraph: {
-    type: 'website',
-    locale: 'fr_FR',
+    title: 'Traffic Manager SEA · Google Ads & Meta Ads · Aurélien PAGE',
+    description: 'Campagnes Google Ads et Meta Ads créées, pilotées et optimisées. Freelance SEA à Rennes. Diagnostic offert.',
     url: 'https://aurelienpage.fr/prestations/traffic-manager-sea',
-    title: 'Traffic Manager SEA Rennes · Google Ads & Meta Ads · Aurélien PAGE',
-    description: 'Campagnes Google Ads & Meta Ads. Freelance SEA à Rennes. Audit offert.',
-    siteName: 'Aurélien PAGE',
   },
 }
 

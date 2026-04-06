@@ -2,17 +2,14 @@ import type { Metadata } from 'next'
 import PrestationDetail, { type PrestationData } from '@/components/PrestationDetail'
 
 export const metadata: Metadata = {
-  title: 'Chef de Projet Digital Freelance Rennes · Aurélien PAGE',
+  title: 'Chef de Projet Digital Freelance · Rennes · Aurélien PAGE',
   description:
     "Cadrage, pilotage et coordination de projets digitaux : refonte, migration SEO, déploiement d'outils. Freelance à Rennes, remote. Diagnostic offert.",
   alternates: { canonical: 'https://aurelienpage.fr/prestations/chef-de-projet-digital' },
   openGraph: {
-    type: 'website',
-    locale: 'fr_FR',
+    title: 'Chef de Projet Digital Freelance · Rennes · Aurélien PAGE',
+    description: "Pilotage de projets web, refonte, migration SEO, déploiement d'outils. Freelance à Rennes, remote. Diagnostic offert.",
     url: 'https://aurelienpage.fr/prestations/chef-de-projet-digital',
-    title: 'Chef de Projet Digital Freelance Rennes · Aurélien PAGE',
-    description: "Pilotage de projets digitaux. Refonte, migration SEO, déploiement d'outils. Freelance Rennes.",
-    siteName: 'Aurélien PAGE',
   },
 }
 

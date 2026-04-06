@@ -5,17 +5,14 @@ import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 
 export const metadata: Metadata = {
-  title: 'Prestations freelance · SEO, SEA, IA, No Code · Aurélien PAGE',
+  title: 'Prestations · SEO, SEA, IA, No Code · Aurélien PAGE',
   description:
-    "SEO & GEO, SEA, Consultant IA, Chef de Projet Digital, Formateur No Code & IA : 5 prestations complémentaires. Basé à Rennes, remote.",
+    "5 expertises complémentaires : SEO & GEO, SEA, IA, chef de projet digital, formation no-code. Freelance à Rennes.",
   alternates: { canonical: 'https://aurelienpage.fr/prestations' },
   openGraph: {
-    type: 'website',
-    locale: 'fr_FR',
+    title: 'Prestations · SEO, SEA, IA, No Code · Aurélien PAGE',
+    description: "5 expertises complémentaires : SEO & GEO, SEA, IA, chef de projet digital, formation no-code. Freelance à Rennes.",
     url: 'https://aurelienpage.fr/prestations',
-    title: 'Prestations freelance · SEO, SEA, IA, No Code · Aurélien PAGE',
-    description: '5 expertises complémentaires : SEO & GEO, SEA, IA, Chef de Projet, Formateur No Code.',
-    siteName: 'Aurélien PAGE',
   },
 }
 

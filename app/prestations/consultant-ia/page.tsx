@@ -2,17 +2,14 @@ import type { Metadata } from 'next'
 import PrestationDetail, { type PrestationData } from '@/components/PrestationDetail'
 
 export const metadata: Metadata = {
-  title: 'Consultant IA Marketing Rennes · Claude AI, Make · Aurélien PAGE',
+  title: 'Consultant IA Marketing · Claude AI, Make · Aurélien PAGE',
   description:
     "Déploiement d'agents IA, pipelines de contenu automatisés, prompting métier. Consultant IA freelance à Rennes. Diagnostic offert.",
   alternates: { canonical: 'https://aurelienpage.fr/prestations/consultant-ia' },
   openGraph: {
-    type: 'website',
-    locale: 'fr_FR',
+    title: 'Consultant IA Marketing · Claude AI, Make · Aurélien PAGE',
+    description: "Intégration de l'IA générative dans vos workflows marketing. Agents IA, pipelines no-code. Freelance à Rennes.",
     url: 'https://aurelienpage.fr/prestations/consultant-ia',
-    title: 'Consultant IA Marketing Rennes · Claude AI, Make · Aurélien PAGE',
-    description: "Agents IA, pipelines contenu, prompting métier. Consultant IA freelance à Rennes.",
-    siteName: 'Aurélien PAGE',
   },
 }
 
