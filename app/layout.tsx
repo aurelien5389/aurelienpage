@@ -62,29 +62,38 @@ const personSchema = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Aurélien PAGE · Consultant SEO & Chef de Projet Digital · Rennes',
+  title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
   description:
-    "Expert SEO, SEA et automatisation marketing. J'aide les entreprises et organismes de formation à développer leur visibilité et leurs leads. Basé à Rennes, remote.",
+    "Consultant SEO & GEO, Traffic Manager SEA, Consultant IA, Chef de Projet Digital et Formateur No Code. J'accompagne entreprises et organismes de formation. Basé à Rennes, remote.",
   keywords: [
     'consultant SEO',
+    'consultant GEO',
+    'traffic manager SEA',
+    'consultant IA',
+    'formateur no code',
     'chef de projet digital',
     'SEO Rennes',
-    'traffic manager',
-    'marketing digital',
-    'SEA Google Ads',
     'automatisation marketing',
-    'GEO',
-    'freelance SEO',
+    'Make Airtable',
+    'freelance digital Rennes',
   ],
   authors: [{ name: 'Aurélien PAGE' }],
   creator: 'Aurélien PAGE',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
     url: siteUrl,
-    title: 'Aurélien PAGE · Consultant SEO & Chef de Projet Digital · Rennes',
+    title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
     description:
-      "Expert SEO, SEA et automatisation marketing. J'aide les entreprises et organismes de formation à développer leur visibilité et leurs leads.",
+      "Consultant SEO & GEO, Traffic Manager SEA, Consultant IA, Chef de Projet Digital et Formateur No Code. Basé à Rennes, remote.",
     siteName: 'Aurélien PAGE',
     images: [
       {

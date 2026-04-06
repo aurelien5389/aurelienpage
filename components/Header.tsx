@@ -6,13 +6,13 @@ import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const NAV_LINKS = [
-  { label: 'À propos', href: '/#about' },
   { label: 'Prestations', href: '/prestations' },
-  { label: 'Expériences', href: '/#experience' },
-  { label: 'Compétences', href: '/#skills' },
+  { label: 'Formations', href: '/#formations' },
+  { label: 'À propos', href: '/#about' },
+  { label: 'Contact', href: '/#contact' },
 ]
 
-const SECTION_IDS = ['about', 'services', 'experience', 'skills', 'education', 'contact']
+const SECTION_IDS = ['about', 'services', 'experience', 'skills', 'formations', 'contact']
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -30,40 +30,28 @@ export default function Header() {
   useEffect(() => {
     if (!isHome) return
     const observers: IntersectionObserver[] = []
-
     SECTION_IDS.forEach((id) => {
       const el = document.getElementById(id)
       if (!el) return
-
       const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) setActiveSection(id)
-          })
-        },
+        (entries) => { entries.forEach((e) => { if (e.isIntersecting) setActiveSection(id) }) },
         { threshold: 0.25, rootMargin: '-80px 0px -40% 0px' }
       )
-
       observer.observe(el)
       observers.push(observer)
     })
-
     return () => observers.forEach((o) => o.disconnect())
   }, [isHome])
 
   useEffect(() => {
-    const onResize = () => {
-      if (window.innerWidth >= 768) setMenuOpen(false)
-    }
+    const onResize = () => { if (window.innerWidth >= 768) setMenuOpen(false) }
     window.addEventListener('resize', onResize)
     return () => window.removeEventListener('resize', onResize)
   }, [])
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
-    return () => {
-      document.body.style.overflow = ''
-    }
+    return () => { document.body.style.overflow = '' }
   }, [menuOpen])
 
   const closeMenu = useCallback(() => setMenuOpen(false), [])
@@ -79,21 +67,22 @@ export default function Header() {
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 sm:h-20">
-            {/* Logo */}
             <Link
               href="/"
               onClick={closeMenu}
-              aria-label="Aurélien PAGE - Accueil"
+              aria-label="Aurélien PAGE — Accueil"
               className="flex items-center justify-center w-10 h-10 rounded-xl bg-cyan text-navy font-space-grotesk font-bold text-base hover:bg-cyan-hover transition-colors duration-200 select-none"
             >
               AP
             </Link>
 
-            {/* Navigation desktop */}
             <nav className="hidden md:flex items-center gap-1" aria-label="Navigation principale">
               {NAV_LINKS.map((link) => {
                 const sectionId = link.href.startsWith('/#') ? link.href.slice(2) : ''
-                const isActive = isHome && sectionId ? activeSection === sectionId : pathname === link.href
+                const isActive =
+                  sectionId
+                    ? isHome && activeSection === sectionId
+                    : pathname === link.href
                 return (
                   <Link
                     key={link.href}
@@ -121,7 +110,6 @@ export default function Header() {
               </Link>
             </nav>
 
-            {/* Burger mobile */}
             <button
               type="button"
               onClick={() => setMenuOpen((v) => !v)}
@@ -130,27 +118,14 @@ export default function Header() {
               aria-controls="mobile-menu"
               className="md:hidden flex flex-col justify-center items-center gap-1.5 w-10 h-10 rounded-lg hover:bg-steel/30 transition-colors"
             >
-              <span
-                className={`block w-5 h-0.5 bg-off-white origin-center transition-all duration-300 ${
-                  menuOpen ? 'translate-y-2 rotate-45' : ''
-                }`}
-              />
-              <span
-                className={`block w-5 h-0.5 bg-off-white transition-opacity duration-300 ${
-                  menuOpen ? 'opacity-0' : ''
-                }`}
-              />
-              <span
-                className={`block w-5 h-0.5 bg-off-white origin-center transition-all duration-300 ${
-                  menuOpen ? '-translate-y-2 -rotate-45' : ''
-                }`}
-              />
+              <span className={`block w-5 h-0.5 bg-off-white origin-center transition-all duration-300 ${menuOpen ? 'translate-y-2 rotate-45' : ''}`} />
+              <span className={`block w-5 h-0.5 bg-off-white transition-opacity duration-300 ${menuOpen ? 'opacity-0' : ''}`} />
+              <span className={`block w-5 h-0.5 bg-off-white origin-center transition-all duration-300 ${menuOpen ? '-translate-y-2 -rotate-45' : ''}`} />
             </button>
           </div>
         </div>
       </header>
 
-      {/* Menu mobile — overlay plein écran */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div

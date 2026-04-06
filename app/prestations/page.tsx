@@ -4,19 +4,16 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Prestations · Aurélien PAGE · Consultant SEO & Chef de Projet Digital',
+  title: 'Prestations freelance · SEO, SEA, IA, No Code · Aurélien PAGE',
   description:
-    "Découvrez mes prestations SEO, SEA, GEO & IA et automatisation no-code. Des missions sur mesure pour développer votre visibilité et vos leads. Basé à Rennes, remote.",
-  alternates: {
-    canonical: 'https://aurelienpage.fr/prestations',
-  },
+    "SEO & GEO, SEA, Consultant IA, Chef de Projet Digital, Formateur No Code & IA : 5 prestations complémentaires pour votre stratégie digitale. Basé à Rennes, remote.",
+  alternates: { canonical: 'https://aurelienpage.fr/prestations' },
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
     url: 'https://aurelienpage.fr/prestations',
-    title: 'Prestations · Aurélien PAGE',
-    description:
-      "SEO, SEA, GEO & IA, automatisation no-code : des expertises complémentaires pour une stratégie digitale cohérente.",
+    title: 'Prestations freelance · SEO, SEA, IA, No Code · Aurélien PAGE',
+    description: "5 prestations complémentaires : SEO & GEO, SEA, IA, Chef de Projet Digital, Formateur No Code.",
     siteName: 'Aurélien PAGE',
   },
 }
@@ -24,69 +21,83 @@ export const metadata: Metadata = {
 const PRESTATIONS = [
   {
     icon: '🔍',
-    title: 'Visibilité SEO',
-    tagline: 'Construire une présence organique durable',
-    description:
-      "Le SEO ne s'improvise pas. J'interviens sur l'ensemble du spectre : audit technique approfondi, stratégie éditoriale, cocons sémantiques et optimisation de la longue traîne. L'objectif est une visibilité qui dure et qui convertit.",
+    title: 'Consultant SEO & GEO',
+    pitch: "Une visibilité organique qui dure — sur les moteurs de recherche comme dans les IA génératives.",
+    pourQui: "Entreprises B2B, organismes de formation, médias, e-commerce",
     missions: [
-      'Audit technique complet (crawl, Core Web Vitals, structure)',
-      'Stratégie de contenus & cocons sémantiques',
-      'Optimisation des pages existantes (balises, maillage, balisage Schema)',
-      'Suivi de positions et reporting mensuel',
-      'Accompagnement rédactionnel & briefings SEO',
+      "Audit technique complet (crawl, Core Web Vitals, structure)",
+      "Stratégie éditoriale & cocons sémantiques",
+      "Optimisation on-page (balises, maillage, Schema)",
+      "Optimisation GEO : visibilité dans ChatGPT, Perplexity, Google AI Overviews",
+      "Audit de visibilité dans les outils IA génératifs",
+      "Stratégie de contenu orientée E-E-A-T",
+      "Suivi de positions & reporting mensuel",
     ],
-    outils: ['SEMrush', 'Ahrefs', 'Screaming Frog', 'Search Console', 'Looker Studio'],
-    formats: ['Mission ponctuelle (audit)', 'Suivi mensuel', 'Prestation projet'],
+    outils: ["SEMrush", "Ahrefs", "Screaming Frog", "Search Console", "Looker Studio", "ChatGPT", "Perplexity"],
+    formats: ["Mission ponctuelle (audit)", "Suivi mensuel", "Accompagnement projet"],
   },
   {
     icon: '📣',
-    title: 'Activation SEA',
-    tagline: 'Des campagnes cohérentes avec votre stratégie',
-    description:
-      "Le paid search est un levier puissant mais coûteux si mal piloté. J'interviens sur la création, l'optimisation et le suivi de campagnes Google Ads et Meta Ads, avec une attention particulière au suivi des conversions et à la cohérence des landing pages.",
+    title: 'Traffic Manager (SEA)',
+    pitch: "Des campagnes cohérentes avec votre stratégie globale — chaque euro investi est tracé.",
+    pourQui: "PME, e-commerce, organismes de formation avec budget paid",
     missions: [
-      'Audit et restructuration de comptes Google Ads existants',
-      'Création de campagnes Search, Display, Shopping, Performance Max',
-      'Campagnes Meta Ads (Facebook/Instagram)',
-      'Conception de landing pages dédiées',
-      'Paramétrage du suivi des conversions (GA4, GTM)',
-      'Reporting et optimisation continue',
+      "Audit et restructuration de comptes Google Ads existants",
+      "Création de campagnes Search, Display, Shopping, Performance Max",
+      "Campagnes Meta Ads (Facebook/Instagram)",
+      "Conception de landing pages dédiées à la conversion",
+      "Paramétrage du suivi des conversions (GA4, GTM)",
+      "Reporting et optimisation continue",
     ],
-    outils: ['Google Ads', 'Meta Ads Manager', 'Google Tag Manager', 'GA4', 'Looker Studio'],
-    formats: ['Lancement de compte', 'Gestion mensuelle', 'Audit & recommandations'],
+    outils: ["Google Ads", "Meta Ads Manager", "GTM", "GA4", "Looker Studio"],
+    formats: ["Lancement de compte", "Gestion mensuelle", "Audit & recommandations"],
   },
   {
     icon: '🤖',
-    title: 'GEO & IA',
-    tagline: "Être visible là où les usages se déplacent",
-    description:
-      "Les moteurs IA (ChatGPT, Perplexity, Google AI Overviews) changent profondément les comportements de recherche. Le GEO (Generative Engine Optimization) consiste à optimiser votre présence dans ces nouveaux espaces. J'accompagne entreprises et organismes de formation à comprendre ces enjeux et à s'y positionner.",
+    title: 'Consultant IA',
+    pitch: "L'IA générative intégrée dans vos workflows — des gains concrets, sans jargon.",
+    pourQui: "Équipes marketing, responsables contenus, DSI, organismes de formation",
     missions: [
-      'Audit de visibilité dans les outils IA génératifs',
-      'Stratégie de contenu orientée GEO',
-      'Optimisation du balisage sémantique & E-E-A-T',
-      'Veille automatisée sur les réponses IA',
-      'Formation & sensibilisation des équipes',
+      "Audit des usages IA existants et identification des opportunités métier",
+      "Déploiement d'agents IA dans les workflows éditoriaux (Claude AI, ChatGPT)",
+      "Construction de pipelines contenu IA via Make",
+      "Prompting avancé et ingénierie de prompts métier",
+      "Accompagnement à la transformation des pratiques marketing avec l'IA",
+      "Veille automatisée sur les réponses IA génératives",
     ],
-    outils: ['ChatGPT', 'Perplexity', 'Google AI Overviews', 'Claude AI', 'Make'],
-    formats: ['Audit GEO', 'Accompagnement stratégique', 'Formation'],
+    outils: ["Claude AI (Anthropic)", "ChatGPT", "Make", "Airtable", "Notion", "Google Sheets"],
+    formats: ["Mission d'intégration", "Accompagnement stratégique", "Formation"],
+  },
+  {
+    icon: '🗂️',
+    title: 'Chef de Projet Digital',
+    pitch: "Du cadrage à l'exécution — coordination, pilotage et reporting pour vos projets digitaux.",
+    pourQui: "PME, organisations en transformation digitale, équipes sans chef de projet dédié",
+    missions: [
+      "Cadrage et pilotage de projets web (refonte, migration SEO, lancement)",
+      "Coordination des prestataires et équipes internes",
+      "Définition des KPI et mise en place du reporting",
+      "Déploiement d'outils digitaux et accompagnement au changement",
+      "Gestion de projet en méthode Agile",
+    ],
+    outils: ["Notion", "Airtable", "Looker Studio", "Google Workspace"],
+    formats: ["Mission longue durée", "Pilotage de projet", "Conseil ponctuel"],
   },
   {
     icon: '⚡',
-    title: 'Automatisation No-code',
-    tagline: 'Des workflows qui font vraiment gagner du temps',
-    description:
-      "Les équipes marketing passent trop de temps sur des tâches répétitives. J'automatise les processus avec Make, Airtable et Claude AI pour libérer du temps à valeur ajoutée. Sans écrire une seule ligne de code.",
+    title: 'Formateur No Code & IA',
+    pitch: "Des formations actionnables pour vos équipes — sans prérequis technique, avec des cas d'usage réels.",
+    pourQui: "Équipes marketing non-techniques, TPE/PME, organismes de formation, managers",
     missions: [
-      'Audit des process manuels & identification des gains',
-      'Conception et déploiement de workflows Make',
-      'Bases de données Airtable (CRM, suivi de projets, reporting)',
-      "Intégration d'agents IA (Claude AI, GPT) dans les workflows",
-      'Formation des équipes aux outils no-code',
-      'Documentation & maintenance',
+      "Formation à Make : automatisation de workflows sans code",
+      "Formation à Airtable : bases de données et CRM métier",
+      "Formation à Claude AI et ChatGPT : prompting, agents, cas d'usage métier",
+      "Ateliers pratiques « IA dans le marketing digital »",
+      "Construction de ressources pédagogiques sur-mesure",
+      "Accompagnement post-formation (support, documentation)",
     ],
-    outils: ['Make (Zapier)', 'Airtable', 'Claude AI', 'Notion', 'Google Sheets'],
-    formats: ["Mission d'automatisation", 'Formation', 'Support continu'],
+    outils: ["Make", "Airtable", "Notion", "Claude AI", "ChatGPT", "Google Sheets"],
+    formats: ["Présentiel Rennes", "Distanciel", "Intra-entreprise", "Demi-journée / Journée / Multi-sessions"],
   },
 ]
 
@@ -103,10 +114,11 @@ export default function PrestationsPage() {
                 Prestations
               </p>
               <h1 className="font-space-grotesk font-bold text-4xl sm:text-5xl lg:text-6xl text-off-white leading-tight mb-6">
-                Des expertises complémentaires pour une stratégie cohérente
+                5 expertises complémentaires
               </h1>
               <p className="text-gray-secondary text-lg leading-relaxed mb-10">
-                SEO, SEA, GEO & IA, automatisation no-code. Chaque prestation s'adapte à votre contexte : mission ponctuelle, accompagnement mensuel ou formation de vos équipes.
+                SEO & GEO, SEA, IA, Chef de Projet, Formation — pensées ensemble, pas en silos.
+                Chaque prestation s&apos;adapte à votre contexte : mission ponctuelle, accompagnement mensuel ou formation de vos équipes.
               </p>
               <Link
                 href="/#contact"
@@ -119,43 +131,35 @@ export default function PrestationsPage() {
           </div>
         </section>
 
-        {/* Prestations détaillées */}
+        {/* Prestations */}
         <section className="py-20 sm:py-28">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20 sm:space-y-28">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24 sm:space-y-32">
             {PRESTATIONS.map((p, i) => (
-              <article
-                key={p.title}
-                className={`grid lg:grid-cols-2 gap-12 lg:gap-16 items-start ${
-                  i % 2 === 1 ? 'lg:grid-flow-dense' : ''
-                }`}
-              >
-                {/* Contenu */}
-                <div className={i % 2 === 1 ? 'lg:col-start-2' : ''}>
-                  <div className="text-4xl mb-5" aria-hidden="true">
-                    {p.icon}
-                  </div>
+              <article key={p.title} id={`prestation-${i + 1}`} className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+                {/* Description */}
+                <div className={i % 2 === 1 ? 'lg:order-2' : ''}>
+                  <div className="text-4xl mb-5" aria-hidden="true">{p.icon}</div>
                   <h2 className="font-space-grotesk font-bold text-3xl sm:text-4xl text-off-white mb-2">
                     {p.title}
                   </h2>
-                  <p className="text-cyan font-medium mb-5">{p.tagline}</p>
-                  <p className="text-gray-secondary leading-relaxed text-base sm:text-lg">
-                    {p.description}
-                  </p>
+                  <p className="text-cyan font-medium mb-5">{p.pitch}</p>
+                  <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-steel/20 border border-steel/40 rounded-lg text-xs text-gray-secondary mb-6">
+                    <span aria-hidden="true">👥</span>
+                    <span>Pour qui : {p.pourQui}</span>
+                  </div>
                 </div>
 
                 {/* Détails */}
-                <div className={`space-y-6 ${i % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
+                <div className={`space-y-5 ${i % 2 === 1 ? 'lg:order-1' : ''}`}>
                   {/* Missions */}
                   <div className="p-6 bg-steel/15 border border-steel/40 rounded-2xl">
-                    <h3 className="font-space-grotesk font-semibold text-off-white text-sm uppercase tracking-wider mb-4">
-                      Ce que j'interviens
+                    <h3 className="font-space-grotesk font-semibold text-off-white text-xs uppercase tracking-wider mb-4">
+                      Ce que j&apos;apporte
                     </h3>
                     <ul className="space-y-2.5">
                       {p.missions.map((m) => (
                         <li key={m} className="flex items-start gap-3 text-sm text-gray-secondary">
-                          <span className="text-cyan mt-0.5 shrink-0" aria-hidden="true">
-                            ✓
-                          </span>
+                          <span className="text-cyan mt-0.5 shrink-0" aria-hidden="true">✓</span>
                           {m}
                         </li>
                       ))}
@@ -170,10 +174,7 @@ export default function PrestationsPage() {
                       </h3>
                       <div className="flex flex-wrap gap-2">
                         {p.outils.map((o) => (
-                          <span
-                            key={o}
-                            className="px-2.5 py-1 text-xs bg-steel/30 text-gray-secondary rounded-lg border border-steel/40"
-                          >
+                          <span key={o} className="px-2.5 py-1 text-xs bg-steel/30 text-gray-secondary rounded-lg border border-steel/40">
                             {o}
                           </span>
                         ))}
@@ -185,16 +186,21 @@ export default function PrestationsPage() {
                       </h3>
                       <div className="flex flex-wrap gap-2">
                         {p.formats.map((f) => (
-                          <span
-                            key={f}
-                            className="px-2.5 py-1 text-xs bg-cyan/10 text-cyan rounded-lg border border-cyan/20"
-                          >
+                          <span key={f} className="px-2.5 py-1 text-xs bg-cyan/10 text-cyan rounded-lg border border-cyan/20">
                             {f}
                           </span>
                         ))}
                       </div>
                     </div>
                   </div>
+
+                  {/* CTA */}
+                  <Link
+                    href="/#contact"
+                    className="inline-flex items-center gap-2 text-sm text-cyan font-medium hover:gap-3 transition-all duration-200"
+                  >
+                    Me contacter pour cette prestation <span aria-hidden="true">→</span>
+                  </Link>
                 </div>
               </article>
             ))}
@@ -205,13 +211,13 @@ export default function PrestationsPage() {
         <section className="py-20 sm:py-28 border-t border-steel/30">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="text-cyan font-space-grotesk font-semibold text-sm tracking-widest uppercase mb-4">
-              Passons à l'action
+              Passons à l&apos;action
             </p>
             <h2 className="font-space-grotesk font-bold text-3xl sm:text-4xl text-off-white mb-5">
               Vous avez un projet en tête ?
             </h2>
             <p className="text-gray-secondary text-lg max-w-xl mx-auto mb-10">
-              Décrivez-moi votre contexte et vos objectifs. Je vous propose une approche adaptée à votre situation, sans jargon inutile.
+              Décrivez-moi votre contexte et vos objectifs. Je vous propose une approche adaptée, sans jargon inutile.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Link
@@ -226,7 +232,7 @@ export default function PrestationsPage() {
                 rel="noopener noreferrer"
                 className="px-7 py-3.5 border border-steel/50 text-off-white font-space-grotesk font-medium rounded-xl hover:border-cyan/40 hover:text-cyan transition-colors duration-200"
               >
-                LinkedIn
+                LinkedIn ↗
               </a>
             </div>
           </div>
