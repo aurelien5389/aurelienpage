@@ -18,21 +18,28 @@ function renderInline(text: string, key: string | number): React.ReactNode {
     // [text](url)
     const link = remaining.match(/^([\s\S]*?)\[([^\]]+)\]\(([^)]+)\)/)
 
-    const candidates = [bold, italic, code, link].filter(Boolean) as RegExpMatchArray[]
+    const typedMatches: [RegExpMatchArray | null, number][] = [
+      [bold, 0],
+      [italic, 1],
+      [code, 2],
+      [link, 3],
+    ]
+    const candidates = typedMatches.filter(
+      (c): c is [RegExpMatchArray, number] => c[0] !== null
+    )
     if (candidates.length === 0) {
       parts.push(<Fragment key={`${key}-t-${i}`}>{remaining}</Fragment>)
       break
     }
 
     // Pick the earliest match
-    const earliest = candidates.reduce((a, b) => (a[1].length <= b[1].length ? a : b))
+    const [earliest, matchType] = candidates.reduce((a, b) => (a[0][1].length <= b[0][1].length ? a : b))
 
     if (earliest[1]) {
       parts.push(<Fragment key={`${key}-t-${i}`}>{earliest[1]}</Fragment>)
       i++
     }
 
-    const matchType = candidates.indexOf(earliest)
     if (matchType === 0) {
       parts.push(<strong key={`${key}-b-${i}`} className={styles.mdGras}>{earliest[2]}</strong>)
     } else if (matchType === 1) {
