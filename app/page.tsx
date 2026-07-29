@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import PrestationsTeaser from '@/components/PrestationsTeaser'
-import About from '@/components/About'
-import WhyMe from '@/components/WhyMe'
-import Experience from '@/components/Experience'
-import Education from '@/components/Education'
+import PresentationConsultant from '@/components/PresentationConsultant'
+import VitrinePrestations from '@/components/VitrinePrestations'
+import ParcoursConsultant from '@/components/ParcoursConsultant'
+import AtoutsConsultant from '@/components/AtoutsConsultant'
+import ExperiencesPro from '@/components/ExperiencesPro'
+import FormationsConsultant from '@/components/FormationsConsultant'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
     description:
-      "J'accompagne les entreprises et organismes de formation à développer leur visibilité et automatiser leurs workflows — Diagnostic offert.",
+      "J'accompagne les entreprises et organismes de formation à développer leur visibilité et automatiser leurs workflows. Diagnostic offert.",
     url: 'https://aurelienpage.fr',
   },
 }
@@ -27,12 +27,12 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <Hero />
-        <PrestationsTeaser />
-        <About />
-        <WhyMe />
-        <Experience />
-        <Education />
+        <PresentationConsultant />
+        <VitrinePrestations />
+        <ParcoursConsultant />
+        <AtoutsConsultant />
+        <ExperiencesPro />
+        <FormationsConsultant />
         <Contact />
       </main>
       <Footer />

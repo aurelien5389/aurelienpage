@@ -1,0 +1,142 @@
+/* Section « Formations » — diplômes/certifications + spécialisations.
+   Unités en rem. */
+
+.formationsSection {
+  padding-block: 6rem;
+}
+
+.formationsInner {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.formationsIntro {
+  margin-bottom: 3.5rem;
+}
+
+.formationsTitre {
+  margin: 0 0 1rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: var(--color-off-white);
+}
+
+.formationsGroupe {
+  margin-bottom: 3.5rem;
+}
+
+.formationsGroupe:last-child {
+  margin-bottom: 0;
+}
+
+.formationsGroupeLabel {
+  margin: 0 0 1.5rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-cyan);
+}
+
+.formationsGrille {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.diplomeCarte {
+  padding: 1.5rem;
+  background: color-mix(in srgb, var(--color-steel) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-steel) 40%, transparent);
+  border-radius: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.diplomeCarte:hover {
+  border-color: color-mix(in srgb, var(--color-cyan) 30%, transparent);
+}
+
+.diplomeAnnee {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0.625rem;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.75rem;
+  color: var(--color-cyan);
+  background: color-mix(in srgb, var(--color-cyan) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-cyan) 20%, transparent);
+  border-radius: 0.25rem;
+}
+
+.diplomeBadgeRangee {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.specBadge {
+  display: inline-block;
+  padding: 0.25rem 0.625rem;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.75rem;
+  color: var(--color-gray-secondary);
+  background: color-mix(in srgb, var(--color-steel) 40%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-steel) 50%, transparent);
+  border-radius: 0.25rem;
+}
+
+.diplomeIntitule {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.375;
+  color: var(--color-off-white);
+}
+
+.diplomeEcole {
+  font-size: 0.875rem;
+  color: var(--color-gray-secondary);
+}
+
+.diplomeEcoleLien {
+  font-size: 0.875rem;
+  color: var(--color-gray-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.diplomeEcoleLien:hover {
+  color: var(--color-cyan);
+}
+
+@media (min-width: 640px) {
+  .formationsSection {
+    padding-block: 8rem;
+  }
+  .formationsInner {
+    padding-inline: 1.5rem;
+  }
+  .formationsTitre {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .formationsGrille {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+  .diplomeIntitule {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .formationsInner {
+    padding-inline: 2rem;
+  }
+}

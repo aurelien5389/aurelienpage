@@ -1,0 +1,166 @@
+/* Pied de page — colonnes de liens + barre basse. Unités px. */
+
+.pied {
+  border-top: 1px solid color-mix(in srgb, var(--color-steel) 30%, transparent);
+  background: var(--color-navy);
+}
+
+.piedHaut {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding: 48px 16px;
+}
+
+.piedGrille {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.piedColTitre {
+  margin: 0 0 16px;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-gray-secondary);
+}
+
+.piedListe {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.piedListe > li + li {
+  margin-top: 8px;
+}
+
+.piedLien {
+  font-size: 14px;
+  color: var(--color-gray-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.piedLien:hover {
+  color: var(--color-off-white);
+}
+
+.piedVilles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.piedBas {
+  border-top: 1px solid color-mix(in srgb, var(--color-steel) 20%, transparent);
+  padding: 24px 0;
+}
+
+.piedBasInner {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+.piedBasRangee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.piedCopyGroupe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.piedCopy {
+  margin: 0;
+  color: var(--color-gray-secondary);
+}
+
+.piedSite {
+  color: color-mix(in srgb, var(--color-off-white) 60%, transparent);
+}
+
+.piedReseaux {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.piedLienBas {
+  color: var(--color-gray-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.piedLienBas:hover {
+  color: var(--color-cyan);
+}
+
+.piedRetour {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: var(--color-gray-secondary);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.piedRetour:hover {
+  color: var(--color-cyan);
+}
+
+.piedRetourFleche {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.piedRetour:hover .piedRetourFleche {
+  transform: translateY(-2px);
+}
+
+@media (min-width: 640px) {
+  .piedGrille {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .piedHaut {
+    padding: 48px 24px;
+  }
+  .piedBasInner {
+    padding-inline: 24px;
+  }
+  .piedBasRangee {
+    flex-direction: row;
+  }
+  .piedCopyGroupe {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .piedGrille {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .piedHaut {
+    padding: 48px 32px;
+  }
+  .piedBasInner {
+    padding-inline: 32px;
+  }
+}

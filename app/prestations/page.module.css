@@ -1,0 +1,226 @@
+/* Hub /prestations — hero + grille de cartes + CTA final. Unités rem. */
+
+.hubMain {
+  padding-top: 4rem;
+}
+
+.hubHero {
+  padding-block: 4rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-steel) 30%, transparent);
+}
+
+.hubInner {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.hubHeroBloc {
+  max-width: 42rem;
+  margin-bottom: 2.5rem;
+}
+
+.hubEyebrow {
+  margin: 0 0 1rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-cyan);
+}
+
+.hubH1 {
+  margin: 0 0 1.5rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.25;
+  color: var(--color-off-white);
+}
+
+.hubChapo {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.625;
+  color: var(--color-gray-secondary);
+}
+
+.hubCartes {
+  padding-block: 4rem;
+}
+
+.hubGrille {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.hubCarte {
+  display: flex;
+  flex-direction: column;
+  padding: 1.75rem;
+  background: color-mix(in srgb, var(--color-steel) 15%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-steel) 40%, transparent);
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.hubCarte:hover {
+  border-color: color-mix(in srgb, var(--color-cyan) 40%, transparent);
+  background: color-mix(in srgb, var(--color-steel) 25%, transparent);
+}
+
+.hubCartePicto {
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 1;
+}
+
+.hubCarteTitre {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-off-white);
+  transition: color 0.2s ease;
+}
+
+.hubCarte:hover .hubCarteTitre {
+  color: var(--color-cyan);
+}
+
+.hubCartePitch {
+  flex: 1 1 0%;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.625;
+  color: var(--color-gray-secondary);
+}
+
+.hubCarteLien {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-cyan);
+  transition: gap 0.2s ease;
+}
+
+.hubCarte:hover .hubCarteLien {
+  gap: 0.625rem;
+}
+
+.hubFinal {
+  padding-block: 4rem;
+  border-top: 1px solid color-mix(in srgb, var(--color-steel) 30%, transparent);
+}
+
+.hubFinalInner {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  text-align: center;
+}
+
+.hubFinalTitre {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 1.875rem;
+  color: var(--color-off-white);
+}
+
+.hubFinalChapo {
+  max-width: 36rem;
+  margin: 0 auto 2.5rem;
+  font-size: 1.125rem;
+  line-height: 1.625;
+  color: var(--color-gray-secondary);
+}
+
+.hubFinalActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hubBtnPrim {
+  padding: 0.875rem 1.75rem;
+  background: var(--color-cyan);
+  color: var(--color-navy);
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.hubBtnPrim:hover {
+  background: var(--color-cyan-hover);
+}
+
+.hubBtnSec {
+  padding: 0.875rem 1.75rem;
+  border: 1px solid color-mix(in srgb, var(--color-steel) 50%, transparent);
+  color: var(--color-off-white);
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.hubBtnSec:hover {
+  border-color: color-mix(in srgb, var(--color-cyan) 40%, transparent);
+  color: var(--color-cyan);
+}
+
+@media (min-width: 640px) {
+  .hubMain {
+    padding-top: 5rem;
+  }
+  .hubInner,
+  .hubFinalInner {
+    padding-inline: 1.5rem;
+  }
+  .hubHero {
+    padding-block: 6rem;
+  }
+  .hubH1 {
+    font-size: 3rem;
+  }
+  .hubCartes {
+    padding-block: 6rem;
+  }
+  .hubGrille {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .hubCarteTitre {
+    font-size: 1.125rem;
+  }
+  .hubFinal {
+    padding-block: 5rem;
+  }
+  .hubFinalTitre {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hubInner,
+  .hubFinalInner {
+    padding-inline: 2rem;
+  }
+  .hubH1 {
+    font-size: 3.75rem;
+  }
+  .hubGrille {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

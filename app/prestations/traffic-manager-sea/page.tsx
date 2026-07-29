@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 
 const data: PrestationData = {
   icon: '📣',
-  h1: 'Traffic Manager SEA — Campagnes Google Ads & Meta Ads',
+  h1: 'Traffic Manager SEA : campagnes Google Ads & Meta Ads',
   pitch:
-    'Des campagnes cohérentes avec votre stratégie globale — chaque euro investi est tracé, piloté et optimisé.',
+    'Des campagnes cohérentes avec votre stratégie globale. Chaque euro investi est tracé, piloté et optimisé.',
   pourQui: 'PME, e-commerce, organismes de formation avec budget paid',
   missions: [
     'Audit et restructuration de comptes Google Ads existants',

@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 
 const data: PrestationData = {
   icon: '🤖',
-  h1: "Consultant IA — Intégration de l'IA générative dans vos workflows marketing",
+  h1: "Consultant IA : intégration de l'IA générative dans vos workflows marketing",
   pitch:
-    "L'IA générative intégrée dans vos workflows — des gains concrets, sans jargon, avec des outils déjà éprouvés en conditions réelles.",
+    "L'IA générative intégrée dans vos workflows. Des gains concrets, sans jargon, avec des outils déjà éprouvés en conditions réelles.",
   pourQui: 'Équipes marketing, responsables contenus, DSI, organismes de formation',
   missions: [
     "Audit des usages IA existants et identification des opportunités métier",

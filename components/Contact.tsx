@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { motion } from 'framer-motion'
+import styles from './Contact.module.css'
 
 const contactSchema = z.object({
   name: z
@@ -53,27 +54,21 @@ export default function Contact() {
     }
   }
 
-  const fieldClass = (hasError: boolean) =>
-    `w-full px-4 py-3 bg-steel/25 border ${
-      hasError ? 'border-red-400/70 focus:border-red-400' : 'border-steel/50 focus:border-cyan'
-    } rounded-xl text-off-white placeholder-gray-secondary/50 focus:outline-none focus:ring-1 ${
-      hasError ? 'focus:ring-red-400/20' : 'focus:ring-cyan/20'
-    } transition-colors duration-200 text-sm sm:text-base`
+  const champClass = (hasError: boolean) =>
+    `${styles.champ}${hasError ? ` ${styles.champErreur}` : ''}`
 
   return (
-    <section id="contact" className="py-24 sm:py-32">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className={styles.contactSection}>
+      <div className={styles.contactInner}>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.6 }}
-          className="mb-14"
+          className={styles.contactIntro}
         >
-          <h2 className="font-space-grotesk font-bold text-4xl sm:text-5xl text-off-white mb-4">
-            Contact
-          </h2>
-          <p className="text-gray-secondary text-lg max-w-xl">
+          <h2 className={styles.contactTitre}>Contact</h2>
+          <p className={styles.contactAccroche}>
             Un projet, une mission, une question ? Parlons-en.
           </p>
         </motion.div>
@@ -84,51 +79,48 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-60px' }}
           transition={{ duration: 0.5 }}
-          className="mb-10 p-6 sm:p-7 bg-steel/20 border border-cyan/20 rounded-2xl flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-8"
+          className={styles.calendly}
         >
-          <div className="flex-1 min-w-0">
-            <p className="font-space-grotesk font-semibold text-off-white text-base mb-1">
+          <div className={styles.calendlyTexte}>
+            <p className={styles.calendlyTitre}>
               Préfères-tu qu&apos;on en parle directement ?
             </p>
-            <p className="text-gray-secondary text-sm">
-              Réserve un créneau de 30 min — c&apos;est gratuit et sans engagement.
+            <p className={styles.calendlySous}>
+              Réserve un créneau de 30 min, c&apos;est gratuit et sans engagement.
             </p>
           </div>
           <a
             href="https://calendly.com/aurelienpage89/diagnostic-offert-30-min"
             target="_blank"
             rel="noopener noreferrer"
-            className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-cyan text-navy font-space-grotesk font-semibold text-sm rounded-xl hover:bg-cyan-hover transition-colors duration-200"
+            className={styles.calendlyBtn}
           >
             Choisir un créneau →
           </a>
         </motion.div>
 
         {/* Séparateur "ou" */}
-        <div className="flex items-center gap-4 mb-10">
-          <div className="flex-1 h-px bg-steel/40" />
-          <span className="text-xs text-gray-secondary font-mono px-2">ou</span>
-          <div className="flex-1 h-px bg-steel/40" />
+        <div className={styles.separateur}>
+          <div className={styles.separateurLigne} />
+          <span className={styles.separateurOu}>ou</span>
+          <div className={styles.separateurLigne} />
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-start">
+        <div className={styles.contactGrille}>
           {/* Formulaire */}
           <motion.div
             initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.6 }}
-            className="lg:col-span-3"
+            className={styles.contactColForm}
           >
-            <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-5">
+            <form onSubmit={handleSubmit(onSubmit)} noValidate className={styles.formulaire}>
               {/* Nom */}
               <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-off-white mb-1.5"
-                >
+                <label htmlFor="name" className={styles.champLabel}>
                   Prénom / Nom{' '}
-                  <span className="text-cyan" aria-hidden="true">*</span>
+                  <span className={styles.champRequis} aria-hidden="true">*</span>
                 </label>
                 <input
                   id="name"
@@ -138,10 +130,10 @@ export default function Contact() {
                   aria-required="true"
                   aria-describedby={errors.name ? 'name-error' : undefined}
                   {...register('name')}
-                  className={fieldClass(!!errors.name)}
+                  className={champClass(!!errors.name)}
                 />
                 {errors.name && (
-                  <p id="name-error" role="alert" className="mt-1.5 text-xs text-red-400">
+                  <p id="name-error" role="alert" className={styles.erreurMsg}>
                     {errors.name.message}
                   </p>
                 )}
@@ -149,12 +141,9 @@ export default function Contact() {
 
               {/* Email */}
               <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-off-white mb-1.5"
-                >
+                <label htmlFor="email" className={styles.champLabel}>
                   Email{' '}
-                  <span className="text-cyan" aria-hidden="true">*</span>
+                  <span className={styles.champRequis} aria-hidden="true">*</span>
                 </label>
                 <input
                   id="email"
@@ -164,10 +153,10 @@ export default function Contact() {
                   aria-required="true"
                   aria-describedby={errors.email ? 'email-error' : undefined}
                   {...register('email')}
-                  className={fieldClass(!!errors.email)}
+                  className={champClass(!!errors.email)}
                 />
                 {errors.email && (
-                  <p id="email-error" role="alert" className="mt-1.5 text-xs text-red-400">
+                  <p id="email-error" role="alert" className={styles.erreurMsg}>
                     {errors.email.message}
                   </p>
                 )}
@@ -175,12 +164,9 @@ export default function Contact() {
 
               {/* Sujet */}
               <div>
-                <label
-                  htmlFor="subject"
-                  className="block text-sm font-medium text-off-white mb-1.5"
-                >
+                <label htmlFor="subject" className={styles.champLabel}>
                   Sujet{' '}
-                  <span className="text-gray-secondary text-xs font-normal">(optionnel)</span>
+                  <span className={styles.champOptionnel}>(optionnel)</span>
                 </label>
                 <input
                   id="subject"
@@ -188,18 +174,15 @@ export default function Contact() {
                   placeholder="Audit SEO, mission freelance..."
                   aria-describedby={errors.subject ? 'subject-error' : undefined}
                   {...register('subject')}
-                  className={fieldClass(!!errors.subject)}
+                  className={champClass(!!errors.subject)}
                 />
               </div>
 
               {/* Message */}
               <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-off-white mb-1.5"
-                >
+                <label htmlFor="message" className={styles.champLabel}>
                   Message{' '}
-                  <span className="text-cyan" aria-hidden="true">*</span>
+                  <span className={styles.champRequis} aria-hidden="true">*</span>
                 </label>
                 <textarea
                   id="message"
@@ -208,10 +191,10 @@ export default function Contact() {
                   aria-required="true"
                   aria-describedby={errors.message ? 'message-error' : undefined}
                   {...register('message')}
-                  className={`${fieldClass(!!errors.message)} resize-none`}
+                  className={`${champClass(!!errors.message)} ${styles.champZone}`}
                 />
                 {errors.message && (
-                  <p id="message-error" role="alert" className="mt-1.5 text-xs text-red-400">
+                  <p id="message-error" role="alert" className={styles.erreurMsg}>
                     {errors.message.message}
                   </p>
                 )}
@@ -221,17 +204,17 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={status === 'loading' || status === 'success'}
-                className="flex items-center justify-center gap-2.5 px-8 py-3.5 bg-cyan text-navy font-semibold text-base rounded-xl hover:bg-cyan-hover disabled:opacity-60 disabled:cursor-not-allowed transition-all duration-200 hover:scale-[1.02] active:scale-100"
+                className={styles.envoyer}
               >
                 {status === 'loading' && (
                   <svg
-                    className="animate-spin w-4 h-4 shrink-0"
+                    className={styles.envoyerSpinner}
                     fill="none"
                     viewBox="0 0 24 24"
                     aria-hidden="true"
                   >
                     <circle
-                      className="opacity-25"
+                      className={styles.spinnerPiste}
                       cx="12"
                       cy="12"
                       r="10"
@@ -239,7 +222,7 @@ export default function Contact() {
                       strokeWidth="4"
                     />
                     <path
-                      className="opacity-75"
+                      className={styles.spinnerArc}
                       fill="currentColor"
                       d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
                     />
@@ -254,7 +237,7 @@ export default function Contact() {
                   initial={{ opacity: 0, y: 6 }}
                   animate={{ opacity: 1, y: 0 }}
                   role="status"
-                  className="flex items-center gap-2 text-sm text-emerald-400 bg-emerald-400/10 border border-emerald-400/20 rounded-xl px-4 py-3"
+                  className={styles.feedbackOk}
                 >
                   ✅ Message envoyé ! Je vous réponds sous 48h.
                 </motion.p>
@@ -264,7 +247,7 @@ export default function Contact() {
                   initial={{ opacity: 0, y: 6 }}
                   animate={{ opacity: 1, y: 0 }}
                   role="alert"
-                  className="flex items-center gap-2 text-sm text-red-400 bg-red-400/10 border border-red-400/20 rounded-xl px-4 py-3"
+                  className={styles.feedbackErreur}
                 >
                   ❌ Une erreur est survenue. Réessayez ou contactez-moi directement.
                 </motion.p>
@@ -278,9 +261,9 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="lg:col-span-2"
+            className={styles.contactColCoords}
           >
-            <div className="p-6 sm:p-7 bg-steel/15 border border-steel/40 rounded-2xl space-y-5">
+            <div className={styles.coordsBox}>
               <ContactItem
                 icon="✉️"
                 label="Email"
@@ -300,11 +283,11 @@ export default function Contact() {
                 href="https://linkedin.com/in/aurelienpage"
                 external
               />
-              <div className="flex items-start gap-3.5 pt-4 border-t border-steel/30">
-                <span className="text-xl mt-0.5" aria-hidden="true">📍</span>
-                <div>
-                  <p className="text-xs text-gray-secondary mb-1">Localisation</p>
-                  <p className="text-off-white font-medium text-sm">
+              <div className={`${styles.coordItem} ${styles.coordLoc}`}>
+                <span className={styles.coordIcone} aria-hidden="true">📍</span>
+                <div className={styles.coordCorps}>
+                  <p className={styles.coordLabel}>Localisation</p>
+                  <p className={styles.coordLocTexte}>
                     Rennes · Télétravail &amp; déplacements
                   </p>
                 </div>
@@ -331,15 +314,15 @@ function ContactItem({
   external?: boolean
 }) {
   return (
-    <div className="flex items-start gap-3.5">
-      <span className="text-xl mt-0.5" aria-hidden="true">{icon}</span>
-      <div className="min-w-0">
-        <p className="text-xs text-gray-secondary mb-1">{label}</p>
+    <div className={styles.coordItem}>
+      <span className={styles.coordIcone} aria-hidden="true">{icon}</span>
+      <div className={styles.coordCorps}>
+        <p className={styles.coordLabel}>{label}</p>
         <a
           href={href}
           target={external ? '_blank' : undefined}
           rel={external ? 'noopener noreferrer' : undefined}
-          className="text-off-white hover:text-cyan transition-colors duration-200 text-sm font-medium break-all"
+          className={styles.coordLien}
         >
           {value}
         </a>

@@ -50,7 +50,7 @@ const personSchema = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'Aurélien PAGE — Consultant SEO & Marketing Digital',
+  name: 'Aurélien PAGE, consultant SEO & Marketing Digital',
   url: siteUrl,
   telephone: '+33781981114',
   email: 'aurelienpage89@gmail.com',
@@ -98,20 +98,20 @@ export const metadata: Metadata = {
     siteName: 'Aurélien PAGE',
     title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code',
     description:
-      "J'accompagne les entreprises et organismes de formation à améliorer leur visibilité, automatiser leurs workflows et se positionner dans les environnements IA — SEO · SEA · GEO · No-code.",
+      "J'accompagne les entreprises et organismes de formation à améliorer leur visibilité, automatiser leurs workflows et se positionner dans les environnements IA : SEO · SEA · GEO · No-code.",
     images: [
       {
         url: '/og-default.png',
         width: 1200,
         height: 630,
-        alt: 'Aurélien PAGE — Consultant SEO & Marketing Digital · Rennes',
+        alt: 'Aurélien PAGE, consultant SEO & Marketing Digital · Rennes',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code',
-    description: 'Consultant freelance basé à Rennes — SEO · SEA · GEO · IA · No-code. Diagnostic offert.',
+    description: 'Consultant freelance basé à Rennes : SEO · SEA · GEO · IA · No-code. Diagnostic offert.',
     images: ['/og-default.png'],
   },
   robots: {
@@ -140,7 +140,7 @@ export default function RootLayout({
       lang="fr"
       className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
     >
-      <body className="bg-navy text-off-white font-inter antialiased">
+      <body>
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ZVYC2J060V"
@@ -167,6 +167,7 @@ export default function RootLayout({
           strategy="beforeInteractive"
         />
         {children}
+        <Script src="/chatbot.js" strategy="afterInteractive" />
       </body>
     </html>
   )

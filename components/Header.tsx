@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
+import styles from './Header.module.css'
 
 const NAV_LINKS = [
   { label: 'Prestations', href: '/prestations' },
@@ -57,25 +58,19 @@ export default function Header() {
 
   return (
     <>
-      <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
-            ? 'bg-navy/90 backdrop-blur-md border-b border-steel/30 shadow-lg shadow-navy/50'
-            : 'bg-transparent'
-        }`}
-      >
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 sm:h-20">
+      <header className={`${styles.entete} ${scrolled ? styles.enteteScrolled : ''}`}>
+        <div className={styles.enteteInner}>
+          <div className={styles.enteteRangee}>
             <Link
               href="/"
               onClick={closeMenu}
-              aria-label="Aurélien PAGE — Accueil"
-              className="flex items-center justify-center w-10 h-10 rounded-xl bg-cyan text-navy font-space-grotesk font-bold text-base hover:bg-cyan-hover transition-colors duration-200 select-none"
+              aria-label="Aurélien PAGE, accueil"
+              className={styles.logo}
             >
               AP
             </Link>
 
-            <nav className="hidden md:flex items-center gap-1" aria-label="Navigation principale">
+            <nav className={styles.navDesktop} aria-label="Navigation principale">
               {NAV_LINKS.map((link) => {
                 const sectionId = link.href.startsWith('/#') ? link.href.slice(2) : ''
                 const isActive =
@@ -86,25 +81,20 @@ export default function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`relative px-3 py-2 text-sm font-medium rounded-lg transition-colors duration-200 ${
-                      isActive ? 'text-cyan' : 'text-gray-secondary hover:text-off-white'
-                    }`}
+                    className={`${styles.navLien} ${isActive ? styles.navLienActif : styles.navLienInactif}`}
                   >
                     {isActive && (
                       <motion.span
                         layoutId="activeNavIndicator"
-                        className="absolute inset-0 bg-cyan/10 rounded-lg"
+                        className={styles.navIndicateur}
                         transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                       />
                     )}
-                    <span className="relative z-10">{link.label}</span>
+                    <span className={styles.navLabel}>{link.label}</span>
                   </Link>
                 )
               })}
-              <Link
-                href="/#contact"
-                className="ml-3 px-5 py-2 bg-cyan text-navy font-semibold text-sm rounded-lg hover:bg-cyan-hover transition-colors duration-200"
-              >
+              <Link href="/#contact" className={styles.navContact}>
                 Me contacter
               </Link>
             </nav>
@@ -115,11 +105,11 @@ export default function Header() {
               aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
-              className="md:hidden flex flex-col justify-center items-center gap-1.5 w-10 h-10 rounded-lg hover:bg-steel/30 transition-colors"
+              className={`${styles.burger} ${menuOpen ? styles.burgerOuvert : ''}`}
             >
-              <span className={`block w-5 h-0.5 bg-off-white origin-center transition-all duration-300 ${menuOpen ? 'translate-y-2 rotate-45' : ''}`} />
-              <span className={`block w-5 h-0.5 bg-off-white transition-opacity duration-300 ${menuOpen ? 'opacity-0' : ''}`} />
-              <span className={`block w-5 h-0.5 bg-off-white origin-center transition-all duration-300 ${menuOpen ? '-translate-y-2 -rotate-45' : ''}`} />
+              <span className={`${styles.barre} ${styles.barreHaute}`} />
+              <span className={`${styles.barre} ${styles.barreMilieu}`} />
+              <span className={`${styles.barre} ${styles.barreBasse}`} />
             </button>
           </div>
         </div>
@@ -133,9 +123,9 @@ export default function Header() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-40 bg-navy/97 backdrop-blur-xl flex flex-col items-center justify-center md:hidden"
+            className={styles.menuMobile}
           >
-            <nav className="flex flex-col items-center gap-7" aria-label="Navigation mobile">
+            <nav className={styles.menuMobileNav} aria-label="Navigation mobile">
               {NAV_LINKS.map((link, i) => (
                 <motion.div
                   key={link.href}
@@ -143,11 +133,7 @@ export default function Header() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.06 + 0.05, duration: 0.3 }}
                 >
-                  <Link
-                    href={link.href}
-                    onClick={closeMenu}
-                    className="font-space-grotesk font-bold text-3xl text-off-white hover:text-cyan transition-colors duration-200"
-                  >
+                  <Link href={link.href} onClick={closeMenu} className={styles.menuLien}>
                     {link.label}
                   </Link>
                 </motion.div>
@@ -157,11 +143,7 @@ export default function Header() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: NAV_LINKS.length * 0.06 + 0.1, duration: 0.3 }}
               >
-                <Link
-                  href="/#contact"
-                  onClick={closeMenu}
-                  className="mt-4 inline-block px-8 py-3.5 bg-cyan text-navy font-bold text-xl rounded-2xl hover:bg-cyan-hover transition-colors"
-                >
+                <Link href="/#contact" onClick={closeMenu} className={styles.menuContact}>
                   Me contacter
                 </Link>
               </motion.div>

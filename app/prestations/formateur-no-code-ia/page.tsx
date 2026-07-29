@@ -15,15 +15,15 @@ export const metadata: Metadata = {
 
 const data: PrestationData = {
   icon: '⚡',
-  h1: 'Formateur No Code & IA — Make, Airtable, Claude AI pour vos équipes',
+  h1: 'Formateur No Code & IA : Make, Airtable, Claude AI pour vos équipes',
   pitch:
-    "Des formations actionnables, sans prérequis technique — vos équipes repartent avec des outils opérationnels dès le lendemain.",
+    "Des formations actionnables, sans prérequis technique. Vos équipes repartent avec des outils opérationnels dès le lendemain.",
   pourQui: 'Équipes marketing non-techniques, TPE/PME, organismes de formation, managers',
   missions: [
     'Formation à Make : automatisation de workflows sans code',
     'Formation à Airtable : bases de données et CRM métier',
     "Formation à Claude AI et ChatGPT : prompting, agents, cas d'usage métier",
-    '« IA dans le marketing digital » — atelier pratique',
+    '« IA dans le marketing digital » : atelier pratique',
     'Construction de ressources pédagogiques sur-mesure',
     'Accompagnement post-formation (support, documentation)',
   ],

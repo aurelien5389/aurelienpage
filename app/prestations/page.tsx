@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
+import styles from './page.module.css'
 
 export const metadata: Metadata = {
   title: 'Prestations · SEO, SEA, IA, No Code · Aurélien PAGE',
@@ -53,19 +54,19 @@ export default function PrestationsPage() {
   return (
     <>
       <Header />
-      <main className="pt-16 sm:pt-20">
+      <main className={styles.hubMain}>
         {/* Hero */}
-        <section className="py-16 sm:py-24 border-b border-steel/30">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-2xl mb-10">
-              <p className="text-cyan font-space-grotesk font-semibold text-sm tracking-widest uppercase mb-4">
+        <section className={styles.hubHero}>
+          <div className={styles.hubInner}>
+            <div className={styles.hubHeroBloc}>
+              <p className={styles.hubEyebrow}>
                 Prestations
               </p>
-              <h1 className="font-space-grotesk font-bold text-4xl sm:text-5xl lg:text-6xl text-off-white leading-tight mb-6">
+              <h1 className={styles.hubH1}>
                 5 expertises complémentaires
               </h1>
-              <p className="text-gray-secondary text-lg leading-relaxed">
-                SEO & GEO, SEA, IA, Chef de Projet, Formation — pensées ensemble, pas en silos.
+              <p className={styles.hubChapo}>
+                SEO & GEO, SEA, IA, Chef de Projet, Formation, pensées ensemble, pas en silos.
                 Chaque prestation s&apos;adapte à votre contexte : mission ponctuelle, accompagnement mensuel ou formation.
               </p>
             </div>
@@ -74,23 +75,19 @@ export default function PrestationsPage() {
         </section>
 
         {/* Cards */}
-        <section className="py-16 sm:py-24">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <section className={styles.hubCartes}>
+          <div className={styles.hubInner}>
+            <div className={styles.hubGrille}>
               {PRESTATIONS.map((p) => (
-                <Link
-                  key={p.href}
-                  href={p.href}
-                  className="group flex flex-col p-7 bg-steel/15 border border-steel/40 rounded-2xl hover:border-cyan/40 hover:bg-steel/25 transition-all duration-300"
-                >
-                  <div className="text-3xl mb-4" aria-hidden="true">{p.icon}</div>
-                  <h2 className="font-space-grotesk font-bold text-base sm:text-lg text-off-white mb-3 group-hover:text-cyan transition-colors duration-200">
+                <Link key={p.href} href={p.href} className={styles.hubCarte}>
+                  <div className={styles.hubCartePicto} aria-hidden="true">{p.icon}</div>
+                  <h2 className={styles.hubCarteTitre}>
                     {p.title}
                   </h2>
-                  <p className="text-gray-secondary text-sm leading-relaxed flex-1">
+                  <p className={styles.hubCartePitch}>
                     {p.pitch}
                   </p>
-                  <span className="mt-5 inline-flex items-center gap-1.5 text-sm text-cyan font-medium group-hover:gap-2.5 transition-all duration-200">
+                  <span className={styles.hubCarteLien}>
                     En savoir plus <span aria-hidden="true">→</span>
                   </span>
                 </Link>
@@ -100,26 +97,23 @@ export default function PrestationsPage() {
         </section>
 
         {/* CTA final */}
-        <section className="py-16 sm:py-20 border-t border-steel/30">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="font-space-grotesk font-bold text-3xl sm:text-4xl text-off-white mb-5">
+        <section className={styles.hubFinal}>
+          <div className={styles.hubFinalInner}>
+            <h2 className={styles.hubFinalTitre}>
               Vous avez un projet en tête ?
             </h2>
-            <p className="text-gray-secondary text-lg max-w-xl mx-auto mb-10">
+            <p className={styles.hubFinalChapo}>
               Décrivez-moi votre contexte. Je vous propose une approche adaptée, sans jargon.
             </p>
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              <Link
-                href="/#contact"
-                className="px-7 py-3.5 bg-cyan text-navy font-space-grotesk font-semibold rounded-xl hover:bg-cyan-hover transition-colors duration-200"
-              >
+            <div className={styles.hubFinalActions}>
+              <Link href="/#contact" className={styles.hubBtnPrim}>
                 Me contacter
               </Link>
               <a
                 href="https://linkedin.com/in/aurelienpage"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-7 py-3.5 border border-steel/50 text-off-white font-space-grotesk font-medium rounded-xl hover:border-cyan/40 hover:text-cyan transition-colors duration-200"
+                className={styles.hubBtnSec}
               >
                 LinkedIn ↗
               </a>

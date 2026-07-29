@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 
 const data: PrestationData = {
   icon: '🗂️',
-  h1: 'Chef de Projet Digital — Pilotage de projets web et transformation digitale',
+  h1: 'Chef de Projet Digital : pilotage de projets web et transformation digitale',
   pitch:
-    'Du cadrage à la livraison — coordination, pilotage et reporting pour vos projets digitaux transversaux.',
+    'Du cadrage à la livraison : coordination, pilotage et reporting pour vos projets digitaux transversaux.',
   pourQui: "PME, organisations en transformation digitale, équipes sans chef de projet dédié",
   missions: [
     'Cadrage et pilotage de projets web (refonte, migration SEO, lancement)',

@@ -1,0 +1,256 @@
+/* Hero d'accueil — présentation du consultant + rôles défilants.
+   Mélange px / rem volontaire. */
+
+.presentationSection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+.presentationFond {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom right,
+    var(--color-navy),
+    var(--color-navy),
+    color-mix(in srgb, var(--color-steel) 20%, transparent)
+  );
+}
+
+.halo1 {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  width: 500px;
+  height: 500px;
+  border-radius: 9999px;
+  background: color-mix(in srgb, var(--color-cyan) 4%, transparent);
+  filter: blur(64px);
+  pointer-events: none;
+}
+
+.halo2 {
+  position: absolute;
+  bottom: 33.333333%;
+  left: -96px;
+  width: 320px;
+  height: 320px;
+  border-radius: 9999px;
+  background: color-mix(in srgb, var(--color-steel) 50%, transparent);
+  filter: blur(64px);
+  pointer-events: none;
+}
+
+.presentationContenu {
+  position: relative;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding: 80px 16px;
+}
+
+.presentationColonne {
+  min-width: 0;
+}
+
+.presentationLieu {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-size: 14px;
+  color: var(--color-gray-secondary);
+  background: color-mix(in srgb, var(--color-steel) 40%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-steel) 60%, transparent);
+}
+
+.presentationNom {
+  margin: 0 0 16px;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.05;
+  color: var(--color-off-white);
+}
+
+.nomAccent {
+  color: var(--color-cyan);
+}
+
+.presentationDispo {
+  margin-bottom: 24px;
+}
+
+.roleDefilant {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  margin-bottom: 32px;
+}
+
+.roleTexte {
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--color-cyan);
+}
+
+.roleCurseur {
+  display: inline-block;
+  width: 2px;
+  height: 24px;
+  margin-left: 4px;
+  vertical-align: middle;
+  background: var(--color-cyan);
+  animation: curseurClignote 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes curseurClignote {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.presentationPitch {
+  max-width: 42rem;
+  margin: 0 0 40px;
+  font-size: 16px;
+  line-height: 1.625;
+  color: var(--color-gray-secondary);
+}
+
+.pitchFort {
+  color: var(--color-off-white);
+  font-weight: 500;
+}
+
+.presentationActions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ctaPrimaire {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-navy);
+  background: var(--color-cyan);
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.ctaPrimaire:hover {
+  background: var(--color-cyan-hover);
+  transform: scale(1.05);
+}
+
+.ctaPrimaire:active {
+  transform: scale(1);
+}
+
+.ctaSecondaire {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border: 1px solid var(--color-steel);
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-off-white);
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.ctaSecondaire:hover {
+  border-color: var(--color-cyan);
+  color: var(--color-cyan);
+}
+
+.ctaIcone {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.indicateurScroll {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.scrollLabel {
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: color-mix(in srgb, var(--color-gray-secondary) 60%, transparent);
+}
+
+.scrollSouris {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 32px;
+  padding-top: 6px;
+  border: 1px solid color-mix(in srgb, var(--color-steel) 60%, transparent);
+  border-radius: 9999px;
+}
+
+.scrollMolette {
+  width: 4px;
+  height: 6px;
+  border-radius: 9999px;
+  background: color-mix(in srgb, var(--color-cyan) 70%, transparent);
+}
+
+@media (min-width: 640px) {
+  .presentationContenu {
+    padding: 112px 24px;
+  }
+  .presentationNom {
+    font-size: 72px;
+  }
+  .roleDefilant {
+    height: 56px;
+  }
+  .roleTexte {
+    font-size: 24px;
+  }
+  .roleCurseur {
+    height: 28px;
+  }
+  .presentationPitch {
+    font-size: 18px;
+  }
+  .presentationActions {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .presentationContenu {
+    padding: 144px 32px;
+  }
+  .presentationNom {
+    font-size: 96px;
+  }
+  .roleTexte {
+    font-size: 30px;
+  }
+}
