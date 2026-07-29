@@ -95,6 +95,13 @@ const CLUSTERS = [
       { slug: 'devenir-consultant-seo-freelance', title: 'Devenir consultant SEO freelance en 2025 : guide complet' },
     ],
   },
+  {
+    label: 'IA & Automatisation',
+    color: 'cyan',
+    articles: [
+      { slug: 'automatisation-ia-no-code-entreprise', title: 'Automatisation IA & No-Code en entreprise : la méthode pour démarrer' },
+    ],
+  },
 ]
 
 const schema = {

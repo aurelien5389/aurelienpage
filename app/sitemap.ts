@@ -55,6 +55,7 @@ const BLOG_SLUGS = [
   // Nouveaux articles
   'chatgpt-search-geo',
   'reporting-seo-kpis',
+  'automatisation-ia-no-code-entreprise',
 ]
 
 const LOCAL_SLUGS = [

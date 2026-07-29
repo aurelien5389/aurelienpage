@@ -369,6 +369,12 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
     { href: '/consultant-seo-freelance', label: 'Consultant SEO freelance' },
   ],
+  'automatisation-ia-no-code-entreprise': [
+    { href: '/prestations/consultant-ia', label: 'Consultant IA — Aurélien PAGE' },
+    { href: '/prestations/formateur-no-code-ia', label: 'Formateur No-Code & IA' },
+    { href: '/blog/geo-ia-search-ai-overviews', label: 'GEO : optimiser pour la recherche IA' },
+    { href: '/blog/strategie-contenu-seo', label: 'Stratégie de contenu SEO' },
+  ],
   'seo-local-google-my-business': [
     { href: '/blog/seo-on-page-optimisation', label: 'SEO on-page : éléments clés à optimiser' },
     { href: '/blog/choisir-mots-cles-seo', label: 'Comment choisir les bons mots-clés' },
