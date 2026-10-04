@@ -35,7 +35,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <Contact />
+        <Contact niveauTitre={1} />
       </main>
       <Footer />
     </>

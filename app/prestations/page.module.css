@@ -1,7 +1,7 @@
 /* Hub /prestations — hero + grille de cartes + CTA final. Unités rem. */
 
 .hubMain {
-  padding-top: 4rem;
+  padding-top: 0;
 }
 
 .hubHero {
@@ -183,7 +183,7 @@
 
 @media (min-width: 640px) {
   .hubMain {
-    padding-top: 5rem;
+    padding-top: 0;
   }
   .hubInner,
   .hubFinalInner {

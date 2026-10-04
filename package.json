@@ -12,12 +12,9 @@
     "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.9.0",
-    "framer-motion": "^11.3.0",
     "next": "14.2.35",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.52.0",
     "resend": "^3.4.0",
     "zod": "^3.23.8"
   },

@@ -1,7 +1,7 @@
 /* Page /contact — fil d'Ariane au-dessus du composant Contact. */
 
 .contactPageMain {
-  padding-top: 64px;
+  padding-top: 0;
 }
 
 .fil {
@@ -38,7 +38,7 @@
 
 @media (min-width: 640px) {
   .contactPageMain {
-    padding-top: 80px;
+    padding-top: 0;
   }
   .filInner {
     padding-inline: 24px;

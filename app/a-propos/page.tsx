@@ -7,6 +7,7 @@ import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import { SITE_URL, PERSON_ID, breadcrumbSchema } from '@/lib/schema'
 import { getContentDates, formatMonthYear } from '@/lib/content-dates'
+import Icon from '@/components/Icon'
 import styles from './page.module.css'
 
 const PATH = '/a-propos'
@@ -161,13 +162,16 @@ export default function AProposPage() {
               </a>
               , ou en réservant directement un diagnostic offert de 30 minutes.
             </p>
+            <p className={styles.apPara}>
+              <a href="/cv-aurelien-page.pdf.pdf" download className="btn btn-secondaire">
+                <Icon name="download" size={18} /> Télécharger mon CV (PDF)
+              </a>
+            </p>
           </section>
         </div>
 
-        <section className={styles.apCta}>
-          <DiagnosticCTA variant="section" />
-        </section>
       </main>
+      <DiagnosticCTA variant="section" />
       <Footer />
     </>
   )

@@ -98,7 +98,7 @@ export default function ReponseLayout({ r, dates, voirAussi }: Props) {
           <section className={styles.repSection}>
             <h2 className={styles.repH2}>{r.tableau.titre}</h2>
             <div className={styles.repTableWrap}>
-              <table className={styles.repTable}>
+              <table className={`tableau ${styles.repTable}`}>
                 <thead>
                   <tr>
                     {r.tableau.colonnes.map((c) => (
@@ -127,7 +127,7 @@ export default function ReponseLayout({ r, dates, voirAussi }: Props) {
           <section className={styles.repSection}>
             <h2 className={styles.repH2}>Questions liées</h2>
             {r.faq.map((f, i) => (
-              <details key={f.q} className={styles.repFaq}>
+              <details key={f.q} className="faq">
                 <summary>{f.q}</summary>
                 <p>{renderInline(f.a, `faq-${i}`)}</p>
               </details>

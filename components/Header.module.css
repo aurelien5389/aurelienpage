@@ -1,31 +1,18 @@
-/* En-tête fixe — nav desktop + menu mobile plein écran. Unités px. */
+/* En-tête collant clair : logo, navigation, bouton de contact, menu mobile. Unités px. */
 
 .entete {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 50;
-  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-  background: transparent;
-}
-
-.enteteScrolled {
-  background: color-mix(in srgb, var(--color-navy) 90%, transparent);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid color-mix(in srgb, var(--color-steel) 30%, transparent);
-  box-shadow:
-    0 10px 15px -3px color-mix(in srgb, var(--color-navy) 50%, transparent),
-    0 4px 6px -4px color-mix(in srgb, var(--color-navy) 50%, transparent);
+  background: color-mix(in srgb, var(--color-fond) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-bord);
 }
 
 .enteteInner {
-  max-width: 72rem;
+  max-width: 1120px;
   margin-inline: auto;
   padding-inline: 16px;
-}
-
-.enteteRangee {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,22 +22,24 @@
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  background: var(--color-cyan);
-  color: var(--color-navy);
-  font-family: var(--font-space-grotesk), sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  gap: 10px;
+  min-height: 44px;
+  color: var(--color-encre);
   text-decoration: none;
-  user-select: none;
-  transition: background-color 0.2s ease;
+  font-family: var(--font-titre), sans-serif;
+  font-weight: 700;
+  font-size: 19px;
 }
 
-.logo:hover {
-  background: var(--color-cyan-hover);
+.logoCarre {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--rayon-s);
+  background: var(--color-encre);
+  color: var(--color-fond);
+  font-size: 15px;
 }
 
 .navDesktop {
@@ -60,167 +49,94 @@
 }
 
 .navLien {
-  position: relative;
-  padding: 8px 12px;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: var(--rayon-s);
+  color: var(--color-encre);
+  font-size: 17px;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
-.navLienInactif {
-  color: var(--color-gray-secondary);
-}
-
-.navLienInactif:hover {
-  color: var(--color-off-white);
+.navLien:hover {
+  background: var(--color-pale);
 }
 
 .navLienActif {
-  color: var(--color-cyan);
-}
-
-.navIndicateur {
-  position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--color-cyan) 10%, transparent);
-}
-
-.navLabel {
-  position: relative;
-  z-index: 10;
+  color: var(--color-accent);
+  font-weight: 700;
 }
 
 .navContact {
   margin-left: 12px;
-  padding: 8px 20px;
-  background: var(--color-cyan);
-  color: var(--color-navy);
-  font-weight: 600;
-  font-size: 14px;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.navContact:hover {
-  background: var(--color-cyan-hover);
+  min-height: 44px;
+  padding-inline: 18px;
+  font-size: 16px;
 }
 
 .burger {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-  width: 40px;
-  height: 40px;
-  border: none;
-  background: none;
-  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--color-bord);
+  border-radius: var(--rayon-s);
+  background: var(--color-surface);
+  color: var(--color-encre);
   cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.burger:hover {
-  background: color-mix(in srgb, var(--color-steel) 30%, transparent);
-}
-
-.barre {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background: var(--color-off-white);
-  transform-origin: center;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.burgerOuvert .barreHaute {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.burgerOuvert .barreMilieu {
-  opacity: 0;
-}
-
-.burgerOuvert .barreBasse {
-  transform: translateY(-8px) rotate(-45deg);
 }
 
 .menuMobile {
   position: fixed;
-  inset: 0;
+  inset: 64px 0 0;
   z-index: 40;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: color-mix(in srgb, var(--color-navy) 97%, transparent);
-  backdrop-filter: blur(24px);
+  overflow-y: auto;
+  background: var(--color-fond);
+  border-top: 1px solid var(--color-bord);
 }
 
 .menuMobileNav {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 28px;
+  padding: 16px;
 }
 
 .menuLien {
-  font-family: var(--font-space-grotesk), sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 0 8px;
+  border-bottom: 1px solid var(--color-bord);
+  color: var(--color-encre);
+  font-family: var(--font-titre), sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  color: var(--color-off-white);
+  font-size: 22px;
   text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.menuLien:hover {
-  color: var(--color-cyan);
 }
 
 .menuContact {
-  display: inline-block;
-  margin-top: 16px;
-  padding: 14px 32px;
-  background: var(--color-cyan);
-  color: var(--color-navy);
-  font-weight: 700;
-  font-size: 20px;
-  border-radius: 16px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.menuContact:hover {
-  background: var(--color-cyan-hover);
+  margin-top: 24px;
+  width: 100%;
 }
 
 @media (min-width: 640px) {
   .enteteInner {
     padding-inline: 24px;
+    height: 72px;
   }
-  .enteteRangee {
-    height: 80px;
+  .menuMobile {
+    inset: 72px 0 0;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .navDesktop {
     display: flex;
   }
-  .burger {
-    display: none;
-  }
+  .burger,
   .menuMobile {
     display: none;
-  }
-}
-
-@media (min-width: 1024px) {
-  .enteteInner {
-    padding-inline: 32px;
   }
 }

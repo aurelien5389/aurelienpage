@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
+import Icon from '@/components/Icon'
 import type { InternalLink } from '@/lib/internal-links'
 import { PERSON_ID, SITE_URL, breadcrumbSchema } from '@/lib/schema'
 import styles from './LocalSeoPageLayout.module.css'
@@ -58,7 +59,7 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
         <section className={styles.localHero}>
           <div className={styles.localInner}>
             <div className={styles.localVilleTag}>
-              <span aria-hidden="true">📍</span>
+              <Icon name="pin" size={18} />
               {ville}
             </div>
             <h1 className={styles.localH1}>{h1}</h1>
@@ -67,11 +68,11 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
                 href="https://calendly.com/aurelienpage89/diagnostic-offert-30-min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.localBtnPrimaire}
+                className="btn btn-primaire"
               >
-                Diagnostic offert →
+                Diagnostic offert <Icon name="arrow" size={18} />
               </a>
-              <Link href="/prestations/consultant-seo-geo" className={styles.localBtnSecondaire}>
+              <Link href="/prestations/consultant-seo-geo" className="btn btn-secondaire">
                 Voir toutes mes prestations SEO
               </Link>
             </div>
@@ -94,7 +95,7 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
                 {nearbyLinks.map((link) => (
                   <li key={link.href}>
                     <Link href={link.href} className={styles.localVilleLien}>
-                      <span className={styles.localVillePin} aria-hidden="true">📍</span>
+                      <Icon name="pin" size={16} />
                       {link.label.replace('Consultant SEO à ', '')}
                     </Link>
                   </li>
@@ -112,8 +113,8 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
               {blogLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className={styles.localRessourceLien}>
-                    <span className={styles.localRessourceFleche} aria-hidden="true">→</span>
-                    <span className={styles.localRessourceLabel}>{link.label}</span>
+                    <Icon name="arrow" size={18} />
+                    <span>{link.label}</span>
                   </Link>
                 </li>
               ))}
@@ -121,12 +122,7 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
           </div>
         </section>
 
-        {/* CTA */}
-        <section className={styles.localCta}>
-          <div className={styles.localInner}>
-            <DiagnosticCTA variant="section" />
-          </div>
-        </section>
+        <DiagnosticCTA variant="section" />
       </main>
       <Footer />
     </>

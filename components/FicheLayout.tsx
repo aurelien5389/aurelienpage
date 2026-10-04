@@ -101,7 +101,7 @@ export default function FicheLayout({ data }: { data: FicheData }) {
           {/* 3. Carte d'identité */}
           <section aria-labelledby="identite" className={styles.ficheBloc}>
             <h2 id="identite" className={styles.ficheH2}>En bref</h2>
-            <table className={styles.ficheTable}>
+            <table className={`tableau ${styles.ficheTable}`}>
               <tbody>
                 {data.identite.map((row, i) => (
                   <tr key={row.label}>
@@ -127,14 +127,15 @@ export default function FicheLayout({ data }: { data: FicheData }) {
             <ol className={styles.ficheEtapes}>
               {data.deroule.map((e, i) => (
                 <li key={e.titre} className={styles.ficheEtape}>
-                  <h3 className={styles.ficheH3}>
-                    <span className={styles.ficheNum}>{i + 1}.</span> {e.titre}
-                  </h3>
-                  <p className={styles.fichePara}>{md(e.texte, `et-${i}`)}</p>
-                  <p className={styles.ficheEtapeMeta}>
-                    <span><strong>Durée :</strong> {md(e.duree, `du-${i}`)}</span>
-                    <span><strong>Livrable :</strong> {md(e.livrable, `li-${i}`)}</span>
-                  </p>
+                  <span className={styles.ficheNum} aria-hidden="true">{i + 1}</span>
+                  <div>
+                    <h3 className={styles.ficheH3}>{e.titre}</h3>
+                    <p className={styles.fichePara}>{md(e.texte, `et-${i}`)}</p>
+                    <p className={styles.ficheEtapeMeta}>
+                      <span><strong>Durée :</strong> {md(e.duree, `du-${i}`)}</span>
+                      <span><strong>Livrable :</strong> {md(e.livrable, `li-${i}`)}</span>
+                    </p>
+                  </div>
                 </li>
               ))}
             </ol>
@@ -183,7 +184,7 @@ export default function FicheLayout({ data }: { data: FicheData }) {
           <section aria-labelledby="faq" className={styles.ficheBloc}>
             <h2 id="faq" className={styles.ficheH2}>Questions fréquentes</h2>
             {data.faq.map((f, i) => (
-              <details key={f.q} className={styles.ficheFaq}>
+              <details key={f.q} className="faq">
                 <summary>{f.q}</summary>
                 <p className={styles.fichePara}>{md(f.a, `faq-${i}`)}</p>
               </details>
@@ -217,10 +218,7 @@ export default function FicheLayout({ data }: { data: FicheData }) {
           </section>
         </article>
 
-        {/* Appel à l'action unique */}
-        <section className={styles.ficheCta}>
-          <DiagnosticCTA variant="section" />
-        </section>
+        <DiagnosticCTA variant="section" />
       </main>
       <Footer />
     </>

@@ -1,7 +1,7 @@
 /* Page article SEO (tarifs / pourquoi) — breadcrumb, hero, contenu MD, liens connexes, CTA. Unités px. */
 
 .artMain {
-  padding-top: 64px;
+  padding-top: 0;
 }
 
 .artFil {
@@ -168,7 +168,7 @@
 
 @media (min-width: 640px) {
   .artMain {
-    padding-top: 80px;
+    padding-top: 0;
   }
   .artFilInner,
   .artInner {

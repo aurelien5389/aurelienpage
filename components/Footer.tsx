@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import AvailabilityBadge from '@/components/AvailabilityBadge'
 import styles from './Footer.module.css'
@@ -39,88 +37,55 @@ const FOOTER_LINKS = {
 }
 
 export default function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-
   return (
     <footer className={styles.pied}>
-      {/* Liens internes */}
-      <div className={styles.piedHaut}>
+      <div className={styles.piedInner}>
         <div className={styles.piedGrille}>
-          {/* Prestations */}
           <nav aria-label="Prestations">
             <p className={styles.piedColTitre}>Prestations</p>
             <ul className={styles.piedListe}>
               {FOOTER_LINKS.prestations.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className={styles.piedLien}>
-                    {link.label}
-                  </Link>
+                  <Link href={link.href} className={styles.piedLien}>{link.label}</Link>
                 </li>
               ))}
             </ul>
           </nav>
 
-          {/* Ressources */}
           <nav aria-label="Ressources SEO">
             <p className={styles.piedColTitre}>Ressources SEO</p>
             <ul className={styles.piedListe}>
               {FOOTER_LINKS.ressources.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className={styles.piedLien}>
-                    {link.label}
-                  </Link>
+                  <Link href={link.href} className={styles.piedLien}>{link.label}</Link>
                 </li>
               ))}
             </ul>
           </nav>
 
-          {/* Villes */}
           <nav aria-label="Consultant SEO par ville">
             <p className={styles.piedColTitre}>Consultant SEO par ville</p>
             <ul className={styles.piedVilles}>
               {FOOTER_LINKS.villes.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className={styles.piedLien}>
-                    {link.label}
-                  </Link>
+                  <Link href={link.href} className={styles.piedLien}>{link.label}</Link>
                 </li>
               ))}
             </ul>
           </nav>
         </div>
-      </div>
 
-      {/* Barre basse */}
-      <div className={styles.piedBas}>
-        <div className={styles.piedBasInner}>
-          <div className={styles.piedBasRangee}>
-            <div className={styles.piedCopyGroupe}>
-              <p className={styles.piedCopy}>
-                © 2026 Aurélien PAGE ·{' '}
-                <span className={styles.piedSite}>aurelienpage.fr</span>
-              </p>
-              <AvailabilityBadge />
-            </div>
-
-            <div className={styles.piedReseaux}>
-              <a
-                href="https://linkedin.com/in/aurelienpage"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.piedLienBas}
-              >
-                LinkedIn
-              </a>
-              <Link href="/mentions-legales" className={styles.piedLienBas}>
-                Mentions légales
-              </Link>
-              <button type="button" onClick={scrollToTop} className={styles.piedRetour}>
-                Retour en haut
-                <span className={styles.piedRetourFleche}>↑</span>
-              </button>
-            </div>
+        <div className={styles.piedBas}>
+          <div className={styles.piedCopyGroupe}>
+            <p className={styles.piedCopy}>© 2026 Aurélien PAGE · aurelienpage.fr</p>
+            <AvailabilityBadge />
+          </div>
+          <div className={styles.piedReseaux}>
+            <a href="https://linkedin.com/in/aurelienpage" target="_blank" rel="noopener noreferrer" className={styles.piedLienBas}>
+              LinkedIn
+            </a>
+            <Link href="/mentions-legales" className={styles.piedLienBas}>Mentions légales</Link>
+            <a href="#" className={styles.piedLienBas}>Retour en haut ↑</a>
           </div>
         </div>
       </div>

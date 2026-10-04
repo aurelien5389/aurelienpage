@@ -1,7 +1,7 @@
 /* Index blog — breadcrumb, hero, clusters d'articles, liens prestations, CTA. Unités rem. */
 
 .blogIdxMain {
-  padding-top: 4rem;
+  padding-top: 0;
 }
 
 .blogIdxFil {
@@ -191,7 +191,7 @@
 
 @media (min-width: 640px) {
   .blogIdxMain {
-    padding-top: 5rem;
+    padding-top: 0;
   }
   .blogIdxFilInner,
   .blogIdxInner,

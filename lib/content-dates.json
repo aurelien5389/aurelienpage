@@ -491,14 +491,6 @@
   "created": "2026-10-04",
   "modified": "2026-10-04"
  },
- "components/ApportsConsultant.tsx": {
-  "created": "2026-03-29",
-  "modified": "2026-07-29"
- },
- "components/AtoutsConsultant.tsx": {
-  "created": "2026-04-06",
-  "modified": "2026-07-29"
- },
  "components/AuthorBio.tsx": {
   "created": "2026-07-29",
   "modified": "2026-10-04"
@@ -511,21 +503,13 @@
   "created": "2026-07-29",
   "modified": "2026-10-04"
  },
- "components/CompetencesConsultant.tsx": {
-  "created": "2026-03-29",
-  "modified": "2026-07-29"
- },
  "components/Contact.tsx": {
   "created": "2026-03-29",
-  "modified": "2026-07-29"
+  "modified": "2026-10-04"
  },
  "components/DiagnosticCTA.tsx": {
   "created": "2026-04-06",
-  "modified": "2026-07-29"
- },
- "components/ExperiencesPro.tsx": {
-  "created": "2026-03-29",
-  "modified": "2026-07-29"
+  "modified": "2026-10-04"
  },
  "components/FicheLayout.tsx": {
   "created": "2026-10-04",
@@ -535,12 +519,12 @@
   "created": "2026-03-29",
   "modified": "2026-10-04"
  },
- "components/FormationsConsultant.tsx": {
-  "created": "2026-03-29",
-  "modified": "2026-07-29"
- },
  "components/Header.tsx": {
   "created": "2026-03-29",
+  "modified": "2026-10-04"
+ },
+ "components/Icon.tsx": {
+  "created": "2026-10-04",
   "modified": "2026-10-04"
  },
  "components/JsonLd.tsx": {
@@ -555,16 +539,8 @@
   "created": "2026-07-29",
   "modified": "2026-10-04"
  },
- "components/ParcoursConsultant.tsx": {
-  "created": "2026-03-29",
-  "modified": "2026-07-29"
- },
- "components/PresentationConsultant.tsx": {
-  "created": "2026-03-29",
-  "modified": "2026-10-04"
- },
- "components/PrestationDetail.tsx": {
-  "created": "2026-04-06",
+ "components/MobileCta.tsx": {
+  "created": "2026-10-04",
   "modified": "2026-10-04"
  },
  "components/ReponseLayout.tsx": {
@@ -573,10 +549,6 @@
  },
  "components/SimulateurSeo.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
- },
- "components/VitrinePrestations.tsx": {
-  "created": "2026-04-03",
   "modified": "2026-10-04"
  },
  "lib/reponses/ai-overviews-baisse-de-trafic.ts": {

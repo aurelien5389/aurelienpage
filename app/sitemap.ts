@@ -12,7 +12,7 @@ const EXCLUDED = new Set(['/mentions-legales'])
 // Composants de mise en page partagés : leur modification ne change pas le contenu d'une page
 const SHARED_COMPONENTS = new Set([
   'Header', 'Footer', 'DiagnosticCTA', 'JsonLd', 'AvailabilityBadge', 'AuthorBio',
-  'BlogPostLayout', 'LocalSeoPageLayout', 'PrestationDetail', 'MarkdownRenderer', 'FicheLayout', 'ReponseLayout',
+  'BlogPostLayout', 'LocalSeoPageLayout', 'MarkdownRenderer', 'FicheLayout', 'ReponseLayout', 'Icon', 'MobileCta', 'Contact',
 ])
 
 // Fichiers sources d'une route : page.tsx, draft .md du même nom, composants de contenu importés

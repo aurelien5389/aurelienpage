@@ -1,7 +1,7 @@
 /* Page À propos. Unités rem. */
 
 .apMain {
-  padding: 5rem 0 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .apInner {
@@ -91,9 +91,9 @@
 }
 
 .apEtape {
-  padding: 0 0 0.5rem 1.25rem;
-  border-left: 3px solid var(--color-cyan);
-  margin-bottom: 1rem;
+  padding: 1rem 0 0.5rem;
+  border-top: 1px solid var(--color-bord);
+  margin-bottom: 0.5rem;
 }
 
 .apPeriode {
@@ -122,11 +122,6 @@
   text-underline-offset: 3px;
 }
 
-.apCta {
-  max-width: 46rem;
-  margin-inline: auto;
-  padding: 2rem 1rem 3rem;
-}
 
 @media (min-width: 768px) {
   .apEntete {

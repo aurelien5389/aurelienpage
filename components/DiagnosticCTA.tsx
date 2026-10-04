@@ -1,9 +1,7 @@
-'use client'
-
-import { motion } from 'framer-motion'
+import Icon from '@/components/Icon'
 import styles from './DiagnosticCTA.module.css'
 
-const CALENDLY_URL = 'https://calendly.com/aurelienpage89/diagnostic-offert-30-min'
+export const CALENDLY_URL = 'https://calendly.com/aurelienpage89/diagnostic-offert-30-min'
 
 const BULLETS = [
   'Votre situation actuelle et vos objectifs',
@@ -12,91 +10,60 @@ const BULLETS = [
 ]
 
 interface Props {
-  /** banner : compact horizontal (hub /prestations)
-   *  compact : inline sous les CTAs hero
-   *  section : bloc complet (bas de prestation, contact) */
+  /** section : bandeau sombre complet (bas de page)
+   *  banner : encart clair compact (hubs, index)
+   *  compact : une ligne de texte avec lien */
   variant?: 'section' | 'banner' | 'compact'
 }
 
 export default function DiagnosticCTA({ variant = 'section' }: Props) {
   if (variant === 'compact') {
     return (
-      <motion.div
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.55 }}
-        className={styles.diagCompact}
-      >
-        <span className={styles.diagCompactTexte}>
-          Pas encore sûr par où commencer ?
-        </span>
-        <a
-          href={CALENDLY_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.diagCompactLien}
-        >
-          Diagnostic offert 30 min →
+      <p className={styles.diagCompact}>
+        Pas encore sûr par où commencer ?{' '}
+        <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="lien-fleche">
+          Diagnostic offert 30 min <Icon name="arrow" size={18} />
         </a>
-      </motion.div>
+      </p>
     )
   }
 
   if (variant === 'banner') {
     return (
       <div className={styles.diagBandeau}>
-        <div className={styles.diagBandeauTexte}>
-          <p className={styles.diagBandeauTitre}>
-            Pas encore sûr par où commencer ?
-          </p>
-          <p className={styles.diagBandeauSous}>
-            Échangeons 30 minutes sur votre projet. Gratuit, sans engagement.
-          </p>
+        <div>
+          <p className={styles.diagBandeauTitre}>Pas encore sûr par où commencer ?</p>
+          <p className={styles.diagBandeauSous}>Échangeons 30 minutes sur votre projet. Gratuit, sans engagement.</p>
         </div>
-        <a
-          href={CALENDLY_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.diagBandeauBtn}
-        >
+        <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primaire">
           Réserver mon diagnostic offert
         </a>
       </div>
     )
   }
 
-  // variant === 'section' (default)
   return (
-    <div className={styles.diagSection}>
-      <p className={styles.diagSectionTitre}>
-        Pas encore sûr par où commencer ?
-      </p>
-      <p className={styles.diagSectionSous}>
-        Échangeons 30 minutes sur votre projet. Gratuit, sans engagement.
-      </p>
-
-      <ul className={styles.diagListe}>
-        {BULLETS.map((b) => (
-          <li key={b} className={styles.diagPoint}>
-            <span className={styles.diagPuce} aria-hidden="true">·</span>
-            {b}
-          </li>
-        ))}
-      </ul>
-
-      <div className={styles.diagSectionActions}>
-        <a
-          href={CALENDLY_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.diagSectionBtn}
-        >
-          Réserver mon diagnostic offert
-        </a>
-        <span className={styles.diagMention}>
-          30 min · Visio ou téléphone · Gratuit
-        </span>
+    <section className={styles.diagSection} aria-labelledby="diag-titre">
+      <div className={styles.diagSectionInner}>
+        <div>
+          <h2 id="diag-titre" className={styles.diagSectionTitre}>Pas encore sûr par où commencer ?</h2>
+          <p className={styles.diagSectionSous}>Échangeons 30 minutes sur votre projet. Gratuit, sans engagement.</p>
+          <ul className={styles.diagListe}>
+            {BULLETS.map((b) => (
+              <li key={b} className={styles.diagPoint}>
+                <Icon name="check" size={20} />
+                <span>{b}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className={styles.diagSectionActions}>
+          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-sombre">
+            Réserver mon diagnostic offert
+          </a>
+          <span className={styles.diagMention}>30 min · Visio ou téléphone · Gratuit</span>
+        </div>
       </div>
-    </div>
+    </section>
   )
 }

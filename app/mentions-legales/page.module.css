@@ -1,7 +1,7 @@
 /* Mentions légales — page texte. Unités rem. */
 
 .mlMain {
-  padding-top: 4rem;
+  padding-top: 0;
 }
 
 .mlSection {
@@ -120,7 +120,7 @@
 
 @media (min-width: 640px) {
   .mlMain {
-    padding-top: 5rem;
+    padding-top: 0;
   }
   .mlSection {
     padding-block: 6rem;

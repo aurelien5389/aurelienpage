@@ -5,6 +5,7 @@ import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import AuthorBio from '@/components/AuthorBio'
+import Icon from '@/components/Icon'
 import type { InternalLink } from '@/lib/internal-links'
 import { SITE_URL, PERSON_ID, breadcrumbSchema, type Crumb } from '@/lib/schema'
 import { formatMonthYear, type ContentDates } from '@/lib/content-dates'
@@ -74,7 +75,7 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, pa
               <h1 className={styles.blogH1}>{h1}</h1>
               <div className={styles.blogMeta}>
                 <span className={styles.blogAuteur}>
-                  <span aria-hidden="true">✍</span>
+                  <Icon name="user" size={18} />
                   <Link href="/a-propos" className={styles.blogAuteurLien}>
                     Aurélien PAGE
                   </Link>
@@ -101,7 +102,7 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, pa
                 {relatedLinks.map((link) => (
                   <li key={link.href}>
                     <Link href={link.href} className={styles.blogConnexeLien}>
-                      <span className={styles.blogConnexeFleche} aria-hidden="true">→</span>
+                      <Icon name="arrow" size={18} className={styles.blogConnexeFleche} />
                       <span className={styles.blogConnexeLabel}>{link.label}</span>
                     </Link>
                   </li>
@@ -111,12 +112,7 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, pa
           </section>
         )}
 
-        {/* CTA */}
-        <section className={styles.blogCta}>
-          <div className={styles.blogInner}>
-            <DiagnosticCTA variant="section" />
-          </div>
-        </section>
+        <DiagnosticCTA variant="section" />
       </main>
       <Footer />
     </>

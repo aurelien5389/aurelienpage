@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Icon from '@/components/Icon'
 import styles from './AuthorBio.module.css'
 
 const BADGES = [
@@ -58,10 +59,10 @@ export default function AuthorBio() {
               rel="noopener noreferrer"
               className={styles.bioLien}
             >
-              LinkedIn ↗
+              LinkedIn <Icon name="external" size={16} />
             </a>
             <Link href="/contact" className={styles.bioLien}>
-              Me contacter →
+              Me contacter <Icon name="arrow" size={16} />
             </Link>
           </div>
         </div>

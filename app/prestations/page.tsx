@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import { breadcrumbSchema } from '@/lib/schema'
+import Icon, { type IconName } from '@/components/Icon'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -19,45 +20,45 @@ export const metadata: Metadata = {
   },
 }
 
-const PRESTATIONS = [
+const PRESTATIONS: { icone: IconName; title: string; pitch: string; href: string }[] = [
   {
-    icon: '🔍',
+    icone: 'search',
     title: 'Consultant SEO & GEO',
     pitch: "Audit, stratégie, cocons sémantiques, optimisation GEO pour les moteurs IA. Une visibilité organique qui dure.",
     href: '/prestations/consultant-seo-geo',
   },
   {
-    icon: '📣',
+    icone: 'megaphone',
     title: 'Traffic Manager (SEA)',
     pitch: "Campagnes Google Ads & Meta Ads créées, pilotées et optimisées. Chaque euro investi est tracé.",
     href: '/prestations/traffic-manager-sea',
   },
   {
-    icon: '🤖',
+    icone: 'sparkles',
     title: 'Audit GEO',
     pitch: "Les IA vous citent-elles ? Relevé des réponses de ChatGPT, Perplexity, Gemini et Google, part de voix, plan d'action.",
     href: '/prestations/audit-geo',
   },
   {
-    icon: '📈',
+    icone: 'chart',
     title: 'Accompagnement SEO mensuel',
     pitch: "Un consultant SEO au mois : optimisations, contenus, suivi des positions et des citations dans les IA.",
     href: '/accompagnement-seo',
   },
   {
-    icon: '🗂️',
+    icone: 'folder',
     title: 'Chef de Projet Digital',
     pitch: "Coordination de projets web transversaux : refonte, migration SEO, déploiement d'outils. Du diagnostic à l'exécution.",
     href: '/prestations/chef-de-projet-digital',
   },
   {
-    icon: '🎓',
+    icone: 'cap',
     title: 'Formation SEO',
     pitch: "Modules de 2 à 4 heures sur votre site, en individuel ou en équipe, à Rennes ou à distance.",
     href: '/formation-seo',
   },
   {
-    icon: '⚡',
+    icone: 'cap',
     title: 'Formation GEO',
     pitch: "Former votre équipe marketing à écrire des contenus que les IA citent, et à mesurer le résultat.",
     href: '/formation-geo',
@@ -96,7 +97,7 @@ export default function PrestationsPage() {
             <div className={styles.hubGrille}>
               {PRESTATIONS.map((p) => (
                 <Link key={p.href} href={p.href} className={styles.hubCarte}>
-                  <div className={styles.hubCartePicto} aria-hidden="true">{p.icon}</div>
+                  <Icon name={p.icone} size={28} className={styles.hubCartePicto} />
                   <h2 className={styles.hubCarteTitre}>
                     {p.title}
                   </h2>
@@ -104,7 +105,7 @@ export default function PrestationsPage() {
                     {p.pitch}
                   </p>
                   <span className={styles.hubCarteLien}>
-                    En savoir plus <span aria-hidden="true">→</span>
+                    En savoir plus <Icon name="arrow" size={18} />
                   </span>
                 </Link>
               ))}

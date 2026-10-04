@@ -2,28 +2,219 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ---------- Jetons de design (piste A « clair et rassurant ») ----------
+   Tous les couples texte/fond ci-dessous passent le seuil AA (voir DESIGN-PISTES.md). */
 :root {
-  --color-navy: #0f1b2d;
-  --color-steel: #1e3a5f;
-  --color-cyan: #00b4d8;
-  --color-cyan-hover: #0090ad;
-  --color-off-white: #f0f4f8;
-  --color-gray-secondary: #8b9bb4;
-  --color-emerald: #34d399;
-  --color-red: #f87171;
+  --color-fond: #f5f8fa;          /* fond de page */
+  --color-surface: #fcfdfe;       /* cartes, champs */
+  --color-encre: #14263a;         /* texte principal */
+  --color-encre-2: #415468;       /* texte secondaire */
+  --color-accent: #0b6e8c;        /* liens, boutons */
+  --color-accent-fonce: #09566e;  /* survol */
+  --color-pale: #dceff5;          /* fonds pâles, badges */
+  --color-filet: #0a86a8;         /* filets, contour de focus */
+  --color-bord: #d4dee6;          /* bordures */
+  --color-sombre: #14263a;        /* pied de page, bandeau d'appel à l'action */
+  --color-sombre-texte: #e6eef4;
+  --color-sombre-lien: #9be0ef;
+  --color-ok: #1e6b4a;
+  --color-ok-pale: #ddf1e6;
+  --color-erreur: #b42318;
+
+  /* Alias historiques : les anciennes feuilles de style héritent du thème clair */
+  --color-navy: var(--color-fond);
+  --color-steel: var(--color-bord);
+  --color-cyan: var(--color-accent);
+  --color-cyan-hover: var(--color-accent-fonce);
+  --color-off-white: var(--color-encre);
+  --color-gray-secondary: var(--color-encre-2);
+  --color-emerald: var(--color-ok);
+  --color-red: var(--color-erreur);
+
+  /* Polices (next/font/local, fichiers dans app/fonts) */
+  --font-space-grotesk: var(--font-titre);
+  --font-inter: var(--font-corps);
+  --font-jetbrains-mono: ui-monospace, 'Cascadia Mono', 'Segoe UI Mono', Menlo, monospace;
+
+  --rayon: 14px;
+  --rayon-s: 10px;
+  --ombre-carte: 0 1px 2px rgba(20, 38, 58, 0.04), 0 8px 24px -16px rgba(20, 38, 58, 0.18);
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+  scroll-padding-top: 88px;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background-color: var(--color-navy);
-  color: var(--color-off-white);
-  font-family: var(--font-inter), sans-serif;
+  background-color: var(--color-fond);
+  color: var(--color-encre);
+  font-family: var(--font-corps), sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-titre), sans-serif;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+/* Focus clavier visible partout */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--color-filet);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ---------- Composants partagés ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: var(--rayon-s);
+  border: 1.5px solid transparent;
+  font-family: var(--font-corps), sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-primaire {
+  background: var(--color-accent);
+  color: var(--color-surface);
+}
+.btn-primaire:hover {
+  background: var(--color-accent-fonce);
+}
+
+.btn-secondaire {
+  background: transparent;
+  color: var(--color-encre);
+  border-color: var(--color-encre);
+}
+.btn-secondaire:hover {
+  background: var(--color-pale);
+}
+
+.btn-sombre {
+  background: var(--color-sombre-lien);
+  color: var(--color-sombre);
+}
+.btn-sombre:hover {
+  background: #c3edf6;
+}
+
+.btn[disabled],
+.btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* Lien avec flèche, en fin de bloc */
+.lien-fleche {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  gap: 8px;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.lien-fleche:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Icône SVG décorative */
+.ico {
+  width: 24px;
+  height: 24px;
+  flex: none;
+}
+
+/* Tableau de données */
+.tableau {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+.tableau th,
+.tableau td {
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--color-bord);
+}
+.tableau thead th {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+.tableau tbody th {
+  color: var(--color-encre);
+  font-weight: 700;
+}
+.tableau td {
+  color: var(--color-encre-2);
+}
+
+/* FAQ en details/summary */
+.faq {
+  margin-bottom: 10px;
+  padding: 0 18px;
+  border: 1px solid var(--color-bord);
+  border-radius: var(--rayon-s);
+  background: var(--color-surface);
+}
+.faq summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 12px 0;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--color-encre);
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: '+';
+  flex: none;
+  color: var(--color-accent);
+  font-size: 24px;
+  line-height: 1;
+}
+.faq[open] summary::after {
+  content: '−';
+}
+.faq > :not(summary) {
+  padding-bottom: 14px;
+  color: var(--color-encre-2);
+  font-size: 17px;
 }
 
 /* Animations désactivées si prefers-reduced-motion */
@@ -41,23 +232,7 @@ body {
   }
 }
 
-/* Scrollbar personnalisée */
-::-webkit-scrollbar {
-  width: 5px;
-}
-::-webkit-scrollbar-track {
-  background: var(--color-navy);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-steel);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-cyan);
-}
-
-/* Sélection de texte */
 ::selection {
-  background-color: var(--color-cyan);
-  color: var(--color-navy);
+  background-color: var(--color-pale);
+  color: var(--color-encre);
 }
