@@ -39,28 +39,32 @@ if (explicit.length > 0 && sinceIdx < 0) {
   console.log(`URL du sitemap modifiées depuis le ${from} : ${urls.length}`)
 }
 
-if (urls.length === 0) {
-  console.log('Rien à envoyer.')
-  process.exit(0)
-}
-urls.forEach((u) => console.log('  ' + u))
-if (dryRun) {
-  console.log('--dry-run : aucun envoi.')
-  process.exit(0)
+async function submit() {
+  if (urls.length === 0) {
+    console.log('Rien à envoyer.')
+    return 0
+  }
+  urls.forEach((u) => console.log('  ' + u))
+  if (dryRun) {
+    console.log('--dry-run : aucun envoi.')
+    return 0
+  }
+  const res = await fetch(ENDPOINT, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json; charset=utf-8' },
+    body: JSON.stringify({ host: HOST, key, keyLocation: `${SITE}/${keyFile}`, urlList: urls.slice(0, 10000) }),
+  })
+  const meaning = {
+    200: 'envoyé',
+    202: 'reçu, vérification de la clé en cours',
+    400: 'format invalide',
+    403: 'clé invalide (fichier clé pas encore en ligne ?)',
+    422: "URL hors du domaine ou clé non conforme",
+    429: 'trop de requêtes',
+  }
+  console.log(`IndexNow : ${res.status} ${meaning[res.status] || ''}`)
+  return res.ok ? 0 : 1
 }
 
-const res = await fetch(ENDPOINT, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json; charset=utf-8' },
-  body: JSON.stringify({ host: HOST, key, keyLocation: `${SITE}/${keyFile}`, urlList: urls.slice(0, 10000) }),
-})
-const meaning = {
-  200: 'envoyé',
-  202: 'reçu, vérification de la clé en cours',
-  400: 'format invalide',
-  403: 'clé invalide (fichier clé pas encore en ligne ?)',
-  422: "URL hors du domaine ou clé non conforme",
-  429: 'trop de requêtes',
-}
-console.log(`IndexNow : ${res.status} ${meaning[res.status] || ''}`)
-process.exit(res.ok ? 0 : 1)
+// exitCode plutôt que process.exit() : évite une assertion libuv sous Windows après un fetch
+process.exitCode = await submit()

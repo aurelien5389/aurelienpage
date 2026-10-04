@@ -60,18 +60,18 @@ Documents : `GEO-INVENTAIRE.md` (phase 0) · `GEO-REGLES.md` (phase 1) · `GEO-R
 - [x] Reprise des 6 articles prioritaires : A30, A36, A38, A29 (fusion Perplexity), A31, A33
 - [x] Build, aperçu local
 
-## Phase 5 · Maillage et cohérence Audiaa ✅ en attente d'accord commit / push / déploiement
+## Phase 5 · Maillage et cohérence Audiaa ✅ terminée et déployée
 - [x] Appliquer les décisions restantes de GEO-REVUE-BLOG.md : geo-vs-seo → 301 /reponses/difference-seo-geo ; erreurs-seo-critiques → 301 erreurs-seo-frequentes ; canva-creation-contenus → 301 formes-contenus-redaction-web ; retitrer 10-secrets-seo (« booster ») et tendances-seo-2026 (année) ; retirer les chiffres non sourcés d'ouverture (apprendre-le-seo, choisir-mots-cles-seo)
 - [x] Créer une page À propos (lien « Qui répond » des réponses)
 - [x] Chaque fiche reçoit ≥ 3 liens d'articles ; aucune page orpheline
 - [x] Lien audiaa.fr (À propos + pied de page), écarts de présentation listés
 - [x] Appliquer la décision Consultant IA / Formateur No Code & IA
 - [x] Schéma du maillage, build, liste des fichiers modifiés
-- [ ] Accord commit + push → accord déploiement
+- [x] Accord commit + push → accord déploiement (Aurélien : « je te laisse poursuivre et tout déployer ») : commit 4de3c85, branche poussée, main fusionnée, production Vercel en ligne, 73 URL envoyées à IndexNow (202)
 
-## Phase 6 · Préparation Balise (sans rien lancer)
-- [ ] questions-geo-aurelienpage.csv (38 questions, P1/P2/P3)
-- [ ] Message pour la session Claude Code du dépôt Balise (import + estimation de coût P1)
+## Phase 6 · Préparation Balise (sans rien lancer) ✅ terminée
+- [x] questions-geo-aurelienpage.csv (38 questions : 18 P1, 16 P2, 4 P3). A32, A34, A35, A37 pointent vers la page la plus proche faute de page dédiée
+- [x] Message pour la session Claude Code du dépôt Balise : GEO-MESSAGE-BALISE.md
 
 ---
 
@@ -192,3 +192,10 @@ Contrôle sur le build local : 0 page orpheline, 0 lien interne cassé, chaque f
 ### Fichiers
 109 fichiers modifiés, créés ou supprimés (hors tsconfig.tsbuildinfo, fichier de build non suivi, à ne pas committer).
 Supprimés : 4 drafts fusionnés ou retirés (redirections 301 en place), 2 pages IA (301 vers audiaa.fr).
+
+## Après la mise en ligne (à faire par Aurélien)
+- Bing Webmaster Tools : importer le site depuis la Search Console, soumettre le sitemap.
+- Search Console : soumettre de nouveau https://aurelienpage.fr/sitemap.xml.
+- Badge de disponibilité : mettre à jour chaque mois (config/availability.ts).
+- Trancher le nombre d'années d'expérience (« 8 ans ») ; aligner la fiche Person d'audiaa.fr (LinkedIn, lien vers aurelienpage.fr/#person).
+- Après chaque mise en ligne : `npm run indexnow`.
