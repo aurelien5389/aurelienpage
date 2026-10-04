@@ -33,7 +33,7 @@ L'expérience correspond à la pratique personnelle et directe de l'auteur sur l
 
 Concrètement : un avis produit rédigé par quelqu'un qui a utilisé le produit aura plus de valeur qu'une description générique. Un article sur une pathologie, rédigé par un patient ayant traversé l'expérience, complète utilement celui d'un médecin.
 
-Ce critère est particulièrement puissant pour les contenus personnels, les retours d'expérience, les études de cas — des formats qui permettent de montrer une connaissance vécue plutôt qu'académique.
+Ce critère est particulièrement puissant pour les contenus personnels, les retours d'expérience, les études de cas, des formats qui permettent de montrer une connaissance vécue plutôt qu'académique.
 
 ### Expertise (Expertise)
 
@@ -57,7 +57,7 @@ Un site qui cache qui le gère, qui publie des informations non sourcées ou qui
 
 ## Pourquoi l'EEAT est-il crucial pour le SEO ?
 
-L'EEAT n'est pas un facteur de classement direct au sens technique du terme — Google n'a pas un "score EEAT" qu'il calcule mécaniquement. C'est plutôt un cadre conceptuel qui sous-tend l'évaluation de la qualité d'un contenu, à la fois via les Quality Raters humains et via les algorithmes.
+L'EEAT n'est pas un facteur de classement direct au sens technique du terme : Google n'a pas un "score EEAT" qu'il calcule mécaniquement. C'est plutôt un cadre conceptuel qui sous-tend l'évaluation de la qualité d'un contenu, à la fois via les Quality Raters humains et via les algorithmes.
 
 En pratique, un site qui répond fortement aux critères EEAT sera mieux positionné parce qu'il produit des contenus que Google juge plus fiables, plus pertinents, et plus utiles pour ses utilisateurs. L'EEAT est aussi au coeur de la [stratégie de contenu SEO](/blog/strategie-contenu-seo) : publier moins mais mieux, en démontrant une expertise réelle sur chaque sujet traité.
 
@@ -85,7 +85,7 @@ Si vous rédigez sur le SEO, parlez de vos missions, de vos résultats concrets,
 
 ### Obtenir des backlinks depuis des sources de référence
 
-L'autorité se construit en dehors de votre site. Une mention dans un média reconnu de votre secteur, un lien depuis un site d'autorité, une citation dans un article de fond — ces signaux renforcent la perception que Google et les internautes ont de votre expertise.
+L'autorité se construit en dehors de votre site. Une mention dans un média reconnu de votre secteur, un lien depuis un site d'autorité, une citation dans un article de fond : ces signaux renforcent la perception que Google et les internautes ont de votre expertise.
 
 La stratégie de netlinking doit donc être pensée en cohérence avec l'EEAT : privilégiez la qualité des sources aux volumes de liens, et travaillez votre réputation dans votre secteur de manière organique.
 
@@ -107,12 +107,12 @@ La montée en puissance des contenus générés par IA pose un défi inédit pou
 
 Précisément par l'EEAT. Un contenu généré par IA sans supervision humaine qualifiée aura typiquement une expérience de première main nulle, une expertise difficile à démontrer, aucune autorité propre et une fiabilité incertaine.
 
-C'est pour cette raison que l'EEAT est devenu le rempart le plus solide contre la dévalorisation SEO à l'ère de l'IA : il valorise ce que les machines ne peuvent pas fabriquer — la crédibilité humaine ancrée dans une expérience réelle. C'est aussi ce qui rend le [GEO (Generative Engine Optimization)](/blog/geo-ia-search-ai-overviews) si stratégique : les moteurs IA sélectionnent leurs sources précisément sur ces critères d'autorité et de fiabilité.
+C'est pour cette raison que l'EEAT est devenu le rempart le plus solide contre la dévalorisation SEO à l'ère de l'IA : il valorise ce que les machines ne peuvent pas fabriquer : la crédibilité humaine ancrée dans une expérience réelle. C'est aussi ce qui rend le [GEO (Generative Engine Optimization)](/blog/geo-ia-search-ai-overviews) si stratégique : les moteurs IA sélectionnent leurs sources précisément sur ces critères d'autorité et de fiabilité.
 
 ## FAQ sur l'EEAT
 
 **L'EEAT est-il un facteur de classement direct ?**
-Non au sens strict — Google n'a pas de "score EEAT" calculé algorithmiquement. Mais les signaux qui construisent l'EEAT (qualité du contenu, backlinks, transparence, expertise démontrée) influencent directement les algorithmes de classement.
+Non au sens strict : Google n'a pas de "score EEAT" calculé algorithmiquement. Mais les signaux qui construisent l'EEAT (qualité du contenu, backlinks, transparence, expertise démontrée) influencent directement les algorithmes de classement.
 
 **L'EEAT concerne-t-il tous les types de sites ?**
 Oui. Il s'applique à tous les sites, mais avec une intensité particulière pour les sites YMYL (santé, finance, droit, sécurité). Pour les autres secteurs, l'EEAT reste un levier de différenciation important face à une concurrence éditoriale croissante.

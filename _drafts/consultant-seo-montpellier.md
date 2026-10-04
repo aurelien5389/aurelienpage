@@ -73,7 +73,7 @@ Je crois au partenariat. Les startups/PME ont besoin d'un consultant qui compren
 ## FAQ
 
 **Q: C'est cher comparé à Fiverr ou une petite agence locale ?**
-A: Probablement un peu plus cher qu'un freelancer débutant sur Fiverr. Mais beaucoup moins cher qu'une agence parisienne. Vous payez pour la qualité et la responsabilité. Un audit de qualité : 600-1000€. Un projet mensuel : 1500-4000€.
+A: Probablement un peu plus cher qu'un freelancer débutant sur Fiverr. Mais beaucoup moins cher qu'une agence parisienne. Vous payez pour la qualité et la responsabilité. Un audit SEO et GEO : 800 à 2 500 € selon la taille du site. Un accompagnement mensuel : 500 à 2 000 € par mois, au-delà sur devis.
 
 **Q: Vous travaillez surtout avec des SaaS ?**
 A: Non. Je travaille aussi avec des agences digitales, des cabinets de conseil, des e-commerce, des services. N'importe quel secteur où la visibilité digitale génère des leads/clients.

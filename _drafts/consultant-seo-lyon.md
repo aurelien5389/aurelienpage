@@ -6,7 +6,7 @@ meta-description: "Consultant SEO freelance à Lyon. Audit SEO, stratégie de co
 
 # Consultant SEO à Lyon | Expert référencement naturel & GEO
 
-Lyon est la deuxième métropole économique française. Tech, biotech, industrie chimique, e-commerce, tourisme, restauration : la densité d'entreprises en concurrence digitale est intense. Dans cet environnement, le référencement naturel n'est pas un canal parmi d'autres — c'est souvent le levier qui fait la différence entre une entreprise trouvée et une entreprise ignorée.
+Lyon est la deuxième métropole économique française. Tech, biotech, industrie chimique, e-commerce, tourisme, restauration : la densité d'entreprises en concurrence digitale est intense. Dans cet environnement, le référencement naturel n'est pas un canal parmi d'autres : c'est souvent le levier qui fait la différence entre une entreprise trouvée et une entreprise ignorée.
 
 Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'interviens à Lyon en remote, avec des déplacements possibles pour les missions qui le justifient. Mon rôle : structurer votre visibilité sur Google et vous préparer aux nouveaux moteurs de réponse IA, avec un interlocuteur unique du premier audit au dernier reporting.
 
@@ -14,7 +14,7 @@ Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'int
 
 **Un expert qui travaille directement sur votre projet.** En agence, votre dossier est souvent géré par un chef de projet qui sous-traite au consultant. En freelance, c'est le même expert qui audite, stratégise, optimise et vous rend compte. Pas de perte d'information, pas de délai d'intermédiaire.
 
-**Un coût maîtrisé.** Les agences lyonnaises ont des structures lourdes — locaux, équipes commerciales, marges empilées. Un consultant freelance facture son travail réel. À qualité égale, l'écart de coût est souvent significatif.
+**Un coût maîtrisé.** Les agences lyonnaises ont des structures lourdes : locaux, équipes commerciales, marges empilées. Un consultant freelance facture son travail réel. À qualité égale, l'écart de coût est souvent significatif.
 
 **Réactivité et transparence.** Tarifs clairs, périmètre défini à l'avance, reporting mensuel. Pas de contrat annuel imposé. Une question urgente se traite en direct.
 
@@ -38,7 +38,7 @@ Identification des requêtes à fort potentiel dans votre secteur sur le marché
 Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurées Schema.org, sécurité HTTPS. Les fondations techniques indispensables pour que vos contenus soient correctement lus et classés.
 
 **Netlinking et construction d'autorité**
-Acquisition de backlinks depuis des sources pertinentes pour votre secteur. Médias spécialisés, presse économique, annuaires de référence, partenariats éditoriaux. Approche qualitative — pas de réseaux de sites, pas de liens artificiels.
+Acquisition de backlinks depuis des sources pertinentes pour votre secteur. Médias spécialisés, presse économique, annuaires de référence, partenariats éditoriaux. Approche qualitative, sans réseaux de sites, sans liens artificiels.
 
 **SEO local et Google Business Profile**
 Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées par quartier ou zone de chalandise. Essentiel pour les commerces et prestataires qui ciblent une clientèle lyonnaise.
@@ -61,13 +61,13 @@ Structuration des contenus pour être référencé dans les réponses des moteur
 Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel démarre à partir de 500 euros par mois. Lyon étant un marché compétitif sur plusieurs secteurs, les missions ambitieuses nécessitent un budget mensuel plus conséquent. Je fournis un devis détaillé avant toute intervention. Pour des repères complets : [coût d'une prestation SEO](/cout-prestation-seo).
 
 **Intervenez-vous en présentiel à Lyon ?**
-La majorité de mes missions se déroulent en remote — audits, stratégie, optimisations, reporting peuvent tout à fait être menés à distance. Des déplacements à Lyon sont possibles pour des sessions de travail, des formations ou des ateliers stratégiques si votre projet le justifie.
+La majorité de mes missions se déroulent en remote : audits, stratégie, optimisations, reporting peuvent tout à fait être menés à distance. Des déplacements à Lyon sont possibles pour des sessions de travail, des formations ou des ateliers stratégiques si votre projet le justifie.
 
 **Combien de temps avant des résultats visibles ?**
 Entre 3 et 6 mois pour les premières progressions mesurables sur les positions et le trafic. Sur des requêtes très compétitives, un horizon de 9 à 12 mois est souvent nécessaire pour atteindre le top 3. Je vous donne une visibilité mensuelle sur les progrès dès le début.
 
 **Travaillez-vous avec tous les types d'entreprises ?**
-Oui. Startup tech, PME industrielle, cabinet de conseil, e-commerçant, professionnel de santé : j'adapte le périmètre et l'approche à chaque situation. Lyon est une métropole avec des secteurs très différents — mon approche s'adapte à votre marché spécifique.
+Oui. Startup tech, PME industrielle, cabinet de conseil, e-commerçant, professionnel de santé : j'adapte le périmètre et l'approche à chaque situation. Lyon est une métropole avec des secteurs très différents. Mon approche s'adapte à votre marché spécifique.
 
 ## Travaillons ensemble
 

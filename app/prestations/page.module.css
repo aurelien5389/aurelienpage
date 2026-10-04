@@ -224,3 +224,9 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+.hubLienAudiaa {
+  color: var(--color-cyan);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

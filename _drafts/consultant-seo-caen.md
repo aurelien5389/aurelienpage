@@ -69,7 +69,7 @@ Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la
 Entre 3 et 6 mois pour les premières progressions mesurables sur les positions et le trafic. Caen est moins compétitive que Paris ou Lyon sur la plupart des requêtes locales, ce qui peut accélérer les résultats. Je vous donne une visibilité mensuelle sur les progrès dès le début.
 
 **Intervenez-vous en remote ou en présentiel ?**
-La grande majorité des missions se déroule en remote — audits, stratégie, optimisations, reporting. Des déplacements à Caen sont possibles pour des sessions de travail ou des formations si votre projet le justifie.
+La grande majorité des missions se déroule en remote : audits, stratégie, optimisations, reporting. Des déplacements à Caen sont possibles pour des sessions de travail ou des formations si votre projet le justifie.
 
 **Travaillez-vous uniquement sur le SEO ou aussi sur Google Ads ?**
 Les deux. Je suis consultant SEO et Traffic Manager SEA. Je peux gérer votre stratégie organique, vos campagnes Google Ads, ou les deux en synergie selon vos objectifs.

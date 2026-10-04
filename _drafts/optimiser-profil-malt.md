@@ -6,7 +6,7 @@ meta-description: "Comment optimiser son profil Malt pour attirer des clients en
 
 # Optimiser son profil Malt pour attirer plus de clients en SEO freelance
 
-Malt est la principale marketplace de freelances en France. Des milliers de consultants SEO y sont référencés. La concurrence est réelle, et avoir un profil "complété" ne suffit pas pour être contacté régulièrement. Les profils qui performent sur Malt sont ceux qui sont construits comme des pages de vente — pas comme un CV en ligne.
+Malt est la principale marketplace de freelances en France. Des milliers de consultants SEO y sont référencés. La concurrence est réelle, et avoir un profil "complété" ne suffit pas pour être contacté régulièrement. Les profils qui performent sur Malt sont ceux qui sont construits comme des pages de vente, pas comme un CV en ligne.
 
 Voici comment structurer votre profil Malt pour sortir du lot, être bien positionné dans les recherches internes de la plateforme, et convertir les visiteurs en prospects.
 
@@ -27,14 +27,14 @@ L'optimisation de profil Malt, c'est donc à la fois du SEO (mots-clés, structu
 Le titre de votre profil Malt est l'équivalent d'une balise title en SEO : c'est ce que les clients voient en premier dans les résultats de recherche, et c'est ce que l'algorithme indexe en priorité.
 
 **Erreurs fréquentes :**
-- Titre trop générique : "Consultant SEO" — des centaines de profils ont exactement le même
-- Titre trop technique : "Expert SEM, SEA, SMO, GEO, ASO" — illisible pour un non-initié
+- Titre trop générique : "Consultant SEO" (des centaines de profils ont exactement le même)
+- Titre trop technique : "Expert SEM, SEA, SMO, GEO, ASO" (illisible pour un non-initié)
 - Titre trop long : Malt tronque les titres trop longs dans les résultats
 
 **Ce qui fonctionne :**
-Soyez précis sur votre positionnement. "Consultant SEO & GEO freelance — PME et startups" dit en six mots ce que vous faites, pour qui, et avec quelle approche. Si vous avez une spécialité sectorielle (e-commerce, B2B SaaS, santé), mentionnez-la dans le titre.
+Soyez précis sur votre positionnement. "Consultant SEO & GEO freelance · PME et startups" dit en six mots ce que vous faites, pour qui, et avec quelle approche. Si vous avez une spécialité sectorielle (e-commerce, B2B SaaS, santé), mentionnez-la dans le titre.
 
-Intégrez vos mots-clés principaux naturellement : "consultant SEO", "référencement naturel", "freelance" sont des termes recherchés. Pas besoin de les bourrer — Malt lit aussi votre description.
+Intégrez vos mots-clés principaux naturellement : "consultant SEO", "référencement naturel", "freelance" sont des termes recherchés. Pas besoin de les bourrer. Malt lit aussi votre description.
 
 ## La présentation : votre page de vente
 
@@ -42,17 +42,17 @@ La description de profil Malt est votre principal espace de conviction. La plupa
 
 **Structure qui convertit :**
 
-1. **Accroche** (2-3 phrases) : quel problème vous résolvez, pour qui, avec quel résultat. Pas "Je suis consultant SEO depuis 8 ans" — mais "Vous investissez dans du contenu mais Google ne vous envoie pas de trafic. Je diagnostique et corrige ce qui bloque votre référencement."
+1. **Accroche** (2-3 phrases) : quel problème vous résolvez, pour qui, avec quel résultat. Pas "Je suis consultant SEO depuis 8 ans", mais "Vous investissez dans du contenu mais Google ne vous envoie pas de trafic. Je diagnostique et corrige ce qui bloque votre référencement."
 
 2. **Ce que vous faites concrètement** : listez vos prestations de manière compréhensible pour un non-expert. Audit SEO, stratégie de mots-clés, optimisation technique, netlinking, accompagnement mensuel.
 
 3. **Pour qui vous travaillez** : soyez précis sur votre cible idéale. Un client qui se reconnaît dans votre description est plus susceptible de vous contacter.
 
-4. **Ce qui vous différencie** : interlocuteur unique, approche GEO, expertise sectorielle, méthode transparente. Pas "je suis passionné" — mais un bénéfice concret pour le client.
+4. **Ce qui vous différencie** : interlocuteur unique, approche GEO, expertise sectorielle, méthode transparente. Pas "je suis passionné", mais un bénéfice concret pour le client.
 
 5. **Preuve sociale** : si vous avez des résultats chiffrés ou des secteurs de référence, mentionnez-les.
 
-Malt permet une mise en forme basique (sauts de ligne, espacement). Utilisez-la pour aérer votre texte — un bloc compact décourage la lecture.
+Malt permet une mise en forme basique (sauts de ligne, espacement). Utilisez-la pour aérer votre texte : un bloc compact décourage la lecture.
 
 ## Les compétences : votre référencement interne
 
@@ -79,11 +79,11 @@ Un tarif très bas signale parfois un manque d'expérience aux yeux des clients 
 
 La bonne approche : affichez un tarif cohérent avec votre expérience et votre positionnement, et justifiez-le par la qualité de votre profil (présentation convaincante, portfolio, avis clients). Un consultant SEO avec 3 ans d'expérience facturant 450-600€/jour et un profil bien construit sera plus crédible qu'un profil vide facturant 200€/jour.
 
-N'ayez pas peur d'afficher votre vrai tarif — les clients qui cherchent le prix le plus bas ne sont généralement pas ceux qui font les meilleures collaborations.
+N'ayez pas peur d'afficher votre vrai tarif : les clients qui cherchent le prix le plus bas ne sont généralement pas ceux qui font les meilleures collaborations.
 
 ## Le portfolio : montrez plutôt que racontez
 
-Malt permet d'ajouter des projets à votre profil. C'est la section la plus sous-utilisée — et l'une des plus convaincantes.
+Malt permet d'ajouter des projets à votre profil. C'est la section la plus sous-utilisée, et l'une des plus convaincantes.
 
 Un projet bien documenté sur Malt inclut :
 - Le contexte (type de client, secteur, taille du site)
@@ -91,14 +91,14 @@ Un projet bien documenté sur Malt inclut :
 - Ce que vous avez fait concrètement
 - Les résultats obtenus (progression de trafic, amélioration des positions, ROI)
 
-Vous n'avez pas besoin de citer le nom du client s'il est confidentiel — "PME e-commerce bretonne, 50 000 produits" est suffisamment précis pour être crédible. Ajoutez des captures d'écran de Search Console ou de positions si possible.
+Vous n'avez pas besoin de citer le nom du client s'il est confidentiel : "PME e-commerce bretonne, 50 000 produits" est suffisamment précis pour être crédible. Ajoutez des captures d'écran de Search Console ou de positions si possible.
 
 ## Les avis : le levier le plus puissant
 
 Les avis clients sont le facteur de confiance le plus important sur Malt. Un profil avec 15 avis 5 étoiles sera toujours prioritaire sur un profil sans avis, quels que soient la qualité de la présentation ou le prix.
 
 Comment obtenir des avis :
-- Demandez systématiquement à chaque client de laisser un avis à la fin de la mission — beaucoup oublient si vous ne relancez pas
+- Demandez systématiquement à chaque client de laisser un avis à la fin de la mission : beaucoup oublient si vous ne relancez pas
 - Facilitez-leur la tâche en leur envoyant le lien direct vers la page d'évaluation
 - Si vous avez des clients hors Malt, proposez-leur d'enregistrer la mission rétroactivement pour qu'ils puissent évaluer
 

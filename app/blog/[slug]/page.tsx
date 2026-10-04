@@ -3,6 +3,10 @@ import { notFound } from 'next/navigation'
 import { getBlogDrafts, parseDraft } from '@/lib/draft-parser'
 import { getBlogRelatedLinks } from '@/lib/internal-links'
 import BlogPostLayout from '@/components/BlogPostLayout'
+import { draftDates } from '@/lib/content-dates'
+
+// Seuls les articles listés par generateStaticParams existent : toute autre adresse renvoie une 404
+export const dynamicParams = false
 
 interface Props {
   params: { slug: string }
@@ -50,6 +54,7 @@ export default function BlogPostPage({ params }: Props) {
       body={draft.body}
       slug={params.slug}
       relatedLinks={relatedLinks}
+      dates={draftDates(params.slug)}
     />
   )
 }

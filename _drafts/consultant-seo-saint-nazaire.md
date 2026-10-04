@@ -73,7 +73,7 @@ Oui. Très. Vos acheteurs cherchent sur Google. S'ils ne vous trouvent pas là, 
 
 **Quel budget pour une stratégie B2B SEO sérieuse ?**
 
-Entre 1200€ et 3500€/mois selon la complexité. Un audit seul : 1500-2500€ (one-shot). Une PME qui veut devenir visible sur 3-4 mots-clés clés : 1500-2000€/mois minimum.
+Un accompagnement mensuel coûte de 500 à 2 000 € par mois selon la complexité, au-delà sur devis. Un audit SEO et GEO seul : 800 à 2 500 € selon la taille du site.
 
 **Combien de temps avant de générer des leads via SEO ?**
 

@@ -2,7 +2,7 @@
 
 ## Contexte
 
-Marseille, deuxième ville de France, concentre un tissu économique dense et varié : commerce et logistique (grâce au port international), tourisme dynamique, secteur technologique émergent (Joliette), agroalimentaire. Sur ce marché ultra-concurrentiel, la visibilité digitale n'est plus optionnelle—elle est stratégique. Les entreprises marseillaises doivent apparaître sur Google quand leurs prospects les cherchent localement, et désormais aussi dans les réponses IA (AI Overviews, Perplexity, ChatGPT Search).
+Marseille, deuxième ville de France, concentre un tissu économique dense et varié : commerce et logistique (grâce au port international), tourisme dynamique, secteur technologique émergent (Joliette), agroalimentaire. Sur ce marché ultra-concurrentiel, la visibilité digitale n'est plus optionnelle. Elle est stratégique. Les entreprises marseillaises doivent apparaître sur Google quand leurs prospects les cherchent localement, et désormais aussi dans les réponses IA (AI Overviews, Perplexity, ChatGPT Search).
 
 En 2025, le SEO s'est fragmenté. Un site bien classique sur Google n'est plus suffisant : il faut aussi être visible dans les moteurs génératifs IA qui dominent les recherches des utilisateurs avertis. C'est précisément là où les entreprises marseillaises accumulent un retard que je corrige directement.
 
@@ -27,9 +27,9 @@ Les agences travaillent à volume. Un consultant SEO à Marseille qui s'implique
 
 **GEO = Generative Engine Optimization.**
 
-Depuis 2024, Google affiche des AI Overviews en haut de ses résultats (réponses synthétisées générées par IA). Perplexity et ChatGPT Search ont capturé des millions d'utilisateurs. Ces moteurs génératifs ne classent pas vos pages comme Google le faisait autrefois. Ils extraient, synthétisent, citent—ou ignorent purement et simplement votre contenu.
+Depuis 2024, Google affiche des AI Overviews en haut de ses résultats (réponses synthétisées générées par IA). Perplexity et ChatGPT Search ont capturé des millions d'utilisateurs. Ces moteurs génératifs ne classent pas vos pages comme Google le faisait autrefois. Ils extraient, synthétisent, citent, ou ignorent purement et simplement votre contenu.
 
-Les agences SEO « traditionnelles » vous parlent d'optimisation on-page, de backlinks, de balisage. Elles ont raison—c'est la base. Mais elles oublient la couche critique : **comment faire en sorte que votre expertise soit citée dans les réponses IA ?**
+Les agences SEO « traditionnelles » vous parlent d'optimisation on-page, de backlinks, de balisage. Elles ont raison : c'est la base. Mais elles oublient la couche critique : **comment faire en sorte que votre expertise soit citée dans les réponses IA ?**
 
 C'est le GEO. Et c'est ma spécialité différenciante.
 
@@ -72,7 +72,7 @@ Je travaille avec des engagements clairs : on démarre par un audit, on définit
 A: Généralement, les premiers changements de trafic sont visibles après 3-4 mois pour du contenu nouveau, davantage pour des pages concurrentielles. La visibilité dans les AI Overviews varie selon votre domaine. Je fournirai des attentes réalistes après l'audit.
 
 **Q: Travaillez-vous uniquement avec des gros budgets ?**
-A: Non. Je travaille avec des PME, des ETI, des artisans marseillais. La taille du projet s'adapte à votre budget et vos enjeux. Un audit peut coûter 500€, un projet annuel peut être modulé.
+A: Non. Je travaille avec des PME, des ETI, des artisans marseillais. La taille du projet s'adapte à votre budget et vos enjeux. Un audit SEO et GEO coûte de 800 à 2 500 € selon la taille du site ; un accompagnement mensuel, de 500 à 2 000 € par mois.
 
 **Q: Êtes-vous local ou télétravail ?**
 A: Je suis basé en France et disponible pour des rendez-vous directs si nécessaire. Mais je travaille surtout en mode agile (appels réguliers, documentation partagée, outils collaboratifs). C'est plus efficient et ça réduit les coûts.

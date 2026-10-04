@@ -8,7 +8,7 @@ meta-description: "Rédacteur web spécialisé secteur juridique. Contenus SEO p
 
 Un cabinet d'avocats, une étude notariale ou un cabinet d'expertise comptable ne peut pas publier n'importe quel contenu. Chaque texte engage la crédibilité du professionnel, doit rester juridiquement exact, et doit malgré tout être structuré pour se positionner sur Google. C'est un exercice d'équilibriste que peu de rédacteurs web maîtrisent.
 
-Je suis Aurélien PAGE, consultant SEO et rédacteur web freelance, diplômé d'un Master en Droit du numérique (IEP Rennes). Je rédige des contenus web pour les professions juridiques et réglementées — avocats, notaires, huissiers, experts-comptables, mandataires judiciaires — en combinant rigueur terminologique, structure SEO et un processus de validation qui garantit l'exactitude du fond.
+Je suis Aurélien PAGE, consultant SEO et rédacteur web freelance, diplômé d'un Master en Droit du numérique (IEP Rennes). Je rédige des contenus web pour les professions juridiques et réglementées (avocats, notaires, huissiers, experts-comptables, mandataires judiciaires) en combinant rigueur terminologique, structure SEO et un processus de validation qui garantit l'exactitude du fond.
 
 ## Pourquoi un rédacteur "généraliste" ne suffit pas sur le juridique
 
@@ -24,7 +24,7 @@ La rédaction pour le secteur juridique a des contraintes propres :
 
 ## Comment je travaille avec les professionnels du droit et du chiffre
 
-**Je ne rédige jamais de contenu juridique de manière autonome.** Chaque article ou page de service est construit à partir d'un brief que vous me fournissez — angle, éléments de fond, jurisprudence ou textes à mentionner — puis relu et validé par vous avant publication. C'est ce processus de collaboration qui garantit à la fois l'exactitude juridique et la conformité aux exigences EEAT de Google.
+**Je ne rédige jamais de contenu juridique de manière autonome.** Chaque article ou page de service est construit à partir d'un brief que vous me fournissez (angle, éléments de fond, jurisprudence ou textes à mentionner), puis relu et validé par vous avant publication. C'est ce processus de collaboration qui garantit à la fois l'exactitude juridique et la conformité aux exigences EEAT de Google.
 
 **1. Cadrage du sujet avec vous**
 Nous définissons ensemble l'angle, le niveau de technicité visé (grand public ou clientèle avertie) et les points de fond à couvrir.
@@ -44,7 +44,7 @@ Vous relisez et validez le fond avant toute mise en ligne. C'est une étape non 
 Pages présentant vos domaines d'intervention (droit de la famille, droit des affaires, droit immobilier, succession, contentieux...), pensées pour convertir un visiteur en prise de contact tout en respectant les règles de communication de votre profession.
 
 **Articles de blog informationnels**
-Des contenus qui répondent aux questions que se posent vos prospects ("comment se déroule une procédure de divorce", "quand faire appel à un notaire pour une donation") — sans jamais formuler de conseil personnalisé, dans le respect strict de la frontière entre information générale et consultation.
+Des contenus qui répondent aux questions que se posent vos prospects ("comment se déroule une procédure de divorce", "quand faire appel à un notaire pour une donation"), sans jamais formuler de conseil personnalisé, dans le respect strict de la frontière entre information générale et consultation.
 
 **FAQ juridiques**
 Des foires aux questions structurées pour capter les requêtes longue traîne et améliorer votre visibilité sur les moteurs IA (GEO), qui citent volontiers des réponses claires et bien sourcées.
@@ -57,7 +57,7 @@ Audit de vos pages actuelles (structure, maillage interne, clarté) et propositi
 
 ## Ce que je ne fais pas
 
-Je ne fournis pas de conseil juridique, je ne rédige pas d'actes, et je ne me positionne jamais comme source d'expertise juridique autonome. Mon rôle est de transformer votre expertise en contenu structuré, lisible et optimisé pour le référencement — pas de la remplacer. Si un sujet nécessite un niveau de technicité que je ne maîtrise pas suffisamment pour formuler un brief pertinent, je vous le dis avant de commencer.
+Je ne fournis pas de conseil juridique, je ne rédige pas d'actes, et je ne me positionne jamais comme source d'expertise juridique autonome. Mon rôle est de transformer votre expertise en contenu structuré, lisible et optimisé pour le référencement, pas de la remplacer. Si un sujet nécessite un niveau de technicité que je ne maîtrise pas suffisamment pour formuler un brief pertinent, je vous le dis avant de commencer.
 
 ## Questions fréquentes
 

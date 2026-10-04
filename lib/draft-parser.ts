@@ -35,17 +35,33 @@ function extractHeaderSection(raw: string): Partial<DraftContent> & { rest: stri
   const h1Match = header.match(/\*\*H1\s*:\*\*\s*(.+)/)
   const h1 = h1Match?.[1]?.trim()
 
-  // title from first # heading or h1
+  // title from first # heading or h1 (« # Métadonnées de la page » is a section label, not a title)
   const titleMatch = header.match(/^#\s+(.+)/m)
-  const title = titleMatch?.[1]?.trim() || h1
+  const heading = titleMatch?.[1]?.trim()
+  const title = heading && !/^Métadonnées/i.test(heading) ? heading : h1
 
   return { slug, title, h1, rest }
+}
+
+// Fallback meta description: first prose paragraph, cut at ~155 chars on a word boundary
+function firstParagraph(body: string): string {
+  const para = body
+    .split(/\n{2,}/)
+    .map((p) => p.trim())
+    .find((p) => p && !/^(#|>|\||-|\*|\d+\.|!\[|---)/.test(p))
+  if (!para) return ''
+  const text = para
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_`]/g, '')
+    .replace(/\s+/g, ' ')
+  if (text.length <= 155) return text
+  return text.slice(0, 155).replace(/\s+\S*$/, '') + '…'
 }
 
 export function parseDraft(filename: string): DraftContent {
   const draftsDir = path.join(process.cwd(), '_drafts')
   const filepath = path.join(draftsDir, filename.endsWith('.md') ? filename : `${filename}.md`)
-  const raw = fs.readFileSync(filepath, 'utf-8')
+  const raw = fs.readFileSync(filepath, 'utf-8').replace(/\r\n/g, '\n')
 
   let slug: string | undefined
   let title: string | undefined
@@ -84,7 +100,7 @@ export function parseDraft(filename: string): DraftContent {
   return {
     slug: slug || '',
     title: title || h1 || '',
-    metaDescription: metaDescription || '',
+    metaDescription: metaDescription || firstParagraph(bodyRaw),
     h1: h1 || title || '',
     body: bodyRaw,
   }

@@ -7,6 +7,7 @@ import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import SimulateurSeo from '@/components/SimulateurSeo'
 import { parseDraft } from '@/lib/draft-parser'
+import { breadcrumbSchema } from '@/lib/schema'
 import styles from './page.module.css'
 
 const draft = parseDraft('cout-prestation-seo.md')
@@ -54,10 +55,11 @@ const COMPARATIF = [
 const schemaService = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'Prestations SEO — Aurélien PAGE',
+  name: 'Prestations SEO · Aurélien PAGE',
   serviceType: 'Référencement naturel (SEO)',
   provider: {
     '@type': 'Person',
+    '@id': 'https://aurelienpage.fr/#person',
     name: 'Aurélien PAGE',
     jobTitle: 'Consultant SEO & GEO',
     url: 'https://aurelienpage.fr',
@@ -66,12 +68,12 @@ const schemaService = {
   offers: [
     {
       '@type': 'Offer',
-      name: 'Audit SEO',
+      name: 'Audit SEO et GEO',
       priceCurrency: 'EUR',
       priceSpecification: {
         '@type': 'PriceSpecification',
         minPrice: 800,
-        maxPrice: 10000,
+        maxPrice: 2500,
         priceCurrency: 'EUR',
       },
     },
@@ -80,48 +82,27 @@ const schemaService = {
       name: 'Accompagnement SEO mensuel',
       priceCurrency: 'EUR',
       priceSpecification: {
-        '@type': 'PriceSpecification',
+        '@type': 'UnitPriceSpecification',
         minPrice: 500,
-        maxPrice: 20000,
+        maxPrice: 2000,
         priceCurrency: 'EUR',
+        unitText: 'mois',
       },
     },
     {
       '@type': 'Offer',
-      name: 'Formation SEO',
+      name: 'Formation SEO (module de 3 à 4 heures)',
       priceCurrency: 'EUR',
       priceSpecification: {
         '@type': 'PriceSpecification',
-        minPrice: 800,
-        maxPrice: 1500,
+        minPrice: 450,
+        maxPrice: 600,
         priceCurrency: 'EUR',
       },
     },
   ],
 }
 
-const schema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Combien coûte un audit SEO ?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Un audit SEO coûte entre 800 et 2 000 € pour un site vitrine, 2 000 à 5 000 € pour un site moyen, et 4 000 à 10 000 € pour un grand site ou e-commerce.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Quel est le tarif d\'un consultant SEO freelance ?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Les tarifs horaires varient de 80 à 200 €/h selon l\'expérience. Les accompagnements mensuels vont de 500 à 8 000 €/mois selon la taille du site et le niveau de concurrence.',
-      },
-    },
-  ],
-}
 
 const RELATED_LINKS = [
   { href: '/pourquoi-consultant-seo', label: 'Pourquoi faire appel à un consultant SEO ?' },
@@ -134,8 +115,8 @@ export default function Page() {
   return (
     <>
       <Header />
-      <JsonLd schema={schema} />
       <JsonLd schema={schemaService} />
+      <JsonLd schema={breadcrumbSchema([{ name: 'Combien coûte une prestation SEO ?', path: '/cout-prestation-seo' }])} />
       <main className={styles.artMain}>
         {/* Breadcrumb */}
         <div className={styles.artFil}>

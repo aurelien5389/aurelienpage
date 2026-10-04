@@ -8,10 +8,11 @@ const FOOTER_LINKS = {
   prestations: [
     { href: '/prestations/consultant-seo-geo', label: 'Consultant SEO & GEO' },
     { href: '/prestations/traffic-manager-sea', label: 'Traffic Manager SEA' },
-    { href: '/prestations/consultant-ia', label: 'Consultant IA' },
+    { href: '/prestations/audit-geo', label: 'Audit GEO' },
     { href: '/prestations/chef-de-projet-digital', label: 'Chef de Projet Digital' },
-    { href: '/prestations/formateur-no-code-ia', label: 'Formateur No Code & IA' },
     { href: '/formation-seo', label: 'Formation SEO' },
+    { href: '/formation-geo', label: 'Formation GEO' },
+    { href: 'https://www.audiaa.fr', label: 'IA et No Code : Audiaa' },
   ],
   ressources: [
     { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
@@ -19,6 +20,8 @@ const FOOTER_LINKS = {
     { href: '/cout-prestation-seo', label: 'Coût d\'une prestation SEO' },
     { href: '/consultant-seo-freelance', label: 'Consultant SEO freelance' },
     { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
+    { href: '/a-propos', label: 'À propos' },
+    { href: '/reponses', label: 'Réponses SEO et GEO' },
     { href: '/blog', label: 'Blog SEO & GEO' },
   ],
   villes: [

@@ -4,7 +4,7 @@ title: "Consultant SEO à Dinard | Expert référencement naturel & GEO, Côte d
 meta-description: "Consultant SEO freelance à Dinard. Audit SEO, stratégie de contenu, GEO pour AI Overviews. Tourisme, hôtellerie, immobilier, commerces locaux. Devis gratuit."
 ---
 
-Dinard est une ville à part en Bretagne. Station balnéaire de prestige, capitale de la Côte d'Émeraude, elle attire chaque année des milliers de visiteurs, de résidents secondaires et d'investisseurs. Mais les entreprises dinardaises — hôtels, restaurants, agences immobilières, commerces, prestataires de services — sont souvent peu visibles sur Google. Elles misent sur leur réputation locale ou le bouche-à-oreille, sans structurer leur présence en ligne.
+Dinard est une ville à part en Bretagne. Station balnéaire de prestige, capitale de la Côte d'Émeraude, elle attire chaque année des milliers de visiteurs, de résidents secondaires et d'investisseurs. Mais les entreprises dinardaises (hôtels, restaurants, agences immobilières, commerces, prestataires de services) sont souvent peu visibles sur Google. Elles misent sur leur réputation locale ou le bouche-à-oreille, sans structurer leur présence en ligne.
 
 Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'interviens à Dinard et sur la Côte d'Émeraude en remote ou en présentiel, pour construire une visibilité durable sur Google et vous préparer aux moteurs de réponse IA.
 
@@ -12,7 +12,7 @@ Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'int
 
 Dinard concentre des secteurs d'activité où la recherche en ligne joue un rôle déterminant dans la décision d'achat.
 
-**Le tourisme et l'hôtellerie.** Un voyageur qui planifie un séjour sur la Côte d'Émeraude commence par Google. "Hôtel Dinard vue mer", "restaurant Dinard bord de mer", "location vacances Dinard" — ces requêtes génèrent un trafic qualifié considérable, surtout en période de préparation estivale. Être positionné sur ces mots-clés, c'est capter des réservations directes sans passer par les OTA (Booking, Airbnb) et leurs commissions.
+**Le tourisme et l'hôtellerie.** Un voyageur qui planifie un séjour sur la Côte d'Émeraude commence par Google. "Hôtel Dinard vue mer", "restaurant Dinard bord de mer", "location vacances Dinard" : ces requêtes génèrent un trafic qualifié considérable, surtout en période de préparation estivale. Être positionné sur ces mots-clés, c'est capter des réservations directes sans passer par les OTA (Booking, Airbnb) et leurs commissions.
 
 **L'immobilier.** Dinard figure parmi les marchés immobiliers les plus actifs de Bretagne. Les acquéreurs de résidences secondaires recherchent des agences locales, des informations sur les prix, des biens spécifiques. Une agence immobilière dinardaise bien positionnée sur Google capte des contacts entrants que ses concurrents laissent échapper.
 
@@ -22,7 +22,7 @@ Dinard concentre des secteurs d'activité où la recherche en ligne joue un rôl
 
 Le paysage de la recherche évolue. En 2026, les AI Overviews de Google s'affichent sur une part croissante des requêtes. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA synthétisent du contenu et retournent des réponses directes.
 
-Le **GEO (Generative Engine Optimization)** est l'optimisation de votre contenu pour être cité comme source dans ces réponses IA. Pour un hôtel dinardais, une agence immobilière ou un prestataire de services, être mentionné dans une réponse IA sur "meilleurs hôtels Côte d'Émeraude" ou "agence immobilière Dinard" représente une visibilité gratuite et durable. C'est encore peu exploité sur le marché breton — une opportunité réelle pour ceux qui anticipent.
+Le **GEO (Generative Engine Optimization)** est l'optimisation de votre contenu pour être cité comme source dans ces réponses IA. Pour un hôtel dinardais, une agence immobilière ou un prestataire de services, être mentionné dans une réponse IA sur "meilleurs hôtels Côte d'Émeraude" ou "agence immobilière Dinard" représente une visibilité gratuite et durable. C'est encore peu exploité sur le marché breton : une opportunité réelle pour ceux qui anticipent.
 
 ## Mes prestations à Dinard
 
@@ -58,8 +58,8 @@ Création et gestion de campagnes Search. Le SEO et le SEA sont complémentaires
 
 ## Questions fréquentes
 
-**Dinard est une petite ville — le SEO est-il vraiment utile ?**
-Oui, précisément parce que Dinard est petite. La concurrence SEO locale y est moins intense qu'à Rennes ou Nantes, ce qui signifie qu'une stratégie bien exécutée peut produire des résultats rapides et durables. Et pour les requêtes touristiques, la concurrence est nationale voire internationale — s'y positionner correctement représente un enjeu commercial réel.
+**Dinard est une petite ville : le SEO est-il vraiment utile ?**
+Oui, précisément parce que Dinard est petite. La concurrence SEO locale y est moins intense qu'à Rennes ou Nantes, ce qui signifie qu'une stratégie bien exécutée peut produire des résultats rapides et durables. Et pour les requêtes touristiques, la concurrence est nationale voire internationale : s'y positionner correctement représente un enjeu commercial réel.
 
 **Quel budget pour une stratégie SEO à Dinard ?**
 Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel démarre à partir de 500 euros par mois. Je fournis un devis détaillé avant toute intervention. Pour des repères complets, consultez l'article sur le [coût d'une prestation SEO](/cout-prestation-seo).

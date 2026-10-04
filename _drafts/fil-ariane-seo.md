@@ -12,7 +12,7 @@ Le **fil d'Ariane** (ou breadcrumb, en anglais) est un élément de navigation a
 
 Sa forme typique : `Accueil > Catégorie > Sous-catégorie > Page actuelle`
 
-Chaque élément est un lien cliquable (sauf généralement la page actuelle) qui permet à l'utilisateur de remonter facilement dans la hiérarchie du site. Le nom vient du conte de Grimm *Hansel et Gretel*, où les enfants sèment des miettes de pain pour retrouver leur chemin — métaphore parfaite pour un outil de navigation.
+Chaque élément est un lien cliquable (sauf généralement la page actuelle) qui permet à l'utilisateur de remonter facilement dans la hiérarchie du site. Le nom vient du conte de Grimm *Hansel et Gretel*, où les enfants sèment des miettes de pain pour retrouver leur chemin, métaphore parfaite pour un outil de navigation.
 
 ## Les bénéfices du fil d'Ariane pour le SEO
 
@@ -46,7 +46,7 @@ Un utilisateur qui arrive sur une page profonde de votre site par un moteur de r
 
 **Le fil d'Ariane basé sur les attributs** est utilisé notamment sur les sites à navigation à facettes (boutiques en ligne) : il reflète les filtres appliqués plutôt que la hiérarchie. Exemple : `Accueil > Produits > Marque X > Couleur Bleu`.
 
-Pour le SEO, seul le **fil d'Ariane hiérarchique** est vraiment pertinent — c'est lui que Google valorise et que les [données structurées schema.org](/blog/donnees-structurees-schema-org) permettent de baliser.
+Pour le SEO, seul le **fil d'Ariane hiérarchique** est vraiment pertinent : c'est lui que Google valorise et que les [données structurées schema.org](/blog/donnees-structurees-schema-org) permettent de baliser.
 
 ## Implémenter le fil d'Ariane avec schema.org
 

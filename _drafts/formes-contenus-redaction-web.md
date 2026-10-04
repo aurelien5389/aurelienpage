@@ -6,7 +6,7 @@ meta-description: "Article de blog, landing page, fiche produit, newsletter, ét
 
 # Les différentes formes de contenus en rédaction web
 
-La rédaction web ne se résume pas à écrire des articles de blog. C'est un ensemble de formats distincts, chacun obéissant à sa propre logique, ses propres contraintes éditoriales et ses propres objectifs. Confondre les formats — ou appliquer les règles de l'un à l'autre — est l'une des erreurs les plus fréquentes que je rencontre dans les stratégies de contenu.
+La rédaction web ne se résume pas à écrire des articles de blog. C'est un ensemble de formats distincts, chacun obéissant à sa propre logique, ses propres contraintes éditoriales et ses propres objectifs. Confondre les formats, ou appliquer les règles de l'un à l'autre, est l'une des erreurs les plus fréquentes que je rencontre dans les stratégies de contenu.
 
 Ce guide passe en revue les principales formes de contenus en rédaction web, avec pour chacune ses caractéristiques, ses usages, et les pièges à éviter. Il s'inscrit dans une [stratégie de contenu SEO](/blog/strategie-contenu-seo) globale : chaque format occupe une place précise dans le parcours de votre lecteur.
 
@@ -16,7 +16,7 @@ L'article de blog est le format central de toute stratégie de contenu web. C'es
 
 Un article de blog peut prendre plusieurs formes selon l'intention de recherche visée :
 
-**Le guide ou tutoriel** répond à une question précise, pas à pas. C'est le format TOFU par excellence — il attire des visiteurs en phase d'apprentissage et génère naturellement des backlinks.
+**Le guide ou tutoriel** répond à une question précise, pas à pas. C'est le format TOFU par excellence : il attire des visiteurs en phase d'apprentissage et génère naturellement des backlinks.
 
 **L'article d'opinion ou d'analyse** apporte un point de vue argumenté sur un sujet de votre secteur. C'est le format le plus EEAT-friendly : il démontre votre expertise, votre expérience et votre prise de position, trois signaux que Google valorise.
 
@@ -58,11 +58,11 @@ La fiche produit bénéficie particulièrement du balisage Schema.org `Product` 
 
 ## 4. La newsletter : fidéliser et réactiver
 
-La newsletter n'est pas un format SEO au sens strict — elle ne génère pas de trafic organique direct. Mais elle joue un rôle stratégique dans l'écosystème de contenu : elle fidélise votre audience, réactive régulièrement des visiteurs vers votre site, et entretient la relation avec vos prospects.
+La newsletter n'est pas un format SEO au sens strict : elle ne génère pas de trafic organique direct. Mais elle joue un rôle stratégique dans l'écosystème de contenu : elle fidélise votre audience, réactive régulièrement des visiteurs vers votre site, et entretient la relation avec vos prospects.
 
 Les formats de newsletters les plus efficaces pour un consultant ou un prestataire :
 
-**La newsletter éditoriale** partage votre analyse de l'actualité de votre secteur. Elle positionne votre expertise et génère de l'engagement — des réponses, des partages, des mentions.
+**La newsletter éditoriale** partage votre analyse de l'actualité de votre secteur. Elle positionne votre expertise et génère de l'engagement : des réponses, des partages, des mentions.
 
 **La newsletter de curation** sélectionne les ressources utiles de la semaine ou du mois sur votre thématique. Moins chronophage, elle apporte une valeur réelle à votre liste si votre sélection est rigoureuse.
 
@@ -72,7 +72,7 @@ En termes de rédaction, la newsletter obéit à des règles différentes des ar
 
 ## 5. Le livre blanc ou guide complet : l'asset de référence
 
-Le livre blanc (ou white paper) est un contenu long, approfondi, qui couvre exhaustivement un sujet complexe. C'est le format premium de la rédaction web — celui qui prend le plus de temps à produire, mais qui génère les retombées les plus durables.
+Le livre blanc (ou white paper) est un contenu long, approfondi, qui couvre exhaustivement un sujet complexe. C'est le format premium de la rédaction web : celui qui prend le plus de temps à produire, mais qui génère les retombées les plus durables.
 
 Son double intérêt stratégique :
 
@@ -94,7 +94,7 @@ Sa structure classique suit un arc narratif simple :
 4. **Les résultats** : chiffrés, datés, comparés à la situation initiale
 5. **Les enseignements** : ce que cette mission révèle de votre approche
 
-Sur le plan SEO, l'étude de cas cible des requêtes à forte intention commerciale ("résultats consultant SEO", "augmenter trafic organique"). Elle est unique par nature — personne d'autre n'a exactement ce cas — ce qui la rend difficile à concurrencer.
+Sur le plan SEO, l'étude de cas cible des requêtes à forte intention commerciale ("résultats consultant SEO", "augmenter trafic organique"). Elle est unique par nature (personne d'autre n'a exactement ce cas), ce qui la rend difficile à concurrencer.
 
 ## 7. La FAQ : optimiser pour les requêtes longue traîne
 

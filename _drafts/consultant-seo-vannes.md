@@ -6,7 +6,7 @@ meta-description: "Consultant SEO freelance à Vannes. Audit SEO, stratégie de 
 
 # Consultant SEO à Vannes | Expert référencement naturel & GEO, Morbihan
 
-Vannes est l'une des villes bretonnes les plus dynamiques. Préfecture du Morbihan, elle concentre un tissu économique varié : PME et ETI régionales, secteur santé et bien-être en expansion, tourisme autour du golfe, commerce de proximité, startups en développement. Mais beaucoup de ces entreprises vannetaises investissent dans leur produit ou leur service sans structurer leur visibilité en ligne — et laissent ainsi du trafic qualifié à leurs concurrents.
+Vannes est l'une des villes bretonnes les plus dynamiques. Préfecture du Morbihan, elle concentre un tissu économique varié : PME et ETI régionales, secteur santé et bien-être en expansion, tourisme autour du golfe, commerce de proximité, startups en développement. Mais beaucoup de ces entreprises vannetaises investissent dans leur produit ou leur service sans structurer leur visibilité en ligne, et laissent ainsi du trafic qualifié à leurs concurrents.
 
 Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'interviens à Vannes et dans tout le Morbihan en remote ou en présentiel, pour construire une visibilité durable sur Google et vous préparer aux nouveaux moteurs de réponse IA.
 

@@ -4,7 +4,7 @@ title: "Qu'est-ce que le SEO ? Définition, piliers et fonctionnement"
 meta-description: "Qu'est-ce que le SEO ? Définition complète du référencement naturel, ses 3 piliers (technique, contenu, popularité), comment Google classe les résultats et par où commencer."
 ---
 
-Le SEO est partout dans le vocabulaire du marketing digital, mais sa définition reste floue pour beaucoup. Stratégie mystérieuse pour certains, simple histoire de mots-clés pour d'autres — la réalité est plus riche et plus logique qu'il n'y paraît.
+Le SEO est partout dans le vocabulaire du marketing digital, mais sa définition reste floue pour beaucoup. Stratégie mystérieuse pour certains, simple histoire de mots-clés pour d'autres. La réalité est plus riche et plus logique qu'il n'y paraît.
 
 Voici une explication claire et complète de ce qu'est le SEO, comment il fonctionne, et pourquoi il est devenu incontournable pour toute présence en ligne sérieuse.
 
@@ -12,7 +12,7 @@ Voici une explication claire et complète de ce qu'est le SEO, comment il foncti
 
 **SEO** est l'acronyme de *Search Engine Optimization*, que l'on traduit en français par **référencement naturel** ou **optimisation pour les moteurs de recherche**.
 
-C'est l'ensemble des techniques visant à améliorer la visibilité d'un site web dans les résultats **organiques** (non payants) des moteurs de recherche — principalement Google, qui représente plus de 90 % des recherches en France.
+C'est l'ensemble des techniques visant à améliorer la visibilité d'un site web dans les résultats **organiques** (non payants) des moteurs de recherche, principalement Google, qui représente plus de 90 % des recherches en France.
 
 L'objectif : apparaître en bonne position sur les requêtes que tapent vos clients potentiels, sans payer pour chaque clic.
 
@@ -22,7 +22,7 @@ Pour comprendre le SEO, il faut d'abord comprendre comment Google fonctionne. En
 
 **1. Le crawl.** Des robots automatisés (Googlebot) parcourent en permanence le web en suivant les liens d'une page à l'autre. Ils découvrent ainsi les pages existantes et les analysent.
 
-**2. L'indexation.** Les pages jugées pertinentes et accessibles sont ajoutées à l'index de Google — une gigantesque base de données de plusieurs centaines de milliards de pages.
+**2. L'indexation.** Les pages jugées pertinentes et accessibles sont ajoutées à l'index de Google, une gigantesque base de données de plusieurs centaines de milliards de pages.
 
 **3. Le classement.** Quand un internaute effectue une recherche, Google analyse son index et classe les pages selon leur pertinence par rapport à la requête, leur autorité et la qualité de l'expérience qu'elles offrent. Des centaines de critères entrent en jeu.
 
@@ -93,17 +93,17 @@ En résumé : si vos clients cherchent sur Google (et ils le font), ne pas inves
 
 Si vous débutez, voici la séquence logique :
 
-1. **Comprendre le fonctionnement de Google** — avant d'optimiser, il faut comprendre ce qu'on optimise pour. L'article sur le [fonctionnement des moteurs de recherche](/blog/fonctionnement-moteurs-recherche) pose ces bases.
+1. **Comprendre le fonctionnement de Google** : avant d'optimiser, il faut comprendre ce qu'on optimise pour. L'article sur le [fonctionnement des moteurs de recherche](/blog/fonctionnement-moteurs-recherche) pose ces bases.
 
-2. **Faire un état des lieux** — un [audit SEO](/blog/audit-seo) identifie les problèmes actuels et les opportunités prioritaires. C'est le point de départ de toute stratégie.
+2. **Faire un état des lieux** : un [audit SEO](/blog/audit-seo) identifie les problèmes actuels et les opportunités prioritaires. C'est le point de départ de toute stratégie.
 
-3. **Choisir les bons mots-clés** — [la recherche de mots-clés](/blog/choisir-mots-cles-seo) détermine sur quelles requêtes vous allez vous positionner et quel contenu produire.
+3. **Choisir les bons mots-clés** : [la recherche de mots-clés](/blog/choisir-mots-cles-seo) détermine sur quelles requêtes vous allez vous positionner et quel contenu produire.
 
-4. **Produire du contenu de qualité** — régulièrement, en répondant précisément aux intentions de recherche de vos cibles.
+4. **Produire du contenu de qualité** : régulièrement, en répondant précisément aux intentions de recherche de vos cibles.
 
-5. **Corriger les problèmes techniques** — vitesse, indexabilité, structure des URLs.
+5. **Corriger les problèmes techniques** : vitesse, indexabilité, structure des URLs.
 
-6. **Construire votre autorité** — progressivement, par le netlinking et la réputation éditoriale.
+6. **Construire votre autorité** : progressivement, par le netlinking et la réputation éditoriale.
 
 Pour une vue d'ensemble des principes à intégrer dès le départ, l'article sur les [fondamentaux pour apprendre le SEO](/blog/apprendre-le-seo-principes-debutants) est un bon point de départ. Et si vous voulez maîtriser le vocabulaire, le [lexique SEO](/blog/lexique-seo) couvre les 50 termes essentiels.
 

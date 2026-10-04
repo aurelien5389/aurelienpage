@@ -27,7 +27,7 @@ Un consultant SEO au Mans comprend qu'une PME d'équipementiers n'a pas le même
 
 **GEO = Generative Engine Optimization.**
 
-Depuis 2024, les moteurs IA (AI Overviews Google, Perplexity, ChatGPT Search) capturent une part croissante des recherches. Contrairement à Google classique, ces moteurs ne classent pas—ils synthétisent. Ils créent des réponses nouvelles en citant votre contenu, ou en vous ignorant complètement.
+Depuis 2024, les moteurs IA (AI Overviews Google, Perplexity, ChatGPT Search) capturent une part croissante des recherches. Contrairement à Google classique, ces moteurs ne classent pas. Ils synthétisent. Ils créent des réponses nouvelles en citant votre contenu, ou en vous ignorant complètement.
 
 Pour une entreprise manuienne, en B2B ou B2C :
 - **B2B industriel** : quand un acheteur cherche « fournisseur mécanique precision France » sur ChatGPT ou Perplexity, il veut une synthèse. Si vous n'êtes pas cité, vous n'existez pas.
@@ -75,7 +75,7 @@ Je crois au pragmatisme. Les PME du Mans n'ont pas les budgets des grandes boite
 ## FAQ
 
 **Q: C'est cher pour une PME du Mans ?**
-A: Non. Un audit : 700-1200€. Un projet mensuel SEO/GEO : 1500-3500€. Une stratégie annuelle : 15 000-35 000€. Adapté aux PME/ETI. Je peux moduler par phases si besoin.
+A: Non. Un audit SEO et GEO : 800 à 2 500 € selon la taille du site. Un accompagnement mensuel : 500 à 2 000 € par mois, au-delà sur devis. Adapté aux PME/ETI. Je peux moduler par phases si besoin.
 
 **Q: Vous comprenez vraiment l'industrie manufacturière ?**
 A: Oui. J'ai travaillé avec des fournisseurs industriels, équipementiers, sociétés logistiques. Je comprends que vous avez un carnet de commandes, que les prospects cherchent vos types de solutions, et que le SEO/GEO doit générer des appels d'offres qualifiés.

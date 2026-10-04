@@ -6,6 +6,8 @@ import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import AuthorBio from '@/components/AuthorBio'
 import type { InternalLink } from '@/lib/internal-links'
+import { SITE_URL, PERSON_ID, breadcrumbSchema, type Crumb } from '@/lib/schema'
+import { formatMonthYear, type ContentDates } from '@/lib/content-dates'
 import styles from './BlogPostLayout.module.css'
 
 interface Props {
@@ -13,23 +15,19 @@ interface Props {
   body: string
   slug: string
   relatedLinks: InternalLink[]
+  dates: ContentDates
+  /** Chemin de la page. Par défaut /blog/[slug] */
+  path?: string
+  /** Rubrique parente du fil d'Ariane. Par défaut le blog */
+  parent?: Crumb | null
 }
 
-export default function BlogPostLayout({ h1, body, slug, relatedLinks }: Props) {
-  const author = {
-    '@type': 'Person',
-    name: 'Aurélien PAGE',
-    url: 'https://aurelienpage.fr',
-    image: 'https://aurelienpage.fr/photo.jpg',
-    jobTitle: 'Consultant SEO & GEO, Traffic Manager SEA, Formateur No-Code & IA',
-    sameAs: ['https://www.linkedin.com/in/aurelienpage'],
-    knowsAbout: ['SEO', 'GEO', 'SEA', 'Google Ads', 'Marketing digital', 'IA générative', 'No-code', 'Make', 'Airtable'],
-    alumniOf: [
-      { '@type': 'EducationalOrganization', name: 'IEP Rennes' },
-      { '@type': 'EducationalOrganization', name: '301 Ades Bootcamp' },
-    ],
-    description: "Consultant SEO, SEA & GEO freelance, 8 ans d'expérience. Issu du journalisme web, ex-consultant groupe média B2B (Usine Digitale, Usine Nouvelle). Expert SEO, Master Droit du numérique.",
-  }
+const BLOG_PARENT: Crumb = { name: 'Blog SEO', path: '/blog' }
+
+export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, path, parent = BLOG_PARENT }: Props) {
+  const pagePath = path ?? `/blog/${slug}`
+  const url = `${SITE_URL}${pagePath}`
+  const author = { '@type': 'Person', '@id': PERSON_ID, name: 'Aurélien Page', url: SITE_URL }
 
   const schema = {
     '@context': 'https://schema.org',
@@ -37,16 +35,20 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks }: Props) 
     headline: h1,
     author,
     publisher: author,
-    url: `https://aurelienpage.fr/blog/${slug}`,
-    mainEntityOfPage: `https://aurelienpage.fr/blog/${slug}`,
-    image: 'https://aurelienpage.fr/og-default.png',
+    datePublished: dates.published,
+    dateModified: dates.modified,
+    url,
+    mainEntityOfPage: url,
+    image: `${SITE_URL}/og-default.png`,
     inLanguage: 'fr-FR',
   }
+  const crumbs = breadcrumbSchema([...(parent ? [parent] : []), { name: h1, path: pagePath }])
 
   return (
     <>
       <Header />
       <JsonLd schema={schema} />
+      <JsonLd schema={crumbs} />
       <main className={styles.blogMain}>
         {/* Breadcrumb */}
         <div className={styles.blogFil}>
@@ -54,8 +56,12 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks }: Props) 
             <nav aria-label="Fil d'Ariane" className={styles.blogFilNav}>
               <Link href="/" className={styles.blogFilLien}>Accueil</Link>
               <span aria-hidden="true">›</span>
-              <Link href="/blog" className={styles.blogFilLien}>Blog SEO</Link>
-              <span aria-hidden="true">›</span>
+              {parent && (
+                <>
+                  <Link href={parent.path} className={styles.blogFilLien}>{parent.name}</Link>
+                  <span aria-hidden="true">›</span>
+                </>
+              )}
               <span className={styles.blogFilActuel}>{h1}</span>
             </nav>
           </div>
@@ -69,12 +75,14 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks }: Props) 
               <div className={styles.blogMeta}>
                 <span className={styles.blogAuteur}>
                   <span aria-hidden="true">✍</span>
-                  <Link href="/" className={styles.blogAuteurLien}>
+                  <Link href="/a-propos" className={styles.blogAuteurLien}>
                     Aurélien PAGE
                   </Link>
                 </span>
                 <span aria-hidden="true">·</span>
                 <span>Consultant SEO/GEO</span>
+                <span aria-hidden="true">·</span>
+                <time dateTime={dates.modified}>Mis à jour en {formatMonthYear(dates.modified)}</time>
               </div>
             </header>
 

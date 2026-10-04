@@ -1,109 +1,61 @@
+import fs from 'fs'
+import path from 'path'
 import { MetadataRoute } from 'next'
+import { getBlogDrafts } from '@/lib/draft-parser'
+import { getContentDates } from '@/lib/content-dates'
+import { SITE_URL } from '@/lib/schema'
+import { REPONSES, reponseDates } from '@/lib/reponses'
 
-const siteUrl = 'https://aurelienpage.fr'
+// Pages exclues du sitemap (noindex ou techniques)
+const EXCLUDED = new Set(['/mentions-legales'])
 
-const BLOG_SLUGS = [
-  'fonctionnement-moteurs-recherche',
-  'apprendre-le-seo-principes-debutants',
-  'serp-typologies-intentions-recherche',
-  'seo-technique-core-web-vitals',
-  'crawler-seo',
-  'indexabilite-seo',
-  'robots-txt-meta-robots',
-  'balise-canonique',
-  'codes-http-seo',
-  'donnees-structurees-schema-org',
-  'fil-ariane-seo',
-  'page-orpheline-seo',
-  'analyse-logs-seo',
-  'google-search-console',
-  'strategie-contenu-seo',
-  'choisir-mots-cles-seo',
-  'seo-on-page-optimisation',
-  'cocon-semantique-maillage-interne',
-  'rediger-bon-article-blog',
-  'calendrier-editorial',
-  'netlinking-backlinks-pagerank',
-  'netlinking-avance',
-  'geo-ia-search-ai-overviews',
-  'ia-search-moteurs-reponses',
-  'google-eeat',
-  'seo-local-google-my-business',
-  'audit-seo',
-  'devenir-consultant-seo-freelance',
-  // Articles ajoutés lors de la correction des 404
-  'geo-vs-seo',
-  'mesurer-visibilite-geo',
-  'structurer-contenu-geo',
-  'perplexity-citation-geo',
-  'seo-startups',
-  'tendances-seo-2026',
-  'fautes-orthographe-redaction-web',
-  'optimiser-profil-malt',
-  'copywriter-eviter-syndrome-page-blanche',
-  'erreurs-seo-frequentes',
-  'formes-contenus-redaction-web',
-  'rediger-titre-seo',
-  'optimiser-liens-internes',
-  'techniques-redaction-web',
-  'canva-creation-contenus',
-  'pagination-seo',
-  'erreurs-seo-critiques',
-  'lexique-seo',
-  'quest-ce-que-le-seo',
-  '10-secrets-seo',
-  // Nouveaux articles
-  'chatgpt-search-geo',
-  'reporting-seo-kpis',
-  'automatisation-ia-no-code-entreprise',
-]
+// Composants de mise en page partagés : leur modification ne change pas le contenu d'une page
+const SHARED_COMPONENTS = new Set([
+  'Header', 'Footer', 'DiagnosticCTA', 'JsonLd', 'AvailabilityBadge', 'AuthorBio',
+  'BlogPostLayout', 'LocalSeoPageLayout', 'PrestationDetail', 'MarkdownRenderer', 'FicheLayout', 'ReponseLayout',
+])
 
-const LOCAL_SLUGS = [
-  'rennes', 'nantes', 'bordeaux', 'brest', 'caen',
-  'laval', 'le-mans', 'lorient', 'marseille', 'montpellier',
-  'nice', 'quimper', 'saint-malo', 'saint-nazaire',
-  'strasbourg', 'vannes', 'angers', 'lille', 'dinard', 'paris',
-  'lyon', 'toulouse',
-]
+// Fichiers sources d'une route : page.tsx, draft .md du même nom, composants de contenu importés
+function sourceFiles(route: string, pageFile: string): string[] {
+  const files = [pageFile]
+  const draft = `_drafts/${route.split('/').pop() || 'index'}.md`
+  if (fs.existsSync(path.join(process.cwd(), draft))) files.push(draft)
+  const src = fs.readFileSync(path.join(process.cwd(), pageFile), 'utf-8')
+  Array.from(src.matchAll(/from '@\/components\/(\w+)'/g)).forEach((m) => {
+    if (!SHARED_COMPONENTS.has(m[1])) files.push(`components/${m[1]}.tsx`)
+  })
+  return files
+}
+
+// Toutes les routes statiques : chaque dossier de app/ qui contient un page.tsx
+function staticRoutes(dir = 'app', route = ''): { route: string; pageFile: string }[] {
+  const abs = path.join(process.cwd(), dir)
+  const out: { route: string; pageFile: string }[] = []
+  if (fs.existsSync(path.join(abs, 'page.tsx'))) out.push({ route: route || '/', pageFile: `${dir}/page.tsx` })
+  for (const entry of fs.readdirSync(abs, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name.startsWith('[') || entry.name.startsWith('_') || entry.name === 'api') continue
+    out.push(...staticRoutes(`${dir}/${entry.name}`, `${route}/${entry.name}`))
+  }
+  return out
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date()
+  const pages = staticRoutes()
+    .filter((p) => !EXCLUDED.has(p.route))
+    .map(({ route, pageFile }) => ({
+      url: route === '/' ? SITE_URL : `${SITE_URL}${route}`,
+      lastModified: getContentDates(sourceFiles(route, pageFile)).modified,
+    }))
 
-  const staticPages: MetadataRoute.Sitemap = [
-    { url: siteUrl, lastModified: now, changeFrequency: 'monthly', priority: 1 },
-    { url: `${siteUrl}/prestations`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${siteUrl}/prestations/consultant-seo-geo`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${siteUrl}/prestations/traffic-manager-sea`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/prestations/consultant-ia`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/prestations/chef-de-projet-digital`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/prestations/formateur-no-code-ia`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${siteUrl}/pourquoi-consultant-seo`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/cout-prestation-seo`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/redaction-web`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/accompagnement-seo`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/consultant-geo-rennes`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/redacteur-web-rennes`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${siteUrl}/redacteur-web-juridique`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${siteUrl}/consultant-seo-freelance`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/formation-seo`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${siteUrl}/contact`, lastModified: now, changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${siteUrl}/mentions-legales`, lastModified: now, changeFrequency: 'yearly', priority: 0.2 },
-  ]
-
-  const blogPages: MetadataRoute.Sitemap = BLOG_SLUGS.map((slug) => ({
-    url: `${siteUrl}/blog/${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
+  const blogPages = getBlogDrafts().map((d) => ({
+    url: `${SITE_URL}${d.slug}`,
+    lastModified: getContentDates([`_drafts${d.slug.replace('/blog', '')}.md`]).modified,
   }))
 
-  const localPages: MetadataRoute.Sitemap = LOCAL_SLUGS.map((slug) => ({
-    url: `${siteUrl}/consultant-seo-${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
+  const reponsePages = REPONSES.map((r) => ({
+    url: `${SITE_URL}/reponses/${r.slug}`,
+    lastModified: reponseDates(r).modified,
   }))
 
-  return [...staticPages, ...blogPages, ...localPages]
+  return [...pages, ...blogPages, ...reponsePages]
 }

@@ -12,7 +12,7 @@ Cible : responsables marketing, entrepreneurs, créateurs de contenu qui veulent
 
 # Comment choisir les bons mots-clés en SEO : méthode en 4 étapes
 
-91 % des pages web n'obtiennent aucun trafic organique de Google. Aucun. La raison la plus fréquente n'est pas une question de technique ou de backlinks, c'est une mauvaise stratégie de mots-clés.
+Beaucoup de pages bien écrites ne reçoivent presque aucune visite depuis Google. Ce que j'observe sur les sites que je suis : la cause la plus fréquente n'est pas la technique ni les liens, c'est une mauvaise stratégie de mots-clés.
 
 Cibler les mauvais termes, c'est produire du contenu pour personne. Cibler des mots-clés trop compétitifs, c'est espérer se positionner face à des sites avec dix ans d'ancienneté et des milliers de liens. Dans les deux cas, le résultat est le même : du travail invisible.
 

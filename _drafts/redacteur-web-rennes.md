@@ -69,7 +69,7 @@ Connaître le marché local, ses acteurs, ses spécificités sectorielles, c'est
 ## Questions fréquentes
 
 **Quel est le tarif d'un rédacteur web SEO à Rennes ?**
-Le tarif varie selon le type de contenu, sa longueur et la complexité du sujet. Pour un article de blog optimisé de 1 000 à 1 500 mots, comptez généralement entre 150 et 300 euros. Une landing page de service avec brief et optimisation complète est facturée à partir de 250 euros. Je fournis toujours un devis détaillé avant de commencer.
+Le tarif varie selon le type de contenu, sa longueur et la complexité du sujet. Pour un article de blog optimisé de 1 000 à 1 500 mots, comptez généralement entre 150 et 350 euros. Une landing page de service avec brief et optimisation complète est facturée à partir de 250 euros. Je fournis toujours un devis détaillé avant de commencer.
 
 **Rédigez-vous pour tous les secteurs ?**
 Je travaille principalement avec des entreprises tech, des agences de services, des e-commerces et des prestataires B2B. Je peux intervenir sur tous les secteurs dès lors que le sujet est documentable. Pour les secteurs très techniques ou très réglementés (médical, juridique, finance), je travaille à partir des informations que vous me fournissez — voir mon approche dédiée pour le secteur juridique : [rédacteur web juridique](/redacteur-web-juridique).

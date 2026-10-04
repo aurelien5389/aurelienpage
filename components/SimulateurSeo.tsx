@@ -146,7 +146,7 @@ export default function SimulateurSeo() {
         body: JSON.stringify({
           name: nom,
           email,
-          subject: `Simulation budget SEO — ${presta.label}`,
+          subject: `Simulation budget SEO : ${presta.label}`,
           message: recap,
         }),
       })
@@ -244,7 +244,7 @@ export default function SimulateurSeo() {
               {!concurrencePertinente && (
                 <span className={styles.legendeNote}>
                   {' '}
-                  — sans effet sur cette prestation
+                  (sans effet sur cette prestation)
                 </span>
               )}
             </legend>
@@ -274,7 +274,7 @@ export default function SimulateurSeo() {
         </div>
 
         <div className={styles.resultat} role="status" aria-live="polite">
-          <p className={styles.resultatLabel}>Budget estimé — {presta.label}</p>
+          <p className={styles.resultatLabel}>Budget estimé pour {presta.label}</p>
           <p className={styles.resultatPrix}>
             {euro(fourchette.min)} <span className={styles.resultatSep}>à</span>{' '}
             {euro(fourchette.max)}

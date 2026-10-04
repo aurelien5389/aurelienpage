@@ -83,6 +83,24 @@
   color: var(--color-cyan);
 }
 
+.nomMetier {
+  display: block;
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--color-off-white);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 .presentationDispo {
   margin-bottom: 24px;
 }
@@ -225,6 +243,9 @@
   }
   .presentationNom {
     font-size: 72px;
+  }
+  .nomMetier {
+    font-size: 24px;
   }
   .roleDefilant {
     height: 56px;

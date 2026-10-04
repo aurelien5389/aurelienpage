@@ -6,15 +6,15 @@ meta-description: "Rédaction web SEO freelance. Articles de blog, pages de serv
 
 # Rédaction web SEO : contenus optimisés pour Google et les moteurs IA
 
-Un bon contenu web n'est pas seulement bien écrit — il est structuré pour être trouvé. Il répond à une intention de recherche précise, cible les bons mots-clés, s'intègre dans une architecture sémantique cohérente, et convainc le lecteur d'agir. C'est la différence entre un contenu qui dort sur votre site et un contenu qui génère du trafic qualifié.
+Un bon contenu web n'est pas seulement bien écrit. Il est structuré pour être trouvé. Il répond à une intention de recherche précise, cible les bons mots-clés, s'intègre dans une architecture sémantique cohérente, et convainc le lecteur d'agir. C'est la différence entre un contenu qui dort sur votre site et un contenu qui génère du trafic qualifié.
 
-Je suis Aurélien PAGE, consultant SEO et rédacteur web freelance. J'écris des contenus qui servent à la fois vos lecteurs et votre référencement — articles de blog, pages de service, pages produit, contenus piliers, FAQ. Chaque texte est pensé pour Google, mais aussi pour les moteurs de réponse IA qui synthétisent de plus en plus les résultats de recherche.
+Je suis Aurélien PAGE, consultant SEO et rédacteur web freelance. J'écris des contenus qui servent à la fois vos lecteurs et votre référencement : articles de blog, pages de service, pages produit, contenus piliers, FAQ. Chaque texte est pensé pour Google, mais aussi pour les moteurs de réponse IA qui synthétisent de plus en plus les résultats de recherche.
 
 ## Pourquoi la rédaction web SEO est différente de la rédaction classique
 
 La rédaction web SEO ne consiste pas à "placer des mots-clés" dans un texte. C'est une discipline qui combine compréhension des intentions de recherche, maîtrise de la sémantique, connaissance des signaux de qualité Google, et sens de la narration.
 
-**L'intention de recherche avant tout.** Un internaute qui tape "comment choisir un consultant SEO" ne cherche pas la même chose que celui qui tape "tarif consultant SEO". Le premier est en phase d'information, le second en phase de décision. Un contenu bien construit répond précisément à l'intention — pas à côté.
+**L'intention de recherche avant tout.** Un internaute qui tape "comment choisir un consultant SEO" ne cherche pas la même chose que celui qui tape "tarif consultant SEO". Le premier est en phase d'information, le second en phase de décision. Un contenu bien construit répond précisément à l'intention, pas à côté.
 
 **La structure prime sur le volume.** Un article de 2 000 mots mal structuré performe souvent moins bien qu'un article de 1 000 mots bien organisé avec des titres clairs, des paragraphes courts et une progression logique. La lisibilité est un signal de qualité indirect : si les lecteurs restent, Google le remarque.
 
@@ -25,7 +25,7 @@ La rédaction web SEO ne consiste pas à "placer des mots-clés" dans un texte. 
 ## Mes prestations de rédaction web
 
 **Articles de blog SEO**
-Recherche de mots-clés, angle éditorial, plan détaillé, rédaction complète. Chaque article cible une requête précise, s'inscrit dans votre cocon sémantique et respecte les guidelines de qualité Google (EEAT). Longueur adaptée à la concurrence sur la requête ciblée — ni trop court, ni rembourré inutilement.
+Recherche de mots-clés, angle éditorial, plan détaillé, rédaction complète. Chaque article cible une requête précise, s'inscrit dans votre cocon sémantique et respecte les guidelines de qualité Google (EEAT). Longueur adaptée à la concurrence sur la requête ciblée, ni trop court, ni rembourré inutilement.
 
 **Pages de service et pages piliers**
 Les pages de service sont vos pages de conversion : elles doivent convaincre autant qu'elles doivent être trouvées. Je rédige des pages de service qui combinent argumentaire commercial clair, optimisation sémantique, et signaux de confiance (preuves, FAQ, témoignages).
@@ -34,7 +34,7 @@ Les pages de service sont vos pages de conversion : elles doivent convaincre aut
 Si vous avez des rédacteurs en interne ou si vous faites appel à une équipe, je peux construire des briefs détaillés : mots-clés cibles, intention de recherche, plan recommandé, consignes de style, liens internes à intégrer. Un brief bien construit divise par deux le temps de relecture et améliore significativement la qualité finale.
 
 **Audit et optimisation de contenus existants**
-Vous avez des articles qui ne performent pas malgré leur qualité ? Je les audite — analyse des positions actuelles, de l'intention couverte, de la structure, du maillage — et je les optimise pour améliorer leur classement sans les réécrire entièrement.
+Vous avez des articles qui ne performent pas malgré leur qualité ? Je les audite (analyse des positions actuelles, de l'intention couverte, de la structure, du maillage) et je les optimise pour améliorer leur classement sans les réécrire entièrement.
 
 **Contenus GEO-optimisés**
 Rédaction spécifiquement pensée pour être cité dans les réponses des moteurs IA. Structure en passages autonomes, FAQ formulées pour correspondre aux requêtes conversationnelles, balisage sémantique adapté.
@@ -55,7 +55,7 @@ La relecture est incluse dans chaque prestation. Les aller-retours de correction
 
 **Les agences qui sous-traitent la rédaction.** Je travaille en marque blanche pour des agences qui ont besoin d'un rédacteur SEO fiable sur des sujets tech, digital ou B2B.
 
-**Les e-commerçants qui veulent structurer leurs pages catégories et fiches produit.** Le SEO e-commerce a ses propres règles éditoriales — j'y suis formé.
+**Les e-commerçants qui veulent structurer leurs pages catégories et fiches produit.** Le SEO e-commerce a ses propres règles éditoriales : j'y suis formé.
 
 ## Questions fréquentes
 

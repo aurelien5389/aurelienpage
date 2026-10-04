@@ -30,7 +30,7 @@ Bordeaux regorge d'entreprises compétentes qui sont invisibles sur Google. Le S
 ## Prestations SEO, Ce que je vous propose
 
 ### Audit SEO complet & analyse concurrentielle
-Diagnostic exhaustif de votre site, analyse technique détaillée, audit du contenu, profil de backlinks, analyse SWOT face à vos concurrents directs bordelais. Rapport avec priorités d'action chiffré et calendrier réaliste. [Accéder à nos audits SEO](/audit-seo)
+Diagnostic exhaustif de votre site, analyse technique détaillée, audit du contenu, profil de backlinks, analyse SWOT face à vos concurrents directs bordelais. Rapport avec priorités d'action chiffré et calendrier réaliste. [Accéder à nos audits SEO](/blog/audit-seo)
 
 ### Optimisation technique & Core Web Vitals
 Accélération et optimisation complète de votre site. Correction de l'INP (Interaction to Next Paint), amélioration du TTFB (Time to First Byte), optimisation des images, compression des ressources, structure des données (schema.org). Votre site sera rapide. Google le rendra visible.
@@ -42,7 +42,7 @@ Création d'une architecture thématique cohérente. Articles de blog, pages de 
 Construction d'un profil de liens thématisé, partnerships avec médias bordelais, relations avec influenceurs sectoriels, guest posts pertinents. Du vrai netlinking, pas du spam de PBN.
 
 ### GEO & IA Search, Mon différenciant 2025
-Positionnement spécifique dans les AI Overviews, stratégie pour Perplexity et autres moteurs génératifs, visibilité augmentée. C'est là que 30-40% de vos clients potentiels cherchent en 2025. [Découvrir GEO & IA Search](/geo-ia-search-ai-overviews)
+Positionnement spécifique dans les AI Overviews, stratégie pour Perplexity et autres moteurs génératifs, visibilité augmentée. C'est là que 30-40% de vos clients potentiels cherchent en 2025. [Découvrir GEO & IA Search](/blog/geo-ia-search-ai-overviews)
 
 ## Consultant freelance vs. agence SEO : pourquoi la différence compte
 
@@ -79,7 +79,7 @@ Depuis 2025, les AI Overviews et Perplexity transforment la recherche. Pour une 
 - Devancent les agences nationales qui ne comprennent pas encore la GEO
 - Captent des leads qualifiés issus de la recherche augmentée
 
-La plupart de vos concurrents ignorent la GEO. C'est votre avantage compétitif. [En savoir plus sur la GEO et IA Search](/geo-ia-search-ai-overviews)
+La plupart de vos concurrents ignorent la GEO. C'est votre avantage compétitif. [En savoir plus sur la GEO et IA Search](/blog/geo-ia-search-ai-overviews)
 
 ## Ma méthode de travail
 
@@ -113,7 +113,7 @@ Les deux. Un site avec du contenu excellent mais aucun backlink restera invisibl
 6-12 mois pour un positionnement stable sur les mots clés stratégiques. Les 2-3 premiers mois, vous verrez des gains techniques (vitesse, mobile). Puis le trafic monte progressivement. Le SEO n'est pas Google Ads, il faut du temps. Mais le ROI est 10x plus bon à long terme.
 
 **Q4. Quel est votre coût mensuel ?**
-Entre 900€ et 2500€/mois selon le scope et la compétitivité du marché. Un audit initial est facturé 600-1200€ (payant une seule fois). Pas de contrat de 24 mois, on peut arrêter quand vous voulez. Transparence totale : vous voyez exactement où va chaque euro.
+Un accompagnement mensuel coûte de 500 à 2 000 € par mois selon le périmètre et la concurrence, au-delà sur devis. Un audit SEO et GEO initial coûte de 800 à 2 500 € selon la taille du site (payé une seule fois). Pas de contrat de 24 mois, on peut arrêter quand vous voulez. Transparence totale : vous voyez exactement où va chaque euro.
 
 **Q5. Quels résultats puis-je attendre ?**
 Cela dépend de votre baseline et de vos mots-clés. En moyenne : +150% de trafic organique dans les 12 mois, +200% de leads qualifiés, +3 positions en moyenne sur les mots-clés stratégiques. Mais on mesure les leads, pas juste les clics, c'est ça qui compte réellement.

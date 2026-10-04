@@ -30,7 +30,7 @@ Les entreprises qui attendent avant d'agir sur le SEO laissent des opportunités
 
 ### Audit SEO complet et stratégique
 Diagnostic exhaustif : structure technique, performance, contenus, backlinks, visibilité dans les moteurs IA. Rapport avec plan d'action chiffré et priorisé.
-👉 [Démarrer un audit SEO](/audit-seo)
+👉 [Démarrer un audit SEO](/blog/audit-seo)
 
 ### Stratégie de contenu et optimisation on-page
 Création d'une stratégie de contenu adaptée à votre secteur et votre marché. Articles de blog, landing pages, guides : tout optimisé pour Google ET les moteurs IA. Pas de contenu mince : de la vraie expertise.
@@ -51,7 +51,7 @@ Vous voulez devenir progressivement autonome ? Je peux aussi vous former : ateli
 
 | Aspect | Agence | Consultant freelance |
 |--------|--------|---------------------|
-| **Coût mensuel** | 2 500–6 000 € | 600–1 500 € |
+| **Coût mensuel** | Sur devis | 500 à 2 000 € |
 | **Durée d'engagement** | 12–36 mois obligatoire | Mois par mois ou projet |
 | **Relation** | Vous + manager + juniors | Vous + expert directement |
 | **Réactivité** | 3–5 jours | 24–48h en général |
@@ -114,7 +114,7 @@ Les entreprises angevines qui attendent ne seront pas citées. Celles qui agisse
 Une agence vous vend du design, de la pub, des réseaux sociaux. Un consultant SEO solo = expertise pure, pas de distractions, pas d'intérêts conflictuels. Vous payez pour du SEO, pas pour du marketing généraliste.
 
 ### 2. Quel coût pour une prestation SEO à Angers ?
-Un audit complet : 1 500–3 000 €. Accompagnement mensuel : 600–1 500 € selon la taille du projet et vos objectifs. Moins qu'une agence, plus clair qu'une freelance anonyme.
+Un audit SEO et GEO : 800 à 2 500 € selon la taille du site. Accompagnement mensuel : 500 à 2 000 € par mois selon le périmètre, au-delà sur devis. Moins qu'une agence, plus clair qu'une freelance anonyme.
 
 ### 3. En combien de temps je verrai des résultats ?
 3–6 mois pour figurer en top 10 sur vos mots-clés prioritaires. 6–12 mois pour du top 3 durable. Le SEO est un investissement, pas une dépense marketing classique.
@@ -134,9 +134,9 @@ Le SEO n'est pas compliqué. Cela demande juste une approche systématique, une 
 
 **Commençons par un diagnostic gratuit.**
 
-👉 [Faire un audit SEO complet](/audit-seo)
+👉 [Faire un audit SEO complet](/blog/audit-seo)
 
-👉 [En savoir plus sur GEO et IA Search](/geo-ia-search-ai-overviews)
+👉 [En savoir plus sur GEO et IA Search](/blog/geo-ia-search-ai-overviews)
 
 👉 [Me contacter pour discuter votre projet](/#contact)
 

@@ -1,0 +1,66 @@
+# Aurélien Page
+
+> Consultant SEO, GEO et SEA, formateur SEO et GEO, basé à Rennes. Missions en télétravail et en déplacement. Fondateur d'Audiaa (audiaa.fr), agence IA et No Code. Ce site porte le SEO, le GEO (visibilité dans ChatGPT, Perplexity, Gemini, Claude et les AI Overviews de Google) et le SEA ; Audiaa porte l'IA appliquée, le No Code et l'automatisation.
+
+## À propos
+
+- [À propos d'Aurélien Page](https://aurelienpage.fr/a-propos): parcours, formations, méthode, Balise et lien avec Audiaa.
+
+## Prestations
+
+- [Consultant SEO et GEO](https://aurelienpage.fr/prestations/consultant-seo-geo): audit SEO et GEO, stratégie de contenu et suivi de la visibilité dans Google et dans les réponses des IA.
+- [Audit GEO](https://aurelienpage.fr/prestations/audit-geo): relevé des réponses des IA sur les questions de vos clients, part de voix, sites cités et plan d'action, inclus dans l'audit SEO et GEO.
+- [Accompagnement SEO mensuel](https://aurelienpage.fr/accompagnement-seo): suivi mensuel par un consultant freelance, avec reporting et plan d'action.
+- [Traffic Manager SEA](https://aurelienpage.fr/prestations/traffic-manager-sea): création et pilotage de campagnes Google Ads et Meta Ads.
+- [Chef de projet digital](https://aurelienpage.fr/prestations/chef-de-projet-digital): pilotage de projets web en freelance depuis Rennes.
+- [Consultant SEO à Rennes](https://aurelienpage.fr/consultant-seo-rennes): accompagnement SEO et GEO des entreprises bretonnes.
+- [Consultant GEO à Rennes](https://aurelienpage.fr/consultant-geo-rennes): optimisation pour être cité par les moteurs de réponse IA.
+
+## Formations
+
+- [Formation SEO](https://aurelienpage.fr/formation-seo): formation au référencement naturel à Rennes ou à distance, en individuel ou en équipe.
+- [Formation GEO](https://aurelienpage.fr/formation-geo): former une équipe marketing à écrire des contenus que les IA citent et à mesurer sa visibilité.
+
+## Repères
+
+- [Combien coûte une prestation SEO](https://aurelienpage.fr/cout-prestation-seo): repères de prix pour un audit, un suivi mensuel ou une formation.
+- [Pourquoi faire appel à un consultant SEO](https://aurelienpage.fr/pourquoi-consultant-seo): ce qu'apporte un consultant et quand le solliciter.
+
+## Réponses courtes et sourcées
+
+- [Réponses SEO et GEO](https://aurelienpage.fr/reponses): index des réponses par thème.
+- [Qu'est-ce que le GEO ?](https://aurelienpage.fr/reponses/qu-est-ce-que-le-geo): définition, origine du terme et fonctionnement.
+- [Quelle différence entre SEO et GEO ?](https://aurelienpage.fr/reponses/difference-seo-geo): objectifs, techniques et mesures comparés.
+- [Audit SEO ou audit GEO ?](https://aurelienpage.fr/reponses/difference-audit-seo-audit-geo): ce que contrôle chaque audit.
+- [Quels robots d'IA explorent mon site ?](https://aurelienpage.fr/reponses/robots-ia-faut-il-les-bloquer): rôle de chaque robot et lesquels bloquer.
+- [Faut-il un fichier llms.txt ?](https://aurelienpage.fr/reponses/faut-il-creer-un-fichier-llms-txt): ce qu'en disent les éditeurs.
+- [Le contenu IA est-il pénalisé par Google ?](https://aurelienpage.fr/reponses/contenu-ia-penalise-par-google): ce que disent les règles de Google.
+- [ChatGPT s'appuie-t-il sur Bing ?](https://aurelienpage.fr/reponses/chatgpt-utilise-t-il-bing): OAI-SearchBot, fournisseurs de recherche tiers, ce qu'OpenAI dit vraiment.
+- [AI Overviews ou AI Mode ?](https://aurelienpage.fr/reponses/difference-ai-overviews-ai-mode): usages, sources et mesure, d'après Google.
+- [Les AI Overviews font-elles baisser le trafic ?](https://aurelienpage.fr/reponses/ai-overviews-baisse-de-trafic): position de Google et méthode de mesure.
+- [Combien de temps pour voir les résultats du SEO ?](https://aurelienpage.fr/reponses/combien-de-temps-resultats-seo): délais selon Google et selon le type d'action.
+- [Combien de temps pour être cité par ChatGPT ?](https://aurelienpage.fr/reponses/combien-de-temps-pour-etre-cite-par-chatgpt): conditions et absence de délai garanti.
+- [Qu'est-ce que la part de voix dans les IA ?](https://aurelienpage.fr/reponses/part-de-voix-dans-les-ia): définition, calcul et limites.
+- [Les données structurées aident-elles à être cité ?](https://aurelienpage.fr/reponses/donnees-structurees-ia): ce qu'en dit Google.
+- [Combien de mots pour un article SEO ?](https://aurelienpage.fr/reponses/combien-de-mots-article-seo): Google n'a pas de nombre de mots préféré.
+- [Budget minimum Google Ads ?](https://aurelienpage.fr/reponses/budget-minimum-google-ads): budget quotidien moyen et limites de dépense.
+- [Formation SEO finançable par le CPF ou l'OPCO ?](https://aurelienpage.fr/reponses/formation-seo-cpf-opco): conditions du Code du travail.
+
+## Articles GEO et recherche par IA
+
+- [Apparaître dans les AI Overviews](https://aurelienpage.fr/blog/geo-ia-search-ai-overviews): conditions fixées par Google et méthode.
+- [Être cité par ChatGPT et Perplexity](https://aurelienpage.fr/blog/chatgpt-search-geo): robots, conditions techniques, contenus repris, mesure.
+- [Mesurer sa visibilité GEO](https://aurelienpage.fr/blog/mesurer-visibilite-geo): outils, métriques et méthode.
+- [Structurer son contenu pour le GEO](https://aurelienpage.fr/blog/structurer-contenu-geo): guide pratique et liste de contrôle.
+
+## Articles SEO
+
+- [Blog SEO](https://aurelienpage.fr/blog): tous les guides SEO, GEO et rédaction web.
+- [Audit SEO](https://aurelienpage.fr/blog/audit-seo): méthode complète pour diagnostiquer un site.
+- [Robots.txt et meta robots](https://aurelienpage.fr/blog/robots-txt-meta-robots): contrôler l'exploration et l'indexation.
+- [Données structurées](https://aurelienpage.fr/blog/donnees-structurees-schema-org): Schema.org pour les résultats enrichis et la recherche par IA.
+
+## Optional
+
+- [Audiaa](https://www.audiaa.fr): agence IA et No Code fondée par Aurélien Page.
+- [Contact](https://aurelienpage.fr/contact): diagnostic offert de 30 minutes.

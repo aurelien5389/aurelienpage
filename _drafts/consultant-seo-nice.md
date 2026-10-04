@@ -4,9 +4,9 @@
 
 Nice est la 5e ville de France, carrefour stratégique entre tourisme international (Côte d'Azur), technopole d'envergure (Sophia Antipolis) et commerce de luxe. Cette dualité crée un marché SEO particulier : d'un côté, des hôtels, restaurants, boutiques cherchent la visibilité touristique ; de l'autre, des startups, PME tech et cabinets de conseil concourent pour des requêtes ultra-concurrentielles.
 
-Sur ce marché haut de gamme et mondialisé, la visibilité organique n'est pas juste une question d'algorithme—c'est une question de crédibilité et de pertinence. Vos prospects cherchent sur Google, mais aussi sur Perplexity, ChatGPT Search, et les moteurs IA qui synthétisent les réponses. Être classé premier sur Google sans apparaître dans les AI Overviews, c'est ignorer 30-40% des recherches qualifiées.
+Sur ce marché haut de gamme et mondialisé, la visibilité organique n'est pas juste une question d'algorithme : c'est une question de crédibilité et de pertinence. Vos prospects cherchent sur Google, mais aussi sur Perplexity, ChatGPT Search, et les moteurs IA qui synthétisent les réponses. Être classé premier sur Google sans apparaître dans les AI Overviews, c'est ignorer 30-40% des recherches qualifiées.
 
-Je suis consultant SEO/GEO freelance basé en France. Je travaille directement avec vous—pas d'intermédiaires, pas de processus lourd. C'est capital à Nice où le tissu économique est fait de petites structures agiles et de décideurs qui exigent de la réactivité.
+Je suis consultant SEO/GEO freelance basé en France. Je travaille directement avec vous, sans intermédiaires, sans processus lourd. C'est capital à Nice où le tissu économique est fait de petites structures agiles et de décideurs qui exigent de la réactivité.
 
 ---
 
@@ -27,7 +27,7 @@ Pas de process standard. Je reconnais votre segment (touristique, tech, commerce
 
 **GEO = Generative Engine Optimization.**
 
-Les AI Overviews de Google, Perplexity et ChatGPT Search ne classent pas les sites. Ils synthétisent du contenu, citent des sources, créent des réponses nouvelles. Si votre secteur (hôtellerie, tech, conseil) n'apparaît pas dans ces réponses, vos prospects ne vous trouvent pas—même si vous êtes premier sur la SERP classique.
+Les AI Overviews de Google, Perplexity et ChatGPT Search ne classent pas les sites. Ils synthétisent du contenu, citent des sources, créent des réponses nouvelles. Si votre secteur (hôtellerie, tech, conseil) n'apparaît pas dans ces réponses, vos prospects ne vous trouvent pas, même si vous êtes premier sur la SERP classique.
 
 C'est particulièrement vrai pour Nice où les utilisateurs sont en moyenne plus « tech-savvy » et habitués à utiliser des outils IA avancés.
 
@@ -64,7 +64,7 @@ Pour une startup tech à Sophia Antipolis, ça change tout. Vous apparaissez dan
 3. **Implémentation** : je réalise le contenu, la technique, ou j'accompagne votre équipe interne. Selon vos capacités.
 4. **Suivi continu** : rapports mensuels, ajustements, test de nouveaux vecteurs (nouvelles requêtes, contenu IA-first, etc.).
 
-Je crois au partenariat long terme. Les trois premiers mois, vous verrez peut-être peu de résultats visibles—c'est normal. Après 6 mois, les données parlent. Après 12 mois, vous avez une machine SEO/GEO qui tourne.
+Je crois au partenariat long terme. Les trois premiers mois, vous verrez peut-être peu de résultats visibles : c'est normal. Après 6 mois, les données parlent. Après 12 mois, vous avez une machine SEO/GEO qui tourne.
 
 ---
 
@@ -77,7 +77,7 @@ A: Oui. C'est un segment clé. Les enjeux y sont particuliers (saisonnalité, co
 A: Aussi. Pour les startups, c'est souvent l'inverse : peu de budget initial, fort potentiel de croissance. Je peux faire du SEO/GEO modulé, par étapes. Audit léger, contenu core, puis netlinking et IA Search au fil du temps.
 
 **Q: Quel est le tarif pour Nice ?**
-A: Ça dépend du scope. Un audit complet : 800-1500€. Un projet mensuel de content/technique : 2000-5000€. Une stratégie annuelle : 15 000-40 000€. Je suis transparent. Vous connaissez le prix avant de commencer.
+A: Ça dépend du scope. Un audit SEO et GEO : 800 à 2 500 € selon la taille du site. Un accompagnement mensuel : 500 à 2 000 € par mois, au-delà sur devis. Je suis transparent. Vous connaissez le prix avant de commencer.
 
 **Q: Avez-vous des références à Nice ?**
 A: Je peux discuter de cas d'étude en confiance, mais je signe des NDAs. Ce que je peux dire : j'ai travaillé avec des hôtels côte azur, des agences digitales niceois, des startups SaaS locales.

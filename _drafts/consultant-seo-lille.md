@@ -22,7 +22,7 @@ Je suis Aurélien PAGE, consultant SEO et GEO freelance. J'interviens à Lille e
 
 Au-delà du référencement Google traditionnel, j'intègre systématiquement la dimension **GEO** (Generative Engine Optimization) dans mes missions.
 
-Google AI Overviews s'affichent désormais sur une part croissante des requêtes à fort volume. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA ne listent pas des liens — ils synthétisent des réponses à partir de sources qu'ils jugent fiables et autoritaires.
+Google AI Overviews s'affichent désormais sur une part croissante des requêtes à fort volume. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA ne listent pas des liens. Ils synthétisent des réponses à partir de sources qu'ils jugent fiables et autoritaires.
 
 Être cité comme source dans ces réponses représente une visibilité gratuite et durable, encore peu exploitée par les entreprises lilloises. C'est ma spécialité depuis 2023 et un avantage compétitif concret pour mes clients.
 
@@ -55,10 +55,10 @@ Je commence toujours par un diagnostic approfondi avant de proposer quoi que ce 
 ## Questions fréquentes
 
 **Intervenez-vous vraiment à Lille depuis Rennes ?**
-Oui. La grande majorité de mes missions se déroule en remote — audits, stratégie, reporting, optimisations : tout peut se faire à distance. Des visioconférences régulières remplacent efficacement les réunions en présentiel. Des déplacements à Lille sont possibles pour des sessions de travail ou des formations si votre projet le justifie.
+Oui. La grande majorité de mes missions se déroule en remote (audits, stratégie, reporting, optimisations) : tout peut se faire à distance. Des visioconférences régulières remplacent efficacement les réunions en présentiel. Des déplacements à Lille sont possibles pour des sessions de travail ou des formations si votre projet le justifie.
 
 **Combien coûte une prestation SEO à Lille ?**
-Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille du site. Un accompagnement mensuel démarre à partir de 600 euros par mois. Je fournis un devis détaillé avant toute intervention. Pour des repères complets sur les tarifs SEO, l'article sur le [coût d'une prestation SEO](/cout-prestation-seo) vous donnera une grille de lecture utile.
+Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille du site. Un accompagnement mensuel démarre à partir de 500 euros par mois. Je fournis un devis détaillé avant toute intervention. Pour des repères complets sur les tarifs SEO, l'article sur le [coût d'une prestation SEO](/cout-prestation-seo) vous donnera une grille de lecture utile.
 
 **Combien de temps pour voir des résultats à Lille ?**
 3 à 6 mois pour les premières progressions mesurables. Sur des requêtes très compétitives ("consultant SEO Lille", "agence web Lille"), il faut généralement 6 à 12 mois pour atteindre le top 3. Je vous donne une visibilité mensuelle sur les progrès dès le départ.

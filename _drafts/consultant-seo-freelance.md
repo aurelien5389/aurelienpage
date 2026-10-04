@@ -67,10 +67,10 @@ Je travaille principalement en remote, avec des déplacements possibles en Breta
 ## Questions fréquentes
 
 **Quels sont vos tarifs en tant que consultant SEO freelance ?**
-Mes prestations sont facturées au projet ou en régie (journée ou demi-journée). Un audit SEO complet pour un site de taille standard se situe entre 800 et 2 500 euros selon la profondeur souhaitée. Un accompagnement mensuel (stratégie + suivi) débute à partir de 600 euros par mois. Je fournis toujours un devis détaillé avant de commencer. Pour en savoir plus sur les tarifs, l'article sur le [coût d'une prestation SEO](/cout-prestation-seo) vous donnera des repères concrets.
+Mes prestations sont facturées au projet ou en régie (journée ou demi-journée). Un audit SEO complet pour un site de taille standard se situe entre 800 et 2 500 euros selon la profondeur souhaitée. Un accompagnement mensuel (stratégie + suivi) débute à partir de 500 euros par mois. Je fournis toujours un devis détaillé avant de commencer. Pour en savoir plus sur les tarifs, l'article sur le [coût d'une prestation SEO](/cout-prestation-seo) vous donnera des repères concrets.
 
 **Intervenez-vous sur tous les secteurs ?**
-Oui, avec une expérience particulière dans les secteurs B2B, tech, médias, e-commerce et services professionnels. Pour les secteurs très réglementés (santé, finance, juridique), j'interviens sur la technique et la structure, en travaillant à partir des contenus que vous validez — voir mon approche pour la rédaction dans le secteur juridique : [rédacteur web juridique](/redacteur-web-juridique).
+Oui, avec une expérience particulière dans les secteurs B2B, tech, médias, e-commerce et services professionnels. Pour les secteurs très réglementés (santé, finance, juridique), j'interviens sur la technique et la structure, en travaillant à partir des contenus que vous validez. Voir mon approche pour la rédaction dans le secteur juridique : [rédacteur web juridique](/redacteur-web-juridique).
 
 **Travaillez-vous en dehors de Rennes ?**
 Oui. La grande majorité de mes missions se fait en remote. J'interviens pour des clients en France entière et ponctuellement à l'international (Belgique, Suisse, Canada francophone). Pour les clients rennais ou bretons, des réunions en présentiel sont possibles.

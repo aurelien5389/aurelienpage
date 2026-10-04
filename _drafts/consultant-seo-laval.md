@@ -80,7 +80,7 @@ Je crois que le SEO/GEO fonctionne mieux en partenariat long terme. Les trois pr
 ## FAQ
 
 **Q: Combien ça coûte pour une startup à Laval ?**
-A: Audit complet : 800-1300€. Projet mensuel : 1500-4000€ selon scope. Stratégie annuelle : 15 000-40 000€. Je peux moduler par phases si vous démarrez et que le budget est resserré.
+A: Audit SEO et GEO : 800 à 2 500 € selon la taille du site. Accompagnement mensuel : 500 à 2 000 € par mois, au-delà sur devis. Je peux moduler par phases si vous démarrez et que le budget est resserré.
 
 **Q: Vous connaissez la réalité virtuelle ?**
 A: J'ai travaillé avec des startups technologiques. Je comprends les enjeux : attirer des clients, recruter des talents, créer de la pensée technique. Pour les aspects très spécifiques VR, je travaille aussi avec des experts du domaine.

@@ -19,9 +19,9 @@ const CARDS = [
   },
   {
     icon: '🤖',
-    title: 'Consultant IA',
-    pitch: "Intégration de l'IA générative dans vos workflows marketing et éditoriaux. Claude AI, ChatGPT, Make : des gains concrets sans jargon.",
-    href: '/prestations/consultant-ia',
+    title: 'Audit GEO',
+    pitch: "Les IA vous citent-elles ? Relevé des réponses de ChatGPT, Perplexity, Gemini et Google, part de voix, sites cités, plan d'action.",
+    href: '/prestations/audit-geo',
   },
   {
     icon: '🗂️',
@@ -30,10 +30,10 @@ const CARDS = [
     href: '/prestations/chef-de-projet-digital',
   },
   {
-    icon: '⚡',
-    title: 'Formateur No Code & IA',
-    pitch: "Formation de vos équipes aux outils no-code (Make, Airtable, Notion) et à l'IA générative. Des formations actionnables, sans prérequis technique.",
-    href: '/prestations/formateur-no-code-ia',
+    icon: '🎓',
+    title: 'Formations SEO et GEO',
+    pitch: "Former vos équipes au référencement et à la visibilité dans les IA, sur votre propre site. En individuel ou en équipe, à Rennes ou à distance.",
+    href: '/formation-seo',
   },
 ]
 

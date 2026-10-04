@@ -10,14 +10,14 @@ import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
+  title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
   description:
-    "Consultant freelance spécialisé en SEO, SEA, GEO, IA et automatisation no-code. Basé à Rennes, interventions remote. Diagnostic offert.",
+    "Consultant SEO, GEO et SEA à Rennes : être trouvé sur Google et cité par ChatGPT, Perplexity et les AI Overviews. Audits, accompagnement, Google Ads, formations. Diagnostic offert.",
   alternates: { canonical: 'https://aurelienpage.fr' },
   openGraph: {
-    title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
+    title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
     description:
-      "J'accompagne les entreprises et organismes de formation à développer leur visibilité et automatiser leurs workflows. Diagnostic offert.",
+      "J'aide les entreprises à être trouvées sur Google et citées par les IA : audits SEO et GEO, accompagnement, Google Ads, formations. Rennes et à distance.",
     url: 'https://aurelienpage.fr',
   },
 }

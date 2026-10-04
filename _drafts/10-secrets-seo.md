@@ -1,12 +1,12 @@
 ---
 slug: "/blog/10-secrets-seo"
-title: "10 techniques SEO sous-exploitées pour booster votre référencement"
+title: "10 techniques SEO sous-exploitées qui font la différence"
 meta-description: "Au-delà des bases du SEO, 10 techniques moins connues qui font vraiment la différence : intent matching, PageRank sculpting, freshness, featured snippets, GEO et plus."
 ---
 
 Les fondamentaux du SEO sont documentés partout : choisir les bons mots-clés, optimiser ses balises title, obtenir des backlinks. Ce n'est pas de cela dont il s'agit ici.
 
-Ces 10 techniques sont celles que les consultants SEO appliquent sur leurs propres projets mais documentent rarement. Pas des secrets au sens mystérieux du terme — des leviers concrets, sous-exploités par la majorité des sites, qui font une vraie différence sur les positions.
+Ces 10 techniques sont celles que les consultants SEO appliquent sur leurs propres projets mais documentent rarement. Pas des secrets au sens mystérieux du terme : des leviers concrets, sous-exploités par la majorité des sites, qui font une vraie différence sur les positions.
 
 ## 1. Cibler l'intention, pas le mot-clé
 
@@ -14,7 +14,7 @@ La plupart des créateurs de contenu optimisent leurs pages pour un mot-clé. Le
 
 La nuance est fondamentale. Sur la requête "consultant SEO", Google ne veut pas savoir si vous avez mis ce terme dans votre balise title 3 fois. Il veut savoir si votre page satisfait la personne qui cherche à trouver ou à contacter un consultant SEO. Ça se traduit par : une page de service avec un CTA clair, des preuves de crédibilité, un formulaire de contact accessible.
 
-Sur "qu'est-ce que le SEO", l'intention est informationnelle — une définition complète, pas une page de vente. Servir la mauvaise réponse à la bonne requête, c'est ne pas se positionner, quelle que soit la qualité technique de la page.
+Sur "qu'est-ce que le SEO", l'intention est informationnelle : une définition complète, pas une page de vente. Servir la mauvaise réponse à la bonne requête, c'est ne pas se positionner, quelle que soit la qualité technique de la page.
 
 Avant de rédiger, analysez les 5 premiers résultats sur votre requête cible. La [recherche d'intentions de recherche](/blog/serp-typologies-intentions-recherche) est l'étape que la majorité des sites saute.
 
@@ -28,7 +28,7 @@ Méthode : dans [Google Search Console](/blog/google-search-console), identifiez
 
 ## 3. Sculper le PageRank interne
 
-Le PageRank se distribue entre toutes les pages liées depuis une même page. Une page avec 50 liens sortants transmet moins de PageRank par lien qu'une page avec 10 liens. Ce n'est pas une raison de supprimer tous vos liens — mais c'est une raison de faire des choix.
+Le PageRank se distribue entre toutes les pages liées depuis une même page. Une page avec 50 liens sortants transmet moins de PageRank par lien qu'une page avec 10 liens. Ce n'est pas une raison de supprimer tous vos liens, mais c'est une raison de faire des choix.
 
 Vos pages les plus importantes (pages de service, articles piliers, pages à fort potentiel commercial) doivent recevoir des liens depuis vos pages les plus autoritaires. Inversement, évitez de lier massivement depuis vos pages clés vers des contenus secondaires ou des pages qui n'ont pas besoin de PageRank.
 
@@ -49,15 +49,15 @@ Les [données structurées Schema.org](/blog/donnees-structurees-schema-org) de 
 
 ## 5. Récupérer les mentions sans lien
 
-Votre marque, votre nom ou le nom de votre entreprise sont probablement mentionnés sur d'autres sites sans que ces mentions soient transformées en liens. Ce sont des **unlinked brand mentions** — de l'autorité dormante.
+Votre marque, votre nom ou le nom de votre entreprise sont probablement mentionnés sur d'autres sites sans que ces mentions soient transformées en liens. Ce sont des **unlinked brand mentions** : de l'autorité dormante.
 
 Méthode : utilisez Google Alerts ou Ahrefs Mentions pour surveiller les mentions de votre nom. Quand vous en trouvez une sur un site pertinent, contactez l'auteur ou le webmaster pour lui demander simplement d'ajouter un lien vers votre site. Le taux de conversion de cette approche est bien supérieur à la prospection de liens à froid, car la relation existe déjà.
 
 ## 6. Consolider les pages qui se cannibalisent
 
-La cannibalisation de mots-clés est l'une des erreurs les plus fréquentes et les moins visibles. Quand deux pages de votre site ciblent la même intention de recherche, elles se font concurrence dans les SERPs — et Google ne sait pas laquelle choisir.
+La cannibalisation de mots-clés est l'une des erreurs les plus fréquentes et les moins visibles. Quand deux pages de votre site ciblent la même intention de recherche, elles se font concurrence dans les SERPs, et Google ne sait pas laquelle choisir.
 
-Le signe révélateur : dans Search Console, une même requête fait apparaître des URLs différentes selon les jours ou selon la période. La solution n'est pas toujours de supprimer une page — parfois il suffit de différencier clairement les intentions ciblées. Mais souvent, consolider deux pages moyennes en une page forte produit des résultats immédiats. C'est l'une des [3 erreurs SEO qui ruinent un site](/blog/erreurs-seo-critiques) les plus fréquentes.
+Le signe révélateur : dans Search Console, une même requête fait apparaître des URLs différentes selon les jours ou selon la période. La solution n'est pas toujours de supprimer une page. Parfois, il suffit de différencier clairement les intentions ciblées. Mais souvent, consolider deux pages moyennes en une page forte produit des résultats immédiats. C'est l'une des [3 erreurs SEO qui ruinent un site](/blog/erreurs-seo-frequentes) les plus fréquentes.
 
 ## 7. Analyser les logs serveur
 
@@ -65,13 +65,13 @@ L'analyse de logs est la technique la plus puissante et la moins pratiquée du S
 
 Cette donnée est précieuse pour répondre à des questions que Search Console ne peut pas traiter : Google crawle-t-il vraiment vos pages prioritaires ? Passe-t-il du temps sur vos pages de catégorie ou les ignore-t-il ? Y a-t-il des URLs parasites qui consomment votre crawl budget ?
 
-L'[analyse des logs SEO](/blog/analyse-logs-seo) est un levier de diagnostic que très peu de propriétaires de sites exploitent — c'est précisément pour cela qu'il offre un avantage compétitif réel.
+L'[analyse des logs SEO](/blog/analyse-logs-seo) est un levier de diagnostic que très peu de propriétaires de sites exploitent. C'est précisément pour cela qu'il offre un avantage compétitif réel.
 
 ## 8. Optimiser pour le GEO dès maintenant
 
 Google AI Overviews, Perplexity, ChatGPT Search : les moteurs de réponse à IA ne sont plus expérimentaux. Ils s'affichent sur des requêtes à fort volume et captent une part de trafic croissante.
 
-Optimiser pour ces moteurs ne remplace pas le SEO classique — ça le complète. Les contenus qui sont cités dans les réponses IA partagent des caractéristiques communes : profondeur de traitement, clarté des affirmations, données factuelles sourcées, structure logique, autorité EEAT démontrée.
+Optimiser pour ces moteurs ne remplace pas le SEO classique. Ça le complète. Les contenus qui sont cités dans les réponses IA partagent des caractéristiques communes : profondeur de traitement, clarté des affirmations, données factuelles sourcées, structure logique, autorité EEAT démontrée.
 
 Un article bien écrit pour Google est généralement bien positionné pour les moteurs IA. Mais certaines optimisations spécifiques (FAQ structurée, passages directement citables, balisage Schema.org précis) font la différence. Voir l'article complet sur le [GEO et l'IA Search](/blog/geo-ia-search-ai-overviews).
 
@@ -93,10 +93,10 @@ La plupart des utilisateurs de Search Console regardent les clics et les impress
 
 **CTR anormalement bas pour votre position** : si vous êtes en position 3 avec un CTR de 2 % alors que la moyenne pour cette position est de 10 %, votre balise title ou meta description ne donne pas envie de cliquer. A/B testez la reformulation.
 
-Search Console est le meilleur outil de recherche de mots-clés qui soit — car il vous dit ce que vos visiteurs réels cherchent, pas des estimations de volume.
+Search Console est le meilleur outil de recherche de mots-clés qui soit, car il vous dit ce que vos visiteurs réels cherchent, pas des estimations de volume.
 
 ---
 
-Ces 10 techniques ne remplacent pas les bases du SEO — elles les amplifient. Elles sont les plus efficaces appliquées sur un site dont les fondations sont déjà saines. Si vous n'avez pas encore fait d'[audit SEO complet](/blog/audit-seo), c'est le point de départ logique avant d'entrer dans ces optimisations avancées.
+Ces 10 techniques ne remplacent pas les bases du SEO. Elles les amplifient. Elles sont les plus efficaces appliquées sur un site dont les fondations sont déjà saines. Si vous n'avez pas encore fait d'[audit SEO complet](/blog/audit-seo), c'est le point de départ logique avant d'entrer dans ces optimisations avancées.
 
 Vous voulez savoir lesquelles de ces techniques s'appliquent en priorité à votre site ? [Contactez-moi](/#contact) pour un diagnostic.

@@ -1,0 +1,140 @@
+/* Page À propos. Unités rem. */
+
+.apMain {
+  padding: 5rem 0 2rem;
+}
+
+.apInner {
+  max-width: 46rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.fil {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  color: var(--color-gray-secondary);
+}
+
+.filLien {
+  color: inherit;
+  text-decoration: none;
+}
+
+.filActuel {
+  color: var(--color-off-white);
+}
+
+.apEntete {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-steel) 40%, transparent);
+}
+
+.apPhoto {
+  border-radius: 9999px;
+}
+
+.apH1 {
+  margin: 0 0 1rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--color-off-white);
+}
+
+.apResume {
+  margin: 0 0 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--color-off-white);
+}
+
+.apMaj {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--color-gray-secondary);
+}
+
+.apSection {
+  padding-top: 2rem;
+}
+
+.apH2 {
+  margin: 0 0 1rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--color-off-white);
+}
+
+.apPara {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+  color: var(--color-gray-secondary);
+}
+
+.apPara strong,
+.apListe strong {
+  color: var(--color-off-white);
+}
+
+.apFrise {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.apEtape {
+  padding: 0 0 0.5rem 1.25rem;
+  border-left: 3px solid var(--color-cyan);
+  margin-bottom: 1rem;
+}
+
+.apPeriode {
+  margin: 0 0 0.25rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-cyan);
+}
+
+.apRole {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+  color: var(--color-off-white);
+}
+
+.apListe {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.8;
+  color: var(--color-gray-secondary);
+}
+
+.apLien {
+  color: var(--color-cyan);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.apCta {
+  max-width: 46rem;
+  margin-inline: auto;
+  padding: 2rem 1rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .apEntete {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .apH1 {
+    font-size: 2.5rem;
+  }
+}

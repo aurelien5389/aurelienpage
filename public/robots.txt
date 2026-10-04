@@ -1,4 +1,24 @@
+# robots.txt · aurelienpage.fr
+
+# Robots de recherche et de citation des IA, moteurs de recherche :
+# autorisés explicitement.
+# Sources : developers.openai.com/api/docs/bots · support.claude.com (article 8896518)
+# docs.perplexity.ai/guides/bots · bing.com/webmasters (which crawlers does Bing use)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Bingbot
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+
+# Robots d'entraînement (GPTBot, ClaudeBot, Google-Extended) :
+# autorisés par la règle générale ci-dessous, en attente de décision.
 User-agent: *
 Allow: /
+Disallow: /api/
 
 Sitemap: https://aurelienpage.fr/sitemap.xml

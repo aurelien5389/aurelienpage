@@ -1,127 +1,65 @@
 ---
 slug: "/blog/chatgpt-search-geo"
-title: "ChatGPT Search SEO : comment être cité dans les réponses de ChatGPT"
-meta-description: "Comment apparaître dans les réponses de ChatGPT Search ? Fonctionnement du moteur, critères de sélection des sources, optimisations concrètes et différences avec Perplexity."
+title: "Comment être cité par ChatGPT et Perplexity ?"
+meta-description: "Comment ChatGPT et Perplexity trouvent leurs sources, les conditions techniques à remplir, les contenus qu'ils reprennent et la façon de vérifier vos citations."
 ---
 
-# ChatGPT Search SEO : comment être cité dans les réponses de ChatGPT
+# Comment être cité par ChatGPT et Perplexity ?
 
-Depuis octobre 2024, ChatGPT dispose d'une fonction de recherche web en temps réel. ChatGPT Search permet aux utilisateurs de poser des questions et d'obtenir des réponses synthétisées à partir de sources actuelles — avec des citations et des liens visibles. En quelques mois, cette fonctionnalité a été déployée à des centaines de millions d'utilisateurs.
+Une responsable marketing demande à ChatGPT quel prestataire choisir pour refaire le site de son entreprise. La réponse cite trois sources : un comparatif, un annuaire, un concurrent. Elle pose la même question à Perplexity : autres sources, même absence de votre nom. Votre site est pourtant en ligne, à jour, bien classé sur Google.
 
-Pour les entreprises et les experts qui produisent du contenu, ChatGPT Search est une surface de visibilité nouvelle, distincte de Google. **Être cité comme source dans ChatGPT Search, c'est de la visibilité sur des requêtes à forte intention, auprès d'un public qui fait confiance aux sources citées.**
+**En bref :** pour être cité, il faut d'abord que les robots de recherche de ChatGPT et de Perplexity, **OAI-SearchBot** et **PerplexityBot**, accèdent à votre site. Ensuite, vos pages doivent répondre clairement aux questions posées, avec des sources et un auteur identifié. Aucun des deux ne garantit une place : on mesure, on corrige, on remesure.
 
-Voici comment ça fonctionne — et comment optimiser votre contenu pour y apparaître.
+## Comment ChatGPT et Perplexity trouvent-ils leurs sources ?
 
-## Comment ChatGPT Search sélectionne ses sources
+Les deux cherchent sur le web au moment de la question, mais pas tout à fait de la même façon.
 
-ChatGPT Search fonctionne en deux temps :
+**ChatGPT** réécrit souvent la question en une ou plusieurs requêtes ciblées et les envoie à des **fournisseurs de recherche partenaires** ; après une première lecture, il peut relancer des requêtes plus précises. L'aide d'OpenAI renvoie, pour ces fournisseurs, notamment à la politique de confidentialité de Microsoft ([Aide OpenAI](https://help.openai.com/en/articles/9237897-chatgpt-search)). OpenAI a aussi son propre robot, **OAI-SearchBot**, qui sert à faire apparaître les sites dans les fonctions de recherche de ChatGPT ([OpenAI](https://developers.openai.com/api/docs/bots)).
 
-1. **Recherche web** : quand la requête nécessite des informations récentes ou factuelles, ChatGPT effectue une recherche via Bing (partenariat Microsoft/OpenAI) et d'autres sources indexées.
-2. **Synthèse et citation** : ChatGPT lit les pages récupérées, extrait les passages pertinents, synthétise une réponse et cite les sources utilisées — généralement 3 à 8 sources listées en bas de réponse ou intégrées dans le texte.
+**Perplexity** utilise **PerplexityBot** pour faire apparaître et lier les sites dans ses résultats. Perplexity précise que ce robot ne sert pas à entraîner des modèles, et recommande de l'autoriser. Un second robot, **Perplexity-User**, visite les pages à la demande d'un utilisateur ([Perplexity](https://docs.perplexity.ai/guides/bots)).
 
-**Ce qui distingue ChatGPT Search dans la sélection des sources :**
+Vous lirez souvent que les deux « passent par Bing ». C'est plus nuancé : OpenAI parle de fournisseurs tiers sans nommer Bing dans son aide, et Perplexity décrit son propre robot. Le détail est dans [ChatGPT s'appuie-t-il sur Bing](/reponses/chatgpt-utilise-t-il-bing).
 
-**ChatGPT valorise les contenus structurés et factuels.** Le modèle extrait des passages précis. Un contenu bien organisé, avec des réponses directes et des données vérifiables, est plus facilement exploitable qu'un contenu dense et peu structuré.
+## Quelles conditions techniques faut-il remplir ?
 
-**ChatGPT est sensible à la fraîcheur sur les sujets évolutifs.** Sur des requêtes d'actualité ou des sujets techniques qui changent régulièrement, les contenus récents ont une prime significative.
+Quatre vérifications, à faire avant tout travail éditorial.
 
-**ChatGPT s'appuie sur Bing comme moteur sous-jacent.** Un bon positionnement Bing (qui suit des critères proches de Google mais pas identiques) favorise l'apparition dans les résultats de ChatGPT Search.
+1. **Le robots.txt autorise OAI-SearchBot et PerplexityBot.** OpenAI indique qu'un site qui bloque OAI-SearchBot n'apparaît pas dans les réponses de recherche, sauf comme simple lien de navigation ([OpenAI](https://developers.openai.com/api/docs/bots)).
+2. **Le pare-feu les laisse passer.** OpenAI demande de vérifier que l'hébergeur ou le CDN accepte le trafic venant des adresses IP publiées de son robot ([Aide OpenAI](https://help.openai.com/en/articles/9237897-chatgpt-search)). Une protection anti-robots trop stricte peut tout bloquer sans que le robots.txt y soit pour rien.
+3. **Le site est indexé par Bing.** Puisque ChatGPT s'appuie en partie sur des fournisseurs tiers, inscrivez le site sur Bing Webmaster Tools, qui importe les sites déjà vérifiés dans la Search Console ([Bing](https://blogs.bing.com/webmaster/september-2019/Import-sites-from-Search-Console-to-Bing-Webmaster-Tools)).
+4. **Le texte est dans le HTML.** Réponses, prix et FAQ doivent être présents dans la page envoyée par le serveur, sans dépendre d'un script.
 
-**ChatGPT préfère les sources avec une autorité identifiable.** Un contenu signé par un expert avec une présence vérifiable en ligne est plus souvent cité qu'un contenu anonyme.
+## Quels contenus ont le plus de chances d'être cités ?
 
-## Les 5 optimisations concrètes pour ChatGPT Search
+Des pages pertinentes et fiables, d'après OpenAI : ChatGPT classe les résultats selon plusieurs facteurs destinés à aider l'utilisateur à trouver une information pertinente et fiable, et **le placement n'est pas garanti** ([Aide OpenAI](https://help.openai.com/en/articles/9237897-chatgpt-search)).
 
-### 1. Être indexé par Bing
+Concrètement, voici ce que j'observe sur les sites que je suis :
 
-ChatGPT Search s'appuie majoritairement sur Bing pour sa recherche web. Si votre site n'est pas correctement indexé par Bing, vous ne pourrez pas apparaître dans les réponses ChatGPT.
+- **La réponse arrive tout de suite.** Les deux moteurs reprennent des passages, pas des pages entières. Une réponse enfouie après trois paragraphes de contexte est souvent ignorée au profit d'un concurrent plus direct.
+- **Chaque section tient seule.** Un intertitre en question, une phrase qui y répond, puis le développement.
+- **Les affirmations sont sourcées.** Un chiffre avec sa source primaire inspire plus confiance qu'une approximation.
+- **L'auteur est identifié**, avec une page qui présente son parcours, et une date de mise à jour visible.
+- **On parle de vous ailleurs** : comparatifs, annuaires professionnels, presse, forums. Les deux moteurs citent souvent ces sources tierces.
 
-**Actions à vérifier :**
-- Soumettre votre sitemap.xml à Bing Webmaster Tools (équivalent Bing de Google Search Console)
-- Vérifier que votre robots.txt n'exclut pas Bingbot : `User-agent: Bingbot / Disallow:` coupe toute visibilité sur ChatGPT Search
-- Vérifier que votre site est bien indexé via l'opérateur `site:votredomaine.com` dans Bing
+### Un exemple de réécriture
 
-### 2. Répondre directement à la question dans les premières lignes
+Avant : « La question du référencement dans les IA est complexe et dépend de nombreux facteurs. Depuis plusieurs années, les moteurs ont beaucoup évolué… » Deux cents mots plus loin, toujours pas de réponse.
 
-ChatGPT extrait des passages pour construire sa réponse. Si la réponse à la question est enfouie au milieu d'un article de 3 000 mots, le modèle peut la manquer — ou lui préférer un concurrent qui répond dès le premier paragraphe.
+Après : « Pour être cité par ChatGPT et Perplexity, votre site doit laisser passer leurs robots de recherche, OAI-SearchBot et PerplexityBot, puis répondre clairement à la question dès les premières lignes, avec des sources. » Ce paragraphe peut être repris tel quel. C'est la règle que j'applique à chaque page de la rubrique [réponses](/reponses) de ce site.
 
-La règle : votre réponse principale doit apparaître dans les deux premières phrases du passage concerné.
+## Comment vérifier si vous êtes cité ?
 
-**Avant :**
-> La question du SEO pour ChatGPT est complexe. Depuis son lancement, ChatGPT a évolué de nombreuses façons... [200 mots de contexte] ...c'est pourquoi la structure est importante.
+En posant les questions vous-même, régulièrement, avec la même méthode.
 
-**Après :**
-> Pour être cité par ChatGPT Search, votre contenu doit être indexé par Bing, structuré en passages autonomes, et répondre directement à la question dès les premières lignes. Le modèle extrait des segments précis, pas des articles entiers.
+1. Dressez la liste des questions que vos clients posent avant d'acheter : choix d'un prestataire, prix, délais, comparaisons.
+2. Posez-les à ChatGPT, avec la recherche web activée, et à Perplexity. Notez qui est cité, et si vous l'êtes.
+3. Calculez la proportion de réponses qui vous citent : c'est votre part de voix.
+4. Recommencez chaque mois avec la même liste, et regardez aussi vos statistiques de visites : les clics venus de chatgpt.com ou de perplexity.ai peuvent y apparaître comme sites référents.
 
-### 3. Structurer en sections thématiques autonomes
+Les résultats varient d'une fois à l'autre : ChatGPT réécrit les questions et peut tenir compte de la localisation de l'utilisateur ([Aide OpenAI](https://help.openai.com/en/articles/9237897-chatgpt-search)). C'est l'évolution sur plusieurs mesures qui compte. Sur le délai à prévoir, voir [combien de temps pour être cité par ChatGPT](/reponses/combien-de-temps-pour-etre-cite-par-chatgpt).
 
-ChatGPT n'utilise pas forcément l'article entier. Il peut extraire uniquement la section sur le point précis que l'utilisateur a demandé. Chaque section de votre article doit donc pouvoir se lire et se comprendre indépendamment du reste.
+## Faut-il écrire spécialement pour ces IA ?
 
-**Format idéal :**
-- H2 formulé comme une question ou un sujet précis
-- Réponse directe dans les deux premières phrases
-- Développement avec données, exemples ou étapes concrètes
-- Section autonome et compréhensible hors contexte
+Non. Les pages qui fonctionnent pour ChatGPT et Perplexity sont aussi celles que Google peut reprendre dans ses AI Overviews : une question, une réponse nette, des sources, un auteur. Écrire pour les IA, c'est surtout écrire mieux pour vos lecteurs.
 
-### 4. Renforcer les signaux d'autorité
-
-ChatGPT, comme les autres moteurs IA, évalue la fiabilité de ses sources. Un contenu qui démontre une expertise réelle est plus souvent cité.
-
-**Ce qui signale l'expertise :**
-- Page auteur avec biographie professionnelle détaillée et liens vers vos profils vérifiables (LinkedIn, presse, interviews)
-- Données précises et sourcées (pas d'approximations type "environ beaucoup")
-- Exemples issus de l'expérience pratique ("dans mes missions, j'observe que...")
-- Mentions de votre expertise dans des sources tierces (presse, podcasts, citations)
-
-Pour approfondir les signaux EEAT : [Google EEAT : définition et comment l'améliorer](/blog/google-eeat).
-
-### 5. Maintenir vos contenus à jour
-
-ChatGPT Search est particulièrement sensible à la fraîcheur sur les sujets techniques, d'actualité ou évolutifs. Un article publié en 2023 et jamais mis à jour sur un sujet qui a changé sera systématiquement préféré par un contenu plus récent, même de qualité équivalente.
-
-Identifiez vos contenus stratégiques et planifiez des mises à jour régulières : nouvelles données, exemples actualisés, sections FAQ enrichies avec les questions récentes.
-
-## ChatGPT Search vs Perplexity : les différences pour votre stratégie
-
-| Critère | ChatGPT Search | Perplexity |
-|---|---|---|
-| Moteur sous-jacent | Bing (principalement) | Bing + autres sources |
-| Affichage des sources | En bas de réponse | Inline + en bas |
-| Fraîcheur | Très valorisée | Très valorisée |
-| Autorité de domaine | Modérément valorisée | Peu valorisée |
-| Profils d'utilisateurs | Grand public + pro | Profils tech/académiques |
-
-En pratique : les deux moteurs valorisent les mêmes fondamentaux (structure, expertise, fraîcheur). Les optimisations efficaces pour l'un le sont généralement pour l'autre.
-
-Pour approfondir Perplexity spécifiquement : [Perplexity SEO : comment être cité comme source](/blog/perplexity-citation-geo).
-
-## Mesurer votre visibilité sur ChatGPT Search
-
-Contrairement à Google Search Console, il n'existe pas de tableau de bord officiel pour suivre vos citations ChatGPT. Quelques méthodes pratiques :
-
-**Monitoring manuel :** testez vos 15-20 requêtes stratégiques directement dans ChatGPT (avec le mode "Rechercher sur le web" activé). Notez si votre domaine est cité. Répétez mensuellement.
-
-**Suivi des référents dans Analytics :** depuis mi-2025, certaines versions de ChatGPT envoient du trafic référent trackable. Vérifiez dans vos analytics si `chatgpt.com` apparaît comme source de trafic.
-
-**Outils tiers :** des outils comme Brand24, Mention ou des solutions GEO spécialisées commencent à intégrer le monitoring ChatGPT. L'offre évolue rapidement.
-
-Pour une méthode complète de monitoring GEO multi-moteurs : [comment mesurer sa visibilité GEO](/blog/mesurer-visibilite-geo).
-
-## Questions fréquentes
-
-**ChatGPT Search utilise-t-il les positions Google ?**
-Non directement. ChatGPT Search s'appuie sur Bing, pas Google. Un site bien positionné sur Google l'est souvent aussi sur Bing (les critères sont proches), mais ce n'est pas automatique. Vérifiez votre indexation Bing séparément.
-
-**Peut-on être cité sur ChatGPT sans beaucoup de trafic ?**
-Oui. ChatGPT Search valorise la pertinence du contenu sur la requête précise, pas le volume de trafic existant. Un excellent article de niche sur un site peu connu peut très bien être cité si le contenu répond directement à la question posée.
-
-**ChatGPT cite-t-il des contenus en français ?**
-Oui. ChatGPT Search adapte ses sources à la langue de la requête. Sur une question posée en français, les sources françaises sont favorisées. C'est un avantage compétitif par rapport aux sources anglophones.
-
-**Faut-il créer du contenu spécialement pour ChatGPT ?**
-Non. Les optimisations pour ChatGPT Search sont les mêmes que pour Perplexity et Google AI Overviews : structure claire, réponses directes, signaux d'expertise. Un contenu bien construit pour le GEO en général est bien construit pour ChatGPT Search.
-
----
-
-Pour aller plus loin : [GEO vs SEO : différences et complémentarité](/blog/geo-vs-seo) — [Perplexity SEO : être cité comme source](/blog/perplexity-citation-geo) — [Structurer son contenu pour le GEO](/blog/structurer-contenu-geo) — [Comment mesurer sa visibilité GEO](/blog/mesurer-visibilite-geo).
-
-Vous voulez apparaître dans les réponses ChatGPT Search sur vos requêtes stratégiques ? [Contactez-moi](/#contact) pour un audit GEO.
+Si vous voulez savoir où vous en êtes, l'[audit GEO](/prestations/audit-geo) relève les réponses de ChatGPT, Perplexity, Gemini, Claude et Google sur les questions de vos clients, et identifie les sites cités à votre place.

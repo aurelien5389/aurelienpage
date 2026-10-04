@@ -4,6 +4,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
+import { breadcrumbSchema } from '@/lib/schema'
+import { getBlogDrafts } from '@/lib/draft-parser'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -18,91 +20,77 @@ export const metadata: Metadata = {
   },
 }
 
-const CLUSTERS = [
+// Rubriques du blog : seuls les slugs sont listés ici, les titres viennent des articles.
+// Tout article absent de ces rubriques apparaît automatiquement dans « Autres guides ».
+const RUBRIQUES: { label: string; slugs: string[] }[] = [
+  {
+    label: 'GEO et recherche par IA',
+    slugs: [
+      'geo-ia-search-ai-overviews',
+      'chatgpt-search-geo',
+      'ia-search-moteurs-reponses',
+      'structurer-contenu-geo',
+      'mesurer-visibilite-geo',
+      'google-eeat',
+    ],
+  },
   {
     label: 'Fondamentaux SEO',
-    color: 'cyan',
-    articles: [
-      { slug: 'fonctionnement-moteurs-recherche', title: 'Comment fonctionnent les moteurs de recherche : crawl, indexation et ranking' },
-      { slug: 'apprendre-le-seo-principes-debutants', title: 'Apprendre le SEO : les principes fondamentaux pour bien débuter' },
-      { slug: 'serp-typologies-intentions-recherche', title: 'SERP : définition, typologies et intentions de recherche expliquées' },
+    slugs: ['quest-ce-que-le-seo', 'fonctionnement-moteurs-recherche', 'apprendre-le-seo-principes-debutants', 'serp-typologies-intentions-recherche', 'lexique-seo'],
+  },
+  {
+    label: 'SEO technique',
+    slugs: [
+      'seo-technique-core-web-vitals',
+      'crawler-seo',
+      'indexabilite-seo',
+      'robots-txt-meta-robots',
+      'balise-canonique',
+      'codes-http-seo',
+      'donnees-structurees-schema-org',
+      'fil-ariane-seo',
+      'page-orpheline-seo',
+      'pagination-seo',
+      'analyse-logs-seo',
+      'google-search-console',
     ],
   },
   {
-    label: 'SEO Technique',
-    color: 'cyan',
-    articles: [
-      { slug: 'seo-technique-core-web-vitals', title: 'SEO technique : les fondations indispensables d\'un site bien référencé' },
-      { slug: 'crawler-seo', title: 'Crawler SEO : fonctionnement, profondeur de crawl et optimisation' },
-      { slug: 'indexabilite-seo', title: 'Indexabilité SEO : pages indexables, non indexables et stratégie de crawl budget' },
-      { slug: 'robots-txt-meta-robots', title: 'Robots.txt et meta robots : contrôler le crawl et l\'indexation' },
-      { slug: 'balise-canonique', title: 'Balise canonique : définition, utilité et bonnes pratiques SEO' },
-      { slug: 'codes-http-seo', title: 'Codes HTTP et SEO : 200, 301, 404, 410 et leur impact' },
-      { slug: 'donnees-structurees-schema-org', title: 'Données structurées et Schema.org : rich results et IA Search' },
-      { slug: 'fil-ariane-seo', title: 'Fil d\'Ariane SEO : définition, bénéfices et implémentation' },
-      { slug: 'page-orpheline-seo', title: 'Page orpheline en SEO : définition, impact et comment les identifier' },
-      { slug: 'analyse-logs-seo', title: 'Analyse de logs SEO : comprendre le comportement de Googlebot' },
-      { slug: 'google-search-console', title: 'Google Search Console : le guide complet pour piloter votre SEO' },
+    label: 'Stratégie de contenu et rédaction',
+    slugs: [
+      'strategie-contenu-seo',
+      'choisir-mots-cles-seo',
+      'seo-on-page-optimisation',
+      'cocon-semantique-maillage-interne',
+      'optimiser-liens-internes',
+      'rediger-bon-article-blog',
+      'rediger-titre-seo',
+      'techniques-redaction-web',
+      'formes-contenus-redaction-web',
+      'fautes-orthographe-redaction-web',
+      'copywriter-eviter-syndrome-page-blanche',
+      'calendrier-editorial',
     ],
   },
+  { label: 'Netlinking et autorité', slugs: ['netlinking-backlinks-pagerank', 'netlinking-avance'] },
   {
-    label: 'Stratégie de contenu',
-    color: 'cyan',
-    articles: [
-      { slug: 'strategie-contenu-seo', title: 'Stratégie de contenu SEO : produire du contenu qui génère du trafic' },
-      { slug: 'choisir-mots-cles-seo', title: 'Comment choisir les bons mots-clés en SEO : méthode en 4 étapes' },
-      { slug: 'seo-on-page-optimisation', title: 'SEO on-page : les éléments clés à optimiser sur chaque page' },
-      { slug: 'cocon-semantique-maillage-interne', title: 'Cocon sémantique : structurer son site pour dominer les SERPs' },
-      { slug: 'rediger-bon-article-blog', title: 'Rédiger un bon article de blog : structure, méthode et optimisation SEO' },
-      { slug: 'calendrier-editorial', title: 'Calendrier éditorial : comment planifier sa stratégie de contenu' },
-    ],
+    label: 'Audit, pilotage et stratégie',
+    slugs: ['audit-seo', 'erreurs-seo-frequentes', '10-secrets-seo', 'reporting-seo-kpis', 'seo-startups', 'seo-local-google-my-business', 'tendances-seo-2026'],
   },
-  {
-    label: 'Netlinking & Autorité',
-    color: 'cyan',
-    articles: [
-      { slug: 'netlinking-backlinks-pagerank', title: 'Netlinking et backlinks : comment construire votre autorité SEO' },
-      { slug: 'netlinking-avance', title: 'Netlinking avancé : PageRank sculpting, stratégies et outils pros' },
-    ],
-  },
-  {
-    label: 'GEO & IA Search',
-    color: 'cyan',
-    articles: [
-      { slug: 'geo-ia-search-ai-overviews', title: 'GEO : optimiser son contenu pour la recherche IA et les AI Overviews' },
-      { slug: 'ia-search-moteurs-reponses', title: 'IA Search : comment fonctionnent vraiment les moteurs de réponses' },
-      { slug: 'google-eeat', title: 'Google EEAT : définition, critères et comment l\'améliorer concrètement' },
-    ],
-  },
-  {
-    label: 'SEO Local',
-    color: 'cyan',
-    articles: [
-      { slug: 'seo-local-google-my-business', title: 'SEO local et Google My Business : dominer les recherches de proximité' },
-    ],
-  },
-  {
-    label: 'Audit & Méthode',
-    color: 'cyan',
-    articles: [
-      { slug: 'audit-seo', title: 'Audit SEO : méthode complète pour diagnostiquer et corriger votre référencement' },
-    ],
-  },
-  {
-    label: 'Métier & Carrière',
-    color: 'cyan',
-    articles: [
-      { slug: 'devenir-consultant-seo-freelance', title: 'Devenir consultant SEO freelance en 2025 : guide complet' },
-    ],
-  },
-  {
-    label: 'IA & Automatisation',
-    color: 'cyan',
-    articles: [
-      { slug: 'automatisation-ia-no-code-entreprise', title: 'Automatisation IA & No-Code en entreprise : la méthode pour démarrer' },
-    ],
-  },
+  { label: 'Métier', slugs: ['devenir-consultant-seo-freelance', 'optimiser-profil-malt'] },
+  { label: 'IA et automatisation', slugs: ['automatisation-ia-no-code-entreprise'] },
 ]
+
+function getClusters() {
+  const drafts = getBlogDrafts()
+  const titles = new Map(drafts.map((d) => [d.slug.replace('/blog/', ''), d.h1 || d.title]))
+  const listed = new Set(RUBRIQUES.flatMap((r) => r.slugs))
+  const autres = Array.from(titles.keys()).filter((slug) => !listed.has(slug))
+  return [...RUBRIQUES, ...(autres.length ? [{ label: 'Autres guides', slugs: autres }] : [])].map((r) => ({
+    label: r.label,
+    articles: r.slugs.filter((slug) => titles.has(slug)).map((slug) => ({ slug, title: titles.get(slug) as string })),
+  }))
+}
 
 const schema = {
   '@context': 'https://schema.org',
@@ -111,16 +99,19 @@ const schema = {
   url: 'https://aurelienpage.fr/blog',
   author: {
     '@type': 'Person',
+    '@id': 'https://aurelienpage.fr/#person',
     name: 'Aurélien PAGE',
     url: 'https://aurelienpage.fr',
   },
 }
 
 export default function BlogPage() {
+  const CLUSTERS = getClusters()
   return (
     <>
       <Header />
       <JsonLd schema={schema} />
+      <JsonLd schema={breadcrumbSchema([{ name: 'Blog SEO', path: '/blog' }])} />
       <main className={styles.blogIdxMain}>
         {/* Breadcrumb */}
         <div className={styles.blogIdxFil}>
@@ -144,8 +135,8 @@ export default function BlogPage() {
                 Guides SEO, méthodes et stratégies
               </h1>
               <p className={styles.blogIdxChapo}>
-                Ressources approfondies sur le référencement naturel, le GEO, l&apos;IA Search et la stratégie de contenu.
-                Par un consultant qui pratique, pas par un agrégateur de conseils génériques.
+                Méthodes de référencement naturel, de GEO et de stratégie de contenu, avec leurs sources officielles.
+                Pour les réponses courtes, voir la rubrique <Link href="/reponses" className={styles.blogIdxFilLien}>Réponses SEO et GEO</Link>.
               </p>
             </div>
           </div>

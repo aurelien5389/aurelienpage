@@ -3,16 +3,18 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
+import JsonLd from '@/components/JsonLd'
+import { breadcrumbSchema } from '@/lib/schema'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
-  title: 'Prestations · SEO, SEA, IA, No Code · Aurélien PAGE',
+  title: 'Prestations · SEO, GEO, SEA et formation · Aurélien PAGE',
   description:
-    "5 expertises complémentaires : SEO & GEO, SEA, IA, chef de projet digital, formation no-code. Freelance à Rennes.",
+    "SEO et GEO, audit GEO, accompagnement mensuel, Google Ads, chef de projet digital, formations SEO et GEO. Freelance à Rennes.",
   alternates: { canonical: 'https://aurelienpage.fr/prestations' },
   openGraph: {
-    title: 'Prestations · SEO, SEA, IA, No Code · Aurélien PAGE',
-    description: "5 expertises complémentaires : SEO & GEO, SEA, IA, chef de projet digital, formation no-code. Freelance à Rennes.",
+    title: 'Prestations · SEO, GEO, SEA et formation · Aurélien PAGE',
+    description: "SEO et GEO, audit GEO, accompagnement mensuel, Google Ads, chef de projet digital, formations SEO et GEO. Freelance à Rennes.",
     url: 'https://aurelienpage.fr/prestations',
   },
 }
@@ -32,9 +34,15 @@ const PRESTATIONS = [
   },
   {
     icon: '🤖',
-    title: 'Consultant IA',
-    pitch: "Intégration de l'IA générative dans vos workflows marketing et éditoriaux. Des gains concrets sans jargon.",
-    href: '/prestations/consultant-ia',
+    title: 'Audit GEO',
+    pitch: "Les IA vous citent-elles ? Relevé des réponses de ChatGPT, Perplexity, Gemini et Google, part de voix, plan d'action.",
+    href: '/prestations/audit-geo',
+  },
+  {
+    icon: '📈',
+    title: 'Accompagnement SEO mensuel',
+    pitch: "Un consultant SEO au mois : optimisations, contenus, suivi des positions et des citations dans les IA.",
+    href: '/accompagnement-seo',
   },
   {
     icon: '🗂️',
@@ -43,10 +51,16 @@ const PRESTATIONS = [
     href: '/prestations/chef-de-projet-digital',
   },
   {
+    icon: '🎓',
+    title: 'Formation SEO',
+    pitch: "Modules de 2 à 4 heures sur votre site, en individuel ou en équipe, à Rennes ou à distance.",
+    href: '/formation-seo',
+  },
+  {
     icon: '⚡',
-    title: 'Formateur No Code & IA',
-    pitch: "Formation de vos équipes aux outils no-code (Make, Airtable) et à l'IA générative. Actionnables, sans prérequis.",
-    href: '/prestations/formateur-no-code-ia',
+    title: 'Formation GEO',
+    pitch: "Former votre équipe marketing à écrire des contenus que les IA citent, et à mesurer le résultat.",
+    href: '/formation-geo',
   },
 ]
 
@@ -54,6 +68,7 @@ export default function PrestationsPage() {
   return (
     <>
       <Header />
+      <JsonLd schema={breadcrumbSchema([{ name: 'Prestations', path: '/prestations' }])} />
       <main className={styles.hubMain}>
         {/* Hero */}
         <section className={styles.hubHero}>
@@ -63,11 +78,12 @@ export default function PrestationsPage() {
                 Prestations
               </p>
               <h1 className={styles.hubH1}>
-                5 expertises complémentaires
+                SEO, GEO, SEA et formation
               </h1>
               <p className={styles.hubChapo}>
-                SEO & GEO, SEA, IA, Chef de Projet, Formation, pensées ensemble, pas en silos.
-                Chaque prestation s&apos;adapte à votre contexte : mission ponctuelle, accompagnement mensuel ou formation.
+                Être trouvé sur Google, cité par les IA et visible en publicité : je travaille ces leviers ensemble.
+                Mission ponctuelle, accompagnement mensuel ou formation. Pour l&apos;IA appliquée, le No Code et l&apos;automatisation, voir{' '}
+                <a href="https://www.audiaa.fr" className={styles.hubLienAudiaa}>Audiaa</a>, l&apos;agence que j&apos;ai fondée.
               </p>
             </div>
             <DiagnosticCTA variant="banner" />

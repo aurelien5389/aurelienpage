@@ -10,9 +10,8 @@ import styles from './PresentationConsultant.module.css'
 const ROLES = [
   'Consultant SEO & GEO',
   'Traffic Manager (SEA)',
-  'Consultant IA',
   'Chef de Projet Digital',
-  'Formateur No Code & IA',
+  'Formateur SEO & GEO',
 ]
 
 function useTypewriter(texts: string[]) {
@@ -83,16 +82,13 @@ export default function PresentationConsultant() {
             <span>Rennes · Télétravail &amp; déplacements</span>
           </motion.div>
 
-          <motion.h1
-            custom={0.1}
-            variants={fadeUp}
-            initial="hidden"
-            animate="visible"
-            className={styles.presentationNom}
-          >
+          {/* Rendu sans animation : visible sans JavaScript et affiché dès le premier rendu (LCP) */}
+          <h1 className={styles.presentationNom}>
             Aurélien{' '}
             <span className={styles.nomAccent}>PAGE</span>
-          </motion.h1>
+            <span className={styles.srOnly}>, </span>
+            <span className={styles.nomMetier}>Consultant SEO, GEO et SEA à Rennes</span>
+          </h1>
 
           <motion.div
             custom={0.15}
@@ -120,17 +116,12 @@ export default function PresentationConsultant() {
             </span>
           </motion.div>
 
-          <motion.p
-            custom={0.3}
-            variants={fadeUp}
-            initial="hidden"
-            animate="visible"
-            className={styles.presentationPitch}
-          >
-            J&apos;accompagne les entreprises et organismes de formation à améliorer leur visibilité,
-            structurer leurs contenus, activer le SEA et automatiser leurs workflows marketing,{' '}
-            <span className={styles.pitchFort}>avec une approche pédagogique et opérationnelle.</span>
-          </motion.p>
+          <p className={styles.presentationPitch}>
+            J&apos;aide les entreprises à être trouvées sur Google et citées par ChatGPT, Perplexity,
+            Gemini et les AI Overviews. <span className={styles.pitchFort}>Audit SEO et GEO de 800 à
+            2 500 €, accompagnement dès 500 € par mois</span>, campagnes Google Ads et formations SEO.
+            À Rennes, en télétravail ou en déplacement. Premier échange : un diagnostic offert de 30 minutes.
+          </p>
 
           <motion.div
             custom={0.4}

@@ -5,7 +5,7 @@ import styles from './AuthorBio.module.css'
 const BADGES = [
   "8 ans d'expérience",
   'SEO · SEA · GEO',
-  'IA & No-code',
+  'Formation SEO et GEO',
   'Rennes · Remote',
 ]
 
@@ -28,7 +28,7 @@ export default function AuthorBio() {
           </div>
 
           <p className={styles.bioRole}>
-            Consultant SEO &amp; GEO · Traffic Manager SEA · Formateur No-Code &amp; IA · Rennes
+            Consultant SEO, GEO et SEA · Formateur SEO et GEO · Rennes
           </p>
 
           <p className={styles.bioTexte}>
@@ -36,8 +36,8 @@ export default function AuthorBio() {
             SEA et GEO au fil de 8 ans de missions en agence web, pour un groupe média B2B
             (Usine Digitale, Usine Nouvelle) et en freelance. Diplômé d&apos;un Master en Droit du
             numérique et d&apos;une formation d&apos;Expert SEO, je me spécialise depuis 2023 sur le GEO
-            (optimisation pour les moteurs de recherche à IA) et sur l&apos;automatisation no-code
-            (Make, Airtable, Claude AI).
+            (optimisation pour les moteurs de recherche à IA). L&apos;IA appliquée et le No Code sont portés
+            par <a href="https://www.audiaa.fr" className={styles.bioLien}>Audiaa</a>, l&apos;agence que j&apos;ai fondée.
           </p>
 
           <div className={styles.bioBadges}>
@@ -49,8 +49,8 @@ export default function AuthorBio() {
           </div>
 
           <div className={styles.bioLiens}>
-            <Link href="/" className={styles.bioLienSite}>
-              aurelienpage.fr
+            <Link href="/a-propos" className={styles.bioLienSite}>
+              À propos
             </Link>
             <a
               href="https://www.linkedin.com/in/aurelienpage"

@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import styles from './MarkdownRenderer.module.css'
 
 // Converts inline markdown to JSX: **bold**, *italic*, `code`, [link](url)
-function renderInline(text: string, key: string | number): React.ReactNode {
+export function renderInline(text: string, key: string | number): React.ReactNode {
   const parts: React.ReactNode[] = []
   let remaining = text
   let i = 0
@@ -141,6 +141,47 @@ export default function MarkdownRenderer({ content }: Props) {
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]
+
+    // Fenced code block
+    if (/^```/.test(line.trim())) {
+      flushParagraph(); flushUl(); flushOl()
+      const code: string[] = []
+      i++
+      while (i < lines.length && !/^```/.test(lines[i].trim())) code.push(lines[i++])
+      elements.push(
+        <pre key={`pre-${idx++}`} className={styles.mdPre}>
+          <code>{code.join('\n')}</code>
+        </pre>
+      )
+      continue
+    }
+
+    // Table: header row followed by a |---| separator row
+    if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|?\s*:?-{3,}/.test(lines[i + 1])) {
+      flushParagraph(); flushUl(); flushOl()
+      const cells = (row: string) => row.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim())
+      const head = cells(line)
+      const body: string[][] = []
+      i += 2
+      while (i < lines.length && /^\s*\|/.test(lines[i])) body.push(cells(lines[i++]))
+      i--
+      const t = idx++
+      elements.push(
+        <div key={`tw-${t}`} className={styles.mdTableWrap}>
+          <table className={styles.mdTable}>
+            <thead>
+              <tr>{head.map((c, j) => <th key={j} scope="col">{renderInline(c, `th-${t}-${j}`)}</th>)}</tr>
+            </thead>
+            <tbody>
+              {body.map((row, r) => (
+                <tr key={r}>{row.map((c, j) => <td key={j}>{renderInline(c, `td-${t}-${r}-${j}`)}</td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )
+      continue
+    }
 
     // H2
     if (/^## /.test(line)) {

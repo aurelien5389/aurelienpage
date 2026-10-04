@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
+import { PERSON_ID, SITE_URL, breadcrumbSchema } from '@/lib/schema'
 import styles from './PrestationDetail.module.css'
 
 export interface PrestationData {
@@ -13,14 +14,25 @@ export interface PrestationData {
   missions: string[]
   outils: string[]
   formats: string[]
-  serviceSchema: object
+  serviceSchema: { url: string } & Record<string, unknown>
 }
 
 export default function PrestationDetail({ data }: { data: PrestationData }) {
+  const name = data.h1.split(' : ')[0]
+  const service = {
+    ...data.serviceSchema,
+    provider: { '@type': 'Person', '@id': PERSON_ID, name: 'Aurélien Page', url: SITE_URL },
+  }
+  const crumbs = breadcrumbSchema([
+    { name: 'Prestations', path: '/prestations' },
+    { name, path: data.serviceSchema.url.replace(SITE_URL, '') },
+  ])
+
   return (
     <>
       <Header />
-      <JsonLd schema={data.serviceSchema} />
+      <JsonLd schema={service} />
+      <JsonLd schema={crumbs} />
       <main className={styles.prestaMain}>
         {/* Breadcrumb */}
         <div className={styles.filAriane}>
@@ -30,7 +42,7 @@ export default function PrestationDetail({ data }: { data: PrestationData }) {
               <span aria-hidden="true">›</span>
               <Link href="/prestations" className={styles.filLien}>Prestations</Link>
               <span aria-hidden="true">›</span>
-              <span className={styles.filActuel}>{data.h1.split(' : ')[0]}</span>
+              <span className={styles.filActuel}>{name}</span>
             </nav>
           </div>
         </div>

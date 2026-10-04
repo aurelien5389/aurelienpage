@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Space_Grotesk, Inter, JetBrains_Mono } from 'next/font/google'
 import Script from 'next/script'
+import JsonLd from '@/components/JsonLd'
+import { siteGraph } from '@/lib/schema'
 import './globals.css'
 
 const spaceGrotesk = Space_Grotesk({
@@ -26,55 +28,18 @@ const jetbrainsMono = JetBrains_Mono({
 
 const siteUrl = 'https://aurelienpage.fr'
 
-const personSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Aurélien PAGE',
-  url: siteUrl,
-  image: `${siteUrl}/photo.jpg`,
-  jobTitle: 'Consultant SEO & GEO, Traffic Manager, Consultant IA, Formateur No Code',
-  telephone: '+33781981114',
-  email: 'aurelienpage89@gmail.com',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Rennes',
-    addressRegion: 'Bretagne',
-    addressCountry: 'FR',
-  },
-  sameAs: ['https://www.linkedin.com/in/aurelienpage'],
-  knowsAbout: ['SEO', 'GEO', 'SEA', 'Google Ads', 'Meta Ads', 'Marketing digital', 'IA générative', 'Automatisation No-code', 'Make', 'Airtable', 'Claude AI', 'Gestion de projet digital'],
-  description:
-    "Consultant SEO & GEO, Traffic Manager SEA, Consultant IA et Formateur No Code basé à Rennes. J'accompagne entreprises et organismes de formation.",
-}
-
-const localBusinessSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'Aurélien PAGE, consultant SEO & Marketing Digital',
-  url: siteUrl,
-  telephone: '+33781981114',
-  email: 'aurelienpage89@gmail.com',
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Rennes',
-    addressRegion: 'Bretagne',
-    addressCountry: 'FR',
-  },
-  areaServed: 'France',
-  priceRange: '€€',
-}
-
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code · Rennes',
+  title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
   description:
-    "Consultant freelance spécialisé en SEO, SEA, GEO, IA et automatisation no-code. Basé à Rennes, interventions remote. Diagnostic offert.",
+    "Consultant SEO, GEO et SEA à Rennes : être trouvé sur Google et cité par ChatGPT, Perplexity et les AI Overviews. Audits, accompagnement, Google Ads, formations. Diagnostic offert.",
   keywords: [
     'consultant SEO',
     'consultant GEO',
     'traffic manager SEA',
     'consultant IA',
-    'formateur no code',
+    'formation SEO',
+    'formation GEO',
     'chef de projet digital',
     'SEO Rennes',
     'automatisation marketing',
@@ -96,9 +61,9 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: siteUrl,
     siteName: 'Aurélien PAGE',
-    title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code',
+    title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
     description:
-      "J'accompagne les entreprises et organismes de formation à améliorer leur visibilité, automatiser leurs workflows et se positionner dans les environnements IA : SEO · SEA · GEO · No-code.",
+      "J'aide les entreprises à être trouvées sur Google et citées par les IA : audits SEO et GEO, accompagnement, Google Ads, formations. Rennes et à distance.",
     images: [
       {
         url: '/og-default.png',
@@ -110,8 +75,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aurélien PAGE · Consultant SEO, SEA, IA & Formateur No Code',
-    description: 'Consultant freelance basé à Rennes : SEO · SEA · GEO · IA · No-code. Diagnostic offert.',
+    title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
+    description: 'Consultant SEO, GEO et SEA à Rennes. Audits, accompagnement, Google Ads, formations. Diagnostic offert.',
     images: ['/og-default.png'],
   },
   robots: {
@@ -154,18 +119,7 @@ export default function RootLayout({
             gtag('config', 'G-ZVYC2J060V');
           `}
         </Script>
-        <Script
-          id="schema-person"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
-          strategy="beforeInteractive"
-        />
-        <Script
-          id="schema-local-business"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-          strategy="beforeInteractive"
-        />
+        <JsonLd schema={siteGraph} />
         {children}
         <Script src="/chatbot.js" strategy="afterInteractive" />
       </body>

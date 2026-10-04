@@ -67,7 +67,7 @@ La quasi-totalité de mes missions se déroule en remote, ce qui n'impacte pas l
 Tous les secteurs. J'ai travaillé avec des entreprises B2B, des e-commerçants, des professions libérales, des PME industrielles. Sur Toulouse, les secteurs tech, conseil, formation, et services aux entreprises sont particulièrement demandeurs de SEO de qualité.
 
 **En combien de temps voit-on des résultats ?**
-Les premières progressions mesurables apparaissent entre 3 et 6 mois selon le niveau de concurrence sur vos requêtes cibles. Je vous partage des indicateurs de progression dès le début — pas uniquement le classement final.
+Les premières progressions mesurables apparaissent entre 3 et 6 mois selon le niveau de concurrence sur vos requêtes cibles. Je vous partage des indicateurs de progression dès le début, pas uniquement le classement final.
 
 ## Travaillons ensemble
 

@@ -1,3 +1,25 @@
+const fs = require('fs')
+const path = require('path')
+
+// Les drafts qui ne sont pas des articles de blog (offres, pages villes…) étaient aussi servis
+// sous /blog/[fichier] : contenu en double. On redirige ces adresses vers la vraie page.
+function blogDuplicateRedirects() {
+  const dir = path.join(__dirname, '_drafts')
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.md'))
+    .map((f) => {
+      const raw = fs.readFileSync(path.join(dir, f), 'utf8')
+      const slug = (raw.match(/slug:\s*"?([^"\r\n]+)/) || raw.match(/\*\*Slug\s*\/\s*URL\s*:\*\*\s*`([^`]+)`/) || [])[1]
+      const file = f.replace(/\.md$/, '')
+      // Sans slug déclaré : la page dédiée app/[fichier]/page.tsx fait foi
+      const ownPage = fs.existsSync(path.join(__dirname, 'app', file, 'page.tsx')) ? `/${file}` : undefined
+      return { file, slug: (slug && slug.trim()) || ownPage }
+    })
+    .filter((d) => d.slug && !d.slug.startsWith('/blog/'))
+    .map((d) => ({ source: `/blog/${d.file}`, destination: d.slug, statusCode: 301 }))
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -5,6 +27,27 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      ...blogDuplicateRedirects(),
+      // Articles fusionnés lors de la revue GEO du blog
+      { source: '/blog/geo-vs-seo', destination: '/reponses/difference-seo-geo', statusCode: 301 },
+      { source: '/blog/erreurs-seo-critiques', destination: '/blog/erreurs-seo-frequentes', statusCode: 301 },
+      { source: '/blog/canva-creation-contenus', destination: '/blog/formes-contenus-redaction-web', statusCode: 301 },
+      {
+        source: '/blog/perplexity-citation-geo',
+        destination: '/blog/chatgpt-search-geo',
+        statusCode: 301,
+      },
+      // Pages IA et No Code transférées vers Audiaa (décision GEO, phase 2)
+      {
+        source: '/prestations/consultant-ia',
+        destination: 'https://www.audiaa.fr/prestations.html',
+        statusCode: 301,
+      },
+      {
+        source: '/prestations/formateur-no-code-ia',
+        destination: 'https://www.audiaa.fr/formations.html',
+        statusCode: 301,
+      },
       {
         source: '/copywriter-comment-eviter-le-syndrome-de-la-page-blanche',
         destination: '/blog/copywriter-eviter-syndrome-page-blanche',
@@ -77,12 +120,12 @@ const nextConfig = {
       },
       {
         source: '/utiliser-canva-creation-contenus',
-        destination: '/blog/canva-creation-contenus',
+        destination: '/blog/formes-contenus-redaction-web',
         permanent: true,
       },
       {
         source: '/utiliser-canva-creation-contenus/',
-        destination: '/blog/canva-creation-contenus',
+        destination: '/blog/formes-contenus-redaction-web',
         permanent: true,
       },
       {
@@ -117,12 +160,12 @@ const nextConfig = {
       },
       {
         source: '/3-erreurs-seo-ruinent-site-web-comment-corriger-rapidement',
-        destination: '/blog/erreurs-seo-critiques',
+        destination: '/blog/erreurs-seo-frequentes',
         permanent: true,
       },
       {
         source: '/3-erreurs-seo-ruinent-site-web-comment-corriger-rapidement/',
-        destination: '/blog/erreurs-seo-critiques',
+        destination: '/blog/erreurs-seo-frequentes',
         permanent: true,
       },
       {

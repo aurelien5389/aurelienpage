@@ -1,0 +1,221 @@
+/* Gabarit fiche prestation / formation. Unités rem. */
+
+.ficheMain {
+  padding-top: 4rem;
+}
+
+.fil {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.filNav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--color-gray-secondary);
+}
+
+.filLien {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.filLien:hover {
+  color: var(--color-cyan);
+}
+
+.filActuel {
+  color: var(--color-off-white);
+}
+
+.ficheArticle {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.ficheEntete {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-steel) 40%, transparent);
+}
+
+.ficheH1 {
+  margin: 0 0 1.25rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--color-off-white);
+}
+
+.ficheResume {
+  margin: 0 0 1rem;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--color-off-white);
+}
+
+.ficheMaj {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--color-gray-secondary);
+}
+
+.ficheBloc {
+  padding-block: 2rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-steel) 30%, transparent);
+}
+
+.ficheH2 {
+  margin: 0 0 1rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  color: var(--color-off-white);
+}
+
+.ficheH3 {
+  margin: 1.25rem 0 0.5rem;
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--color-off-white);
+}
+
+.fichePara {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+  color: var(--color-gray-secondary);
+}
+
+.fichePara strong,
+.ficheResume strong,
+.ficheTable strong {
+  color: var(--color-off-white);
+}
+
+.ficheTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.ficheTable th,
+.ficheTable td {
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-steel) 40%, transparent);
+  line-height: 1.5;
+}
+
+.ficheTable th {
+  width: 30%;
+  font-weight: 600;
+  color: var(--color-off-white);
+}
+
+.ficheTable td {
+  color: var(--color-gray-secondary);
+}
+
+.ficheEtapes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ficheEtape {
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  border-left: 3px solid var(--color-cyan);
+  background: color-mix(in srgb, var(--color-steel) 15%, transparent);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.ficheEtape .ficheH3 {
+  margin-top: 0;
+}
+
+.ficheNum {
+  color: var(--color-cyan);
+}
+
+.ficheEtapeMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-gray-secondary);
+}
+
+.ficheEtapeMeta strong {
+  color: var(--color-off-white);
+}
+
+.ficheListe {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  line-height: 1.65;
+  color: var(--color-gray-secondary);
+}
+
+.ficheListe li + li {
+  margin-top: 0.5rem;
+}
+
+.ficheLien {
+  color: var(--color-cyan);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ficheLien:hover {
+  color: var(--color-cyan-hover);
+}
+
+.ficheFaq {
+  margin-bottom: 0.75rem;
+  padding: 0.875rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--color-steel) 50%, transparent);
+  border-radius: 0.5rem;
+}
+
+.ficheFaq summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-off-white);
+}
+
+.ficheFaq[open] summary {
+  margin-bottom: 0.75rem;
+}
+
+.ficheFaq .fichePara {
+  margin: 0;
+}
+
+.ficheCta {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding: 0 1rem 4rem;
+}
+
+@media (min-width: 768px) {
+  .ficheH1 {
+    font-size: 2.5rem;
+  }
+}
+
+.ficheZones {
+  margin: 0;
+  line-height: 2;
+  color: var(--color-gray-secondary);
+}

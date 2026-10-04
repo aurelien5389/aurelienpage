@@ -4,7 +4,7 @@ title: "Apprendre le SEO : les principes fondamentaux pour bien débuter"
 meta-description: "Comment apprendre le SEO quand on débute ? Trois piliers (technique, contenu, popularité), les formations qui font la différence, et les principes que j'aurais aimé connaître avant de me lancer."
 ---
 
-Plus de 5,5 milliards de requêtes sont effectuées chaque jour sur Google. Les moteurs de recherche génèrent 300 % plus de trafic que les réseaux sociaux. Et 67 % des clics sur la SERP vont aux cinq premiers résultats organiques.
+Chaque jour, vos futurs clients tapent une question dans Google avant de choisir un prestataire, un produit ou une formation. La plupart cliquent sur l'un des premiers résultats et ne vont jamais plus loin.
 
 Trois chiffres qui résument à eux seuls tout l'intérêt du SEO. Le référencement naturel est devenu un canal d'acquisition incontournable pour tout site web qui veut exister en ligne, et une compétence de plus en plus recherchée sur le marché du travail.
 

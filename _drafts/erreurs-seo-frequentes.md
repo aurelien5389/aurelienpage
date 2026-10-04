@@ -92,4 +92,4 @@ Google met à jour son algorithme en permanence. La concurrence publie de nouvea
 
 ---
 
-Ces 10 erreurs sont corrigibles. Aucune ne nécessite un budget conséquent ni des compétences techniques avancées, juste de la méthode et de la régularité. Si vous voulez identifier précisément lesquelles affectent votre site, je les traite dans le cadre d'un [audit SEO complet](/prestations/consultant-seo-geo) — ou échangeons en 30 minutes via un [diagnostic gratuit](/#contact).
+Ces 10 erreurs sont corrigibles. Aucune ne nécessite un budget conséquent ni des compétences techniques avancées, juste de la méthode et de la régularité. Si vous voulez identifier précisément lesquelles affectent votre site, je les traite dans le cadre d'un [audit SEO complet](/prestations/consultant-seo-geo), ou échangeons en 30 minutes via un [diagnostic gratuit](/#contact).

@@ -5,6 +5,7 @@ import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import type { InternalLink } from '@/lib/internal-links'
+import { PERSON_ID, SITE_URL, breadcrumbSchema } from '@/lib/schema'
 import styles from './LocalSeoPageLayout.module.css'
 
 interface Props {
@@ -21,21 +22,22 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: `Consultant SEO à ${ville}`,
-    provider: {
-      '@type': 'Person',
-      name: 'Aurélien PAGE',
-      url: 'https://aurelienpage.fr',
-      sameAs: 'https://linkedin.com/in/aurelienpage',
-    },
+    provider: { '@type': 'Person', '@id': PERSON_ID, name: 'Aurélien Page', url: SITE_URL },
     areaServed: ville,
     url: `https://aurelienpage.fr${slug}`,
     description: `Consultant SEO freelance à ${ville}. Audit SEO, optimisation technique et stratégie GEO. Diagnostic offert.`,
   }
 
+  const crumbs = breadcrumbSchema([
+    { name: 'Consultant SEO & GEO', path: '/prestations/consultant-seo-geo' },
+    { name: ville, path: slug },
+  ])
+
   return (
     <>
       <Header />
       <JsonLd schema={schema} />
+      <JsonLd schema={crumbs} />
       <main className={styles.localMain}>
         {/* Breadcrumb */}
         <div className={styles.localFil}>

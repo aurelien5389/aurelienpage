@@ -79,7 +79,7 @@ A: Ça dépend de votre secteur. Si vous vendez du B2B, des services, de la tech
 A: Oui, j'ai une forte compétence en SEO/GEO allemand. Mais je travaille aussi avec des prestataires bilingues locaux si nécessaire pour du contenu haute qualité.
 
 **Q: C'est combien pour Strasbourg ?**
-A: Audit bilingue complet : 1000-1500€. Projet mensuel : 2000-5000€. Stratégie annuelle : 18 000-45 000€. Transparent. On discute budget avant de s'engager.
+A: Audit SEO et GEO : 800 à 2 500 € selon la taille du site. Accompagnement mensuel : 500 à 2 000 € par mois, au-delà sur devis. Transparent. On discute budget avant de s'engager.
 
 **Q: Vous avez des références strasbourg-oises ?**
 A: Je travaille sous NDA mais je peux discuter de secteurs : biotech, logistique, services. En confiance avec vous.

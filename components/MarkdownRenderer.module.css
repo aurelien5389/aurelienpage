@@ -120,3 +120,44 @@
     font-size: 18px;
   }
 }
+
+.mdPre {
+  margin: 0 0 20px;
+  padding: 16px;
+  overflow-x: auto;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-steel) 35%, transparent);
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-off-white);
+}
+
+.mdTableWrap {
+  margin: 0 0 20px;
+  overflow-x: auto;
+}
+
+.mdTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.mdTable th,
+.mdTable td {
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.5;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-steel) 45%, transparent);
+}
+
+.mdTable th {
+  font-weight: 600;
+  color: var(--color-off-white);
+}
+
+.mdTable td {
+  color: var(--color-gray-secondary);
+}

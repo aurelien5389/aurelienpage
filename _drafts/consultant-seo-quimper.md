@@ -58,7 +58,7 @@ Extension vers de nouveaux segments, renforcement de l'autorité, préparation a
 ## Questions fréquentes
 
 **Quel budget pour une prestation SEO à Quimper ?**
-Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel (stratégie + suivi) démarre à partir de 500 à 600 euros par mois. Je fournis toujours un devis détaillé avant de commencer.
+Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel (stratégie + suivi) démarre à partir de 500 euros par mois. Je fournis toujours un devis détaillé avant de commencer.
 
 **Combien de temps avant des résultats visibles ?**
 3 à 6 mois pour des progressions mesurables sur les positions et le trafic. Le top 3 sur des requêtes compétitives demande généralement 6 à 12 mois de travail régulier. Le SEO est un investissement à horizon moyen-long terme, pas un levier d'acquisition immédiate.
