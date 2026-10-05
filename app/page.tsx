@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   },
 }
 
-// Cartes prestations : textes du hub /prestations, tarifs repris des fiches
+// Cartes prestations : textes du hub /prestations. Pas de montant sur l'accueil (choix d'Aurélien) : les tarifs sont sur les fiches
 const PRESTATIONS: { titre: string; texte: string; icone: IconName; tarif: string; href: string }[] = [
-  { titre: 'Consultant SEO & GEO', texte: 'Audit, stratégie, cocons sémantiques, optimisation GEO pour les moteurs IA. Une visibilité organique qui dure.', icone: 'search', tarif: 'Audit SEO et GEO : 800 à 2 500 € selon la taille du site', href: '/prestations/consultant-seo-geo' },
+  { titre: 'Consultant SEO & GEO', texte: 'Audit, stratégie, cocons sémantiques, optimisation GEO pour les moteurs IA. Une visibilité organique qui dure.', icone: 'search', tarif: 'Tarif détaillé sur la fiche', href: '/prestations/consultant-seo-geo' },
   { titre: 'Audit GEO', texte: "Les IA vous citent-elles ? Relevé des réponses de ChatGPT, Perplexity, Gemini et Google, part de voix, sites cités, plan d'action.", icone: 'sparkles', tarif: "Inclus dans l'audit SEO et GEO", href: '/prestations/audit-geo' },
-  { titre: 'Accompagnement SEO mensuel', texte: 'Un consultant SEO au mois : optimisations, contenus, suivi des positions et des citations dans les IA.', icone: 'chart', tarif: '500 à 2 000 € par mois, sans contrat annuel imposé', href: '/accompagnement-seo' },
+  { titre: 'Accompagnement SEO mensuel', texte: 'Un consultant SEO au mois : optimisations, contenus, suivi des positions et des citations dans les IA.', icone: 'chart', tarif: 'Sans contrat annuel imposé', href: '/accompagnement-seo' },
   { titre: 'Traffic Manager (SEA)', texte: 'Campagnes Google Ads & Meta Ads créées, pilotées et optimisées. Chaque euro investi est tracé.', icone: 'megaphone', tarif: 'Sur devis', href: '/prestations/traffic-manager-sea' },
-  { titre: 'Formations SEO et GEO', texte: 'Former vos équipes au référencement et à la visibilité dans les IA, sur votre propre site. En individuel ou en équipe, à Rennes ou à distance.', icone: 'cap', tarif: '300 € les 2 heures, 450 à 600 € le module', href: '/formation-seo' },
+  { titre: 'Formations SEO et GEO', texte: 'Former vos équipes au référencement et à la visibilité dans les IA, sur votre propre site. En individuel ou en équipe, à Rennes ou à distance.', icone: 'cap', tarif: 'Sur devis', href: '/formation-seo' },
   { titre: 'Chef de Projet Digital', texte: "Coordination de projets web et digitaux transversaux : refonte, migration SEO, déploiement d'outils, reporting. Du diagnostic à l'exécution.", icone: 'folder', tarif: 'Sur devis', href: '/prestations/chef-de-projet-digital' },
 ]
 

@@ -55,7 +55,7 @@ Faites ces vérifications avant de signer : un refus de financement après la fo
     href: '/formation-seo',
     label: 'Formation SEO',
     texte:
-      "Ma **formation SEO** se finance sur le budget de l'entreprise : 300 € les 2 heures, 450 à 600 € le module, sur votre propre site.",
+      "Ma **formation SEO** se finance sur le budget de l'entreprise, sur devis, et se fait sur votre propre site.",
   },
   faq: [
     {

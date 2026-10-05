@@ -7,7 +7,7 @@ const PATH = '/formation-geo'
 const URL = `https://aurelienpage.fr${PATH}`
 const TITLE = 'Formation GEO pour équipes marketing : être cité par les IA · Aurélien PAGE'
 const DESCRIPTION =
-  "Formation GEO de 2 à 3 h ou atelier d'une demi-journée : comment les IA choisissent leurs sources, contenus citables, mesure. 300 € les 2 h, équipe sur devis."
+  "Formation GEO de 2 à 3 h ou atelier d'une demi-journée : comment les IA choisissent leurs sources, contenus citables, mesure. Rennes ou à distance, sur devis."
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -22,7 +22,7 @@ const data: FicheData = {
   nom: 'Formation GEO',
   h1: 'Formation GEO',
   resume:
-    "**Formation GEO** pour équipes marketing et éditoriales : comprendre comment ChatGPT, Perplexity, Gemini et les AI Overviews choisissent leurs sources, écrire des contenus qu'ils citent, mesurer le résultat. Module de 2 à 3 heures ou atelier d'une demi-journée, à Rennes, dans vos locaux ou à distance. **300 € les 2 heures**, équipe sur devis.",
+    "**Formation GEO** pour équipes marketing et éditoriales : comprendre comment ChatGPT, Perplexity, Gemini et les AI Overviews choisissent leurs sources, écrire des contenus qu'ils citent, mesurer le résultat. Module de 2 à 3 heures ou atelier d'une demi-journée, à Rennes, dans vos locaux ou à distance. **Tarif sur devis**, selon le format et le nombre de participants.",
   identite: [
     { label: 'Public', valeur: 'Équipes marketing, rédacteurs et content managers, responsables SEO, dirigeants' },
     { label: 'Prérequis', valeur: "Aucun. Connaître les bases du SEO aide ; sinon, voir la [formation SEO](/formation-seo)" },
@@ -33,7 +33,7 @@ const data: FicheData = {
     },
     {
       label: 'Tarif',
-      valeur: "**300 € la session individuelle de 2 heures. 450 à 600 € le module de 3 heures.** Formation en équipe et atelier sur devis, selon le nombre de participants",
+      valeur: "**Sur devis**, selon le format (session de 2 heures, module de 3 heures, atelier d'une demi-journée) et le nombre de participants",
     },
     { label: 'Financement', valeur: FINANCEMENT_FORMATION },
     { label: 'Livrables', valeur: "Supports envoyés après la session, liste de contrôle des contenus citables, liste d'actions sur votre site" },
@@ -115,16 +115,7 @@ const data: FicheData = {
       { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: 'PT2H' },
       { '@type': 'CourseInstance', courseMode: 'onsite', location: 'Rennes', courseWorkload: 'PT2H' },
     ],
-    offers: [
-      { '@type': 'Offer', name: 'Session individuelle de 2 heures', price: 300, priceCurrency: 'EUR', category: 'Paid' },
-      {
-        '@type': 'Offer',
-        name: 'Module de 3 heures',
-        priceCurrency: 'EUR',
-        category: 'Paid',
-        priceSpecification: { '@type': 'PriceSpecification', minPrice: 450, maxPrice: 600, priceCurrency: 'EUR' },
-      },
-    ],
+    offers: { '@type': 'Offer', category: 'Paid', description: 'Sur devis, selon le format et le nombre de participants' },
   },
   dates: getContentDates([`app${PATH}/page.tsx`]),
 }
