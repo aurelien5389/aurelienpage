@@ -1,77 +1,73 @@
 ---
 slug: "/consultant-seo-quimper"
-title: "Consultant SEO à Quimper | Référencement naturel & GEO, Finistère"
-meta-description: "Consultant SEO freelance à Quimper. Audit SEO, stratégie de contenu, netlinking et GEO pour les entreprises du Finistère. Interlocuteur unique, résultats mesurables. Devis gratuit."
+title: "Consultant SEO et GEO à Quimper : agroalimentaire, commerces, tourisme · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO à Quimper : être trouvé sur Google et cité par ChatGPT, pour les PME agroalimentaires, commerces et acteurs du tourisme de Cornouaille. Audit de 800 à 2 500 €."
 ---
 
-Vous dirigez une PME, une TPE ou une activité indépendante à Quimper ou en Cornouaille ? Votre site reste peu visible sur Google malgré vos efforts ? Le référencement naturel exige une stratégie adaptée à votre marché local et aux évolutions actuelles des moteurs de recherche.
+# Consultant SEO et GEO à Quimper
 
-Je suis Aurélien PAGE, consultant SEO et GEO freelance. Je vous aide à développer votre visibilité sur Google et à préparer votre présence sur les nouveaux moteurs IA (AI Overviews, Perplexity). Pas d'agence avec des intermédiaires : un expert unique qui travaille directement sur votre projet.
+Quimper rayonne sur toute la Cornouaille : préfecture, centre historique commerçant, industrie agroalimentaire, artisanat d'art, tourisme culturel. Ses entreprises vendent à la fois aux habitants, aux visiteurs et à des clients industriels lointains. Pour chacun de ces publics, la recherche passe de plus en plus par une question posée à une IA.
 
-## Pourquoi le SEO est stratégique pour une entreprise quimpéroise
+**En bref :** je suis **consultant SEO et GEO**. J'aide les entreprises de Quimper et des environs à être trouvées sur Google, sur Google Maps et dans les réponses de ChatGPT, Perplexity, Gemini et des AI Overviews. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, suivi mensuel de 500 à 2 000 €. Je viens à Quimper pour le diagnostic et la restitution, frais de déplacement ajoutés au devis ; le travail courant se fait à distance.
 
-Le marché de Quimper et du Finistère Sud a ses spécificités. Secteurs maritime, tourisme, agroalimentaire, commerce de proximité : la concurrence locale sur Google est réelle, et les requêtes locales ("plombier Quimper", "agence web Finistère") génèrent un trafic qualifié à fort potentiel de conversion.
+## Quel est le tissu économique de Quimper ?
 
-En parallèle, les comportements de recherche évoluent. Google affiche désormais des réponses générées par IA directement dans les résultats (AI Overviews). Être cité comme source dans ces encadrés devient un enjeu SEO à part entière. C'est ce qu'on appelle le GEO, Generative Engine Optimization, et c'est ma spécialité depuis 2023.
+Quimper Bretagne Occidentale indique que l'agroalimentaire représente la moitié de l'emploi industriel de l'agglomération, avec des entreprises comme Entremont ou Hénaff, et un réseau local dédié, ialys ([Quimper Bretagne Occidentale](https://en.quimper-bretagne-occidentale.bzh/1722-the-agri-foods-sector.htm)). La ville accueille chaque été le Festival de Cornouaille, grand rendez-vous culturel breton ([Ville de Quimper](https://en.quimper.bzh/794-cornouaille-festival.htm)), et la faïencerie Henriot-Quimper, l'une des plus anciennes entreprises françaises, dont les ateliers se visitent ([Quimper Tourisme](https://www.quimper-tourisme.bzh/en/?p=8106)).
 
-## Mes prestations SEO à Quimper et en Finistère
+Une PME agroalimentaire veut être trouvée par des acheteurs ; une boutique du centre par les visiteurs. L'audit traite ces deux visibilités séparément.
 
-**Audit SEO complet**
-Diagnostic approfondi de votre site : indexation, mots-clés, contenu, technique, profil de backlinks, UX mobile. Livrable : rapport détaillé avec actions priorisées par impact et effort.
+## Quelles questions vos clients posent-ils aux IA ?
 
-**Stratégie de contenu et optimisation on-page**
-Recherche de mots-clés ancrée sur les réalités locales (Quimper, Cornouaille, Finistère Sud). Rédaction ou brief de contenus optimisés pour Google et pour les moteurs IA. Architecture de cocon sémantique pour concentrer l'autorité sur vos pages prioritaires.
+| Votre activité | Question que pose votre client |
+|---|---|
+| Agroalimentaire | « Quels fabricants de [produit] en Bretagne pour la grande distribution ? » |
+| Sous-traitance, emballage | « Quel fournisseur d'emballage agroalimentaire dans le Finistère ? » |
+| Artisanat d'art | « Où acheter de la faïence de Quimper ? » |
+| Tourisme | « Que faire à Quimper pendant le Festival de Cornouaille ? » |
+| Commerce, artisan | « Quel [métier] de confiance à Quimper ou Ergué-Gabéric ? » |
 
-**Netlinking et construction d'autorité**
-Acquisition de backlinks pertinents auprès de sites locaux et sectoriels. Partenariats, presse régionale, annuaires spécialisés. Approche qualitative, sans liens artificiels qui exposent à des pénalités.
+Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-**Optimisation technique**
-Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurées Schema.org, compression et optimisation des assets. Votre site doit être rapide et structuré pour que Googlebot et les robots IA le lisent correctement.
+## Ce que je fais pour une entreprise de Quimper
 
-**GEO et IA Search**
-Structuration des contenus pour être cité dans les réponses IA. Balisage sémantique avancé, renforcement des signaux EEAT, positionnement en tant que source d'autorité locale sur votre thématique.
+- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
+- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
+- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
+- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
 
-**SEO local et Google Business Profile**
-Optimisation de la fiche établissement, gestion des avis, cohérence NAP sur les annuaires, pages locales ciblées. Indispensable pour les entreprises qui ciblent une clientèle de proximité à Quimper et dans le Finistère.
+## Comment se passe une mission à Quimper ?
 
-## Consultant freelance vs agence : les différences concrètes
+1. **Diagnostic offert de 30 minutes**, en visio ou sur place ou en visio.
+2. **Devis** avec le périmètre et le prix, avant toute intervention.
+3. **Audit**, puis **restitution** sur place ou en visio.
+4. **Suivi** mensuel si vous le souhaitez.
 
-En faisant appel à un consultant SEO indépendant plutôt qu'à une agence, vous gagnez sur plusieurs points :
+## Combien ça coûte ?
 
-- **L'interlocuteur** : c'est l'expert qui fait le travail qui vous répond, pas un commercial ou un chef de projet
-- **La réactivité** : pas de processus interne à traverser, les décisions se prennent en direct
-- **Les tarifs** : pas de frais de structure ni de marge sur des prestations externalisées
-- **La flexibilité** : engagement à la prestation ou au mois, pas de contrat sur 12 ou 24 mois
-- **L'objectivité** : je n'ai pas d'intérêt à vous vendre des services dont vous n'avez pas besoin
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article | 150 à 350 € |
+| Formation (2 h) | 300 € |
 
-## Ma méthode en trois phases
-
-**Phase 1 (mois 1-2) : Diagnostic et fondations**
-Audit complet, identification des mots-clés prioritaires sur Quimper et région, structuration du site et du contenu pour les moteurs classiques et IA.
-
-**Phase 2 (mois 3-6) : Optimisation et production**
-Contenu optimisé, corrections techniques, premiers backlinks qualitatifs, suivi mensuel des positions et du trafic.
-
-**Phase 3 (mois 6+) : Croissance**
-Extension vers de nouveaux segments, renforcement de l'autorité, préparation aux évolutions algorithmiques, développement de la visibilité dans les AI Overviews.
+Les frais de déplacement à Quimper sont ajoutés au devis, au réel, seulement si une rencontre sur place est prévue. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 
 ## Questions fréquentes
 
-**Quel budget pour une prestation SEO à Quimper ?**
-Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel (stratégie + suivi) démarre à partir de 500 euros par mois. Je fournis toujours un devis détaillé avant de commencer.
+**Une PME agroalimentaire a-t-elle besoin du GEO ?**
+Oui, si ses acheteurs ou ses distributeurs posent des questions de choix à une IA. Des pages qui décrivent précisément vos produits, vos certifications et vos capacités sont celles qui peuvent être citées.
 
-**Combien de temps avant des résultats visibles ?**
-3 à 6 mois pour des progressions mesurables sur les positions et le trafic. Le top 3 sur des requêtes compétitives demande généralement 6 à 12 mois de travail régulier. Le SEO est un investissement à horizon moyen-long terme, pas un levier d'acquisition immédiate.
+**Intervenez-vous à Ergué-Gabéric, Pluguffan et Plomelin ?**
+Oui, dans les mêmes conditions qu'à Quimper.
 
-**Travaillez-vous uniquement avec les grandes entreprises ou aussi avec les artisans et TPE ?**
-Je travaille avec tous les profils : artisan qui veut dominer les requêtes locales, PME régionale qui veut étendre sa visibilité, e-commerce qui veut réduire sa dépendance aux Google Ads. J'adapte le périmètre et les tarifs à la situation de chaque client.
+**Combien de temps avant de voir des résultats ?**
+Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
-**Faut-il choisir entre SEO local et stratégie nationale ?**
-Non. Le SEO local et la stratégie nationale sont complémentaires. On commence généralement par ancrer la visibilité sur le marché local (Quimper, Finistère), puis on étend progressivement vers des requêtes régionales et nationales selon les objectifs.
+**Le GEO remplace-t-il le SEO ?**
+Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
 
-**Le GEO est-il utile pour une petite entreprise quimpéroise ?**
-Oui, particulièrement sur les requêtes locales informatives où les AI Overviews s'affichent déjà. Être cité comme source dans une réponse IA sur "quel plombier à Quimper" ou "meilleure adresse agroalimentaire Finistère" représente une visibilité gratuite et durable.
+## Parlons de votre visibilité à Quimper
 
-## Travaillons ensemble
-
-Que vous soyez à Quimper, Concarneau, Douarnenez ou ailleurs en Finistère, [contactez-moi](/#contact) pour un premier échange sans engagement. Je vous proposerai un diagnostic rapide et une approche adaptée à votre marché et à vos objectifs.
+Voir aussi [Brest](/consultant-seo-brest), [Lorient](/consultant-seo-lorient) et la page [Bretagne](/consultant-seo-bretagne). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

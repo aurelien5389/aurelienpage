@@ -1,98 +1,73 @@
-# Consultant SEO Saint-Nazaire, Référencement naturel et IA Search
-
-**Slug / URL :** `/consultant-seo-saint-nazaire`  
-**H1 :** Consultant SEO Saint-Nazaire, Référencement naturel et IA Search
-
+---
+slug: "/consultant-seo-saint-nazaire"
+title: "Consultant SEO et GEO à Saint-Nazaire : industrie, sous-traitance, tourisme · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO à Saint-Nazaire : être trouvé par vos clients industriels et vos visiteurs sur Google et dans ChatGPT. Audit de 800 à 2 500 €, suivi dès 500 €/mois."
 ---
 
-Saint-Nazaire est une plateforme industrielle. Chantiers navals STX, Airbus Aéronautique, port industriel majeur. Économie tissée autour de l'industrie lourde, défense, aérospatial. Tissu de PME/ETI, fournisseurs, prestataires techniques. Beaucoup de B2B, peu de e-commerce, une économie souvent invisible digitalement.
+# Consultant SEO et GEO à Saint-Nazaire
 
-Paradoxe nazairien : vous êtes des experts mondiaux dans vos niches (naval, aéronautique, logistique), mais personne ne vous trouve sur Google. Vous vendez par le réseau, les conventions, la prospection directe. La digitale est absente.
+Saint-Nazaire vit au rythme de ses grands sites industriels : chantiers navals, aéronautique, port. Autour d'eux travaillent des centaines de sous-traitants et de prestataires, souvent peu visibles en ligne. Ils sont pourtant cherchés : par des acheteurs qui ne les connaissent pas, par des candidats, et de plus en plus par des IA à qui l'on demande « quelle entreprise peut faire [tel travail] près de Saint-Nazaire ? ».
 
-C'est une opportunité rare. Pendant que vos concurrents nationaux se battent sur le SEO, vous pouvez conquérir votre niche avec une stratégie digitale bien pensée. Sans bruit. Sans compétition acharnée.
+**En bref :** je suis **consultant SEO et GEO**. J'aide les entreprises de Saint-Nazaire et des environs à être trouvées sur Google, sur Google Maps et dans les réponses de ChatGPT, Perplexity, Gemini et des AI Overviews. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, suivi mensuel de 500 à 2 000 €. Je viens à Saint-Nazaire pour le diagnostic et la restitution, frais de déplacement ajoutés au devis ; le travail courant se fait à distance.
 
-Je suis Aurélien Page, consultant SEO/GEO & Traffic Manager freelance. Je aide les PME/ETI nazairiennes à devenir visibles sur Google et les moteurs IA, sans dépendre d'une agence distante. Un consultant spécialisé en B2B industriel et technique.
+## Quel est le tissu économique de Saint-Nazaire ?
 
-## Pourquoi travailler avec un consultant SEO à Saint-Nazaire ?
+L'INSEE décrit autour du port de Nantes Saint-Nazaire un complexe industrialo-portuaire de plusieurs centaines d'établissements, où la construction et la réparation navales pèsent lourd ([INSEE](https://www.insee.fr/fr/statistiques/1288205)). Ces sites industriels se visitent aussi : les Chantiers de l'Atlantique et Airbus Atlantic accueillent chaque année des dizaines de milliers de visiteurs ([Banque des Territoires](https://www.banquedesterritoires.fr/experience/saint-nazaire-le-tourisme-met-le-cap-sur-les-fleurons-de-lindustrie-44)). Au large, le premier parc éolien en mer de France a été mis en service en 2022 ([EDF](https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/mise-en-service-complete-du-premier-parc-eolien-en-mer-de-france)).
 
-**Expertise en B2B technique et industriel.** Saint-Nazaire n'est pas un marché grand public. Vous vendez à d'autres entreprises, à des donneurs d'ordre, des collectivités. C'est du B2B. Je comprends cette dynamique : long cycle de vente, audiences niche, importance du E-E-A-T, lead qualification.
+Deux publics cherchent donc des entreprises nazairiennes : des acheteurs industriels, et des visiteurs attirés par le tourisme industriel et la côte. Ce ne sont ni les mêmes pages ni les mêmes questions.
 
-**Interlocuteur unique qui vous écoute.** Pas de CM, pas de business developer avec un quota. Vous avez un consultant qui comprend votre secteur et s'engage personnellement sur la stratégie.
+## Quelles questions vos clients posent-ils aux IA ?
 
-**Pas de grosses agences qui ne comprennent pas le B2B/industrie.** Les agences généralistes vendent des SEO "pour tout le monde". Moi, j'ai experience avec des secteurs techniques et spécialisés. Je sais comment construire une stratégie SEO pour une PME industrielle.
+| Votre activité | Question que pose votre client |
+|---|---|
+| Sous-traitance navale | « Quel sous-traitant en tuyauterie pour la construction navale près de Saint-Nazaire ? » |
+| Énergies marines | « Quelles entreprises de maintenance pour l'éolien en mer en Loire-Atlantique ? » |
+| Recrutement, intérim | « Quelles entreprises recrutent des soudeurs à Saint-Nazaire ? » |
+| Tourisme, hébergement | « Où dormir à Saint-Nazaire pour visiter les chantiers ? » |
+| Commerce, artisan | « Quel [métier] de confiance à Saint-Nazaire ou Trignac ? » |
 
-**Coûts raisonnables.** Un consultant solo coûte moins qu'une agence. Pour une PME nazairienne, c'est un vrai avantage compétitif : investissement accessible, ROI rapide.
+Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-## Ce que j'apporte au-delà du SEO classique : le GEO
+## Ce que je fais pour une entreprise de Saint-Nazaire
 
-Le paysage de recherche change. Les moteurs génératifs (AI Overviews, Perplexity, ChatGPT Search) deviennent critiques même pour le B2B technique.
+- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
+- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
+- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
+- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
 
-Imaginez : un acheteur en grand groupe cherche "fournisseur de pièces usinées France" ou "expert en logistique portuaire". Perplexity synthétise une réponse et cite les meilleures sources. Être dans cette synthèse = lead gratuit. Rater cette visibilité = perte de clients.
+## Comment se passe une mission à Saint-Nazaire ?
 
-Le **GEO (Generative Engine Optimization)** est cette nouvelle discipline. C'est rarement maîtrisée en France. C'est ma force.
+1. **Diagnostic offert de 30 minutes**, en visio ou sur place ou en visio.
+2. **Devis** avec le périmètre et le prix, avant toute intervention.
+3. **Audit**, puis **restitution** sur place ou en visio.
+4. **Suivi** mensuel si vous le souhaitez.
 
-Pour les PME nazairiennes, cela signifie :
+## Combien ça coûte ?
 
-- **Optimiser votre contenu technique pour les AI Overviews.** Si vous publiez du contenu expert (white papers, cas d'études, specs techniques), il doit être citable et sourceable par les moteurs génératifs.
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article | 150 à 350 € |
+| Formation (2 h) | 300 € |
 
-- **Structurer vos données pour que Perplexity vous valorise.** Une entreprise qui a des specs claires, des certifications, une réputation solide : c'est de l'or pour les moteurs IA.
+Les frais de déplacement à Saint-Nazaire sont ajoutés au devis, au réel, seulement si une rencontre sur place est prévue. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 
-- **Anticiper la migration des recherches B2B.** Les acheteurs utilisent de plus en plus ChatGPT Search pour faire du sourcing. Vous devez y être visible.
+## Questions fréquentes
 
-- **Maintenir une présence double : Google Search + Moteurs IA.** La stratégie 2026, c'est pas l'un ou l'autre. C'est les deux.
+**Un sous-traitant industriel a-t-il besoin d'être visible en ligne ?**
+Oui. Même quand le donneur d'ordre vous connaît, ses acheteurs vérifient votre site, et une IA interrogée sur vos métiers ne peut citer que ce qui est décrit en ligne. Une page par savoir-faire, précise et à jour, suffit souvent à changer la donne.
 
-## Mes prestations à Saint-Nazaire
+**Intervenez-vous à Montoir-de-Bretagne, Trignac et Pornichet ?**
+Oui, dans les mêmes conditions qu'à Saint-Nazaire.
 
-- **Audit SEO B2B complet** : analyse de votre visibilité technique, contenu, autorité, positionnement face aux concurrents.
-- **Stratégie de mots-clés et contenu B2B** : identification des requêtes de vos acheteurs (donneurs d'ordre, distributeurs, grand public), création d'une architecture éditoriale adaptée.
-- **Optimisation technique** : Core Web Vitals (LCP, INP depuis mars 2024, CLS), structure des données, balisage technique, schémas (Organization, LocalBusiness, BreadcrumbList, etc).
-- **Optimisation GEO** : positionnement pour AI Overviews et Perplexity, adaptation éditoriale technique, construction de crédibilité via E-E-A-T.
-- **Stratégie de contenu B2B** : white papers, case studies, ressources techniques, FAQ, positionnement comme thought leader.
-- **Netlinking B2B** : partenariats avec sources industrielles, médias spécialisés, annuaires professionnels, renforcement de l'autorité.
-- **SEO local (optionnel)** : Google Business Profile, signalements B2B, si vous ciblez aussi des clients locaux.
+**Combien de temps avant de voir des résultats ?**
+Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
-## Ma méthode de travail
+**Le GEO remplace-t-il le SEO ?**
+Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
 
-Adaptée au rythme et à la complexité du B2B/industrie.
+## Parlons de votre visibilité à Saint-Nazaire
 
-**Audit approfondi (3-4 semaines)** : je comprends votre secteur, votre chaîne de vente, vos compétiteurs, vos opportunités. Un rapport clair avec les vrais enjeux.
-
-**Stratégie co-construite (2-3 semaines)** : nous définissons les KPIs (leads, ROI, classements), les priorités, le calendrier, le budget. Validation mutuelle.
-
-**Exécution disciplinée (6-18 mois)** : implémentation progressive. Contenu technique, optimisation on-page/technique, netlinking, monitoring. Reporting mensuel sur les leads et trafic.
-
-**Optimisation continue** : ajustements selon les résultats. On accélère ce qui fonctionne, on pivote ce qui ne fonctionne pas.
-
-Un seul interlocuteur. Responsabilité claire.
-
-## FAQ, Saint-Nazaire
-
-**Le SEO pour une PME industrielle, c'est vraiment efficace ?**
-
-Oui. Très. Vos acheteurs cherchent sur Google. S'ils ne vous trouvent pas là, ils trouvent votre concurrent. Le B2B industriel a changé : c'est devenu digital. Pas d'option.
-
-**Quel budget pour une stratégie B2B SEO sérieuse ?**
-
-Un accompagnement mensuel coûte de 500 à 2 000 € par mois selon la complexité, au-delà sur devis. Un audit SEO et GEO seul : 800 à 2 500 € selon la taille du site.
-
-**Combien de temps avant de générer des leads via SEO ?**
-
-Premières visibilités : 2-3 mois. Premiers leads : 3-6 mois. Volume de leads significatif : 6-12 mois. Le B2B est plus lent que B2C, mais plus ciblé et plus rentable une fois que ça marche.
-
-**Je suis une micro-PME avec un site basique. Est-ce possible pour moi ?**
-
-Oui. On peut commencer petit : audit, plan d'action réaliste, exécution progressive. Vous pouvez même faire partie du travail en interne (rédaction de contenu) pour réduire les coûts consultants.
-
-**Vous avez déjà travaillé dans l'industrie naval/aérospatiale ?**
-
-Oui. J'ai une expérience avec des PME B2B technique et manufacture. Je comprends les cycles de vente longs, l'importance du E-E-A-T, la segmentation par buyside/buyer stage. C'est une force.
-
-## Prêt à conquérir votre marché sur Google ?
-
-Saint-Nazaire a du potentiel énorme en SEO. Votre industrie est mondiale, votre audience internationale. Mais vous êtes invisibles digitalement. C'est un vrai gachis.
-
-Une stratégie SEO bien pensée peut vous ouvrir des portes. Des leads qualifiés sur Google. De la visibilité dans Perplexity et ChatGPT Search. Une réputation constructrice online.
-
-Parlons de votre situation. Votre secteur, vos enjeux actuels, vos objectifs de croissance. Comment je peux vous aider concrètement.
-
-[→ Contactez-moi](/#contact)
+Voir aussi [La Baule](/consultant-seo-la-baule), [Nantes](/consultant-seo-nantes) et la page [Pays de la Loire](/consultant-seo-pays-de-la-loire). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

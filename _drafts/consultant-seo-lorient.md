@@ -1,88 +1,73 @@
-# Consultant SEO Lorient, Référencement naturel et IA Search
-
-**Slug / URL :** `/consultant-seo-lorient`  
-**H1 :** Consultant SEO Lorient, Référencement naturel et IA Search
-
+---
+slug: "/consultant-seo-lorient"
+title: "Consultant SEO et GEO à Lorient : pêche, nautisme, tourisme · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO à Lorient : être trouvé sur Google et cité par les IA, pour la filière mer, le nautisme et le tourisme. Audit de 800 à 2 500 €, suivi dès 500 €/mois."
 ---
 
-Lorient est une opportunité. Ville portuaire avec une économie forte (pêche, agroalimentaire, défense navale), un tissu de PME/ETI actif, mais une présence digitale souvent faible. Pendant que les grosses agences se battent sur les métropoles saturées, les entreprises lorientiennes restent invisibles sur Google.
+# Consultant SEO et GEO à Lorient
 
-C'est un paradoxe : vous avez des produits/services de qualité, mais personne ne vous trouve en ligne. Le marché local est sous-concurrentiel comparé à Nantes ou Rennes. C'est l'inverse d'un problème. C'est une fenêtre d'opportunité.
+À Lorient, l'économie se lit depuis les quais : port de pêche, chantiers et équipementiers de la course au large, événements qui attirent des foules chaque été. Ce sont des métiers de spécialistes, souvent B2B, dont les clients cherchent des fournisseurs précis. Et une ville touristique où les visiteurs préparent leur séjour en posant des questions à une IA.
 
-Je suis Aurélien Page, consultant SEO/GEO & Traffic Manager freelance. Je aide les entreprises lorientiennes à conquérir leur visibilité digitale sans dépendre d'une agence massive. Un interlocuteur unique, de l'audit à la croissance.
+**En bref :** je suis **consultant SEO et GEO**. J'aide les entreprises de Lorient et des environs à être trouvées sur Google, sur Google Maps et dans les réponses de ChatGPT, Perplexity, Gemini et des AI Overviews. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, suivi mensuel de 500 à 2 000 €. Je viens à Lorient pour le diagnostic et la restitution, frais de déplacement ajoutés au devis ; le travail courant se fait à distance.
 
-## Pourquoi travailler avec un consultant SEO à Lorient ?
+## Quel est le tissu économique de Lorient ?
 
-**Pas d'agence, un consultant.** Les agences parisiennes vous vendent du rêve. Moi, je travaille avec vous sur du tangible. Vous me contactez directement, vous me parlez en face ou en visio, vous savez qui fait votre travail.
+Lorient Agglomération présente le port de Lorient-Keroman comme le premier port de pêche français en valeur, avec une filière de plusieurs milliers d'emplois ([Lorient Agglomération](https://www.lorient-agglo.bzh/fileadmin/user_upload/Actualites/Communiques-de-presse/2023/Salon_ITECHMER_un_stand_unique_pour_les_acteurs_locaux_de_la_filiere_peche.pdf)). La « Sailing Valley » rassemble l'essentiel des compétences techniques et sportives de la course au large française ([Lorient Agglomération](https://www.lorient-agglo.bzh/fileadmin/user_upload/Actualites/Communiques-de-presse/2021/Une_filiere_nautique_structuree_sur_le_territoire_de_Lorient_Agglomeration.pdf)), avec le pôle de Lorient La Base ([Lorient Bretagne Sud Tourisme](https://www.lorientbretagnesudtourisme.fr/fr/immanquables/lorient-la-base/le-pole-course-au-large-au-coeur-de-la-sailing-valley/)). Chaque mois d'août, le Festival Interceltique attire un très large public ([Lorient Bretagne Sud Tourisme](https://www.lorientbretagnesudtourisme.fr/fr/immanquables/lorient-festival-interceltique/)).
 
-**Connaissance du marché lorientais.** Pêche, agroalimentaire, nautisme, défense : je comprends vos secteurs. Une PME de Lorient a des besoins spécifiques. Pas de solution générique.
+Un chantier composite, un mareyeur et un hôtel n'ont pas les mêmes clients, mais tous ont besoin d'être décrits précisément en ligne pour être recommandés.
 
-**Coûts maitrisés.** Un consultant solo facture moins qu'une agence. Zéro overhead. Votre argent va au travail réel, pas à des structures administrative lourdes.
+## Quelles questions vos clients posent-ils aux IA ?
 
-**L'opportunité du marché.** Lorient n'a pas la saturation SEO de Nantes ou Paris. Les entreprises qui agissent maintenant avec une bonne stratégie vont dominer facilement. C'est le moment.
+| Votre activité | Question que pose votre client |
+|---|---|
+| Nautisme, composites | « Quel chantier composite pour un bateau de course en Bretagne ? » |
+| Pêche, mareyage | « Où acheter du poisson frais directement au port de Lorient ? » |
+| Hébergement | « Où dormir à Lorient pendant le Festival Interceltique ? » |
+| École de voile, loisirs | « Où faire un stage de voile près de Lorient ? » |
+| Commerce, artisan | « Quel [métier] de confiance à Lorient ou Lanester ? » |
 
-## Ce que j'apporte au-delà du SEO classique : le GEO
+Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-2026 : le SEO n'est plus juste Google Search. Les moteurs génératifs montent (AI Overviews, Perplexity, ChatGPT Search). Votre stratégie doit s'adapter.
+## Ce que je fais pour une entreprise de Lorient
 
-La bonne nouvelle : très peu de consultants SEO en France maîtrisent cette transition. C'est ma spécialisation : le **GEO (Generative Engine Optimization)**.
+- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
+- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
+- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
+- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
 
-Concrètement, cela signifie :
+## Comment se passe une mission à Lorient ?
 
-- **Optimiser votre contenu pour les AI Overviews.** Google synthétise maintenant vos réponses directement dans la SERP. Être cité (avec ou sans lien) devient aussi important qu'être classé.
+1. **Diagnostic offert de 30 minutes**, en visio ou sur place ou en visio.
+2. **Devis** avec le périmètre et le prix, avant toute intervention.
+3. **Audit**, puis **restitution** sur place ou en visio.
+4. **Suivi** mensuel si vous le souhaitez.
 
-- **Adapter votre structure éditoriale.** Les moteurs génératifs cherchent du contenu sourcé, crédible, citable. Un blog amateur ne suffit plus. Vous devez construire une réputation de source fiable.
+## Combien ça coûte ?
 
-- **Anticiper la baisse du trafic "clic".** Si Google retourne une réponse synthétisée, votre CTR baisse. Mais il y a des solutions : FAQ optimisées, Call-to-action dans le contenu, diversification (SEO + Direct + Email + etc).
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article | 150 à 350 € |
+| Formation (2 h) | 300 € |
 
-Les entreprises lorientiennes qui comprennent cet enjeu maintenant auront un avantage dingue sur leurs concurrents dans les 24 mois.
+Les frais de déplacement à Lorient sont ajoutés au devis, au réel, seulement si une rencontre sur place est prévue. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 
-## Mes prestations à Lorient
+## Questions fréquentes
 
-- **Audit SEO complet** : analyse technique, contenu, autorité, benchmarking local et national.
-- **Stratégie de mots-clés et architecture éditoriale** : identification des requêtes rentables pour votre secteur, plan de contenu hiérarchisé.
-- **Optimisation technique** : Core Web Vitals (LCP, INP depuis mars 2024, CLS), indexation, données structurées, migration, refonte.
-- **Optimisation GEO** : positionnement pour AI Overviews et Perplexity, adaptation éditoriale, construction de crédibilité pour les moteurs génératifs.
-- **Stratégie de contenu** : rédaction orientée SEO + GEO, piliers de contenu, clusters thématiques, calendrier éditorial.
-- **Netlinking et autorité** : acquisitions de liens, partenariats régionaux/sectoriels, renforcement du E-E-A-T.
-- **SEO local** : Google Business Profile, signalements locaux, gestion d'avis, si vous ciblez des clients à Lorient.
+**Une entreprise très spécialisée a-t-elle intérêt au GEO ?**
+Oui, justement. Sur des questions pointues, les IA trouvent peu de sources : une page technique claire a de bonnes chances d'être reprise. L'audit vérifie d'abord que les robots des IA peuvent la lire.
 
-## Ma méthode de travail
+**Intervenez-vous à Lanester, Ploemeur et Larmor-Plage ?**
+Oui, dans les mêmes conditions qu'à Lorient.
 
-Pas de prise de tête. Du pragmatisme.
+**Combien de temps avant de voir des résultats ?**
+Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
-**1. Audit** (2-3 semaines) : je plonge profond dans votre site, la concurrence locale, les tendances de recherche à Lorient. Je vous restitue un diagnostic clair avec des priorités.
+**Le GEO remplace-t-il le SEO ?**
+Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
 
-**2. Stratégie** (1-2 semaines) : nous co-construisons le plan d'action. Objectifs clairs, KPIs mesurables, calendrier réaliste, budget défini. Vous validez avant je lance.
+## Parlons de votre visibilité à Lorient
 
-**3. Exécution** (3-6 mois ou plus) : je mets en œuvre. Je travaille avec vos équipes ou seul selon votre structure. Reporting hebdo/mensuel. Transparence sur la progression.
-
-**4. Suivi et optimisation** : on évalue les résultats, on ajuste, on accélère ce qui fonctionne, on arrête ce qui ne fonctionne pas.
-
-Un seul point de contact du début à la fin. Simple.
-
-## FAQ, Lorient
-
-**Quel est le délai avant de voir des résultats en SEO ?**
-
-Première visibilité : 6-8 semaines. Résultats mesurables significatifs : 3-4 mois. Dominance locale stable : 6-12 mois selon votre secteur et votre budget. Le SEO, c'est un jeu de patience, mais les résultats sont durables contrairement au PPC.
-
-**Je suis une petite PME à Lorient avec peu de budget. C'est possible de faire du SEO sérieux ?**
-
-Oui. On peut démarrer avec une stratégie ciblée et minimaliste. Vous devez choisir 1-2 mots-clés clés, créer du contenu premium dessus, et construire progressivement. C'est lent, mais c'est gratuit en trafic une fois que vous êtes bien classé. À budget serré, le SEO est plus efficace que le PPC.
-
-**Vous travaillez seulement à Lorient ou aussi en ligne/national ?**
-
-Les deux. Je peux vous aider à dominer localement (Lorient + Morbihan), ou à étendre nationale/international selon votre modèle. La stratégie change, pas les compétences.
-
-**Mon concurrent principal est une grosse agence. Vous pouvez me battre ?**
-
-Oui, souvent. Les grosses agences font du bon travail, mais elles manquent de réactivité et d'adaptabilité. Elles suivent des processus. Moi, j'ajuste rapidement et j'ai zéro overhead. Vous avez les mêmes outils techniquement, mais moins de friction organisationnelle. C'est un avantage.
-
-## Prêt à conquérir votre marché à Lorient ?
-
-Lorient n'attend que vous. Le marché n'est pas saturé. La concurrence est abordable. Les enjeux de croissance digitale sont importants. C'est le moment d'agir.
-
-Parlons de votre situation, de vos objectifs, de ce que je peux faire pour vous. Sans pression, sans pitch commercial. Juste de l'honnêteté.
-
-[→ Contactez-moi](/#contact)
+Voir aussi [Vannes](/consultant-seo-vannes), [Quimper](/consultant-seo-quimper) et la page [Bretagne](/consultant-seo-bretagne). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

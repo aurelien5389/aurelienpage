@@ -11,11 +11,11 @@ const FILENAME = `consultant-seo-le-mans.md`
 const draft = parseDraft(FILENAME)
 
 export const metadata: Metadata = {
-  title: `Consultant SEO au Mans | Expert SEO & GEO · Aurélien PAGE`,
+  title: draft.title!,
   description: draft.metaDescription || `Consultant SEO freelance au Mans. Audit SEO, optimisation technique, stratégie GEO. Devis gratuit.`,
   alternates: { canonical: `https://aurelienpage.fr${SLUG}` },
   openGraph: {
-    title: `Consultant SEO au Mans | Expert SEO & GEO · Aurélien PAGE`,
+    title: draft.title!,
     description: draft.metaDescription || `Consultant SEO freelance au Mans. Audit SEO, optimisation technique, stratégie GEO.`,
     url: `https://aurelienpage.fr${SLUG}`,
   },
