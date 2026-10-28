@@ -112,7 +112,7 @@ Pour aller plus loin : [pourquoi faire appel à un consultant SEO ?](/pourquoi-c
 Mensuel pour les KPIs principaux (trafic, positions, conversions). Trimestriel pour les métriques secondaires (backlinks, Core Web Vitals, indexation). Hebdomadaire uniquement si vous êtes sur un site e-commerce avec des enjeux de positionnement produit immédiats.
 
 **Google Search Console suffit-elle pour le reporting ?**
-Pour un site de taille moyenne, oui. Search Console donne les impressions, clics, CTR et positions. Couplée à GA4 pour les conversions, elle couvre l'essentiel. Les outils payants (Semrush, Ahrefs) apportent surtout le suivi fin des positions et l'analyse concurrentielle.
+Pour un site de taille moyenne, oui. Search Console donne les impressions, clics, CTR et positions. Couplée à GA4 pour les conversions, elle couvre les besoins courants. Les outils payants (Semrush, Ahrefs) apportent surtout le suivi fin des positions et l'analyse concurrentielle.
 
 **Comment suivre les positions si on n'a pas d'outil de tracking ?**
 Search Console donne une position moyenne par requête : c'est un point de départ. Pour un suivi précis, un outil comme SE Ranking (accessible à partir de 10-15€/mois) vous donne des positions quotidiennes sur vos mots-clés cibles avec peu d'investissement.

@@ -3,8 +3,9 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
+import QuiRepond from '@/components/QuiRepond'
 import { renderInline } from '@/components/MarkdownRenderer'
-import { SITE_URL, PERSON_ID, breadcrumbSchema, type Crumb } from '@/lib/schema'
+import { SITE_URL, personRef, breadcrumbSchema, pageGraph, faqNode, webPageNode, plainText, type Crumb } from '@/lib/schema'
 import { formatMonthYear, type ContentDates } from '@/lib/content-dates'
 import styles from './FicheLayout.module.css'
 
@@ -45,38 +46,25 @@ export interface FicheData {
   dates: ContentDates
 }
 
-// Texte brut pour le JSON-LD : retire le Markdown en ligne
-const plain = (s: string) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*`]/g, '')
-
 const md = (s: string, key: string | number) => renderInline(s, key)
 
 export default function FicheLayout({ data }: { data: FicheData }) {
   const url = `${SITE_URL}${data.path}`
-  const provider = { '@type': 'Person', '@id': PERSON_ID, name: 'Aurélien Page', url: SITE_URL }
   const mainSchema = {
-    '@context': 'https://schema.org',
     ...data.schema,
+    '@id': `${url}#offre`,
     url,
-    description: plain(data.resume),
-    provider,
+    description: plainText(data.resume),
+    provider: personRef,
   }
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: data.faq.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: plain(f.a) },
-    })),
-  }
+  // Page datée : la date visible (« Mis à jour en… ») et dateModified sont la même valeur
+  const page = webPageNode(data.path, data.h1, data.dates, { mainEntity: { '@id': `${url}#offre` } })
   const crumbs = breadcrumbSchema([data.parent, { name: data.nom, path: data.path }])
 
   return (
     <>
       <Header />
-      <JsonLd schema={mainSchema} />
-      <JsonLd schema={faqSchema} />
-      <JsonLd schema={crumbs} />
+      <JsonLd schema={pageGraph(page, mainSchema, faqNode(data.faq), crumbs)} />
       <main className={styles.ficheMain}>
         <div className={styles.fil}>
           <nav aria-label="Fil d'Ariane" className={styles.filNav}>
@@ -216,6 +204,9 @@ export default function FicheLayout({ data }: { data: FicheData }) {
               </>
             )}
           </section>
+
+          {/* Qui répond */}
+          <QuiRepond />
         </article>
 
         <DiagnosticCTA variant="section" />

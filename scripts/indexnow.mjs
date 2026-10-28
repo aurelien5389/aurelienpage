@@ -3,8 +3,13 @@
 //
 //   npm run indexnow                       URL du sitemap modifiées aujourd'hui
 //   npm run indexnow -- --since 2026-10-01 URL modifiées depuis cette date
+//   npm run indexnow -- --all              toutes les URL du sitemap (premier envoi, 10 000 max)
 //   npm run indexnow -- /blog/geo-vs-seo   URL précises (chemins ou URL complètes)
 //   ajouter --dry-run pour voir la liste sans rien envoyer
+//
+// Format vérifié sur https://www.indexnow.org/documentation : POST JSON { host, key, keyLocation, urlList },
+// Content-Type application/json; charset=utf-8, 10 000 URL par requête au plus.
+// Réponses : 200 envoyé, 202 reçu (clé en cours de vérification), 400 format, 403 clé, 422 URL hors hôte, 429 trop de requêtes.
 //
 // La clé est lue dans public/<clé>.txt et n'est jamais affichée.
 // Protocole : https://www.indexnow.org/documentation
@@ -23,20 +28,21 @@ const key = fs.readFileSync(`public/${keyFile}`, 'utf8').trim()
 
 const args = process.argv.slice(2)
 const dryRun = args.includes('--dry-run')
+const all = args.includes('--all')
 const sinceIdx = args.indexOf('--since')
 const since = sinceIdx >= 0 ? args[sinceIdx + 1] : null
 const explicit = args.filter((a, i) => !a.startsWith('--') && i !== sinceIdx + 1)
 
 let urls
-if (explicit.length > 0 && sinceIdx < 0) {
+if (explicit.length > 0 && sinceIdx < 0 && !all) {
   urls = explicit.map((u) => (u.startsWith('http') ? u : `${SITE}${u.startsWith('/') ? '' : '/'}${u}`))
 } else {
-  const from = since || new Date().toISOString().slice(0, 10)
+  const from = all ? '0000-00-00' : since || new Date().toISOString().slice(0, 10)
   const xml = await (await fetch(`${SITE}/sitemap.xml`)).text()
   urls = [...xml.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)]
     .filter((m) => m[2].slice(0, 10) >= from)
     .map((m) => m[1])
-  console.log(`URL du sitemap modifiées depuis le ${from} : ${urls.length}`)
+  console.log(all ? `Toutes les URL du sitemap : ${urls.length}` : `URL du sitemap modifiées depuis le ${from} : ${urls.length}`)
 }
 
 async function submit() {

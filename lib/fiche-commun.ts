@@ -9,6 +9,10 @@ export const SRC = {
   perplexity: { href: 'https://docs.perplexity.ai/guides/bots', label: 'Perplexity : robots' },
   googleAdsBudget: { href: 'https://support.google.com/google-ads/answer/6385083?hl=fr', label: 'Aide Google Ads : budgets quotidiens moyens' },
   l6316: { href: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048600506', label: 'Légifrance : article L6316-1 du Code du travail' },
+  arxivGeo: { href: 'https://arxiv.org/abs/2311.09735', label: 'Aggarwal et al., « GEO: Generative Engine Optimization », arXiv (KDD 2024)' },
+  openaiSearch: { href: 'https://help.openai.com/en/articles/9237897-chatgpt-search', label: 'Aide OpenAI : rechercher sur le web avec ChatGPT' },
+  bingGuidelines: { href: 'https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a', label: 'Bing Webmaster Tools : Webmaster Guidelines' },
+  indexnow: { href: 'https://www.indexnow.org/documentation', label: 'IndexNow : documentation du protocole' },
 }
 
 // Parcours vérifiable (section Expériences de l'accueil), sans nom d'employeur ni de client

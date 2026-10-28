@@ -58,12 +58,12 @@ En français, pas de majuscule après les deux-points sauf si la liste ou la cit
 
 ## Les anglicismes à éviter (ou à employer avec discernement)
 
-En rédaction web, particulièrement dans les secteurs tech, marketing et SEO, les anglicismes pullulent. Certains sont incontournables car aucun équivalent français n'existe ou n'est utilisé ("backlink", "SEO", "GEO"). D'autres sont simplement des paresses de vocabulaire.
+En rédaction web, particulièrement dans les secteurs tech, marketing et SEO, les anglicismes pullulent. Certains sont inévitables car aucun équivalent français n'existe ou n'est utilisé ("backlink", "SEO", "GEO"). D'autres sont simplement des paresses de vocabulaire.
 
 **À éviter si un équivalent français existe :**
 - "Pitcher" → présenter, exposer
 - "Staffer" → recruter, affecter
-- "Booster" → améliorer, renforcer, augmenter
+- "Switcher" → passer à, basculer vers
 - "Checker" → vérifier
 - "Updater" → mettre à jour
 

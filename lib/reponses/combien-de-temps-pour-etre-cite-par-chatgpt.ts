@@ -64,7 +64,7 @@ Ce suivi donne votre **part de voix** et son évolution : voir [qu'est-ce que la
       a: `Non, et c'est risqué. Google sanctionne la production de nombreuses pages sans valeur pour le lecteur, quelle que soit la façon dont elles sont créées ([Google Search Central](${S.googleSpam.href})). Une page qui répond mieux qu'une autre vaut plus que dix pages qui répètent la même chose.`,
     },
   ],
-  voirAussi: ['chatgpt-utilise-t-il-bing', 'part-de-voix-dans-les-ia', 'robots-ia-faut-il-les-bloquer'],
+  voirAussi: ['comment-etre-cite-par-chatgpt-et-perplexity', 'chatgpt-utilise-t-il-bing', 'part-de-voix-dans-les-ia'],
   publie: '2026-10-04',
 }
 

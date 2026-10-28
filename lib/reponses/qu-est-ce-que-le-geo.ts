@@ -77,7 +77,7 @@ La mesure, elle, change vraiment. Google compte le trafic issu des AI Overviews 
       a: 'Non. Google écrit qu’aucun fichier spécial n’est nécessaire pour ses fonctionnalités IA. Le détail est dans [faut-il créer un fichier llms.txt](/reponses/faut-il-creer-un-fichier-llms-txt).',
     },
   ],
-  voirAussi: ['difference-seo-geo', 'robots-ia-faut-il-les-bloquer', 'faut-il-creer-un-fichier-llms-txt'],
+  voirAussi: ['difference-seo-geo', 'comment-etre-cite-par-chatgpt-et-perplexity', 'robots-ia-faut-il-les-bloquer'],
   publie: '2026-10-04',
 }
 

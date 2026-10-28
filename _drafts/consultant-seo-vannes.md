@@ -43,7 +43,7 @@ Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurée
 Acquisition de backlinks depuis des sources pertinentes pour votre secteur et votre marché breton. Presse régionale, annuaires spécialisés, partenariats locaux. Approche qualitative, sans liens artificiels.
 
 **SEO local et Google Business Profile**
-Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées. Essentiel pour les commerces et prestataires qui ciblent une clientèle vannetaise.
+Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées. Indispensable pour les commerces et prestataires qui ciblent une clientèle vannetaise.
 
 **GEO et IA Search**
 Structuration des contenus pour être référencé dans les réponses des moteurs IA. Balisage sémantique avancé, FAQ optimisées, renforcement des signaux EEAT.

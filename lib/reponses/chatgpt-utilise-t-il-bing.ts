@@ -68,7 +68,7 @@ Côté Copilot, l'assistant de Microsoft, Bing propose aussi des balises propres
       a: `Quand il cherche sur le web, ChatGPT affiche des citations. OpenAI rappelle qu'elles peuvent être incomplètes ou inexactes et invite à ouvrir la source pour vérifier ([Aide OpenAI](${S.openaiSearch.href})).`,
     },
   ],
-  voirAussi: ['robots-ia-faut-il-les-bloquer', 'combien-de-temps-pour-etre-cite-par-chatgpt', 'qu-est-ce-que-le-geo'],
+  voirAussi: ['comment-etre-cite-par-chatgpt-et-perplexity', 'robots-ia-faut-il-les-bloquer', 'combien-de-temps-pour-etre-cite-par-chatgpt'],
   publie: '2026-10-04',
 }
 

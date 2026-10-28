@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import JsonLd from '@/components/JsonLd'
+import { pageGraph, breadcrumbSchema } from '@/lib/schema'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -14,6 +16,7 @@ export default function MentionsLegales() {
   return (
     <>
       <Header />
+      <JsonLd schema={pageGraph(breadcrumbSchema([{ name: 'Mentions légales', path: '/mentions-legales' }]))} />
       <main className={styles.mlMain}>
         <section className={styles.mlSection}>
           <div className={styles.mlInner}>

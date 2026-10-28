@@ -117,6 +117,6 @@ Potentiellement, mais avec un délai. Google doit d'abord rendre le JavaScript p
 
 ## À retenir
 
-Le fil d'Ariane est un des rares éléments SEO qui améliore simultanément l'expérience utilisateur, le maillage interne, la profondeur de crawl et la présentation dans les SERPs. Son implémentation est simple, son balisage schema.org est rapide à mettre en place, et son impact est durable. C'est un incontournable de tout [audit SEO technique](/blog/audit-seo) sérieux.
+Le fil d'Ariane est un des rares éléments SEO qui améliore simultanément l'expérience utilisateur, le maillage interne, la profondeur de crawl et la présentation dans les SERPs. Son implémentation est simple, son balisage schema.org est rapide à mettre en place, et son impact est durable. C'est un point de contrôle de tout [audit SEO technique](/blog/audit-seo) sérieux.
 
 Vous souhaitez vérifier l'implémentation du fil d'Ariane sur votre site dans le cadre d'un audit SEO complet ? [Contactez-moi](/#contact).

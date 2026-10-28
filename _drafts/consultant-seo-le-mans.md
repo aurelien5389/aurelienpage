@@ -86,9 +86,6 @@ A: Parce que quand un acheteur potentiel cherche « fournisseur emboutissage Fra
 **Q: Vous allez venir au Mans ?**
 A: Si nécessaire, oui. Mais je travaille surtout en mode hybride (visio, docs partagées). C'est plus efficient et moins coûteux pour vous.
 
-**Q: Vous avez des clients dans le secteur auto ?**
-A: Oui, mais sous NDA. Je peux discuter de cas d'étude en confiance (équipementiers, logistique, services).
-
 ---
 
 ## Prêt à augmenter votre visibilité et vos leads au Mans ?

@@ -25,6 +25,13 @@ Quatre, du plus direct au plus indirect.
 3. **Le taux de clic dans la Search Console** : une requête dont les impressions tiennent mais dont le taux de clic baisse signale souvent une réponse générée qui s'affiche au-dessus de vous.
 4. **Les visites venues des IA** : dans votre outil d'analyse d'audience, les clics depuis chatgpt.com, perplexity.ai ou d'autres assistants peuvent apparaître comme sites référents.
 
+| Indicateur | Ce qu'il mesure | Où le trouver | Limite |
+|---|---|---|---|
+| Part de voix | Proportion de réponses qui vous citent, sur votre liste de questions | Relevé manuel ou outil de relevé (Balise) | Dépend de la liste de questions |
+| Sites cités à votre place | Qui occupe les réponses où vous êtes absent | Le même relevé | À relire en contexte : cité n'est pas recommandé |
+| Taux de clic | Impressions stables et clics en baisse sur une requête | Search Console, rapport Performances | Google ne sépare pas le trafic des AI Overviews |
+| Visites venues des IA | Clics depuis chatgpt.com, perplexity.ai… | Outil d'audience, sites référents | Ne montre que les citations cliquées |
+
 ## Comment construire la liste de questions ?
 
 En partant de vos clients, pas de vos mots-clés. C'est l'étape qui détermine la valeur de toute la mesure.
@@ -62,5 +69,25 @@ Ce diagnostic est plus utile que les chiffres bruts : il dit quoi corriger, page
 ## Par où commencer ?
 
 Par une première mesure, même modeste, qui servira de point de départ. Une liste d'une vingtaine de questions, posée une fois à chaque IA, montre déjà où vous êtes absent et qui vous remplace.
+
+## Questions fréquentes
+
+**Existe-t-il un outil officiel pour mesurer sa visibilité dans les IA ?**
+Non. Google compte le trafic des AI Overviews et du AI Mode dans le rapport Performances de la Search Console, avec le reste de la recherche web, sans le distinguer. OpenAI, Perplexity et Anthropic ne fournissent pas de tableau de bord aux sites qu'ils citent. La mesure repose donc sur vos propres relevés, répétés avec la même méthode.
+
+**Combien de questions faut-il suivre ?**
+Assez pour couvrir vos offres et les étapes de décision de vos clients : comprendre, comparer, choisir, budgéter. Une vingtaine de questions suffit pour commencer. Ce qui compte, c'est de garder la même liste d'un mois sur l'autre, sinon aucune comparaison n'est possible.
+
+**À quelle fréquence refaire la mesure ?**
+Chaque mois, dans les mêmes conditions, sur les mêmes IA. Les réponses varient d'une fois à l'autre, et OpenAI précise que le placement dans les résultats n'est pas garanti. Une mesure isolée ne prouve rien ; c'est l'évolution sur plusieurs relevés qui compte.
+
+**Que faire des sites cités à votre place ?**
+Les lire. Pour chaque question où vous êtes absent, comparez les pages citées aux vôtres : réponse plus directe, sources primaires, auteur identifié, date de mise à jour, présence sur d'autres sites. C'est cette comparaison qui donne le plan d'action, page par page.
+
+## Sources
+
+- [Google Search Central : fonctionnalités IA et votre site web](https://developers.google.com/search/docs/appearance/ai-features)
+- [Aide OpenAI : rechercher sur le web avec ChatGPT](https://help.openai.com/en/articles/9237897-chatgpt-search)
+- [Perplexity : robots](https://docs.perplexity.ai/guides/bots)
 
 Si vous voulez une mesure complète, avec l'analyse des pages gagnantes et un plan d'action, c'est l'objet de l'[audit GEO](/prestations/audit-geo).

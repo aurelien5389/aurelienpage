@@ -1,6 +1,6 @@
 ---
 slug: "/blog/lexique-seo"
-title: "Lexique SEO : 50 termes essentiels expliqués simplement"
+title: "Lexique SEO : 50 termes expliqués simplement"
 meta-description: "Anchor text, crawl budget, EEAT, PageRank, SERP, cocon sémantique... Le lexique SEO complet pour comprendre le référencement naturel sans jargon inutile."
 ---
 
@@ -32,7 +32,7 @@ Mesure de la crédibilité et de l'influence d'un site ou d'une page aux yeux de
 Lien entrant depuis un site externe vers votre site. C'est l'un des signaux de popularité les plus importants pour Google. Un backlink depuis un site d'autorité reconnu dans votre secteur vaut bien plus que des dizaines de liens depuis des sites de faible qualité. Voir l'article sur le [netlinking et les backlinks](/blog/netlinking-backlinks-pagerank).
 
 **Balise canonique**
-Balise HTML (`<link rel="canonical">`) qui indique à Google quelle est la version de référence d'une page parmi plusieurs URLs similaires ou dupliquées. Essentielle pour éviter les problèmes de contenu dupliqué. Voir l'article complet sur la [balise canonique](/blog/balise-canonique).
+Balise HTML (`<link rel="canonical">`) qui indique à Google quelle est la version de référence d'une page parmi plusieurs URLs similaires ou dupliquées. Indispensable pour éviter les problèmes de contenu dupliqué. Voir l'article complet sur la [balise canonique](/blog/balise-canonique).
 
 **Balise title**
 Élément HTML affiché comme titre dans les résultats Google (SERP) et dans l'onglet du navigateur. C'est l'un des signaux on-page les plus importants pour le positionnement. Elle ne doit pas dépasser 65 caractères pour ne pas être tronquée. Voir [comment rédiger un titre SEO efficace](/blog/rediger-titre-seo).

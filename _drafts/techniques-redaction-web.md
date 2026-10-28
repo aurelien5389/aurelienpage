@@ -8,7 +8,7 @@ Rédiger pour le web, ce n'est pas simplement écrire correctement. C'est écrir
 
 Cet article passe en revue les techniques de rédaction web les plus efficaces pour améliorer la lisibilité, l'engagement et le référencement de vos contenus. Il s'inscrit dans une démarche plus large de [stratégie de contenu SEO](/blog/strategie-contenu-seo) : les techniques ne valent que si elles servent des objectifs éditoriaux clairement définis.
 
-## 1. La pyramide inversée : l'essentiel d'abord
+## 1. La pyramide inversée : le principal d'abord
 
 La pyramide inversée est la technique de base du journalisme web, et la première à intégrer en rédaction web. Son principe : placer l'information la plus importante en tout début d'article, puis développer les détails dans l'ordre décroissant d'importance.
 
@@ -99,7 +99,7 @@ Ce que l'accroche ne doit pas être : une mise en contexte générale, une défi
 
 Une conclusion efficace en rédaction web fait deux choses simultanément : elle synthétise la valeur apportée par l'article, et elle oriente le lecteur vers l'étape suivante.
 
-L'étape suivante peut être : lire un article complémentaire (maillage interne), s'abonner à une newsletter, télécharger un guide, ou contacter le rédacteur. L'essentiel est qu'elle soit cohérente avec l'intention du lecteur et avec les objectifs de la page.
+L'étape suivante peut être : lire un article complémentaire (maillage interne), s'abonner à une newsletter, télécharger un guide, ou contacter le rédacteur. Ce qui compte, c'est qu'elle soit cohérente avec l'intention du lecteur et avec les objectifs de la page.
 
 Un article sans appel à l'action est une occasion manquée. Le lecteur qui a terminé votre contenu est en état de réceptivité maximale. C'est le meilleur moment pour lui proposer une action.
 

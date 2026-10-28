@@ -125,7 +125,7 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
   'quest-ce-que-le-seo': [
     { href: '/blog/fonctionnement-moteurs-recherche', label: 'Comment fonctionnent les moteurs de recherche' },
     { href: '/blog/apprendre-le-seo-principes-debutants', label: 'Apprendre le SEO : principes fondamentaux' },
-    { href: '/blog/lexique-seo', label: 'Lexique SEO : 50 termes essentiels' },
+    { href: '/blog/lexique-seo', label: 'Lexique SEO : 50 termes expliqués' },
     { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
   ],
   'lexique-seo': [
@@ -145,12 +145,6 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/crawler-seo', label: 'Crawler SEO : fonctionnement et optimisation' },
     { href: '/blog/robots-txt-meta-robots', label: 'Robots.txt et meta robots' },
     { href: '/blog/seo-technique-core-web-vitals', label: 'SEO technique : les fondations' },
-  ],
-  'redacteur-web-rennes': [
-    { href: '/blog/techniques-redaction-web', label: 'Techniques de rédaction web' },
-    { href: '/blog/strategie-contenu-seo', label: 'Stratégie de contenu SEO' },
-    { href: '/blog/rediger-bon-article-blog', label: 'Rédiger un bon article de blog' },
-    { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
   ],
   'techniques-redaction-web': [
     { href: '/blog/fautes-orthographe-redaction-web', label: "Fautes d'orthographe en rédaction web" },
@@ -236,7 +230,7 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/ia-search-moteurs-reponses', label: 'Adapter sa stratégie SEO à la recherche par IA' },
   ],
   'apprendre-le-seo-principes-debutants': [
-    { href: '/blog/lexique-seo', label: 'Lexique SEO : 50 termes essentiels' },
+    { href: '/blog/lexique-seo', label: 'Lexique SEO : 50 termes expliqués' },
     { href: '/blog/fonctionnement-moteurs-recherche', label: 'Comment fonctionnent les moteurs de recherche' },
     { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
     { href: '/blog/seo-technique-core-web-vitals', label: 'SEO technique : les fondations' },
@@ -258,13 +252,15 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
   ],
   'mesurer-visibilite-geo': [
     { href: '/reponses/part-de-voix-dans-les-ia', label: "Réponse : qu'est-ce que la part de voix dans les IA ?" },
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
+    { href: '/prestations/audit-geo', label: 'Audit GEO : relevé des réponses des IA et part de voix' },
     { href: '/reponses/difference-seo-geo', label: 'Quelle différence entre SEO et GEO ?' },
     { href: '/blog/structurer-contenu-geo', label: 'Comment rédiger un contenu que les IA reprennent' },
     { href: '/blog/geo-ia-search-ai-overviews', label: 'Comment apparaître dans les AI Overviews de Google' },
     { href: '/blog/chatgpt-search-geo', label: 'Comment être cité par ChatGPT et Perplexity' },
-    { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes' },
   ],
   'structurer-contenu-geo': [
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
     { href: '/reponses/difference-seo-geo', label: 'Quelle différence entre SEO et GEO ?' },
     { href: '/blog/mesurer-visibilite-geo', label: 'Comment mesurer la visibilité de sa marque dans les IA' },
     { href: '/blog/donnees-structurees-schema-org', label: 'Données structurées et Schema.org' },
@@ -284,16 +280,9 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/techniques-redaction-web', label: 'Techniques de rédaction web : améliorer son contenu' },
     { href: '/blog/strategie-contenu-seo', label: 'Stratégie de contenu SEO' },
     { href: '/blog/rediger-bon-article-blog', label: 'Rédiger un bon article de blog' },
-    { href: '/redacteur-web-rennes', label: 'Rédacteur web SEO à Rennes' },
-    { href: '/redacteur-web-juridique', label: 'Rédacteur web juridique : avocats, notaires, experts-comptables' },
+    { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
+    { href: '/reponses/contenu-ia-penalise-par-google', label: "Réponse : le contenu rédigé avec l'IA est-il pénalisé ?" },
     { href: '/blog/geo-ia-search-ai-overviews', label: 'Comment apparaître dans les AI Overviews de Google' },
-  ],
-  'redacteur-web-juridique': [
-    { href: '/redaction-web', label: 'Rédaction web SEO' },
-    { href: '/redacteur-web-rennes', label: 'Rédacteur web SEO à Rennes' },
-    { href: '/blog/google-eeat', label: 'Google EEAT : définition et amélioration' },
-    { href: '/prestations/consultant-seo-geo', label: 'Prestations SEO & GEO · Aurélien PAGE' },
-    { href: '/blog/strategie-contenu-seo', label: 'Stratégie de contenu SEO' },
   ],
   'optimiser-profil-malt': [
     { href: '/blog/devenir-consultant-seo-freelance', label: 'Comment devenir consultant SEO freelance' },
@@ -305,7 +294,7 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/techniques-redaction-web', label: 'Techniques de rédaction web : améliorer son contenu' },
     { href: '/blog/rediger-bon-article-blog', label: 'Rédiger un bon article de blog' },
     { href: '/blog/copywriter-eviter-syndrome-page-blanche', label: 'Copywriter : éviter le syndrome de la page blanche' },
-    { href: '/redacteur-web-rennes', label: 'Rédacteur web SEO à Rennes' },
+    { href: '/redaction-web', label: 'Rédaction web SEO' },
   ],
   'formation-seo': [
     { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
@@ -315,6 +304,7 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/consultant-seo-freelance', label: 'Consultant SEO freelance' },
   ],
   'chatgpt-search-geo': [
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Réponse courte : comment être cité par ChatGPT et Perplexity ?' },
     { href: '/reponses/chatgpt-utilise-t-il-bing', label: "Réponse : ChatGPT s'appuie-t-il sur Bing ?" },
     { href: '/reponses/combien-de-temps-pour-etre-cite-par-chatgpt', label: "Réponse : combien de temps pour être cité par ChatGPT ?" },
     { href: '/reponses/difference-seo-geo', label: 'Quelle différence entre SEO et GEO ?' },
@@ -346,11 +336,11 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/geo-ia-search-ai-overviews', label: 'Comment apparaître dans les AI Overviews de Google' },
   ],
   'consultant-geo-rennes': [
-    { href: '/blog/geo-ia-search-ai-overviews', label: 'Comment apparaître dans les AI Overviews de Google' },
-    { href: '/blog/ia-search-moteurs-reponses', label: 'Adapter sa stratégie SEO à la recherche par IA' },
-    { href: '/blog/google-eeat', label: 'Google EEAT : définition et amélioration' },
+    { href: '/prestations/consultant-seo-geo', label: 'Consultant SEO et GEO : la fiche complète, tarifs et déroulé' },
+    { href: '/prestations/audit-geo', label: 'Audit GEO : relevé des réponses des IA et part de voix' },
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
+    { href: '/reponses/qu-est-ce-que-le-geo', label: "Qu'est-ce que le GEO (Generative Engine Optimization) ?" },
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
-    { href: '/prestations/consultant-seo-geo', label: 'Prestation consultant SEO & GEO' },
   ],
   'pourquoi-consultant-seo': [
     { href: '/prestations/consultant-seo-geo', label: 'Mes prestations SEO & GEO' },
@@ -392,17 +382,14 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
     { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
     { href: '/consultant-seo-angers', label: 'Consultant SEO à Angers' },
   ],
-  bordeaux: [
-    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
-    { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
-  ],
   brest: [
     { href: '/consultant-seo-quimper', label: 'Consultant SEO à Quimper' },
     { href: '/consultant-seo-lorient', label: 'Consultant SEO à Lorient' },
   ],
-  caen: [
-  ],
   laval: [
+    { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
+    { href: '/consultant-seo-le-mans', label: 'Consultant SEO au Le Mans' },
+    { href: '/consultant-seo-angers', label: 'Consultant SEO à Angers' },
   ],
   'le-mans': [
     { href: '/consultant-seo-nantes', label: 'Consultant SEO à Nantes' },
@@ -414,23 +401,13 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
     { href: '/consultant-seo-quimper', label: 'Consultant SEO à Quimper' },
     { href: '/consultant-seo-vannes', label: 'Consultant SEO à Vannes' },
   ],
-  marseille: [
-    { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
-    { href: '/consultant-seo-nice', label: 'Consultant SEO à Nice' },
-    { href: '/consultant-seo-bordeaux', label: 'Consultant SEO à Bordeaux' },
-  ],
-  montpellier: [
-    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
-  ],
-  nice: [
-  ],
   quimper: [
     { href: '/consultant-seo-lorient', label: 'Consultant SEO à Lorient' },
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
   ],
   'saint-malo': [
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
-    { href: '/consultant-seo-caen', label: 'Consultant SEO à Caen' },
+    { href: '/consultant-seo-dinard', label: 'Consultant SEO à Dinard' },
     { href: '/consultant-seo-nantes', label: 'Consultant SEO à Nantes' },
   ],
   'saint-nazaire': [
@@ -438,26 +415,50 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
     { href: '/consultant-seo-vannes', label: 'Consultant SEO à Vannes' },
     { href: '/consultant-seo-lorient', label: 'Consultant SEO à Lorient' },
   ],
-  strasbourg: [
-    { href: '/consultant-seo-paris', label: 'Consultant SEO à Paris' },
-    { href: '/consultant-seo-lyon', label: 'Consultant SEO à Lyon' },
-    { href: '/consultant-seo-lille', label: 'Consultant SEO à Lille' },
-  ],
   vannes: [
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
     { href: '/consultant-seo-saint-nazaire', label: 'Consultant SEO à Saint-Nazaire' },
   ],
   angers: [
     { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
-    { href: '/consultant-seo-le-mans', label: 'Consultant SEO au Mans' },
-  ],
-  lille: [
-    { href: '/consultant-seo-freelance', label: 'Consultant SEO freelance' },
-  ],
-  paris: [
+    { href: '/consultant-seo-le-mans', label: 'Consultant SEO au Le Mans' },
   ],
   dinard: [
     { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
+    { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
+  ],
+  bordeaux: [
+    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
+    { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
+  ],
+  caen: [
+    { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
+    { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
+  ],
+  marseille: [
+    { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
+    { href: '/consultant-seo-nice', label: 'Consultant SEO à Nice' },
+    { href: '/consultant-seo-bordeaux', label: 'Consultant SEO à Bordeaux' },
+  ],
+  montpellier: [
+    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
+    { href: '/consultant-seo-toulouse', label: 'Consultant SEO à Toulouse' },
+  ],
+  nice: [
+    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
+  ],
+  strasbourg: [
+    { href: '/consultant-seo-paris', label: 'Consultant SEO à Paris' },
+    { href: '/consultant-seo-lyon', label: 'Consultant SEO à Lyon' },
+    { href: '/consultant-seo-lille', label: 'Consultant SEO à Lille' },
+  ],
+  lille: [
+    { href: '/consultant-seo-paris', label: 'Consultant SEO à Paris' },
+    { href: '/consultant-seo-freelance', label: 'Consultant SEO freelance' },
+  ],
+  paris: [
+    { href: '/consultant-seo-lille', label: 'Consultant SEO à Lille' },
+    { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
   ],
   lyon: [
     { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
@@ -466,11 +467,13 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
   ],
   toulouse: [
     { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
+    { href: '/consultant-seo-bordeaux', label: 'Consultant SEO à Bordeaux' },
   ],
 }
 
 export const LOCAL_BLOG_LINKS: InternalLink[] = [
   { href: '/prestations/consultant-seo-geo', label: 'Prestations SEO & GEO · Aurélien PAGE' },
+  { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
   { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
   { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
   { href: '/blog/seo-local-google-my-business', label: 'SEO local et Google My Business' },

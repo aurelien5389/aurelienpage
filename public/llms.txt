@@ -15,6 +15,8 @@
 - [Chef de projet digital](https://aurelienpage.fr/prestations/chef-de-projet-digital): pilotage de projets web en freelance depuis Rennes.
 - [Consultant SEO à Rennes](https://aurelienpage.fr/consultant-seo-rennes): accompagnement SEO et GEO des entreprises bretonnes.
 - [Consultant GEO à Rennes](https://aurelienpage.fr/consultant-geo-rennes): optimisation pour être cité par les moteurs de réponse IA.
+- [Consultant SEO freelance](https://aurelienpage.fr/consultant-seo-freelance): tarifs, déroulé et zone d'intervention d'un consultant SEO freelance.
+- [Rédaction web SEO](https://aurelienpage.fr/redaction-web): articles de blog, pages de service et briefs, de 150 à 350 € l'article.
 
 ## Formations
 
@@ -23,7 +25,7 @@
 
 ## Repères
 
-- [Combien coûte une prestation SEO](https://aurelienpage.fr/cout-prestation-seo): repères de prix pour un audit, un suivi mensuel ou une formation.
+- [Combien coûte une prestation SEO](https://aurelienpage.fr/cout-prestation-seo): mes tarifs pour un audit, un suivi mensuel, un article ; formations sur devis.
 - [Pourquoi faire appel à un consultant SEO](https://aurelienpage.fr/pourquoi-consultant-seo): ce qu'apporte un consultant et quand le solliciter.
 
 ## Réponses courtes et sourcées
@@ -32,6 +34,8 @@
 - [Qu'est-ce que le GEO ?](https://aurelienpage.fr/reponses/qu-est-ce-que-le-geo): définition, origine du terme et fonctionnement.
 - [Quelle différence entre SEO et GEO ?](https://aurelienpage.fr/reponses/difference-seo-geo): objectifs, techniques et mesures comparés.
 - [Audit SEO ou audit GEO ?](https://aurelienpage.fr/reponses/difference-audit-seo-audit-geo): ce que contrôle chaque audit.
+- [Combien coûte un audit SEO ?](https://aurelienpage.fr/reponses/combien-coute-un-audit-seo): 800 à 2 500 € selon la taille du site, ce qui fait varier le prix, ce que contient le livrable.
+- [Comment être cité par ChatGPT et Perplexity ?](https://aurelienpage.fr/reponses/comment-etre-cite-par-chatgpt-et-perplexity): accès des robots OAI-SearchBot et PerplexityBot, indexation Bing et Google, format des pages, mesure.
 - [Quels robots d'IA explorent mon site ?](https://aurelienpage.fr/reponses/robots-ia-faut-il-les-bloquer): rôle de chaque robot et lesquels bloquer.
 - [Faut-il un fichier llms.txt ?](https://aurelienpage.fr/reponses/faut-il-creer-un-fichier-llms-txt): ce qu'en disent les éditeurs.
 - [Le contenu IA est-il pénalisé par Google ?](https://aurelienpage.fr/reponses/contenu-ia-penalise-par-google): ce que disent les règles de Google.

@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
 import JsonLd from '@/components/JsonLd'
-import { breadcrumbSchema } from '@/lib/schema'
+import { breadcrumbSchema, pageGraph } from '@/lib/schema'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -22,7 +22,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <JsonLd schema={breadcrumbSchema([{ name: 'Contact', path: '/contact' }])} />
+      <JsonLd schema={pageGraph(breadcrumbSchema([{ name: 'Contact', path: '/contact' }]))} />
       <main className={styles.contactPageMain}>
         {/* Breadcrumb */}
         <div className={styles.fil}>

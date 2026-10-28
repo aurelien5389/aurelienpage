@@ -6,7 +6,7 @@ meta-description: "Qu'est-ce que le SEO ? Définition complète du référenceme
 
 Le SEO est partout dans le vocabulaire du marketing digital, mais sa définition reste floue pour beaucoup. Stratégie mystérieuse pour certains, simple histoire de mots-clés pour d'autres. La réalité est plus riche et plus logique qu'il n'y paraît.
 
-Voici une explication claire et complète de ce qu'est le SEO, comment il fonctionne, et pourquoi il est devenu incontournable pour toute présence en ligne sérieuse.
+Voici une explication claire et complète de ce qu'est le SEO, comment il fonctionne, et pourquoi il est devenu nécessaire à toute présence en ligne sérieuse.
 
 ## Définition du SEO
 
@@ -105,7 +105,7 @@ Si vous débutez, voici la séquence logique :
 
 6. **Construire votre autorité** : progressivement, par le netlinking et la réputation éditoriale.
 
-Pour une vue d'ensemble des principes à intégrer dès le départ, l'article sur les [fondamentaux pour apprendre le SEO](/blog/apprendre-le-seo-principes-debutants) est un bon point de départ. Et si vous voulez maîtriser le vocabulaire, le [lexique SEO](/blog/lexique-seo) couvre les 50 termes essentiels.
+Pour une vue d'ensemble des principes à intégrer dès le départ, l'article sur les [fondamentaux pour apprendre le SEO](/blog/apprendre-le-seo-principes-debutants) est un bon point de départ. Et si vous voulez maîtriser le vocabulaire, le [lexique SEO](/blog/lexique-seo) couvre les 50 termes à connaître.
 
 ## Questions fréquentes sur le SEO
 

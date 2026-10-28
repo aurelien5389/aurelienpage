@@ -1,18 +1,28 @@
 'use client'
 
-import { useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import Icon, { type IconName } from '@/components/Icon'
 import { CALENDLY_URL } from '@/components/DiagnosticCTA'
+import { lireSource } from '@/components/SourceTracker'
 import styles from './Contact.module.css'
 
 // Validation côté client sans bibliothèque (le serveur revalide dans app/api/contact).
-// Mêmes règles et mêmes messages qu'avant : nom 2-100, email valide, sujet ≤ 200, message 20-5000.
-type Champ = 'name' | 'email' | 'subject' | 'message'
+// Règles : nom 2-100, email valide, sujet ≤ 200, message 20-5000, source obligatoire.
+type Champ = 'name' | 'email' | 'subject' | 'message' | 'source'
 type Valeurs = Record<Champ, string>
 type Erreurs = Partial<Record<Champ, string>>
 type FormStatus = 'idle' | 'loading' | 'success' | 'error'
 
-const VIDE: Valeurs = { name: '', email: '', subject: '', message: '' }
+// « Comment m'avez-vous connu ? » : sert à compter les demandes venues des IA
+export const SOURCES = [
+  { value: 'google', label: 'Google' },
+  { value: 'ia', label: 'Une IA (ChatGPT, Perplexity, Gemini, Claude…)' },
+  { value: 'linkedin', label: 'LinkedIn' },
+  { value: 'recommandation', label: 'Recommandation' },
+  { value: 'autre', label: 'Autre' },
+] as const
+
+const VIDE: Valeurs = { name: '', email: '', subject: '', message: '', source: '' }
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
 function valider(v: Valeurs): Erreurs {
@@ -23,6 +33,7 @@ function valider(v: Valeurs): Erreurs {
   if (v.subject.length > 200) e.subject = 'Sujet trop long'
   if (v.message.trim().length < 20) e.message = 'Le message doit contenir au moins 20 caractères'
   else if (v.message.length > 5000) e.message = 'Message trop long (max 5 000 caractères)'
+  if (!SOURCES.some((s) => s.value === v.source)) e.source = 'Indiquez comment vous avez connu ce site'
   return e
 }
 
@@ -36,6 +47,12 @@ export default function Contact({ niveauTitre = 2 }: Props) {
   const [status, setStatus] = useState<FormStatus>('idle')
   const [valeurs, setValeurs] = useState<Valeurs>(VIDE)
   const [erreurs, setErreurs] = useState<Erreurs>({})
+  // Source technique mémorisée au premier chargement (SourceTracker) : référent et utm_source
+  const [technique, setTechnique] = useState({ referrer: '', utmSource: '', landing: '' })
+
+  useEffect(() => {
+    setTechnique(lireSource())
+  }, [])
 
   const changer = (champ: Champ) => (ev: { target: { value: string } }) => {
     const v = { ...valeurs, [champ]: ev.target.value }
@@ -58,7 +75,13 @@ export default function Contact({ niveauTitre = 2 }: Props) {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...valeurs, subject: valeurs.subject || undefined }),
+        body: JSON.stringify({
+          ...valeurs,
+          subject: valeurs.subject || undefined,
+          referrer: technique.referrer || undefined,
+          utmSource: technique.utmSource || undefined,
+          landing: technique.landing || undefined,
+        }),
       })
       if (res.ok) {
         setStatus('success')
@@ -85,8 +108,8 @@ export default function Contact({ niveauTitre = 2 }: Props) {
         {/* Bloc Calendly */}
         <div className={styles.calendly}>
           <div>
-            <p className={styles.calendlyTitre}>Préfères-tu qu&apos;on en parle directement ?</p>
-            <p className={styles.calendlySous}>Réserve un créneau de 30 min, c&apos;est gratuit et sans engagement.</p>
+            <p className={styles.calendlyTitre}>Vous préférez en parler directement ?</p>
+            <p className={styles.calendlySous}>Réservez un créneau de 30 minutes : gratuit et sans engagement.</p>
           </div>
           <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primaire">
             Choisir un créneau <Icon name="arrow" size={18} />
@@ -166,6 +189,30 @@ export default function Contact({ niveauTitre = 2 }: Props) {
             </div>
 
             <div>
+              <label htmlFor="source" className={styles.champLabel}>
+                Comment m&apos;avez-vous connu ? <span className={styles.champRequis} aria-hidden="true">*</span>
+              </label>
+              <select
+                id="source"
+                name="source"
+                aria-required="true"
+                aria-invalid={erreurs.source ? true : undefined}
+                aria-describedby={erreurs.source ? 'source-error' : undefined}
+                value={valeurs.source}
+                onChange={changer('source')}
+                className={champClass(!!erreurs.source)}
+              >
+                <option value="">Choisissez une réponse</option>
+                {SOURCES.map((s) => (
+                  <option key={s.value} value={s.value}>{s.label}</option>
+                ))}
+              </select>
+              {erreurs.source && (
+                <p id="source-error" role="alert" className={styles.erreurMsg}>{erreurs.source}</p>
+              )}
+            </div>
+
+            <div>
               <label htmlFor="message" className={styles.champLabel}>
                 Message <span className={styles.champRequis} aria-hidden="true">*</span>
               </label>
@@ -186,6 +233,11 @@ export default function Contact({ niveauTitre = 2 }: Props) {
               )}
             </div>
 
+            {/* Source technique (référent, utm_source, page d'entrée) : champs cachés, transmis avec le message */}
+            <input type="hidden" name="referrer" value={technique.referrer} readOnly />
+            <input type="hidden" name="utm_source" value={technique.utmSource} readOnly />
+            <input type="hidden" name="landing" value={technique.landing} readOnly />
+
             <button
               type="submit"
               disabled={status === 'loading' || status === 'success'}
@@ -196,7 +248,7 @@ export default function Contact({ niveauTitre = 2 }: Props) {
 
             {status === 'success' && (
               <p role="status" className={styles.feedbackOk}>
-                <Icon name="check" size={20} /> Message envoyé ! Je vous réponds sous 48h.
+                <Icon name="check" size={20} /> Message envoyé. Je vous réponds sous 48 h.
               </p>
             )}
             {status === 'error' && (

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import JsonLd from '@/components/JsonLd'
 import { renderInline } from '@/components/MarkdownRenderer'
 import { REPONSES, THEMES } from '@/lib/reponses'
-import { SITE_URL, breadcrumbSchema } from '@/lib/schema'
+import { SITE_URL, breadcrumbSchema, pageGraph } from '@/lib/schema'
 import styles from './page.module.css'
 
 const TITLE = 'Réponses SEO et GEO : des réponses courtes et sourcées · Aurélien PAGE'
@@ -35,8 +35,7 @@ export default function ReponsesIndex() {
   return (
     <>
       <Header />
-      <JsonLd schema={breadcrumbSchema([{ name: 'Réponses', path: '/reponses' }])} />
-      <JsonLd schema={itemList} />
+      <JsonLd schema={pageGraph(breadcrumbSchema([{ name: 'Réponses', path: '/reponses' }]), itemList)} />
       <main className={styles.idxMain}>
         <div className={styles.idxInner}>
           <nav aria-label="Fil d'Ariane" className={styles.fil}>

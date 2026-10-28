@@ -42,7 +42,7 @@ const data: FicheData = {
   pourquoi: [
     "Vos clients ne tapent plus seulement des mots-clés dans Google. Ils demandent à une IA quel prestataire choisir, combien ça coûte, ce qu'il faut savoir avant de se lancer. Si la réponse cite trois concurrents, vous n'êtes pas dans la course, et la Search Console ne vous dira pas qui est cité à votre place.",
     `Certaines causes sont techniques. OpenAI précise qu'un site qui bloque son robot **OAI-SearchBot** n'apparaît pas dans les réponses de recherche de ChatGPT ([OpenAI](${SRC.openai.href})). Anthropic et Perplexity documentent aussi leurs robots de recherche, Claude-SearchBot et PerplexityBot ([Anthropic](${SRC.anthropic.href}), [Perplexity](${SRC.perplexity.href})). Côté Google, une page doit être indexée et éligible à un extrait pour apparaître dans les AI Overviews ([Google Search Central](${SRC.googleIa.href})).`,
-    "Les autres causes tiennent aux contenus : pas de réponse directe à la question, pas de source, pas d'auteur identifié, ou des concurrents mieux cités ailleurs sur le web.",
+    `Les autres causes tiennent aux contenus : pas de réponse directe à la question, pas de source, pas d'auteur identifié, ou des concurrents mieux cités ailleurs sur le web. L'article de recherche qui a donné son nom au GEO a mesuré l'effet de ces choix : ajouter des citations de sources, des citations textuelles et des statistiques a amélioré la visibilité des pages jusqu'à 40 % sur le banc d'essai des auteurs (GEO-bench), alors que le bourrage de mots-clés n'apportait peu ou pas d'amélioration ([Aggarwal et al., arXiv](${SRC.arxivGeo.href})). C'est ce que l'audit vérifie page par page.`,
   ],
   derouleTitre: "Méthode de l'audit GEO",
   deroule: [
@@ -113,11 +113,13 @@ const data: FicheData = {
     },
   ],
   liens: [
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
+    { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
     { href: '/reponses/difference-audit-seo-audit-geo', label: 'Quelle différence entre un audit SEO et un audit GEO ?' },
     { href: '/reponses/robots-ia-faut-il-les-bloquer', label: "Quels robots d'IA explorent mon site et faut-il les bloquer ?" },
     { href: '/reponses/part-de-voix-dans-les-ia', label: "Qu'est-ce que la part de voix dans les IA ?" },
   ],
-  sources: [SRC.openai, SRC.anthropic, SRC.perplexity, SRC.googleIa],
+  sources: [SRC.openai, SRC.googleIa, SRC.arxivGeo, SRC.anthropic, SRC.perplexity],
   schema: {
     '@type': 'Service',
     name: 'Audit GEO',

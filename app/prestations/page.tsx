@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
-import { breadcrumbSchema } from '@/lib/schema'
+import { breadcrumbSchema, pageGraph } from '@/lib/schema'
 import Icon, { type IconName } from '@/components/Icon'
 import styles from './page.module.css'
 
@@ -69,7 +69,7 @@ export default function PrestationsPage() {
   return (
     <>
       <Header />
-      <JsonLd schema={breadcrumbSchema([{ name: 'Prestations', path: '/prestations' }])} />
+      <JsonLd schema={pageGraph(breadcrumbSchema([{ name: 'Prestations', path: '/prestations' }]))} />
       <main className={styles.hubMain}>
         {/* Hero */}
         <section className={styles.hubHero}>

@@ -17,15 +17,19 @@ import financement from './formation-seo-cpf-opco'
 import aiTrafic from './ai-overviews-baisse-de-trafic'
 import budgetAds from './budget-minimum-google-ads'
 import nombreMots from './combien-de-mots-article-seo'
+import coutAudit from './combien-coute-un-audit-seo'
+import etreCite from './comment-etre-cite-par-chatgpt-et-perplexity'
 
 export const REPONSES: Reponse[] = [
   quEstCeQueLeGeo,
   differenceSeoGeo,
   differenceAuditSeoAuditGeo,
+  coutAudit,
   robotsIa,
   llmsTxt,
   contenuIa,
   chatgptBing,
+  etreCite,
   delaisSeo,
   delaisChatgpt,
   aiModes,

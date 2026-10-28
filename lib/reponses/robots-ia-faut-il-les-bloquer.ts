@@ -93,7 +93,7 @@ Trois limites à connaître. Les robots qui agissent pour un utilisateur ne suiv
       a: "Dans les journaux de votre serveur ou de votre hébergeur : chaque visite indique le nom du robot. Une analyse de logs montre lesquels passent, à quelle fréquence et sur quelles pages.",
     },
   ],
-  voirAussi: ['faut-il-creer-un-fichier-llms-txt', 'qu-est-ce-que-le-geo', 'difference-audit-seo-audit-geo'],
+  voirAussi: ['comment-etre-cite-par-chatgpt-et-perplexity', 'faut-il-creer-un-fichier-llms-txt', 'qu-est-ce-que-le-geo'],
   publie: '2026-10-04',
 }
 

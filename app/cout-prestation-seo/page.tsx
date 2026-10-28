@@ -5,118 +5,78 @@ import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
-import SimulateurSeo from '@/components/SimulateurSeo'
-import { parseDraft } from '@/lib/draft-parser'
-import { breadcrumbSchema } from '@/lib/schema'
+import QuiRepond from '@/components/QuiRepond'
+import { parseDraft, extractFaq } from '@/lib/draft-parser'
+import { draftDates, formatMonthYear } from '@/lib/content-dates'
+import { breadcrumbSchema, pageGraph, personRef, faqNode, webPageNode } from '@/lib/schema'
+import { CALENDLY_URL } from '@/components/DiagnosticCTA'
 import styles from './page.module.css'
 
-const draft = parseDraft('cout-prestation-seo.md')
+const PATH = '/cout-prestation-seo'
+const SLUG = 'cout-prestation-seo'
+const draft = parseDraft(`${SLUG}.md`)
+const TITLE = 'Combien coûte une prestation SEO ? Mes tarifs · Aurélien PAGE'
+const DESCRIPTION =
+  'Mes tarifs SEO et GEO : audit de 800 à 2 500 €, accompagnement mensuel de 500 à 2 000 €, article de blog de 150 à 350 €, formations et Google Ads sur devis. Diagnostic offert.'
 
 export const metadata: Metadata = {
-  title: 'Tarifs SEO 2026 : prix audit, freelance et agence · Aurélien PAGE',
-  description:
-    'Prix du SEO en 2026 : tarif horaire freelance (50–200 €/h), audit SEO (800–10 000 €), forfait mensuel (500–20 000 €/mois). Comparatif consultant freelance vs agence.',
-  alternates: { canonical: 'https://aurelienpage.fr/cout-prestation-seo' },
-  openGraph: {
-    title: 'Tarifs SEO 2026 : prix audit, freelance et agence · Aurélien PAGE',
-    description: 'Prix du SEO en 2026 : tarif horaire, audit, forfait mensuel. Comparatif consultant freelance vs agence SEO.',
-    url: 'https://aurelienpage.fr/cout-prestation-seo',
-  },
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: `https://aurelienpage.fr${PATH}` },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: `https://aurelienpage.fr${PATH}` },
 }
 
-const COMPARATIF = [
-  {
-    critere: 'Tarif horaire',
-    freelance: '50 – 200 €/h',
-    agence: '100 – 250 €/h',
-  },
-  {
-    critere: 'Forfait mensuel courant',
-    freelance: '500 – 8 000 €/mois',
-    agence: '1 500 – 20 000 €/mois',
-  },
-  {
-    critere: 'Interlocuteur',
-    freelance: 'L’expert lui-même',
-    agence: 'Chef de projet, équipe variable',
-  },
-  {
-    critere: 'Périmètre',
-    freelance: 'Sur mesure, ajustable',
-    agence: 'Large, packagé',
-  },
-  {
-    critere: 'Adapté si',
-    freelance: 'TPE/PME, besoin d’expertise directe',
-    agence: 'Grand compte, besoin de volume',
-  },
-]
-
+// Offres balisées = tarifs visibles sur la page (aucun prix « marché »)
 const schemaService = {
-  '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'Prestations SEO · Aurélien PAGE',
-  serviceType: 'Référencement naturel (SEO)',
-  provider: {
-    '@type': 'Person',
-    '@id': 'https://aurelienpage.fr/#person',
-    name: 'Aurélien PAGE',
-    jobTitle: 'Consultant SEO & GEO',
-    url: 'https://aurelienpage.fr',
-  },
+  '@id': `https://aurelienpage.fr${PATH}#offre`,
+  name: 'Prestations SEO et GEO · Aurélien PAGE',
+  serviceType: 'Référencement naturel (SEO) et GEO',
+  provider: personRef,
   areaServed: { '@type': 'Country', name: 'France' },
   offers: [
     {
       '@type': 'Offer',
       name: 'Audit SEO et GEO',
       priceCurrency: 'EUR',
-      priceSpecification: {
-        '@type': 'PriceSpecification',
-        minPrice: 800,
-        maxPrice: 2500,
-        priceCurrency: 'EUR',
-      },
+      priceSpecification: { '@type': 'PriceSpecification', minPrice: 800, maxPrice: 2500, priceCurrency: 'EUR' },
     },
     {
       '@type': 'Offer',
       name: 'Accompagnement SEO mensuel',
       priceCurrency: 'EUR',
-      priceSpecification: {
-        '@type': 'UnitPriceSpecification',
-        minPrice: 500,
-        maxPrice: 2000,
-        priceCurrency: 'EUR',
-        unitText: 'mois',
-      },
+      priceSpecification: { '@type': 'UnitPriceSpecification', minPrice: 500, maxPrice: 2000, priceCurrency: 'EUR', unitText: 'mois' },
     },
     {
       '@type': 'Offer',
-      name: 'Formation SEO (module de 3 à 4 heures)',
+      name: 'Rédaction d’un article de blog SEO',
       priceCurrency: 'EUR',
-      priceSpecification: {
-        '@type': 'PriceSpecification',
-        minPrice: 450,
-        maxPrice: 600,
-        priceCurrency: 'EUR',
-      },
+      priceSpecification: { '@type': 'PriceSpecification', minPrice: 150, maxPrice: 350, priceCurrency: 'EUR' },
     },
   ],
 }
 
-
 const RELATED_LINKS = [
+  { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
+  { href: '/consultant-seo-freelance', label: 'Combien coûte un consultant SEO freelance ?' },
+  { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
   { href: '/pourquoi-consultant-seo', label: 'Pourquoi faire appel à un consultant SEO ?' },
-  { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
   { href: '/prestations/consultant-seo-geo', label: 'Consultant SEO & GEO : mes prestations' },
-  { href: '/blog/geo-ia-search-ai-overviews', label: 'GEO : optimiser pour la recherche IA' },
 ]
 
 export default function Page() {
+  const dates = draftDates(SLUG, `app${PATH}/page.tsx`)
+  const graph = pageGraph(
+    webPageNode(PATH, draft.h1, dates, { mainEntity: { '@id': `https://aurelienpage.fr${PATH}#offre` } }),
+    schemaService,
+    faqNode(extractFaq(draft.body)),
+    breadcrumbSchema([{ name: 'Combien coûte une prestation SEO ?', path: PATH }])
+  )
+
   return (
     <>
       <Header />
-      <JsonLd schema={schemaService} />
-      <JsonLd schema={breadcrumbSchema([{ name: 'Combien coûte une prestation SEO ?', path: '/cout-prestation-seo' }])} />
+      <JsonLd schema={graph} />
       <main className={styles.artMain}>
         {/* Breadcrumb */}
         <div className={styles.artFil}>
@@ -136,20 +96,14 @@ export default function Page() {
         {/* Hero */}
         <section className={styles.artHero}>
           <div className={styles.artInner}>
-            <h1 className={styles.artH1}>
-              {draft.h1}
-            </h1>
+            <h1 className={styles.artH1}>{draft.h1}</h1>
+            <p className={styles.artComparatifIntro}>
+              <Link href="/a-propos" className={styles.artLien}>Aurélien Page</Link> ·{' '}
+              <time dateTime={dates.modified}>Mis à jour en {formatMonthYear(dates.modified)}</time>
+            </p>
             <div className={styles.artActions}>
-              <a
-                href="https://calendly.com/aurelienpage89/diagnostic-offert-30-min"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.artBtnPrim}
-              >
-                Devis gratuit →
-              </a>
-              <a href="#simulateur" className={styles.artBtnSec}>
-                Simuler mon budget →
+              <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className={styles.artBtnPrim}>
+                Réserver mon diagnostic offert →
               </a>
               <Link href="/pourquoi-consultant-seo" className={styles.artBtnSec}>
                 Pourquoi un consultant SEO ?
@@ -162,59 +116,20 @@ export default function Page() {
         <article className={styles.artArticle}>
           <div className={styles.artInner}>
             <MarkdownRenderer content={draft.body} />
+            <QuiRepond />
           </div>
         </article>
-
-        {/* Simulateur de budget */}
-        <SimulateurSeo />
-
-        {/* Comparatif freelance / agence */}
-        <section className={styles.artComparatif}>
-          <div className={styles.artInner}>
-            <h2 className={styles.artComparatifTitre}>
-              Consultant freelance ou agence SEO : le comparatif des tarifs
-            </h2>
-            <p className={styles.artComparatifIntro}>
-              À prestation équivalente, l’écart de prix vient surtout de la structure de coûts
-              et de la personne qui travaille réellement sur votre site.
-            </p>
-            <div className={styles.artTableWrap}>
-              <table className={styles.artTable}>
-                <thead>
-                  <tr>
-                    <th scope="col">Critère</th>
-                    <th scope="col">Consultant freelance</th>
-                    <th scope="col">Agence SEO</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {COMPARATIF.map((ligne) => (
-                    <tr key={ligne.critere}>
-                      <th scope="row">{ligne.critere}</th>
-                      <td>{ligne.freelance}</td>
-                      <td>{ligne.agence}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
 
         {/* Related links */}
         <section className={styles.artConnexes}>
           <div className={styles.artInner}>
-            <p className={styles.artConnexesTitre}>
-              À lire aussi
-            </p>
+            <p className={styles.artConnexesTitre}>À lire aussi</p>
             <ul className={styles.artListe}>
               {RELATED_LINKS.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className={styles.artLien}>
                     <span className={styles.artFleche} aria-hidden="true">→</span>
-                    <span className={styles.artLabel}>
-                      {link.label}
-                    </span>
+                    <span className={styles.artLabel}>{link.label}</span>
                   </Link>
                 </li>
               ))}

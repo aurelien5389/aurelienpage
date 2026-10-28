@@ -28,6 +28,14 @@ const nextConfig = {
   async redirects() {
     return [
       ...blogDuplicateRedirects(),
+      // Pages rédaction fusionnées dans /redaction-web
+      { source: '/redacteur-web-juridique', destination: '/redaction-web', statusCode: 301 },
+      { source: '/blog/redacteur-web-juridique', destination: '/redaction-web', statusCode: 301 },
+      { source: '/redacteur-web-rennes', destination: '/redaction-web', statusCode: 301 },
+      { source: '/blog/redacteur-web-rennes', destination: '/redaction-web', statusCode: 301 },
+      // Anciennes adresses /blog/ des drafts remplacés par des fiches (drafts supprimés)
+      { source: '/blog/consultant-seo-freelance', destination: '/consultant-seo-freelance', statusCode: 301 },
+      { source: '/blog/consultant-seo-rennes', destination: '/consultant-seo-rennes', statusCode: 301 },
       // Articles fusionnés lors de la revue GEO du blog
       { source: '/blog/geo-vs-seo', destination: '/reponses/difference-seo-geo', statusCode: 301 },
       { source: '/blog/erreurs-seo-critiques', destination: '/blog/erreurs-seo-frequentes', statusCode: 301 },

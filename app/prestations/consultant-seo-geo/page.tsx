@@ -35,7 +35,7 @@ const data: FicheData = {
   nom: 'Consultant SEO et GEO',
   h1: 'Consultant SEO et GEO',
   resume:
-    "Consultant **SEO et GEO** basé à Rennes, j'interviens sur place ou à distance. J'audite votre site et vous aide à être trouvé sur Google et cité par ChatGPT, Perplexity, Gemini et les AI Overviews. **Audit de 800 à 2 500 €** selon la taille du site, délai fixé dans le devis ; suivi dès 500 € par mois.",
+    "**Consultant SEO et GEO** basé à Rennes, j'interviens sur place ou à distance pour que votre site soit trouvé sur Google et **cité par ChatGPT, Perplexity, Gemini, Claude et les AI Overviews**. Un consultant GEO travaille l'accès des robots des IA, le format des pages et la mesure des citations. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, délai fixé dans le devis, suivi dès 500 € par mois.",
   identite: [
     { label: 'Public', valeur: 'Entreprises B2B, PME, organismes de formation, médias, sites e-commerce' },
     { label: 'Prérequis', valeur: 'Un site en ligne' },
@@ -126,11 +126,11 @@ const data: FicheData = {
     },
     {
       q: 'Quel consultant GEO pour être cité par ChatGPT et les IA ?',
-      a: "Un consultant GEO travaille sur deux plans : l'accès des robots des IA à votre site, et des contenus que les IA peuvent reprendre (réponses directes, sources, auteur identifié). Je fais les deux et je mesure le résultat question par question avec Balise. Personne ne peut garantir une citation : les IA choisissent leurs sources elles-mêmes.",
+      a: "Un consultant GEO travaille sur deux plans : l'accès des robots des IA à votre site, et des contenus que les IA peuvent reprendre (réponses directes, sources, auteur identifié). Je fais les deux depuis Rennes et je mesure le résultat question par question avec Balise. Personne ne peut garantir une citation : les IA choisissent leurs sources elles-mêmes. La méthode est détaillée dans [comment être cité par ChatGPT et Perplexity](/reponses/comment-etre-cite-par-chatgpt-et-perplexity).",
     },
     {
       q: 'Combien coûte un audit SEO ?',
-      a: "Mon audit SEO et GEO coûte entre 800 et 2 500 € selon la taille du site et la profondeur d'analyse. Le prix est fixé dans un devis après le diagnostic offert. Pour des repères plus larges, voir [combien coûte une prestation SEO](/cout-prestation-seo).",
+      a: "Mon audit SEO et GEO coûte entre 800 et 2 500 € selon la taille du site et la profondeur d'analyse. Le prix est fixé dans un devis après le diagnostic offert. Le détail est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).",
     },
     {
       q: 'Quelle différence entre un audit SEO et un audit GEO ?',
@@ -142,6 +142,9 @@ const data: FicheData = {
     },
   ],
   liens: [
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
+    { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
+    { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes : la page locale' },
     { href: '/reponses/qu-est-ce-que-le-geo', label: "Qu'est-ce que le GEO (Generative Engine Optimization) ?" },
     { href: '/reponses/difference-seo-geo', label: 'Quelle différence entre SEO et GEO ?' },
     { href: '/reponses/difference-audit-seo-audit-geo', label: 'Quelle différence entre un audit SEO et un audit GEO ?' },

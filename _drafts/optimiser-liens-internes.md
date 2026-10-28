@@ -1,7 +1,7 @@
 ---
 slug: "/blog/optimiser-liens-internes"
 title: "Optimiser ses liens internes : méthode SEO complète"
-meta-description: "Ancres, profondeur de clic, pages orphelines, distribution du PageRank : comment optimiser ses liens internes pour booster le référencement de toutes ses pages."
+meta-description: "Ancres, profondeur de clic, pages orphelines, distribution du PageRank : comment optimiser ses liens internes pour renforcer le référencement de toutes ses pages."
 ---
 
 Le maillage interne est l'un des leviers SEO les plus puissants et les plus sous-exploités. Contrairement aux backlinks, vous en avez le contrôle total. Contrairement au contenu, l'impact peut être quasi immédiat sur vos positions. Et pourtant, la grande majorité des sites web gère ses liens internes de façon instinctive, sans méthode ni objectif SEO défini.
@@ -79,7 +79,7 @@ Le fil d'Ariane (breadcrumb) est souvent négligé comme source de liens interne
 ## Questions fréquentes sur le maillage interne
 
 **Combien de liens internes par article est-il recommandé ?**
-Il n'existe pas de nombre magique. L'essentiel est que chaque lien soit pertinent et utile pour le lecteur. En pratique, 3 à 7 liens internes contextuels par article de blog est une fourchette raisonnable. Évitez de forcer des liens juste pour atteindre un quota.
+Il n'existe pas de nombre magique. Ce qui compte, c'est que chaque lien soit pertinent et utile pour le lecteur. En pratique, 3 à 7 liens internes contextuels par article de blog est une fourchette raisonnable. Évitez de forcer des liens juste pour atteindre un quota.
 
 **Les liens dans la sidebar ou le footer comptent-ils ?**
 Oui, mais moins que les liens éditoriaux dans le corps du texte. Google fait la distinction entre les liens de navigation (header, footer, sidebar) qui apparaissent sur toutes les pages, et les liens in-content qui sont spécifiques à chaque page. Ces derniers ont plus de valeur thématique.

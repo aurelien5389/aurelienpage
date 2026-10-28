@@ -68,7 +68,7 @@ Les Core Web Vitals (CWV) sont trois métriques définies par Google pour mesure
 
 Pour le LCP : optimisez vos images (format WebP, compression, attribut `loading="lazy"` sauf pour l'image above the fold), utilisez un CDN, activez le cache navigateur, préchargez les ressources critiques.
 
-Pour l'INP : réduisez le JavaScript non essentiel, différez les scripts tiers (analytics, publicité, chatbots), évitez les traitements lourds sur le thread principal.
+Pour l'INP : réduisez le JavaScript inutile, différez les scripts tiers (analytics, publicité, chatbots), évitez les traitements lourds sur le thread principal.
 
 Pour le CLS : définissez des dimensions explicites (width/height) pour toutes vos images et vidéos, évitez d'insérer dynamiquement du contenu au-dessus du contenu existant, hébergez vos polices de caractères en local.
 
@@ -116,9 +116,9 @@ Même contenu accessible en HTTP et HTTPS, en www et sans www, avec et sans slas
 
 **Solution principale** : la balise `<link rel="canonical">` qui indique à Google quelle est la version de référence d'une page. À combiner avec des redirections 301 pour les duplications structurelles.
 
-## L'audit technique SEO : la check-list essentielle
+## L'audit technique SEO : la liste de contrôle
 
-Un audit SEO technique complet passe par l'analyse de tous ces points. Les outils incontournables : Google Search Console (gratuit, données de première main), Screaming Frog (crawl complet de votre site), PageSpeed Insights (Core Web Vitals), et les suites SEO comme Semrush ou Ahrefs pour un audit automatisé.
+Un audit SEO technique complet passe par l'analyse de tous ces points. Les outils de référence : Google Search Console (gratuit, données de première main), Screaming Frog (crawl complet de votre site), PageSpeed Insights (Core Web Vitals), et les suites SEO comme Semrush ou Ahrefs pour un audit automatisé.
 
 Points à vérifier lors d'un audit technique :
 

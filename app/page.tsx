@@ -6,7 +6,10 @@ import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
 import DiagnosticCTA, { CALENDLY_URL } from '@/components/DiagnosticCTA'
 import Icon, { type IconName } from '@/components/Icon'
+import JsonLd from '@/components/JsonLd'
 import { renderInline } from '@/components/MarkdownRenderer'
+import { pageGraph, faqNode, webPageNode } from '@/lib/schema'
+import { getContentDates } from '@/lib/content-dates'
 import { availability } from '@/config/availability'
 import { PARCOURS, METHODE, BALISE, DIAGNOSTIC } from '@/lib/fiche-commun'
 import { FAQ_ACCUEIL } from '@/lib/faq-accueil'
@@ -62,10 +65,16 @@ const REPONSES_PHARES = ['qu-est-ce-que-le-geo', 'difference-seo-geo', 'combien-
 export default function HomePage() {
   const reponses = REPONSES_PHARES.map(getReponse).filter((r): r is NonNullable<typeof r> => Boolean(r))
   const demarrage = availability.detail.charAt(0).toLowerCase() + availability.detail.slice(1)
+  const dates = getContentDates(['app/page.tsx', 'lib/faq-accueil.ts'])
+  const graph = pageGraph(
+    webPageNode('/', 'Aurélien PAGE, consultant SEO, GEO et SEA à Rennes', dates, { mainEntity: { '@id': 'https://aurelienpage.fr/#person' } }),
+    faqNode(FAQ_ACCUEIL)
+  )
 
   return (
     <>
       <Header />
+      <JsonLd schema={graph} />
       <main>
         {/* 1. Héros */}
         <section className={styles.hero} aria-labelledby="h1">

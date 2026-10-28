@@ -82,7 +82,7 @@ Les types de balisage les plus utiles en 2026 :
 - **HowTo** : pour les contenus tutoriels
 - **Article + Author** : renforce les signaux EEAT
 - **LocalBusiness** : indispensable pour le SEO local
-- **Product + Review** : essentiel pour l'e-commerce
+- **Product + Review** : indispensable pour l'e-commerce
 
 Pour aller plus loin : [données structurées et Schema.org](/blog/donnees-structurees-schema-org).
 

@@ -1,0 +1,39 @@
+.auteur {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-top: 2.5rem;
+  padding: 1.25rem;
+  border: 1px solid color-mix(in srgb, var(--color-steel) 50%, transparent);
+  border-radius: 0.75rem;
+}
+
+.photo {
+  flex-shrink: 0;
+  border-radius: 9999px;
+}
+
+.titre {
+  margin: 0 0 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-cyan);
+}
+
+.texte {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--color-gray-secondary);
+}
+
+.texte strong {
+  color: var(--color-off-white);
+}
+
+.lien {
+  color: var(--color-cyan);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

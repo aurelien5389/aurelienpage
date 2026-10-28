@@ -18,7 +18,7 @@ Si le SEO repose sur trois piliers, technique, contenu, popularité, c'est le tr
 
 Pour comprendre pourquoi les backlinks comptent, il faut revenir au **PageRank**, l'algorithme fondateur de Google, inventé par Larry Page en 1998.
 
-Le principe est simple mais révolutionnaire : un lien hypertexte depuis une page vers une autre est un **vote de confiance**. Plus une page reçoit de votes depuis des sources de qualité, plus Google la considère comme populaire et pertinente, et plus elle mérite d'être mise en avant dans les résultats de recherche.
+Le principe est simple, et nouveau à l'époque : un lien hypertexte depuis une page vers une autre est un **vote de confiance**. Plus une page reçoit de votes depuis des sources de qualité, plus Google la considère comme populaire et pertinente, et plus elle mérite d'être mise en avant dans les résultats de recherche.
 
 Le PageRank fonctionne comme un système de notation circulant : une page ayant une forte autorité qui fait un lien vers votre site vous transmet une partie de cette autorité. Cette autorité partagée se répartit entre tous les liens sortants de la page, ce qui signifie qu'un lien depuis une page qui en fait très peu vaut plus qu'un lien depuis une page qui en fait des centaines.
 
