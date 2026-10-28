@@ -19,6 +19,8 @@ import budgetAds from './budget-minimum-google-ads'
 import nombreMots from './combien-de-mots-article-seo'
 import coutAudit from './combien-coute-un-audit-seo'
 import etreCite from './comment-etre-cite-par-chatgpt-et-perplexity'
+import etreCiteClaude from './comment-etre-cite-par-claude'
+import traficIaGa4 from './trafic-ia-google-analytics-4'
 
 export const REPONSES: Reponse[] = [
   quEstCeQueLeGeo,
@@ -30,11 +32,13 @@ export const REPONSES: Reponse[] = [
   contenuIa,
   chatgptBing,
   etreCite,
+  etreCiteClaude,
   delaisSeo,
   delaisChatgpt,
   aiModes,
   donneesStructurees,
   partDeVoix,
+  traficIaGa4,
   financement,
   aiTrafic,
   budgetAds,

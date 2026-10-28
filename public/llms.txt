@@ -45,6 +45,8 @@
 - [Combien de temps pour voir les résultats du SEO ?](https://aurelienpage.fr/reponses/combien-de-temps-resultats-seo): délais selon Google et selon le type d'action.
 - [Combien de temps pour être cité par ChatGPT ?](https://aurelienpage.fr/reponses/combien-de-temps-pour-etre-cite-par-chatgpt): conditions et absence de délai garanti.
 - [Qu'est-ce que la part de voix dans les IA ?](https://aurelienpage.fr/reponses/part-de-voix-dans-les-ia): définition, calcul et limites.
+- [Comment être cité par Claude ?](https://aurelienpage.fr/reponses/comment-etre-cite-par-claude): robots Claude-SearchBot, Claude-User et ClaudeBot, quand Claude cherche, format des extraits cités.
+- [Comment voir le trafic venant de ChatGPT dans GA4 ?](https://aurelienpage.fr/reponses/trafic-ia-google-analytics-4): canal « Assistant IA », visites non comptées, canal IA personnalisé.
 - [Les données structurées aident-elles à être cité ?](https://aurelienpage.fr/reponses/donnees-structurees-ia): ce qu'en dit Google.
 - [Combien de mots pour un article SEO ?](https://aurelienpage.fr/reponses/combien-de-mots-article-seo): Google n'a pas de nombre de mots préféré.
 - [Budget minimum Google Ads ?](https://aurelienpage.fr/reponses/budget-minimum-google-ads): budget quotidien moyen et limites de dépense.
@@ -55,6 +57,9 @@
 - [Apparaître dans les AI Overviews](https://aurelienpage.fr/blog/geo-ia-search-ai-overviews): conditions fixées par Google et méthode.
 - [Être cité par ChatGPT et Perplexity](https://aurelienpage.fr/blog/chatgpt-search-geo): robots, conditions techniques, contenus repris, mesure.
 - [Mesurer sa visibilité GEO](https://aurelienpage.fr/blog/mesurer-visibilite-geo): outils, métriques et méthode.
+- [Pourquoi mon site n'apparaît pas dans ChatGPT](https://aurelienpage.fr/blog/site-absent-reponses-chatgpt): six causes et le test pour chacune.
+- [Faire un audit GEO étape par étape](https://aurelienpage.fr/blog/audit-geo-etape-par-etape): questions, accès des robots, indexation, relevé, analyse, plan d'action.
+- [Lexique GEO](https://aurelienpage.fr/blog/lexique-geo): les termes de la recherche par IA définis, avec leurs sources officielles.
 - [Structurer son contenu pour le GEO](https://aurelienpage.fr/blog/structurer-contenu-geo): guide pratique et liste de contrôle.
 
 ## Articles SEO

@@ -113,7 +113,9 @@ const data: FicheData = {
     },
   ],
   liens: [
+    { href: '/blog/audit-geo-etape-par-etape', label: 'Comment faire un audit GEO de son site, étape par étape ?' },
     { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
+    { href: '/reponses/comment-etre-cite-par-claude', label: 'Comment être cité par Claude ?' },
     { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
     { href: '/reponses/difference-audit-seo-audit-geo', label: 'Quelle différence entre un audit SEO et un audit GEO ?' },
     { href: '/reponses/robots-ia-faut-il-les-bloquer', label: "Quels robots d'IA explorent mon site et faut-il les bloquer ?" },

@@ -28,9 +28,12 @@ const RUBRIQUES: { label: string; slugs: string[] }[] = [
     slugs: [
       'geo-ia-search-ai-overviews',
       'chatgpt-search-geo',
+      'site-absent-reponses-chatgpt',
       'ia-search-moteurs-reponses',
       'structurer-contenu-geo',
       'mesurer-visibilite-geo',
+      'audit-geo-etape-par-etape',
+      'lexique-geo',
       'google-eeat',
     ],
   },
@@ -175,7 +178,7 @@ export default function BlogPage() {
                 → Pourquoi faire appel à un consultant SEO ?
               </Link>
               <Link href="/cout-prestation-seo" className={styles.blogIdxPrestaLien}>
-                → Tarifs SEO 2026
+                → Tarifs SEO
               </Link>
             </div>
           </div>

@@ -1,6 +1,6 @@
 ---
 slug: /consultant-seo-bordeaux
-title: Consultant SEO à Bordeaux | Expert référencement naturel & GEO 2026
+title: Consultant SEO à Bordeaux | Expert référencement naturel & GEO
 meta-description: Consultant SEO freelance à Bordeaux. Stratégies sur mesure, audit SEO, optimisation Core Web Vitals et GEO pour dominer Google et les moteurs IA. Contactez-moi.
 intention-recherche: BOFU, entreprise bordelaise cherchant expert SEO freelance
 ---
