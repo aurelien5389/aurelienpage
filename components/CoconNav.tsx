@@ -58,7 +58,11 @@ export default function CoconNav({ path }: Props) {
         <p className={styles.coconFiche}>
           Prestation liée : <Link href={cocon.fiche.href} className={styles.coconFicheLien}>{cocon.fiche.label}</Link>
           {' · '}
-          À Rennes : <Link href={cocon.local.href} className={styles.coconFicheLien}>{cocon.local.label}</Link>
+          En local : <Link href={cocon.local.href.replace('rennes', 'laval')} className={styles.coconFicheLien}>{cocon.local.label.replace('Rennes', 'Laval')}</Link>
+          {' · '}
+          <Link href={cocon.local.href} className={styles.coconFicheLien}>{cocon.local.label}</Link>
+          {' · '}
+          <Link href="/zones-intervention" className={styles.coconFicheLien}>Zones d&apos;intervention</Link>
           {' · '}
           <Link href="/ressources" className={styles.coconFicheLien}>Toutes les ressources SEO et GEO</Link>
         </p>

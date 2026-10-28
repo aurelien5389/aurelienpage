@@ -209,3 +209,10 @@
   line-height: 2;
   color: var(--color-gray-secondary);
 }
+
+/* Ligne « En local » : villes et zones d'intervention */
+.ficheLocal {
+  margin: 16px 0 0;
+  font-size: 16px;
+  color: var(--color-encre-2);
+}

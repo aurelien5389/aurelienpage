@@ -42,7 +42,7 @@ export default function MentionsLegales() {
                   <p><span className={styles.mlFort}>Nom :</span> Aurélien PAGE</p>
                   <p><span className={styles.mlFort}>Statut :</span> Consultant freelance : [Forme juridique à compléter : auto-entrepreneur / SASU / EURL]</p>
                   <p><span className={styles.mlFort}>SIRET :</span> [À compléter]</p>
-                  <p><span className={styles.mlFort}>Adresse :</span> Rennes, Bretagne, France</p>
+                  <p><span className={styles.mlFort}>Adresse :</span> Laval (siège), Mayenne, France</p>
                   <p>
                     <span className={styles.mlFort}>Email :</span>{' '}
                     <a href="mailto:aurelienpage89@gmail.com" className={styles.mlLien}>

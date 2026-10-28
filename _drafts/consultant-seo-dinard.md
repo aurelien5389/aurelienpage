@@ -1,75 +1,73 @@
 ---
 slug: "/consultant-seo-dinard"
-title: "Consultant SEO à Dinard | Expert référencement naturel & GEO, Côte d'Émeraude"
-meta-description: "Consultant SEO freelance à Dinard. Audit SEO, stratégie de contenu, GEO pour AI Overviews. Tourisme, hôtellerie, immobilier, commerces locaux. Devis gratuit."
+title: "Consultant SEO et GEO à Dinard : hôtels, restaurants, immobilier, événementiel · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO à Dinard : être trouvé sur Google et recommandé par ChatGPT et Perplexity par une clientèle exigeante. Audit de 800 à 2 500 €, sans frais de déplacement."
 ---
 
-Dinard est une ville à part en Bretagne. Station balnéaire de prestige, capitale de la Côte d'Émeraude, elle attire chaque année des milliers de visiteurs, de résidents secondaires et d'investisseurs. Mais les entreprises dinardaises (hôtels, restaurants, agences immobilières, commerces, prestataires de services) sont souvent peu visibles sur Google. Elles misent sur leur réputation locale ou le bouche-à-oreille, sans structurer leur présence en ligne.
+# Consultant SEO et GEO à Dinard
 
-Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'interviens à Dinard et sur la Côte d'Émeraude en remote ou en présentiel, pour construire une visibilité durable sur Google et vous préparer aux moteurs de réponse IA.
+Dinard attire une clientèle qui compare avant de choisir : un hôtel de charme, une table, une villa à louer ou à acheter, un lieu pour un séminaire. Cette clientèle prépare souvent son séjour de loin, et pose de plus en plus ses questions à une IA. Sur ces demandes, la concurrence est forte et la réponse ne cite que quelques noms.
 
-## Pourquoi le SEO est stratégique à Dinard
+**En bref :** je suis **consultant SEO et GEO**. J'aide les entreprises de Dinard et des environs à être trouvées sur Google, sur Google Maps et dans les réponses de ChatGPT, Perplexity, Gemini et des AI Overviews. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, suivi mensuel de 500 à 2 000 €. Je me déplace **sans frais** à Dinard : mon siège est à Laval et je travaille aussi depuis Rennes.
 
-Dinard concentre des secteurs d'activité où la recherche en ligne joue un rôle déterminant dans la décision d'achat.
+## Pourquoi Dinard est un marché à fort potentiel ?
 
-**Le tourisme et l'hôtellerie.** Un voyageur qui planifie un séjour sur la Côte d'Émeraude commence par Google. "Hôtel Dinard vue mer", "restaurant Dinard bord de mer", "location vacances Dinard" : ces requêtes génèrent un trafic qualifié considérable, surtout en période de préparation estivale. Être positionné sur ces mots-clés, c'est capter des réservations directes sans passer par les OTA (Booking, Airbnb) et leurs commissions.
+La ville se présente comme l'une des stations balnéaires les plus prestigieuses de Bretagne, avec ses plages, ses centaines de villas Belle Époque et Art déco protégées, son casino, son port et une offre pour les séminaires ([Ville de Dinard](https://www.ville-dinard.fr/dinard-cest-aussi-une-station-balneaire-preservee/)). Elle accueille chaque automne le Festival du film britannique ([Tourisme Bretagne](https://www.tourismebretagne.com/selon-mes-envies/culture-et-patrimoine-de-bretagne/les-grands-evenements/festival-du-film-britannique/)) et un lycée hôtelier réputé ([Ville de Dinard](https://www.ville-dinard.fr/)).
 
-**L'immobilier.** Dinard figure parmi les marchés immobiliers les plus actifs de Bretagne. Les acquéreurs de résidences secondaires recherchent des agences locales, des informations sur les prix, des biens spécifiques. Une agence immobilière dinardaise bien positionnée sur Google capte des contacts entrants que ses concurrents laissent échapper.
+Pour un hôtel, une agence immobilière ou un traiteur, chaque client gagné a une valeur élevée. C'est ce qui rend le travail de visibilité rentable : quelques demandes de plus par saison suffisent souvent à le justifier.
 
-**Les commerces et prestataires locaux.** De la boutique de luxe à l'artisan, du cabinet médical à l'avocat : à Dinard, une fiche Google Business Profile bien optimisée et un site correctement référencé font la différence sur un marché local exigeant.
+## Quelles questions vos clients posent-ils aux IA ?
 
-## Ce que j'apporte au-delà du SEO classique : le GEO
+| Votre activité | Question que pose votre client |
+|---|---|
+| Hôtel, location saisonnière | « Quel hôtel de charme à Dinard près de la plage ? » |
+| Restaurant | « Quel restaurant gastronomique à Dinard pour un anniversaire ? » |
+| Immobilier | « Quelle agence pour vendre une villa à Dinard ? » |
+| Événementiel, séminaire | « Où organiser un séminaire d'entreprise à Dinard ? » |
+| Artisan, services | « Quel paysagiste pour une villa à Dinard ? » |
 
-Le paysage de la recherche évolue. En 2026, les AI Overviews de Google s'affichent sur une part croissante des requêtes. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA synthétisent du contenu et retournent des réponses directes.
+Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-Le **GEO (Generative Engine Optimization)** est l'optimisation de votre contenu pour être cité comme source dans ces réponses IA. Pour un hôtel dinardais, une agence immobilière ou un prestataire de services, être mentionné dans une réponse IA sur "meilleurs hôtels Côte d'Émeraude" ou "agence immobilière Dinard" représente une visibilité gratuite et durable. C'est encore peu exploité sur le marché breton : une opportunité réelle pour ceux qui anticipent.
+## Ce que je fais pour une entreprise de Dinard
 
-## Mes prestations à Dinard
+- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
+- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
+- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
+- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
 
-**Audit SEO complet**
-Diagnostic technique (crawl, indexation, Core Web Vitals), audit sémantique (mots-clés, intentions de recherche, maillage interne), audit de popularité (backlinks, autorité de domaine). Rapport priorisé avec actions classées par impact.
+## Comment se passe une mission à Dinard ?
 
-**Stratégie de mots-clés et contenu**
-Identification des requêtes à fort potentiel sur Dinard, la Côte d'Émeraude et le bassin de Saint-Malo. Architecture de contenu, brief éditorial, calendrier adapté à votre saisonnalité.
+1. **Diagnostic offert de 30 minutes**, en visio ou dans vos locaux, sans frais.
+2. **Devis** avec le périmètre et le prix, avant toute intervention.
+3. **Audit**, puis **restitution** dans vos locaux, sans frais.
+4. **Suivi** mensuel si vous le souhaitez.
 
-**Optimisation technique**
-Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurées Schema.org. Indispensable pour que vos contenus soient correctement lus et classés.
+## Combien ça coûte ?
 
-**SEO local et Google Business Profile**
-Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées. Indispensable pour les commerces et prestataires qui ciblent une clientèle dinardaise ou des visiteurs en recherche locale.
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article | 150 à 350 € |
+| Formation (2 h) | 300 € |
 
-**Netlinking et construction d'autorité**
-Acquisition de backlinks depuis des sources pertinentes : presse régionale bretonne, guides touristiques, annuaires spécialisés hôtellerie et immobilier. Approche qualitative, sans liens artificiels.
-
-**GEO et IA Search**
-Structuration des contenus pour être référencé dans les réponses des moteurs IA. Balisage sémantique avancé, FAQ optimisées, renforcement des signaux EEAT.
-
-**Google Ads (SEA)**
-Création et gestion de campagnes Search. Le SEO et le SEA sont complémentaires : le SEA génère du trafic immédiat pendant que le SEO monte en puissance. Particulièrement utile pour les acteurs touristiques en période de haute saison.
-
-## Ma méthode de travail
-
-**Audit → Stratégie → Implémentation → Suivi.**
-
-1. **Audit** : diagnostic complet du site, analyse concurrentielle locale, identification des opportunités prioritaires.
-2. **Stratégie** : plan d'action chiffré et calendrisé, validé avec vous avant toute exécution.
-3. **Implémentation** : en collaboration avec vos équipes ou en intervention directe selon votre organisation.
-4. **Suivi** : reporting mensuel sur les KPIs définis, ajustements en fonction des résultats.
+Pas de frais de déplacement à Dinard. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 
 ## Questions fréquentes
 
-**Dinard est une petite ville : le SEO est-il vraiment utile ?**
-Oui, précisément parce que Dinard est petite. La concurrence SEO locale y est moins intense qu'à Rennes ou Nantes, ce qui signifie qu'une stratégie bien exécutée peut produire des résultats rapides et durables. Et pour les requêtes touristiques, la concurrence est nationale voire internationale : s'y positionner correctement représente un enjeu commercial réel.
+**Une clientèle internationale change-t-elle quelque chose ?**
+Oui : elle cherche depuis l'étranger, souvent dans sa langue, et compare davantage. Vos pages doivent répondre précisément (prix, accès, services, disponibilité) pour être reprises. On regarde ensemble, pendant l'audit, quelles langues valent la peine d'être travaillées.
 
-**Quel budget pour une stratégie SEO à Dinard ?**
-Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel démarre à partir de 500 euros par mois. Je fournis un devis détaillé avant toute intervention. Pour des repères complets, consultez l'article sur le [coût d'une prestation SEO](/cout-prestation-seo).
+**Intervenez-vous à Saint-Lunaire et Saint-Briac-sur-Mer ?**
+Oui, sans frais de déplacement, comme à Dinard.
 
-**Combien de temps avant des résultats visibles ?**
-Entre 3 et 6 mois pour les premières progressions mesurables. Sur les requêtes locales dinardaises, la faible concurrence peut accélérer les résultats. Sur les requêtes touristiques plus compétitives, un horizon de 6 à 12 mois est plus réaliste. Je vous donne une visibilité mensuelle sur les progrès dès le démarrage.
+**Combien de temps avant de voir des résultats ?**
+Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
-**Intervenez-vous en présentiel à Dinard ?**
-Oui. Basé en Bretagne, je peux me déplacer à Dinard pour des sessions de travail, des formations ou des ateliers stratégiques si votre projet le justifie. La grande majorité des missions se déroule en remote.
+**Le GEO remplace-t-il le SEO ?**
+Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
 
-## Travaillons ensemble
+## Parlons de votre visibilité à Dinard
 
-Vous avez un hôtel, une agence immobilière, un restaurant ou une activité commerciale à Dinard ou sur la Côte d'Émeraude, et vous souhaitez développer votre visibilité en ligne ? [Contactez-moi](/#contact) pour un premier échange sans engagement. Je vous proposerai un diagnostic rapide et une approche adaptée à votre marché et à vos objectifs.
+Je me déplace aussi sans frais à [Saint-Malo](/consultant-seo-saint-malo), [Dinan](/consultant-seo-dinan) et [Cancale](/consultant-seo-cancale). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

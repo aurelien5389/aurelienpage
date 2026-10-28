@@ -1,6 +1,7 @@
 // Zones d'intervention : page mère /zones-intervention, une page par région, les pages villes dessous.
-// Modalités validées par Aurélien : sans frais à Rennes et environs, avec frais de déplacement
-// en Bretagne et dans le Grand Ouest, à distance ailleurs (déplacement ponctuel sur devis).
+// Modalités validées par Aurélien : siège à Laval, présent à Rennes. Sans frais à Laval, Rennes et
+// dans leurs environs, avec frais de déplacement ailleurs dans le Grand Ouest, à distance ailleurs
+// (déplacement ponctuel sur devis).
 import type { InternalLink } from '@/lib/internal-links'
 
 export type Modalite = 'sans-frais' | 'deplacement' | 'distance'
@@ -33,6 +34,12 @@ export const REGIONS: Region[] = [
       { slug: 'rennes', nom: 'Rennes', modalite: 'sans-frais' },
       { slug: 'saint-malo', nom: 'Saint-Malo', modalite: 'sans-frais' },
       { slug: 'dinard', nom: 'Dinard', modalite: 'sans-frais' },
+      { slug: 'cancale', nom: 'Cancale', modalite: 'sans-frais' },
+      { slug: 'dinan', nom: 'Dinan', modalite: 'sans-frais' },
+      { slug: 'vitre', nom: 'Vitré', modalite: 'sans-frais' },
+      { slug: 'fougeres', nom: 'Fougères', modalite: 'sans-frais' },
+      { slug: 'saint-brieuc', nom: 'Saint-Brieuc', modalite: 'deplacement' },
+      { slug: 'lannion', nom: 'Lannion', modalite: 'deplacement' },
       { slug: 'vannes', nom: 'Vannes', modalite: 'deplacement' },
       { slug: 'lorient', nom: 'Lorient', modalite: 'deplacement' },
       { slug: 'quimper', nom: 'Quimper', modalite: 'deplacement' },
@@ -45,10 +52,15 @@ export const REGIONS: Region[] = [
     nom: 'Pays de la Loire',
     label: 'Consultant SEO en Pays de la Loire',
     villes: [
+      { slug: 'laval', nom: 'Laval', modalite: 'sans-frais' },
+      { slug: 'mayenne', nom: 'Mayenne', modalite: 'sans-frais' },
+      { slug: 'chateau-gontier', nom: 'Château-Gontier', modalite: 'sans-frais' },
       { slug: 'nantes', nom: 'Nantes', modalite: 'deplacement' },
       { slug: 'saint-nazaire', nom: 'Saint-Nazaire', modalite: 'deplacement' },
+      { slug: 'la-baule', nom: 'La Baule', modalite: 'deplacement' },
       { slug: 'angers', nom: 'Angers', modalite: 'deplacement' },
-      { slug: 'laval', nom: 'Laval', modalite: 'deplacement' },
+      { slug: 'cholet', nom: 'Cholet', modalite: 'deplacement' },
+      { slug: 'saumur', nom: 'Saumur', modalite: 'deplacement' },
       { slug: 'le-mans', nom: 'Le Mans', modalite: 'deplacement' },
     ],
   },
@@ -106,10 +118,47 @@ export function getRegionDeVille(path: string): { region: Region; ville: Ville }
 export function modaliteTexte(ville: Ville): string {
   switch (ville.modalite) {
     case 'sans-frais':
-      return `${majuscule(aLaVille(ville.nom))}, je me déplace sans frais : ${ville.nom === 'Rennes' ? 'je suis basé à Rennes' : 'la ville est à environ une heure de Rennes, où je suis basé'}. Le diagnostic, la restitution et les réunions importantes peuvent se faire en face à face.`
+      return `${majuscule(aLaVille(ville.nom))}, je me déplace sans frais : ${ville.nom === 'Laval' ? 'mon siège est à Laval' : ville.nom === 'Rennes' ? 'je travaille aussi depuis Rennes' : 'la ville est proche de Laval ou de Rennes, d’où je travaille'}. Le diagnostic, la restitution et les réunions importantes peuvent se faire en face à face.`
     case 'deplacement':
       return `${majuscule(aLaVille(ville.nom))}, je viens sur place pour les moments qui comptent (diagnostic, restitution, atelier), avec des frais de déplacement ajoutés au devis, au réel. Le travail courant se fait à distance.`
     case 'distance':
       return `${majuscule(aLaVille(ville.nom))}, je travaille à distance : visioconférence, documents partagés, accès à vos outils. Les livrables sont les mêmes que sur place. Un déplacement ponctuel reste possible, sur devis, frais compris.`
   }
+}
+
+/** Villes voisines affichées sur chaque page ville (maillage de proximité). Laval et Rennes,
+ *  les deux bases, reviennent souvent : ce sont les pages à faire monter en priorité. */
+export const VOISINS: Record<string, string[]> = {
+  laval: ['mayenne', 'chateau-gontier', 'vitre', 'rennes', 'le-mans', 'angers'],
+  mayenne: ['laval', 'chateau-gontier', 'fougeres', 'le-mans'],
+  'chateau-gontier': ['laval', 'mayenne', 'angers', 'vitre'],
+  rennes: ['laval', 'vitre', 'fougeres', 'saint-malo', 'nantes', 'vannes'],
+  vitre: ['rennes', 'laval', 'fougeres', 'chateau-gontier'],
+  fougeres: ['rennes', 'vitre', 'laval', 'mayenne'],
+  'saint-malo': ['dinard', 'cancale', 'dinan', 'rennes'],
+  dinard: ['saint-malo', 'dinan', 'cancale', 'rennes'],
+  cancale: ['saint-malo', 'dinard', 'dinan', 'rennes'],
+  dinan: ['dinard', 'saint-malo', 'saint-brieuc', 'rennes'],
+  'saint-brieuc': ['lannion', 'dinan', 'rennes', 'brest'],
+  lannion: ['saint-brieuc', 'brest', 'dinan', 'rennes'],
+  brest: ['quimper', 'lannion', 'lorient', 'rennes'],
+  quimper: ['brest', 'lorient', 'vannes', 'rennes'],
+  lorient: ['vannes', 'quimper', 'brest', 'rennes'],
+  vannes: ['lorient', 'rennes', 'nantes', 'saint-nazaire'],
+  nantes: ['saint-nazaire', 'la-baule', 'angers', 'cholet', 'rennes', 'laval'],
+  'saint-nazaire': ['la-baule', 'nantes', 'vannes', 'rennes'],
+  'la-baule': ['saint-nazaire', 'nantes', 'vannes', 'dinard'],
+  angers: ['saumur', 'cholet', 'chateau-gontier', 'laval', 'nantes', 'le-mans'],
+  cholet: ['angers', 'nantes', 'saumur', 'laval'],
+  saumur: ['angers', 'cholet', 'le-mans', 'laval'],
+  'le-mans': ['laval', 'angers', 'mayenne', 'saumur'],
+}
+
+/** Liens « Consultant SEO à … » vers les villes voisines d'une ville */
+export function voisinsLiens(slug: string): InternalLink[] {
+  const villes = REGIONS.flatMap((r) => r.villes)
+  return (VOISINS[slug] ?? [])
+    .map((s) => villes.find((v) => v.slug === s))
+    .filter((v): v is Ville => Boolean(v))
+    .map((v) => ({ href: villePath(v), label: `Consultant SEO ${aLaVille(v.nom)}` }))
 }

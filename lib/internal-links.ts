@@ -1,3 +1,5 @@
+import { voisinsLiens } from '@/lib/zones'
+
 export interface InternalLink {
   href: string
   label: string
@@ -366,6 +368,14 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
     { href: '/reponses/qu-est-ce-que-le-geo', label: "Qu'est-ce que le GEO (Generative Engine Optimization) ?" },
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
+    { href: '/consultant-geo-laval', label: 'Consultant GEO à Laval' },
+  ],
+  'consultant-geo-laval': [
+    { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
+    { href: '/prestations/audit-geo', label: 'Audit GEO : relevé des réponses des IA et part de voix' },
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
+    { href: '/consultant-seo-mayenne', label: 'Consultant SEO à Mayenne' },
+    { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes' },
   ],
   'pourquoi-consultant-seo': [
     { href: '/prestations/consultant-seo-geo', label: 'Mes prestations SEO & GEO' },
@@ -513,5 +523,6 @@ export function getBlogRelatedLinks(slug: string): InternalLink[] {
 }
 
 export function getCityLinks(cityKey: string): InternalLink[] {
-  return NEARBY_CITIES[cityKey] || []
+  const proches = voisinsLiens(cityKey)
+  return proches.length > 0 ? proches : NEARBY_CITIES[cityKey] || []
 }

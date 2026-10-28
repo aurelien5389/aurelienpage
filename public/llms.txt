@@ -1,6 +1,6 @@
 # Aurélien Page
 
-> Consultant SEO, GEO et SEA, formateur SEO et GEO, basé à Rennes. Missions en télétravail et en déplacement. Fondateur d'Audiaa (audiaa.fr), agence IA et No Code. Ce site porte le SEO, le GEO (visibilité dans ChatGPT, Perplexity, Gemini, Claude et les AI Overviews de Google) et le SEA ; Audiaa porte l'IA appliquée, le No Code et l'automatisation.
+> Consultant SEO, GEO et SEA, formateur SEO et GEO, basé à Laval (siège) et à Rennes. Missions en télétravail et en déplacement. Fondateur d'Audiaa (audiaa.fr), agence IA et No Code. Ce site porte le SEO, le GEO (visibilité dans ChatGPT, Perplexity, Gemini, Claude et les AI Overviews de Google) et le SEA ; Audiaa porte l'IA appliquée, le No Code et l'automatisation.
 
 ## À propos
 
@@ -12,12 +12,14 @@
 - [Audit GEO](https://aurelienpage.fr/prestations/audit-geo): relevé des réponses des IA sur les questions de vos clients, part de voix, sites cités et plan d'action, inclus dans l'audit SEO et GEO.
 - [Accompagnement SEO mensuel](https://aurelienpage.fr/accompagnement-seo): suivi mensuel par un consultant freelance, avec reporting et plan d'action.
 - [Traffic Manager SEA](https://aurelienpage.fr/prestations/traffic-manager-sea): création et pilotage de campagnes Google Ads et Meta Ads.
-- [Chef de projet digital](https://aurelienpage.fr/prestations/chef-de-projet-digital): pilotage de projets web en freelance depuis Rennes.
+- [Chef de projet digital](https://aurelienpage.fr/prestations/chef-de-projet-digital): pilotage de projets web en freelance depuis Laval et Rennes.
+- [Consultant SEO à Laval (Mayenne)](https://aurelienpage.fr/consultant-seo-laval): siège d'Aurélien Page ; SEO et GEO pour les entreprises de Laval et de la Mayenne, sans frais de déplacement.
+- [Consultant GEO à Laval](https://aurelienpage.fr/consultant-geo-laval): être cité par ChatGPT, Perplexity et les AI Overviews ; livrables et comparaison consultant ou agence.
 - [Consultant SEO à Rennes](https://aurelienpage.fr/consultant-seo-rennes): accompagnement SEO et GEO des entreprises bretonnes.
 - [Consultant GEO à Rennes](https://aurelienpage.fr/consultant-geo-rennes): optimisation pour être cité par les moteurs de réponse IA.
-- [Zones d'intervention](https://aurelienpage.fr/zones-intervention): sans frais à Rennes, Saint-Malo et Dinard, avec déplacement en Bretagne et en Pays de la Loire, à distance partout en France.
-- [Consultant SEO en Bretagne](https://aurelienpage.fr/consultant-seo-bretagne): Rennes, Saint-Malo, Dinard, Vannes, Lorient, Quimper, Brest.
-- [Consultant SEO en Pays de la Loire](https://aurelienpage.fr/consultant-seo-pays-de-la-loire): Nantes, Saint-Nazaire, Angers, Laval, Le Mans.
+- [Zones d'intervention](https://aurelienpage.fr/zones-intervention): sans frais à Laval, Rennes et dans leurs environs (Mayenne, Château-Gontier, Vitré, Fougères, Saint-Malo, Dinard, Cancale, Dinan), avec déplacement ailleurs en Bretagne et en Pays de la Loire, à distance partout en France.
+- [Consultant SEO en Bretagne](https://aurelienpage.fr/consultant-seo-bretagne): Rennes, Vitré, Fougères, Saint-Malo, Dinard, Cancale, Dinan, Saint-Brieuc, Lannion, Vannes, Lorient, Quimper, Brest.
+- [Consultant SEO en Pays de la Loire](https://aurelienpage.fr/consultant-seo-pays-de-la-loire): Laval, Mayenne, Château-Gontier, Nantes, Saint-Nazaire, La Baule, Angers, Cholet, Saumur, Le Mans.
 - [Consultant SEO à distance](https://aurelienpage.fr/consultant-seo-a-distance): audit et suivi SEO et GEO en visioconférence, partout en France.
 - [Consultant SEO freelance](https://aurelienpage.fr/consultant-seo-freelance): tarifs, déroulé et zone d'intervention d'un consultant SEO freelance.
 - [Rédaction web SEO](https://aurelienpage.fr/redaction-web): articles de blog, pages de service et briefs, de 150 à 350 € l'article.

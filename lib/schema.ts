@@ -14,8 +14,9 @@ export const AUDIAA_ORG_ID = 'https://www.audiaa.fr/#organisation'
 // Aucune adresse postale publique n'est affichée sur le site : ville et région seulement
 const address = {
   '@type': 'PostalAddress',
-  addressLocality: 'Rennes',
-  addressRegion: 'Bretagne',
+  addressLocality: 'Laval',
+  postalCode: '53000',
+  addressRegion: 'Pays de la Loire',
   addressCountry: 'FR',
 }
 

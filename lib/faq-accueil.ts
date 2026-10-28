@@ -5,7 +5,7 @@ import { SRC } from '@/lib/fiche-commun'
 export const FAQ_ACCUEIL = [
   {
     q: 'Quel consultant SEO choisir à Rennes ?',
-    a: `Je suis consultant SEO et GEO basé à Rennes : je me déplace et je travaille aussi à distance. Avant de choisir, Google conseille de demander au consultant des exemples de travaux, s'il respecte les Google Search Essentials et quels résultats il attend, dans quel délai ([Google Search Central](${SRC.googleSeo.href})). Voir aussi la page [consultant SEO à Rennes](/consultant-seo-rennes).`,
+    a: `Je suis consultant SEO et GEO basé à Laval et à Rennes : je me déplace et je travaille aussi à distance. Avant de choisir, Google conseille de demander au consultant des exemples de travaux, s'il respecte les Google Search Essentials et quels résultats il attend, dans quel délai ([Google Search Central](${SRC.googleSeo.href})). Voir aussi les pages [consultant SEO à Laval](/consultant-seo-laval) et [consultant SEO à Rennes](/consultant-seo-rennes).`,
   },
   {
     q: 'Combien coûte un audit SEO ?',

@@ -24,7 +24,7 @@ const data: FicheData = {
   nom: 'À distance',
   h1: 'Consultant SEO à distance, partout en France',
   resume:
-    "**Un consultant SEO à distance, est-ce efficace ?** Oui : un audit SEO et GEO se fait sur vos données, pas dans vos locaux. Je suis **consultant SEO et GEO freelance basé à Rennes** et j'accompagne à distance des entreprises de **Paris, Lyon, Bordeaux, Lille, Toulouse** et de toute la France. Audit de 800 à 2 500 €, suivi mensuel de 500 à 2 000 €, mêmes livrables que sur place.",
+    "**Un consultant SEO à distance, est-ce efficace ?** Oui : un audit SEO et GEO se fait sur vos données, pas dans vos locaux. Je suis **consultant SEO et GEO freelance basé à Laval et à Rennes** et j'accompagne à distance des entreprises de **Paris, Lyon, Bordeaux, Lille, Toulouse** et de toute la France. Audit de 800 à 2 500 €, suivi mensuel de 500 à 2 000 €, mêmes livrables que sur place.",
   identite: [
     { label: 'Public', valeur: 'PME, e-commerce, organismes de formation, médias, sites de services, partout en France' },
     { label: 'Prérequis', valeur: 'Un site en ligne et un accès à la Google Search Console (je vous guide pour le donner)' },

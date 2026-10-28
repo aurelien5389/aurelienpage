@@ -78,7 +78,7 @@ export default function AProposPage() {
               <p className={styles.apResume}>
                 J&apos;aide les entreprises à être trouvées sur Google et citées par les IA : ChatGPT, Perplexity,
                 Gemini, Claude et les AI Overviews. Je réalise des <strong>audits SEO et GEO</strong>, j&apos;accompagne
-                des sites au mois, je pilote des campagnes Google Ads et je forme des équipes. Basé à Rennes, je
+                des sites au mois, je pilote des campagnes Google Ads et je forme des équipes. Basé à Laval, où est mon siège, et à Rennes, je
                 travaille à distance et en déplacement.
               </p>
               <p className={styles.apMaj}>

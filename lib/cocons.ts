@@ -166,7 +166,9 @@ export const COCONS: Cocon[] = [
     pages: [
       { href: '/blog/entreprise-locale-recommandee-par-ia', label: 'Comment une entreprise locale peut-elle être recommandée par les IA ?' },
       { href: '/blog/choisir-consultant-seo-geo', label: 'Comment choisir un consultant SEO ou GEO ?' },
-      { href: '/zones-intervention', label: "Zones d'intervention : Rennes, Bretagne, Pays de la Loire, à distance" },
+      { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
+      { href: '/consultant-geo-laval', label: 'Consultant GEO à Laval' },
+      { href: '/zones-intervention', label: "Zones d'intervention : Laval, Rennes, Bretagne, Pays de la Loire, à distance" },
       { href: '/consultant-seo-bretagne', label: 'Consultant SEO en Bretagne' },
       { href: '/consultant-seo-pays-de-la-loire', label: 'Consultant SEO en Pays de la Loire' },
       { href: '/consultant-seo-a-distance', label: 'Consultant SEO à distance, partout en France' },

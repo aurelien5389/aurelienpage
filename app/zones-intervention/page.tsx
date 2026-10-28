@@ -6,9 +6,9 @@ import { SRC, PARCOURS, BALISE, METHODE, DIAGNOSTIC, DEMARRAGE, FINANCEMENT_CONS
 
 const PATH = '/zones-intervention'
 const URL = `https://aurelienpage.fr${PATH}`
-const TITLE = "Zones d'intervention : Rennes, Bretagne, Pays de la Loire et à distance · Aurélien PAGE"
+const TITLE = "Zones d'intervention : Laval, Rennes, Bretagne, Pays de la Loire et à distance · Aurélien PAGE"
 const DESCRIPTION =
-  "Consultant SEO et GEO basé à Rennes : sur place sans frais à Rennes et alentours, en Bretagne et en Pays de la Loire avec déplacement, partout en France à distance."
+  "Consultant SEO et GEO basé à Laval et à Rennes : sans frais autour de Laval et de Rennes, en Bretagne et en Pays de la Loire avec déplacement, partout en France à distance."
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -23,11 +23,11 @@ const data: FicheData = {
   nom: "Zones d'intervention",
   h1: "Zones d'intervention",
   resume:
-    "Je suis **consultant SEO et GEO basé à Rennes**. J'interviens **sur place sans frais à Rennes, Saint-Malo et Dinard**, **en Bretagne et en Pays de la Loire** avec des frais de déplacement, et **partout en France à distance**. Le travail courant d'un audit ou d'un suivi se fait à distance ; les rencontres servent au diagnostic, à la restitution et aux décisions.",
+    "Je suis **consultant SEO et GEO basé à Laval, où est mon siège, et à Rennes**. J'interviens **sur place sans frais à Laval, Rennes et dans leurs environs** (Mayenne, Château-Gontier, Vitré, Fougères, Saint-Malo, Dinard, Cancale, Dinan), **en Bretagne et en Pays de la Loire** avec des frais de déplacement, et **partout en France à distance**. Le travail courant d'un audit ou d'un suivi se fait à distance ; les rencontres servent au diagnostic, à la restitution et aux décisions.",
   identite: [
-    { label: 'Base', valeur: 'Rennes (Ille-et-Vilaine, Bretagne)' },
-    { label: 'Sans frais de déplacement', valeur: 'Rennes et un rayon d’une heure environ : Saint-Malo, Dinard, Vitré, Fougères, Redon' },
-    { label: 'Avec déplacement', valeur: '[Bretagne](/consultant-seo-bretagne) (Vannes, Lorient, Quimper, Brest) et [Pays de la Loire](/consultant-seo-pays-de-la-loire) (Nantes, Saint-Nazaire, Angers, Laval, Le Mans), frais précisés dans le devis' },
+    { label: 'Base', valeur: '[Laval](/consultant-seo-laval) (siège, Mayenne) et [Rennes](/consultant-seo-rennes) (Ille-et-Vilaine)' },
+    { label: 'Sans frais de déplacement', valeur: '[Laval](/consultant-seo-laval), [Mayenne](/consultant-seo-mayenne), [Château-Gontier](/consultant-seo-chateau-gontier), [Rennes](/consultant-seo-rennes), [Vitré](/consultant-seo-vitre), [Fougères](/consultant-seo-fougeres), [Saint-Malo](/consultant-seo-saint-malo), [Dinard](/consultant-seo-dinard), [Cancale](/consultant-seo-cancale), [Dinan](/consultant-seo-dinan)' },
+    { label: 'Avec déplacement', valeur: '[Bretagne](/consultant-seo-bretagne) (Saint-Brieuc, Lannion, Vannes, Lorient, Quimper, Brest) et [Pays de la Loire](/consultant-seo-pays-de-la-loire) (Nantes, Saint-Nazaire, La Baule, Angers, Cholet, Saumur, Le Mans), frais précisés dans le devis' },
     { label: 'À distance', valeur: '[France entière](/consultant-seo-a-distance) : visioconférence, accès à vos outils, documents partagés' },
     { label: 'Tarif', valeur: TARIF_ZONE },
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },
@@ -67,7 +67,7 @@ const data: FicheData = {
     },
     {
       q: 'Combien coûtent les déplacements ?',
-      a: "Rien à Rennes et dans un rayon d'une heure environ. Ailleurs en Bretagne et en Pays de la Loire, les frais de déplacement sont ajoutés au devis, au réel. Ils ne modifient pas le prix de la prestation : voir [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).",
+      a: "Rien à Laval, à Rennes et dans leurs environs. Ailleurs en Bretagne et en Pays de la Loire, les frais de déplacement sont ajoutés au devis, au réel. Ils ne modifient pas le prix de la prestation : voir [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).",
     },
     {
       q: 'Pourquoi des pages par ville ?',

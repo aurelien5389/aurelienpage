@@ -22,7 +22,7 @@ const data: FicheData = {
   nom: 'Audit GEO',
   h1: 'Audit GEO',
   resume:
-    "L'**audit GEO** mesure si ChatGPT, Perplexity, Gemini, Claude et les AI Overviews de Google citent votre site quand on leur pose les questions de vos clients, et qui ils citent à votre place. Je le réalise dans le cadre d'un **audit SEO et GEO, de 800 à 2 500 €** selon la taille du site, depuis Rennes ou à distance.",
+    "L'**audit GEO** mesure si ChatGPT, Perplexity, Gemini, Claude et les AI Overviews de Google citent votre site quand on leur pose les questions de vos clients, et qui ils citent à votre place. Je le réalise dans le cadre d'un **audit SEO et GEO, de 800 à 2 500 €** selon la taille du site, depuis Laval et Rennes ou à distance.",
   identite: [
     { label: 'Public', valeur: 'Entreprises B2B, PME, organismes de formation, sites de services ou e-commerce qui veulent être recommandés par les IA' },
     { label: 'Prérequis', valeur: 'Un site en ligne et une liste de vos offres principales. Les questions de vos clients sont construites ensemble' },

@@ -22,7 +22,7 @@ const data: FicheData = {
   nom: 'Consultant SEO freelance',
   h1: 'Consultant SEO freelance',
   resume:
-    "**Combien coûte un consultant SEO freelance ?** Chez moi : un **audit SEO et GEO de 800 à 2 500 €** selon la taille du site, puis un **suivi mensuel de 500 à 2 000 €**, sans contrat annuel imposé. Ce sont mes tarifs, fixés dans un devis après un diagnostic offert de 30 minutes. Basé à Rennes, j'interviens à distance et en déplacement.",
+    "**Combien coûte un consultant SEO freelance ?** Chez moi : un **audit SEO et GEO de 800 à 2 500 €** selon la taille du site, puis un **suivi mensuel de 500 à 2 000 €**, sans contrat annuel imposé. Ce sont mes tarifs, fixés dans un devis après un diagnostic offert de 30 minutes. Basé à Laval et à Rennes, j'interviens à distance et en déplacement.",
   identite: [
     { label: 'Public', valeur: 'PME et ETI, e-commerce, organismes de formation, médias, indépendants, agences qui ont besoin d’un renfort SEO' },
     { label: 'Prérequis', valeur: 'Un site en ligne. Pour le suivi mensuel : un audit SEO et GEO initial' },

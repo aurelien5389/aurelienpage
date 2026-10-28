@@ -22,7 +22,7 @@ const data: FicheData = {
   nom: 'Accompagnement SEO mensuel',
   h1: 'Accompagnement SEO mensuel',
   resume:
-    "Je suis votre **consultant SEO freelance** au mois, depuis Rennes ou à distance. Chaque mois : optimisations, contenus, suivi des positions et des citations dans les IA, reporting. **De 500 à 2 000 € par mois** selon le périmètre, sans contrat annuel imposé, après un audit SEO et GEO initial.",
+    "Je suis votre **consultant SEO freelance** au mois, depuis Laval et Rennes ou à distance. Chaque mois : optimisations, contenus, suivi des positions et des citations dans les IA, reporting. **De 500 à 2 000 € par mois** selon le périmètre, sans contrat annuel imposé, après un audit SEO et GEO initial.",
   identite: [
     { label: 'Public', valeur: 'Entreprises B2B et B2C, e-commerce, services, professions libérales, collectivités' },
     { label: 'Prérequis', valeur: 'Un audit SEO et GEO initial, qui sert de base à la stratégie' },

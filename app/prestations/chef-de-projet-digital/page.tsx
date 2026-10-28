@@ -22,7 +22,7 @@ const data: FicheData = {
   nom: 'Chef de projet digital',
   h1: 'Chef de projet digital',
   resume:
-    "**Chef de projet digital freelance** basé à Rennes : je cadre et pilote vos projets web, de la refonte à la migration SEO, je coordonne prestataires et équipes internes et je mets en place le reporting. Pour les PME et les équipes sans chef de projet dédié. Mission projet ou accompagnement mensuel, **sur devis**.",
+    "**Chef de projet digital freelance** basé à Laval et à Rennes : je cadre et pilote vos projets web, de la refonte à la migration SEO, je coordonne prestataires et équipes internes et je mets en place le reporting. Pour les PME et les équipes sans chef de projet dédié. Mission projet ou accompagnement mensuel, **sur devis**.",
   identite: [
     { label: 'Public', valeur: 'PME, organisations en transformation digitale, équipes sans chef de projet dédié' },
     { label: 'Prérequis', valeur: 'Un projet identifié, même encore flou : le cadrage sert à le préciser' },
@@ -76,7 +76,7 @@ const data: FicheData = {
   faq: [
     {
       q: 'Quel chef de projet digital freelance choisir à Rennes ?',
-      a: "Je suis chef de projet digital freelance basé à Rennes, sur place ou à distance. Ma particularité : un regard SEO et SEA sur chaque projet, pour ne pas perdre de trafic pendant une refonte ou une migration.",
+      a: "Je suis chef de projet digital freelance basé à Laval et à Rennes, sur place ou à distance. Ma particularité : un regard SEO et SEA sur chaque projet, pour ne pas perdre de trafic pendant une refonte ou une migration.",
     },
     {
       q: 'Que comprend le pilotage d\'une migration SEO ?',

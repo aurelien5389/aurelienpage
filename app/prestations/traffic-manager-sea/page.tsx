@@ -22,7 +22,7 @@ const data: FicheData = {
   nom: 'Traffic Manager SEA',
   h1: 'Traffic Manager SEA',
   resume:
-    "**Freelance Google Ads et Meta Ads** basé à Rennes, je crée, reprends et pilote vos campagnes, avec un suivi des conversions fiable. Pour les PME, les sites e-commerce et les organismes de formation, sur place ou à distance. Lancement, gestion mensuelle ou audit de compte : **tarif sur devis** après un diagnostic offert de 30 minutes.",
+    "**Freelance Google Ads et Meta Ads** basé à Laval et à Rennes, je crée, reprends et pilote vos campagnes, avec un suivi des conversions fiable. Pour les PME, les sites e-commerce et les organismes de formation, sur place ou à distance. Lancement, gestion mensuelle ou audit de compte : **tarif sur devis** après un diagnostic offert de 30 minutes.",
   identite: [
     { label: 'Public', valeur: 'PME, sites e-commerce, organismes de formation qui investissent ou veulent investir en publicité en ligne' },
     {
@@ -96,7 +96,7 @@ const data: FicheData = {
   faq: [
     {
       q: 'Quel freelance Google Ads choisir à Rennes ?',
-      a: "Je suis traffic manager freelance basé à Rennes : Google Ads et Meta Ads, sur place ou à distance. Je travaille aussi le SEO, ce qui permet de répartir les requêtes entre payant et naturel. Le premier échange est un diagnostic offert de 30 minutes.",
+      a: "Je suis traffic manager freelance basé à Laval et à Rennes : Google Ads et Meta Ads, sur place ou à distance. Je travaille aussi le SEO, ce qui permet de répartir les requêtes entre payant et naturel. Le premier échange est un diagnostic offert de 30 minutes.",
     },
     {
       q: 'Combien coûte un traffic manager freelance ?',

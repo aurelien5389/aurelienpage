@@ -6,7 +6,7 @@ meta-description: "Consultant GEO à Rennes : accès des robots des IA, pages qu
 
 # Consultant GEO à Rennes
 
-**Quel consultant GEO pour être cité par ChatGPT et les IA ?** Je suis Aurélien Page, consultant SEO et GEO basé à Rennes. Le **GEO (Generative Engine Optimization)** consiste à faire citer votre site dans les réponses de ChatGPT, Perplexity, Gemini, Claude et des AI Overviews de Google. Je le travaille dans le cadre de l'[audit SEO et GEO](/prestations/consultant-seo-geo), de 800 à 2 500 € selon la taille du site, puis en suivi mensuel. Cette page résume le volet GEO ; la fiche complète, avec le déroulé, les tarifs et les questions fréquentes, est la page [consultant SEO et GEO](/prestations/consultant-seo-geo).
+**Quel consultant GEO pour être cité par ChatGPT et les IA ?** Je suis Aurélien Page, consultant SEO et GEO présent à Rennes, avec mon siège à [Laval](/consultant-geo-laval). Le **GEO (Generative Engine Optimization)** consiste à faire citer votre site dans les réponses de ChatGPT, Perplexity, Gemini, Claude et des AI Overviews de Google. Je le travaille dans le cadre de l'[audit SEO et GEO](/prestations/consultant-seo-geo), de 800 à 2 500 € selon la taille du site, puis en suivi mensuel. Cette page résume le volet GEO ; la fiche complète, avec le déroulé, les tarifs et les questions fréquentes, est la page [consultant SEO et GEO](/prestations/consultant-seo-geo).
 
 ## Que fait un consultant GEO ?
 

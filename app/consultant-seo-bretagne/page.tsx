@@ -6,9 +6,9 @@ import { SRC, PARCOURS, BALISE, METHODE, DIAGNOSTIC, DEMARRAGE, FINANCEMENT_CONS
 
 const PATH = '/consultant-seo-bretagne'
 const URL = `https://aurelienpage.fr${PATH}`
-const TITLE = 'Consultant SEO en Bretagne : Rennes, Saint-Malo, Vannes, Brest · Aurélien PAGE'
+const TITLE = 'Consultant SEO et GEO en Bretagne : Rennes, Saint-Malo, Vitré, Brest · Aurélien PAGE'
 const DESCRIPTION =
-  "Consultant SEO et GEO basé à Rennes, en déplacement dans toute la Bretagne. Audit SEO et GEO de 800 à 2 500 €, suivi mensuel dès 500 €. Diagnostic offert de 30 minutes."
+  "Consultant SEO et GEO présent à Rennes (siège à Laval), en déplacement dans toute la Bretagne. Audit SEO et GEO de 800 à 2 500 €, suivi mensuel dès 500 €. Diagnostic offert de 30 minutes."
 const REGION = REGIONS.find((r) => r.id === 'bretagne')!
 
 export const metadata: Metadata = {
@@ -24,12 +24,12 @@ const data: FicheData = {
   nom: 'Bretagne',
   h1: 'Consultant SEO en Bretagne',
   resume:
-    "**Quel consultant SEO en Bretagne ?** Je suis **consultant SEO et GEO, basé à Rennes**. Je me déplace **sans frais à Rennes, Saint-Malo et Dinard**, et **avec frais à Vannes, Lorient, Quimper et Brest**. Audit SEO et GEO de 800 à 2 500 € selon la taille du site, suivi mensuel de 500 à 2 000 €. Premier échange : un diagnostic offert de 30 minutes.",
+    "**Quel consultant SEO en Bretagne ?** Je suis **consultant SEO et GEO**, présent à Rennes, avec mon siège à Laval. Je me déplace **sans frais à Rennes, Vitré, Fougères, Saint-Malo, Dinard, Cancale et Dinan**, et **avec frais à Saint-Brieuc, Lannion, Vannes, Lorient, Quimper et Brest**. Audit SEO et GEO de 800 à 2 500 € selon la taille du site, suivi mensuel de 500 à 2 000 €. Premier échange : un diagnostic offert de 30 minutes.",
   identite: [
     { label: 'Public', valeur: 'Entreprises bretonnes : PME, commerces et e-commerce, organismes de formation, cabinets, tourisme, collectivités' },
     { label: 'Prérequis', valeur: 'Un site en ligne' },
-    { label: 'Sans frais de déplacement', valeur: '[Rennes](/consultant-seo-rennes), [Saint-Malo](/consultant-seo-saint-malo), [Dinard](/consultant-seo-dinard), et l’Ille-et-Vilaine dans un rayon d’une heure environ' },
-    { label: 'Avec déplacement', valeur: '[Vannes](/consultant-seo-vannes), [Lorient](/consultant-seo-lorient), [Quimper](/consultant-seo-quimper), [Brest](/consultant-seo-brest) : frais au réel, précisés dans le devis' },
+    { label: 'Sans frais de déplacement', valeur: '[Rennes](/consultant-seo-rennes), [Vitré](/consultant-seo-vitre), [Fougères](/consultant-seo-fougeres), [Saint-Malo](/consultant-seo-saint-malo), [Dinard](/consultant-seo-dinard), [Cancale](/consultant-seo-cancale), [Dinan](/consultant-seo-dinan)' },
+    { label: 'Avec déplacement', valeur: '[Saint-Brieuc](/consultant-seo-saint-brieuc), [Lannion](/consultant-seo-lannion), [Vannes](/consultant-seo-vannes), [Lorient](/consultant-seo-lorient), [Quimper](/consultant-seo-quimper), [Brest](/consultant-seo-brest) : frais au réel, précisés dans le devis' },
     { label: 'Tarif', valeur: TARIF_ZONE },
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },
     { label: 'Livrables', valeur: "Rapport d'audit, relevé de visibilité dans les IA, plan d'action, reporting mensuel" },
@@ -38,7 +38,7 @@ const data: FicheData = {
   pourquoi: [
     "Une grande partie des clients d'une entreprise bretonne la cherche avec un nom de ville : « expert-comptable Vannes », « formation Brest », « location Saint-Malo ». Sur ces recherches, Google classe les résultats locaux selon trois critères qu'il documente : la **pertinence** de la fiche par rapport à la recherche, la **distance** avec la personne qui cherche, et la **proéminence**, c'est-à-dire la notoriété de l'établissement ([Google](" + SRC.gbpLocal.href + ")).",
     "Les IA posent la même question autrement. Quand on demande à ChatGPT ou à Perplexity un prestataire à Quimper ou à Lorient, ils cherchent sur le web et citent des sources : votre site, votre fiche d'établissement, des annuaires, des articles de presse locale. Le travail consiste à être présent et cohérent partout où ces réponses vont puiser. La méthode est dans [comment une entreprise locale peut-elle être recommandée par les IA](/blog/entreprise-locale-recommandee-par-ia).",
-    "Être basé à Rennes permet de venir sur place pour les moments qui comptent : le diagnostic, la restitution de l'audit devant votre équipe, un atelier. Le reste se fait à distance, sans perte de qualité.",
+    "Être présent à Rennes, avec un siège à Laval, permet de venir sur place pour les moments qui comptent : le diagnostic, la restitution de l'audit devant votre équipe, un atelier. Le reste se fait à distance, sans perte de qualité.",
   ],
   derouleTitre: 'Comment se déroule une mission en Bretagne',
   deroule: DEROULE_ZONE,

@@ -35,7 +35,7 @@ const data: FicheData = {
   nom: 'Consultant SEO et GEO',
   h1: 'Consultant SEO et GEO',
   resume:
-    "**Consultant SEO et GEO** basé à Rennes, j'interviens sur place ou à distance pour que votre site soit trouvé sur Google et **cité par ChatGPT, Perplexity, Gemini, Claude et les AI Overviews**. Un consultant GEO travaille l'accès des robots des IA, le format des pages et la mesure des citations. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, délai fixé dans le devis, suivi dès 500 € par mois.",
+    "**Consultant SEO et GEO** basé à Laval et à Rennes, j'interviens sur place ou à distance pour que votre site soit trouvé sur Google et **cité par ChatGPT, Perplexity, Gemini, Claude et les AI Overviews**. Un consultant GEO travaille l'accès des robots des IA, le format des pages et la mesure des citations. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, délai fixé dans le devis, suivi dès 500 € par mois.",
   identite: [
     { label: 'Public', valeur: 'Entreprises B2B, PME, organismes de formation, médias, sites e-commerce' },
     { label: 'Prérequis', valeur: 'Un site en ligne' },
@@ -122,11 +122,11 @@ const data: FicheData = {
   faq: [
     {
       q: 'Quel consultant SEO choisir à Rennes ?',
-      a: `Je suis consultant SEO et GEO basé à Rennes : je me déplace et je travaille aussi à distance. Avant de choisir, Google conseille de demander au consultant des exemples de travaux, s'il respecte les Google Search Essentials et quels résultats il attend, dans quel délai ([Google Search Central](${SRC_GOOGLE_SEO})). Voir aussi la page [consultant SEO à Rennes](/consultant-seo-rennes).`,
+      a: `Je suis consultant SEO et GEO basé à Laval et à Rennes : je me déplace et je travaille aussi à distance. Avant de choisir, Google conseille de demander au consultant des exemples de travaux, s'il respecte les Google Search Essentials et quels résultats il attend, dans quel délai ([Google Search Central](${SRC_GOOGLE_SEO})). Voir aussi les pages [consultant SEO à Laval](/consultant-seo-laval) et [consultant SEO à Rennes](/consultant-seo-rennes).`,
     },
     {
       q: 'Quel consultant GEO pour être cité par ChatGPT et les IA ?',
-      a: "Un consultant GEO travaille sur deux plans : l'accès des robots des IA à votre site, et des contenus que les IA peuvent reprendre (réponses directes, sources, auteur identifié). Je fais les deux depuis Rennes et je mesure le résultat question par question avec Balise. Personne ne peut garantir une citation : les IA choisissent leurs sources elles-mêmes. La méthode est détaillée dans [comment être cité par ChatGPT et Perplexity](/reponses/comment-etre-cite-par-chatgpt-et-perplexity).",
+      a: "Un consultant GEO travaille sur deux plans : l'accès des robots des IA à votre site, et des contenus que les IA peuvent reprendre (réponses directes, sources, auteur identifié). Je fais les deux depuis Laval et Rennes et je mesure le résultat question par question avec Balise. Personne ne peut garantir une citation : les IA choisissent leurs sources elles-mêmes. La méthode est détaillée dans [comment être cité par ChatGPT et Perplexity](/reponses/comment-etre-cite-par-chatgpt-et-perplexity).",
     },
     {
       q: 'Combien coûte un audit SEO ?',

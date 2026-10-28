@@ -205,6 +205,15 @@ export default function FicheLayout({ data }: { data: FicheData }) {
                 </ul>
               </>
             )}
+            {!data.path.startsWith('/consultant-seo-') && data.path !== '/zones-intervention' && (
+              <p className={styles.ficheLocal}>
+                En local : <Link href="/consultant-seo-laval" className={styles.ficheLien}>Laval</Link>
+                {' · '}<Link href="/consultant-seo-rennes" className={styles.ficheLien}>Rennes</Link>
+                {' · '}<Link href="/consultant-seo-bretagne" className={styles.ficheLien}>Bretagne</Link>
+                {' · '}<Link href="/consultant-seo-pays-de-la-loire" className={styles.ficheLien}>Pays de la Loire</Link>
+                {' · '}<Link href="/zones-intervention" className={styles.ficheLien}>toutes les zones d&apos;intervention</Link>
+              </p>
+            )}
             {data.sources.length > 0 && (
               <>
                 <h3 className={styles.ficheH3}>Sources</h3>

@@ -237,7 +237,9 @@ export default function HomePage() {
               </p>
               <p className={styles.aproposTexte}>
                 Je réalise des audits SEO et GEO, j&apos;accompagne des sites au mois, je pilote des campagnes Google Ads
-                et je forme des équipes. Basé à Rennes, je travaille à distance et en déplacement.
+                et je forme des équipes. Basé à <Link href="/consultant-seo-laval">Laval</Link> et à{' '}
+                <Link href="/consultant-seo-rennes">Rennes</Link>, je travaille à distance et en déplacement dans{' '}
+                <Link href="/zones-intervention">tout le Grand Ouest</Link>.
               </p>
               <Link href="/a-propos" className="lien-fleche">Lire la suite sur la page À propos <Icon name="arrow" size={18} /></Link>
             </div>
