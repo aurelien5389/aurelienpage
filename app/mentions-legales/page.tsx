@@ -101,6 +101,14 @@ export default function MentionsLegales() {
                     des tiers et ne font l&apos;objet d&apos;aucun traitement commercial.
                   </p>
                   <p>
+                    Le formulaire « Recevoir les ressources GEO par e-mail » collecte votre adresse e-mail pour
+                    vous envoyer les ressources demandées. Si vous cochez la case prévue, votre adresse est
+                    conservée pour vous envoyer les nouvelles ressources, jusqu&apos;à votre désinscription
+                    (lien présent dans chaque envoi, ou sur simple demande). Les e-mails sont envoyés via
+                    Resend, prestataire d&apos;envoi, et l&apos;adresse n&apos;est jamais vendue ni transmise à
+                    d&apos;autres tiers.
+                  </p>
+                  <p>
                     Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi
                     Informatique et Libertés, vous disposez d&apos;un droit d&apos;accès, de rectification,
                     d&apos;effacement et d&apos;opposition aux données vous concernant. Pour exercer ces

@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import JsonLd from '@/components/JsonLd'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
+import RessourcesEmail from '@/components/RessourcesEmail'
 import { COCONS } from '@/lib/cocons'
 import { SITE_URL, breadcrumbSchema, pageGraph } from '@/lib/schema'
 import styles from './page.module.css'
@@ -148,6 +149,8 @@ export default function RessourcesPage() {
               </ul>
             </section>
           ))}
+
+          <RessourcesEmail />
 
           <section aria-labelledby="guides" className={styles.resSection}>
             <h2 id="guides" className={styles.resH2}>Guides de référence</h2>

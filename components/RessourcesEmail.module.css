@@ -1,0 +1,122 @@
+/* Bloc « recevoir les ressources GEO par e-mail ». Unités px. */
+
+.reSection {
+  padding: 40px 16px;
+}
+
+.reInner {
+  max-width: 760px;
+  margin-inline: auto;
+  padding: 28px 24px;
+  background: var(--color-pale);
+  border: 1px solid var(--color-bord);
+  border-radius: var(--rayon);
+}
+
+.reTitre {
+  margin: 0 0 8px;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--color-encre);
+}
+
+.reSous {
+  margin: 0 0 18px;
+  font-size: 17px;
+  color: var(--color-encre-2);
+}
+
+.reForm {
+  display: grid;
+  gap: 12px;
+}
+
+.reLigne {
+  display: grid;
+  gap: 10px;
+}
+
+.reLabel {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-encre);
+}
+
+.reChamp {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  font-size: 17px;
+  color: var(--color-encre);
+  background: var(--color-surface);
+  border: 1px solid var(--color-bord);
+  border-radius: var(--rayon-s);
+}
+
+.reChamp:focus-visible {
+  outline: 2px solid var(--color-filet);
+  outline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .reLigne {
+    grid-template-columns: 1fr auto;
+    align-items: end;
+  }
+
+  .reLabel {
+    grid-column: 1 / -1;
+  }
+}
+
+.reConsent {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 15px;
+  color: var(--color-encre-2);
+  cursor: pointer;
+}
+
+.reConsent input {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  flex-shrink: 0;
+  accent-color: var(--color-accent);
+}
+
+.reMention {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-encre-2);
+}
+
+.reMention a,
+.reErreur a {
+  color: var(--color-accent);
+}
+
+.reOk {
+  margin: 0;
+  padding: 12px 14px;
+  font-size: 16px;
+  color: var(--color-ok);
+  background: var(--color-ok-pale);
+  border-radius: var(--rayon-s);
+}
+
+.reErreur {
+  margin: 0;
+  font-size: 15px;
+  color: var(--color-erreur);
+}
+
+/* Champ piège pour les robots, hors écran */
+.rePiege {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}

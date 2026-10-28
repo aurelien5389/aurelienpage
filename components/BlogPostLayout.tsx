@@ -6,6 +6,7 @@ import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import AuthorBio from '@/components/AuthorBio'
 import CoconNav from '@/components/CoconNav'
+import RessourcesEmail from '@/components/RessourcesEmail'
 import { getCocon } from '@/lib/cocons'
 import Icon from '@/components/Icon'
 import type { InternalLink } from '@/lib/internal-links'
@@ -98,6 +99,9 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks: allRelate
             <MarkdownRenderer content={body} />
           </div>
         </article>
+
+        {/* Ressources GEO par e-mail : sur les ressources et les articles des dossiers GEO */}
+        {(pagePath.startsWith('/ressources/') || getCocon(pagePath)?.famille === 'GEO') && <RessourcesEmail />}
 
         {/* Maillage du cocon : guide de départ, pages sœurs, fiche liée */}
         <CoconNav path={pagePath} />
