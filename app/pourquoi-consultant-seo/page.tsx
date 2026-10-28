@@ -6,7 +6,7 @@ import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import { parseDraft } from '@/lib/draft-parser'
-import { breadcrumbSchema } from '@/lib/schema'
+import { breadcrumbSchema, pageGraph } from '@/lib/schema'
 import styles from './page.module.css'
 
 const draft = parseDraft('pourquoi-consultant-seo.md')
@@ -57,8 +57,7 @@ export default function Page() {
   return (
     <>
       <Header />
-      <JsonLd schema={schema} />
-      <JsonLd schema={breadcrumbSchema([{ name: 'Pourquoi faire appel à un consultant SEO ?', path: '/pourquoi-consultant-seo' }])} />
+      <JsonLd schema={pageGraph(schema, breadcrumbSchema([{ name: 'Pourquoi faire appel à un consultant SEO ?', path: '/pourquoi-consultant-seo' }]))} />
       <main className={styles.artMain}>
         {/* Breadcrumb */}
         <div className={styles.artFil}>

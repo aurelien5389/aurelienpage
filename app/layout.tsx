@@ -1,9 +1,8 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import Script from 'next/script'
-import JsonLd from '@/components/JsonLd'
 import MobileCta from '@/components/MobileCta'
-import { siteGraph } from '@/lib/schema'
+import SourceTracker from '@/components/SourceTracker'
 import './globals.css'
 
 // Polices auto-hébergées (licence SIL Open Font, fichiers dans app/fonts)
@@ -33,16 +32,6 @@ export const metadata: Metadata = {
   title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
   description:
     'Consultant SEO, GEO et SEA à Rennes : être trouvé sur Google et cité par ChatGPT, Perplexity et les AI Overviews. Audits, accompagnement, Google Ads, formations. Diagnostic offert.',
-  keywords: [
-    'consultant SEO',
-    'consultant GEO',
-    'traffic manager SEA',
-    'formation SEO',
-    'formation GEO',
-    'chef de projet digital',
-    'SEO Rennes',
-    'freelance digital Rennes',
-  ],
   authors: [{ name: 'Aurélien PAGE' }],
   creator: 'Aurélien PAGE',
   icons: {
@@ -70,10 +59,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  // Pas de twitter:title ni twitter:description globaux : X reprend og:title et og:description de chaque page
   twitter: {
     card: 'summary_large_image',
-    title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
-    description: 'Consultant SEO, GEO et SEA à Rennes. Audits, accompagnement, Google Ads, formations. Diagnostic offert.',
     images: ['/og-default.png'],
   },
   robots: {
@@ -116,8 +104,9 @@ export default function RootLayout({
             gtag('config', 'G-ZVYC2J060V');
           `}
         </Script>
-        <JsonLd schema={siteGraph} />
+        {/* Données structurées : un seul graphe JSON-LD par page, rendu par chaque page (lib/schema.ts, pageGraph) */}
         {children}
+        <SourceTracker />
         <MobileCta />
         <Script src="/chatbot.js" strategy="lazyOnload" />
       </body>

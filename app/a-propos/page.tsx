@@ -5,7 +5,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
-import { SITE_URL, PERSON_ID, breadcrumbSchema } from '@/lib/schema'
+import { SITE_URL, PERSON_ID, breadcrumbSchema, pageGraph } from '@/lib/schema'
 import { getContentDates, formatMonthYear } from '@/lib/content-dates'
 import Icon from '@/components/Icon'
 import styles from './page.module.css'
@@ -62,8 +62,7 @@ export default function AProposPage() {
   return (
     <>
       <Header />
-      <JsonLd schema={profile} />
-      <JsonLd schema={breadcrumbSchema([{ name: 'À propos', path: PATH }])} />
+      <JsonLd schema={pageGraph(profile, breadcrumbSchema([{ name: 'À propos', path: PATH }]))} />
       <main className={styles.apMain}>
         <div className={styles.apInner}>
           <nav aria-label="Fil d'Ariane" className={styles.fil}>

@@ -68,7 +68,7 @@ C'est pourquoi je réalise l'audit GEO dans le cadre d'un audit SEO et GEO : la 
       a: 'Un consultant qui maîtrise le SEO technique et qui sait relever les réponses des IA de façon reproductible : mêmes questions, mêmes IA, même méthode à chaque mesure.',
     },
   ],
-  voirAussi: ['difference-seo-geo', 'robots-ia-faut-il-les-bloquer', 'qu-est-ce-que-le-geo'],
+  voirAussi: ['combien-coute-un-audit-seo', 'difference-seo-geo', 'robots-ia-faut-il-les-bloquer'],
   publie: '2026-10-04',
 }
 

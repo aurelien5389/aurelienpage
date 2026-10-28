@@ -4,7 +4,7 @@ import Icon from '@/components/Icon'
 import styles from './AuthorBio.module.css'
 
 const BADGES = [
-  "8 ans d'expérience",
+  'SEO et SEA depuis 2020',
   'SEO · SEA · GEO',
   'Formation SEO et GEO',
   'Rennes · Remote',
@@ -33,11 +33,10 @@ export default function AuthorBio() {
           </p>
 
           <p className={styles.bioTexte}>
-            Issu du journalisme web et de la rédaction web, j&apos;ai développé une expertise SEO,
-            SEA et GEO au fil de 8 ans de missions en agence web, pour un groupe média B2B
-            (Usine Digitale, Usine Nouvelle) et en freelance. Diplômé d&apos;un Master en Droit du
-            numérique et d&apos;une formation d&apos;Expert SEO, je me spécialise depuis 2023 sur le GEO
-            (optimisation pour les moteurs de recherche à IA). L&apos;IA appliquée et le No Code sont portés
+            Je fais du SEO et du SEA depuis 2020, en agence, pour un groupe de presse professionnelle et en
+            freelance. Avant cela, j&apos;ai été journaliste web et rédacteur de 2012 à 2019. Je mesure la
+            visibilité des sites dans les IA (ChatGPT, Perplexity, Gemini, Claude, AI Overviews) avec Balise,
+            un outil que j&apos;ai construit. L&apos;IA appliquée et le No Code sont portés
             par <a href="https://www.audiaa.fr" className={styles.bioLien}>Audiaa</a>, l&apos;agence que j&apos;ai fondée.
           </p>
 

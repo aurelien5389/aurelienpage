@@ -24,7 +24,7 @@ Mais une SERP n'est pas une simple liste de liens bleus. Elle est composée d'é
 
 La composition d'une SERP n'est jamais le fruit du hasard : elle reflète ce que Google interprète comme l'**intention de recherche** derrière la requête.
 
-## Pourquoi comprendre les SERPs est essentiel pour le SEO
+## Pourquoi comprendre les SERPs compte pour le SEO
 
 Avant de créer une page ou un article, analyser la SERP du mot-clé ciblé est une étape non négociable. Elle vous renseigne sur deux choses fondamentales :
 

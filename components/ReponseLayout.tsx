@@ -1,18 +1,16 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import JsonLd from '@/components/JsonLd'
+import QuiRepond from '@/components/QuiRepond'
 import MarkdownRenderer, { renderInline } from '@/components/MarkdownRenderer'
-import { SITE_URL, PERSON_ID, breadcrumbSchema } from '@/lib/schema'
+import { SITE_URL, personRef, breadcrumbSchema, pageGraph, faqNode, plainText } from '@/lib/schema'
 import { formatMonthYear, type ContentDates } from '@/lib/content-dates'
 import type { Lien, Reponse } from '@/lib/reponses/types'
 import styles from './ReponseLayout.module.css'
 
 // Gabarit « article-réponse » : H1 = question, réponse directe, H2 en questions,
 // tableau, sources, encadré « Qui répond », renvoi unique vers une fiche, FAQ.
-
-const plain = (s: string) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*`]/g, '')
 
 interface Props {
   r: Reponse
@@ -23,44 +21,31 @@ interface Props {
 export default function ReponseLayout({ r, dates, voirAussi }: Props) {
   const path = `/reponses/${r.slug}`
   const url = `${SITE_URL}${path}`
-  const author = { '@type': 'Person', '@id': PERSON_ID, name: 'Aurélien Page', url: SITE_URL }
-
+  const modified = dates.modified > r.publie ? dates.modified : r.publie
   const article = {
-    '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': `${url}#article`,
     headline: r.question,
-    description: plain(r.reponse),
-    author,
-    publisher: author,
+    description: plainText(r.reponse),
+    author: personRef,
+    publisher: personRef,
     datePublished: r.publie,
-    dateModified: dates.modified > r.publie ? dates.modified : r.publie,
+    dateModified: modified,
     url,
     mainEntityOfPage: url,
     image: `${SITE_URL}/og-default.png`,
     inLanguage: 'fr-FR',
     citation: r.sources.map((s) => s.href),
   }
-  const faq = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: r.faq.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: plain(f.a) },
-    })),
-  }
   const crumbs = breadcrumbSchema([
     { name: 'Réponses', path: '/reponses' },
     { name: r.question, path },
   ])
-  const modified = dates.modified > r.publie ? dates.modified : r.publie
 
   return (
     <>
       <Header />
-      <JsonLd schema={article} />
-      <JsonLd schema={faq} />
-      <JsonLd schema={crumbs} />
+      <JsonLd schema={pageGraph(article, faqNode(r.faq), crumbs)} />
       <main className={styles.repMain}>
         <div className={styles.fil}>
           <nav aria-label="Fil d'Ariane" className={styles.filNav}>
@@ -149,17 +134,7 @@ export default function ReponseLayout({ r, dates, voirAussi }: Props) {
           </section>
 
           {/* 6. Qui répond */}
-          <aside aria-label="Qui répond" className={styles.repAuteur}>
-            <Image src="/photo.jpg" alt="Aurélien Page" width={64} height={64} className={styles.repAuteurPhoto} />
-            <div>
-              <p className={styles.repAuteurTitre}>Qui répond</p>
-              <p className={styles.repAuteurTexte}>
-                <strong>Aurélien Page</strong>, consultant SEO et GEO à Rennes. SEO et SEA depuis 2020, journaliste web
-                auparavant. Je mesure la visibilité des sites dans les IA avec Balise, un outil que j&apos;ai construit.{' '}
-                <Link href="/a-propos" className={styles.repLien}>En savoir plus</Link>
-              </p>
-            </div>
-          </aside>
+          <QuiRepond />
 
           {/* 7. Renvoi commercial unique */}
           <aside aria-label="Prestation liée" className={styles.repFiche}>

@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
-import { breadcrumbSchema } from '@/lib/schema'
+import { breadcrumbSchema, pageGraph, personRef } from '@/lib/schema'
 import { getBlogDrafts } from '@/lib/draft-parser'
 import styles from './page.module.css'
 
@@ -97,12 +97,7 @@ const schema = {
   '@type': 'Blog',
   name: 'Blog SEO · Aurélien PAGE',
   url: 'https://aurelienpage.fr/blog',
-  author: {
-    '@type': 'Person',
-    '@id': 'https://aurelienpage.fr/#person',
-    name: 'Aurélien PAGE',
-    url: 'https://aurelienpage.fr',
-  },
+  author: personRef,
 }
 
 export default function BlogPage() {
@@ -110,8 +105,7 @@ export default function BlogPage() {
   return (
     <>
       <Header />
-      <JsonLd schema={schema} />
-      <JsonLd schema={breadcrumbSchema([{ name: 'Blog SEO', path: '/blog' }])} />
+      <JsonLd schema={pageGraph(schema, breadcrumbSchema([{ name: 'Blog SEO', path: '/blog' }]))} />
       <main className={styles.blogIdxMain}>
         {/* Breadcrumb */}
         <div className={styles.blogIdxFil}>

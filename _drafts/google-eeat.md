@@ -67,7 +67,7 @@ Les critères EEAT sont particulièrement stricts pour les sites **YMYL** (*Your
 
 Sur ces sujets, Google n'a aucune tolérance pour les contenus approximatifs ou mal sourcés. L'absence d'EEAT clair sur un site médical ou financier peut entraîner une dévalorisation sévère dans les résultats de recherche.
 
-Mais même en dehors du YMYL, l'EEAT est devenu un critère incontournable pour tout site qui veut performer durablement en SEO.
+Mais même en dehors du YMYL, l'EEAT est devenu un critère central pour tout site qui veut performer durablement en SEO.
 
 ## Comment améliorer l'EEAT de son site ?
 

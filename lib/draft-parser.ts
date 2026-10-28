@@ -84,7 +84,7 @@ export function parseDraft(filename: string): DraftContent {
     bodyRaw = parsed.rest || ''
   }
 
-  // Strip H1 from body — rendered separately by BlogPostLayout
+  // Strip H1 from body : rendered separately by BlogPostLayout
   const h1InBody = bodyRaw.match(/^#\s+(.+)/m)
   if (h1InBody) {
     if (!h1) h1 = h1InBody[1].trim()
@@ -118,4 +118,46 @@ export function getBlogDrafts(): DraftContent[] {
 
 export function getLocalDrafts(): DraftContent[] {
   return getAllDrafts().filter((d) => d.slug.startsWith('/consultant-seo-'))
+}
+
+export interface DraftFaq {
+  q: string
+  a: string
+}
+
+/**
+ * FAQ visible d'un article : dans une section « ## Questions… » ou « ## FAQ… »,
+ * chaque question est une ligne en gras (**Question ?**) suivie de sa réponse en texte.
+ * Sert au balisage FAQPage : seules les questions réellement affichées sont reprises.
+ */
+export function extractFaq(body: string): DraftFaq[] {
+  const lines = body.split('\n')
+  const faq: DraftFaq[] = []
+  let inFaq = false
+  let current: DraftFaq | null = null
+  const flush = () => {
+    if (current && current.a.trim()) faq.push({ q: current.q, a: current.a.trim() })
+    current = null
+  }
+  for (const line of lines) {
+    if (/^## /.test(line)) {
+      flush()
+      inFaq = /^## (FAQ|Questions)/i.test(line)
+      continue
+    }
+    if (!inFaq) continue
+    if (/^#{3,} /.test(line) || /^---+$/.test(line.trim())) {
+      flush()
+      continue
+    }
+    const q = line.match(/^\*\*(?:Q\s*:\s*)?(.+\?)\*\*\s*$/)
+    if (q) {
+      flush()
+      current = { q: q[1].trim(), a: '' }
+      continue
+    }
+    if (current && line.trim()) current.a += (current.a ? ' ' : '') + line.replace(/^A\s*:\s*/, '').trim()
+  }
+  flush()
+  return faq
 }

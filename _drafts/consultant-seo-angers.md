@@ -52,9 +52,9 @@ Vous voulez devenir progressivement autonome ? Je peux aussi vous former : ateli
 | Aspect | Agence | Consultant freelance |
 |--------|--------|---------------------|
 | **Coût mensuel** | Sur devis | 500 à 2 000 € |
-| **Durée d'engagement** | 12–36 mois obligatoire | Mois par mois ou projet |
+| **Durée d'engagement** | 12 à 36 mois obligatoire | Mois par mois ou projet |
 | **Relation** | Vous + manager + juniors | Vous + expert directement |
-| **Réactivité** | 3–5 jours | 24–48h en général |
+| **Réactivité** | 3 à 5 jours | 24 à 48h en général |
 | **Conflits d'intérêts** | Incitation à vendre plus de services | Intéressé par vos vrais résultats |
 | **Adaptabilité** | Processus rigide | Flexible et itératif |
 
@@ -62,19 +62,19 @@ En tant que consultant indépendant, mon intérêt n'est pas de vous vendre 10 s
 
 ## Ma méthode : SEO éthique + autonomie progressive
 
-**Phase 1 : Diagnostic (semaines 1–3)**
+**Phase 1 : Diagnostic (semaines 1 à 3)**
 - Audit complet
 - Benchmark concurrentiel
 - Cartographie des mots-clés rentables
 - Propositions prioritaires
 
-**Phase 2 : Fondations (mois 1–3)**
+**Phase 2 : Fondations (mois 1 à 3)**
 - Optimisation technique et structure site
 - Contenu stratégique et on-page
 - Premiers backlinks de qualité
 - Formation de votre équipe si souhaitée
 
-**Phase 3 : Croissance (mois 3–6)**
+**Phase 3 : Croissance (mois 3 à 6)**
 - Expansion du contenu
 - Amélioration de l'autorité domaine
 - Positionnement dans les moteurs IA
@@ -117,7 +117,7 @@ Une agence vous vend du design, de la pub, des réseaux sociaux. Un consultant S
 Un audit SEO et GEO : 800 à 2 500 € selon la taille du site. Accompagnement mensuel : 500 à 2 000 € par mois selon le périmètre, au-delà sur devis. Moins qu'une agence, plus clair qu'une freelance anonyme.
 
 ### 3. En combien de temps je verrai des résultats ?
-3–6 mois pour figurer en top 10 sur vos mots-clés prioritaires. 6–12 mois pour du top 3 durable. Le SEO est un investissement, pas une dépense marketing classique.
+3 à 6 mois pour figurer en top 10 sur vos mots-clés prioritaires. 6 à 12 mois pour du top 3 durable. Le SEO est un investissement, pas une dépense marketing classique.
 
 ### 4. Vous garantissez une position numéro 1 ?
 Non. Qui vous le garantit ment. Je peux vous garantir : une stratégie éthique, des actions mesurées, et une amélioration progressive et documentée. Le top 1 dépend aussi de la concurrence.
@@ -126,7 +126,7 @@ Non. Qui vous le garantit ment. Je peux vous garantir : une stratégie éthique,
 Oui. Dans 18 mois, la majorité des recherches passeront par des moteurs IA ou AI Overviews. Les entreprises qui ne se préparent pas seront invisibles. C'est aussi important que d'être sur Google en 2010.
 
 ### 6. Je peux devenir autonome en SEO ou je dois vous garder éternellement ?
-Absolument vous pouvez devenir autonome. Mon rôle inclut la formation et le transfert de compétences. Après 6–12 mois, vous aurez les outils et le savoir pour continuer seul ou avec un support minimal.
+Absolument vous pouvez devenir autonome. Mon rôle inclut la formation et le transfert de compétences. Après 6 à 12 mois, vous aurez les outils et le savoir pour continuer seul ou avec un support minimal.
 
 ## Prêt à conquérir Google et les moteurs IA ?
 

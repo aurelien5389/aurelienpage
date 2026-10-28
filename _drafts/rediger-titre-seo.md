@@ -20,7 +20,7 @@ En résumé : la balise title parle à Google et aux internautes qui cherchent. 
 
 ## Les règles de base de la balise title
 
-La balise title est l'élément on-page qui pèse le plus lourd dans le positionnement d'une page, à égalité avec le contenu. Voici les règles incontournables :
+La balise title est l'élément on-page qui pèse le plus lourd dans le positionnement d'une page, à égalité avec le contenu. Voici les règles à respecter :
 
 **Inclure le mot-clé principal en début de title.** Google accorde plus de poids aux termes qui apparaissent en premier. "Consultant SEO Rennes : audit et stratégie" est plus fort que "Audit et stratégie SEO avec un consultant à Rennes".
 

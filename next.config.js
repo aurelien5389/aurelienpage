@@ -28,6 +28,35 @@ const nextConfig = {
   async redirects() {
     return [
       ...blogDuplicateRedirects(),
+      // Pages villes sans déplacement réel, fusionnées dans /zones-intervention (décision d'Aurélien, octobre 2026)
+      { source: '/consultant-seo-paris', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-paris', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-lyon', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-lyon', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-bordeaux', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-bordeaux', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-lille', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-lille', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-toulouse', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-toulouse', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-marseille', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-marseille', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-nice', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-nice', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-montpellier', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-montpellier', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-strasbourg', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-strasbourg', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/consultant-seo-caen', destination: '/zones-intervention', statusCode: 301 },
+      { source: '/blog/consultant-seo-caen', destination: '/zones-intervention', statusCode: 301 },
+      // Pages rédaction fusionnées dans /redaction-web
+      { source: '/redacteur-web-juridique', destination: '/redaction-web', statusCode: 301 },
+      { source: '/blog/redacteur-web-juridique', destination: '/redaction-web', statusCode: 301 },
+      { source: '/redacteur-web-rennes', destination: '/redaction-web', statusCode: 301 },
+      { source: '/blog/redacteur-web-rennes', destination: '/redaction-web', statusCode: 301 },
+      // Anciennes adresses /blog/ des drafts remplacés par des fiches (drafts supprimés)
+      { source: '/blog/consultant-seo-freelance', destination: '/consultant-seo-freelance', statusCode: 301 },
+      { source: '/blog/consultant-seo-rennes', destination: '/consultant-seo-rennes', statusCode: 301 },
       // Articles fusionnés lors de la revue GEO du blog
       { source: '/blog/geo-vs-seo', destination: '/reponses/difference-seo-geo', statusCode: 301 },
       { source: '/blog/erreurs-seo-critiques', destination: '/blog/erreurs-seo-frequentes', statusCode: 301 },

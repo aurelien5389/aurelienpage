@@ -94,9 +94,6 @@ A: Parce que les décideurs/prospects tech cherchent sur ChatGPT Search et Perpl
 **Q: Vous êtes basé où ? Vous venez à Laval ?**
 A: Je suis basé en France. Je travaille en mode hybride (visio, docs partagés, outils collaboratifs). Si une rencontre physique est utile, je peux venir, mais ce n'est pas indispensable pour bien travailler.
 
-**Q: Vous avez des clients tech immersif ?**
-A: Oui, sous NDA. Je peux discuter de cas d'études en confiance.
-
 ---
 
 ## Prêt à dominer votre marché grâce à la visibilité SEO/GEO ?

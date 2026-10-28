@@ -50,7 +50,7 @@ Exemple : "cours de yoga en ligne" génère beaucoup de trafic mais attire major
 
 Une fois que vous avez une liste de candidats mots-clés, il faut les évaluer sur deux axes : le **volume de recherche** (combien de personnes cherchent ce terme par mois) et la **difficulté de positionnement** (à quel point il est difficile de se positionner face aux sites déjà en place).
 
-Les outils incontournables pour cette analyse sont Semrush, Ahrefs ou Ubersuggest. Ils vous donnent le volume mensuel estimé, le Keyword Difficulty Score (KD), et une analyse des sites actuellement positionnés sur chaque terme.
+Les outils de référence pour cette analyse sont Semrush, Ahrefs ou Ubersuggest. Ils vous donnent le volume mensuel estimé, le Keyword Difficulty Score (KD), et une analyse des sites actuellement positionnés sur chaque terme.
 
 ### Courte traîne vs longue traîne
 

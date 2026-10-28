@@ -101,6 +101,32 @@ Resend → Domains → `aurelienpage.fr` → voir les enregistrements DNS à cop
 
 ---
 
+## IndexNow (Bing, et donc ChatGPT et Copilot)
+
+Le site publie une clé IndexNow (`public/<clé>.txt`, 32 caractères hexadécimaux) et un script qui signale les URL à `https://api.indexnow.org/indexnow` (protocole : [indexnow.org/documentation](https://www.indexnow.org/documentation)). À lancer **après** un déploiement en production, jamais avant : la clé et le sitemap doivent être en ligne.
+
+```bash
+npm run indexnow                        # URL du sitemap modifiées aujourd'hui
+npm run indexnow -- --since 2026-10-01  # URL modifiées depuis une date
+npm run indexnow -- --all               # toutes les URL du sitemap (premier envoi ou remise à plat)
+npm run indexnow -- /reponses/qu-est-ce-que-le-geo   # URL précises
+npm run indexnow -- --all --dry-run     # liste sans envoi
+```
+
+Codes de réponse : 200 envoyé, 202 reçu (clé en cours de vérification), 403 clé introuvable en ligne, 422 URL hors du domaine, 429 trop de requêtes.
+
+Les dates `lastmod` du sitemap viennent de l'historique git des fichiers de contenu (`npm run dates`, lancé avant chaque build) : une page garde sa date tant que son contenu ne change pas.
+
+---
+
+## Mesure des demandes venues des IA
+
+- Formulaire de contact : champ obligatoire « Comment m'avez-vous connu ? » (Google, Une IA, LinkedIn, Recommandation, Autre), transmis dans l'e-mail.
+- `components/SourceTracker.tsx` mémorise le référent et l'`utm_source` du premier chargement (sessionStorage), les joint au message en champs cachés, envoie l'événement Google Analytics `source_ia` (paramètre `ia_source`) quand la visite vient de chatgpt.com, chat.openai.com, perplexity.ai, gemini.google.com, claude.ai ou copilot.microsoft.com, et ajoute des paramètres UTM aux liens Calendly au clic (`utm_source`, `utm_medium=site`, `utm_campaign=diagnostic-offert`, `utm_content=page`). Calendly affiche ces valeurs dans l'export CSV des rendez-vous (filtre « Tracking IDs »).
+- Dans GA4, créer une dimension personnalisée d'événement `ia_source` pour la voir dans les rapports.
+
+---
+
 ## Image OG
 
 Remplacer `public/og-image.png` par une vraie image **1200 × 630 px** avant le déploiement.

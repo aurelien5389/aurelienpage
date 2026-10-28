@@ -9,7 +9,7 @@ export const FAQ_ACCUEIL = [
   },
   {
     q: 'Combien coûte un audit SEO ?',
-    a: "Mon audit SEO et GEO coûte entre 800 et 2 500 € selon la taille du site et la profondeur d'analyse. Le prix est fixé dans un devis après le diagnostic offert. Pour des repères plus larges, voir [combien coûte une prestation SEO](/cout-prestation-seo).",
+    a: "Mon audit SEO et GEO coûte entre 800 et 2 500 € selon la taille du site et la profondeur d'analyse. Le prix est fixé dans un devis après le diagnostic offert. Le détail de ce qui fait varier le prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).",
   },
   {
     q: "Y a-t-il un engagement de durée ?",

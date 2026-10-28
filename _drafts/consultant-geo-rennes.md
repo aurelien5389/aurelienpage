@@ -1,84 +1,60 @@
 ---
 slug: "/consultant-geo-rennes"
-title: "Consultant GEO à Rennes | Expert Generative Engine Optimization, Bretagne"
-meta-description: "Consultant GEO freelance à Rennes. Optimisation pour AI Overviews, Perplexity et ChatGPT Search. Structuration de contenu IA, renforcement EEAT. Devis gratuit."
+title: "Consultant GEO à Rennes : être cité par ChatGPT, Perplexity et les AI Overviews"
+meta-description: "Consultant GEO à Rennes : accès des robots des IA, pages que ChatGPT et Perplexity citent, mesure de la part de voix avec Balise. Inclus dans l'audit SEO et GEO, de 800 à 2 500 €."
 ---
 
-# Consultant GEO à Rennes | Expert en Generative Engine Optimization
+# Consultant GEO à Rennes
 
-Google AI Overviews. Perplexity. ChatGPT Search. Ces moteurs de réponse IA s'imposent progressivement dans les habitudes de recherche. Ils ne retournent pas une liste de liens : ils synthétisent une réponse directe, en citant les sources qu'ils jugent fiables et autoritaires.
+**Quel consultant GEO pour être cité par ChatGPT et les IA ?** Je suis Aurélien Page, consultant SEO et GEO basé à Rennes. Le **GEO (Generative Engine Optimization)** consiste à faire citer votre site dans les réponses de ChatGPT, Perplexity, Gemini, Claude et des AI Overviews de Google. Je le travaille dans le cadre de l'[audit SEO et GEO](/prestations/consultant-seo-geo), de 800 à 2 500 € selon la taille du site, puis en suivi mensuel. Cette page résume le volet GEO ; la fiche complète, avec le déroulé, les tarifs et les questions fréquentes, est la page [consultant SEO et GEO](/prestations/consultant-seo-geo).
 
-Pour les entreprises rennaises, c'est une rupture majeure. Le SEO classique optimise pour être cliqué. Le **GEO (Generative Engine Optimization)** optimise pour être cité. Ce sont deux disciplines complémentaires, mais distinctes. Et le GEO reste encore très peu maîtrisé par les prestataires du marché français.
+## Que fait un consultant GEO ?
 
-Je suis Aurélien PAGE, consultant SEO et GEO freelance basé à Rennes. Je travaille sur les deux fronts : référencement naturel Google d'une part, et optimisation pour les moteurs IA d'autre part. Depuis 2023, le GEO fait partie intégrante de toutes mes missions.
+Trois choses, dans cet ordre : vérifier l'accès, revoir les pages, mesurer.
 
-## Qu'est-ce que le GEO exactement ?
+**Vérifier que les robots des IA accèdent au site.** OpenAI précise qu'un site qui bloque son robot de recherche, OAI-SearchBot, n'apparaît pas dans les réponses de recherche de ChatGPT ([OpenAI](https://developers.openai.com/api/docs/bots)). Perplexity recommande d'autoriser PerplexityBot ([Perplexity](https://docs.perplexity.ai/guides/bots)). Je contrôle le robots.txt, le pare-feu de l'hébergeur et le rendu des pages, robot par robot.
 
-Le GEO (Generative Engine Optimization) désigne l'ensemble des optimisations qui permettent à votre contenu d'être sélectionné comme source par les moteurs de réponse IA.
+**Revoir les pages que les IA pourraient citer.** Une IA reprend un passage, pas une page : la réponse doit arriver tout de suite, chaque section doit se comprendre seule, les affirmations doivent être sourcées et signées. L'article de recherche qui a donné son nom au GEO a mesuré qu'ajouter des sources, des citations et des statistiques améliore la visibilité d'une page jusqu'à 40 % sur le banc d'essai des auteurs (GEO-bench), alors que le bourrage de mots-clés n'apporte peu ou pas d'amélioration ([Aggarwal et al., arXiv](https://arxiv.org/abs/2311.09735)).
 
-Quand un internaute pose une question à Google AI Overviews, à Perplexity ou à ChatGPT Search, ces outils parcourent le web, identifient les sources les plus fiables et les plus structurées, puis synthétisent une réponse. Les sources retenues sont parfois affichées avec un lien vers votre site : c'est une visibilité gratuite, sans clic nécessaire, directement sur la réponse IA.
+**Mesurer qui est cité.** Il n'existe pas de Search Console pour ChatGPT. Je pose aux IA une liste de questions que vos clients se posent, je relève qui est cité, et j'en tire une part de voix, IA par IA. Je fais ces relevés avec Balise, un outil que j'ai construit. La méthode est détaillée dans [comment être cité par ChatGPT et Perplexity](/reponses/comment-etre-cite-par-chatgpt-et-perplexity).
 
-Être cité dans ces réponses présente plusieurs avantages :
+## Pourquoi le GEO compte pour une entreprise rennaise
 
-**Visibilité de marque.** Même sans clic, votre nom ou votre site apparaît dans la réponse retournée à l'internaute. C'est de la notoriété passive, difficile à acheter autrement.
+Parce que vos clients posent déjà leurs questions à une IA. « Quel cabinet d'expertise comptable à Rennes ? », « combien coûte une formation SST ? », « quelle agence web en Bretagne ? » : la réponse cite trois ou quatre sources, et la Search Console ne vous dira pas si vous en faites partie.
 
-**Trafic qualifié.** Les internautes qui cliquent depuis une citation IA ont déjà consommé un début de réponse : ils arrivent avec un niveau d'intention élevé.
+Les fondations restent celles du SEO. Google écrit qu'aucune optimisation spéciale n'est nécessaire pour apparaître dans ses fonctionnalités IA : une page indexée et éligible à un extrait suffit ([Google Search Central](https://developers.google.com/search/docs/appearance/ai-features)). C'est pourquoi je ne vends pas le GEO seul : il fait partie de l'audit SEO et GEO. La comparaison des deux est dans [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
 
-**Anticipation.** Le GEO est encore marginal dans la pratique des agences françaises. Les entreprises qui s'y positionnent maintenant construisent une avance concurrentielle durable.
+## Comment je travaille
 
-## Pourquoi les entreprises rennaises ont intérêt à agir maintenant
+1. **Diagnostic offert de 30 minutes**, en visioconférence ou à Rennes : votre site, vos objectifs, vos concurrents.
+2. **Audit SEO et GEO** : blocages techniques, accès des robots des IA, mots-clés et contenus, relevé des réponses des IA sur vos questions, sites cités à votre place.
+3. **Restitution et plan d'action** classé par impact et par effort, dans vos locaux à Rennes ou à distance.
+4. **Suivi mensuel** si vous le souhaitez, sans contrat annuel imposé : mise en œuvre, nouvelle mesure, ajustements.
 
-Rennes est une ville à forte densité numérique : ESN, startups, cabinets de conseil, agences web, PME industrielles, acteurs de la santé, de l'éducation, du tourisme. La concurrence SEO classique est réelle. Mais sur les moteurs IA, la plupart de ces acteurs sont encore absents, pas parce que leur contenu est mauvais, mais parce qu'il n'est pas structuré pour ces nouveaux lecteurs automatisés.
-
-Un cabinet de conseil rennais qui produit des articles de qualité sur son expertise peut tout à fait être cité par Perplexity ou ChatGPT Search, à condition que son contenu soit lisible par les modèles IA, que ses signaux d'autorité EEAT soient solides, et que sa structure sémantique soit adaptée.
-
-C'est exactement ce que je construis avec mes clients.
-
-## Mes prestations GEO à Rennes
-
-**Audit GEO**
-Analyse de votre visibilité actuelle dans les réponses des moteurs IA sur vos requêtes cibles. Identification des forces et des failles : structuration des contenus, signaux EEAT, couverture thématique, lisibilité pour les modèles de langage. Rapport priorisé avec plan d'action.
-
-**Structuration de contenu pour les moteurs IA**
-Réécriture ou optimisation de vos contenus existants pour favoriser la citation par les IA. Cela inclut : passages autonomes et factuels, FAQ ciblées, reformulations synthétiques, données structurées Schema.org adaptées, titres et sous-titres explicites.
-
-**Renforcement des signaux EEAT**
-Les moteurs IA, comme Google, accordent une importance majeure aux signaux d'Expérience, d'Expertise, d'Autorité et de Fiabilité (EEAT). J'identifie les signaux manquants et construis une stratégie pour les renforcer : pages auteurs, mentions externes, couverture de presse, partenariats éditoriaux.
-
-**Stratégie de contenu GEO**
-Identification des requêtes sur lesquelles des réponses IA s'affichent déjà ou ont vocation à s'afficher dans votre secteur. Création d'un calendrier éditorial ciblant ces opportunités, avec des formats adaptés à la citation IA.
-
-**Formation et sensibilisation**
-Vous souhaitez internaliser cette compétence ? Je forme vos équipes éditoriales ou marketing aux principes du GEO, aux outils de monitoring et aux bonnes pratiques de structuration de contenu.
-
-**SEO + GEO combinés**
-La grande majorité de mes missions combinent SEO classique et GEO. Les deux sont complémentaires : un bon contenu SEO est souvent un bon candidat GEO, mais certaines optimisations spécifiques font la différence. Je peux gérer les deux en cohérence, avec un interlocuteur unique et une stratégie unifiée.
-
-## Ma méthode
-
-**Audit → Stratégie → Implémentation → Suivi.**
-
-Je commence par mesurer votre visibilité actuelle dans les réponses IA, identifier vos contenus à fort potentiel de citation, et diagnostiquer les freins (structure, autorité, couverture thématique). Sur cette base, je construis un plan d'action priorisé, validé avec vous avant toute exécution. L'implémentation se fait en collaboration avec vos équipes ou directement sur votre site selon votre organisation. Reporting mensuel sur les évolutions de citation et de trafic.
-
-Pas de contrat annuel imposé. Périmètre défini à l'avance. Tarifs transparents.
+Le détail de chaque étape, les livrables et les délais sont sur la fiche [consultant SEO et GEO](/prestations/consultant-seo-geo). Le volet mesure seul est décrit sur la fiche [audit GEO](/prestations/audit-geo).
 
 ## Questions fréquentes
 
-**Le GEO est-il vraiment utile pour une PME rennaise ?**
-Oui, à condition que votre activité génère des requêtes informationnelles ou comparatives. Si vos clients cherchent des réponses à des questions liées à votre secteur avant d'acheter, les moteurs IA interviennent sur ce trajet. Être présent dans ces réponses vous positionne comme référence dès la phase de découverte.
+**Combien coûte une mission GEO ?**
+Le GEO est inclus dans l'audit SEO et GEO, de 800 à 2 500 € selon la taille du site. Le suivi mensuel, qui combine SEO et GEO, va de 500 à 2 000 € par mois. Je ne vends pas d'audit GEO seul : sans pages bien indexées, une IA a peu de matière à citer.
 
 **Quelle est la différence entre le GEO et le SEO ?**
-Le SEO optimise pour apparaître dans les résultats organiques classiques de Google : des liens sur lesquels l'internaute clique. Le GEO optimise pour être cité dans les réponses synthétisées par les moteurs IA. Les deux partagent des fondations communes (contenu de qualité, autorité, technique) mais divergent sur plusieurs points : structure des passages, format des réponses, signaux de fiabilité. Pour aller plus loin : [GEO et AI Overviews](/blog/geo-ia-search-ai-overviews).
+Le SEO vise une position et un clic dans les résultats de Google. Le GEO vise une citation dans une réponse rédigée par une IA. Les fondations sont les mêmes (pages explorables, indexées, utiles) ; l'unité de travail change (le passage plutôt que la page) et la mesure aussi (part de voix plutôt que positions).
 
-**Comment mesurer les résultats GEO ?**
-Le GEO est encore un domaine en maturation sur le plan de la mesure. Des outils comme Perplexity trackers, AI search monitors, et certaines fonctionnalités de Search Console permettent de suivre les citations. Je mets en place un dispositif de monitoring adapté dès le démarrage de la mission.
+**Comment mesurer les résultats du GEO ?**
+En posant régulièrement la même liste de questions aux IA et en relevant qui est cité. La proportion de réponses qui vous citent est votre part de voix, que l'on suit dans le temps et que l'on compare à celle des concurrents. Définition dans [qu'est-ce que la part de voix dans les IA](/reponses/part-de-voix-dans-les-ia).
 
-**Combien coûte une mission GEO ?**
-Un audit GEO est généralement inclus dans un audit SEO complet (800 à 2 500 euros selon la taille du site). Un accompagnement mensuel combinant SEO et GEO démarre à partir de 500 euros par mois. Pour des repères complets, consultez l'article sur le [coût d'une prestation SEO](/cout-prestation-seo).
+**Travaillez-vous uniquement sur le GEO ou aussi sur le SEO ?**
+Les deux, toujours ensemble. L'audit couvre le SEO technique, les contenus et la visibilité dans les IA, avec un seul plan d'action. Si votre SEO est déjà solide, la part GEO du travail est simplement plus importante.
 
-**Travaillez-vous uniquement sur le GEO ou aussi sur le SEO classique ?**
-Les deux. Je suis consultant SEO et GEO. La grande majorité de mes clients me mandatent pour une stratégie unifiée qui couvre le référencement naturel Google et l'optimisation pour les moteurs IA. Je peux aussi intervenir uniquement sur le volet GEO si votre SEO est déjà structuré.
+**Intervenez-vous ailleurs qu'à Rennes ?**
+Oui. Le GEO se travaille à distance comme le SEO. Je me déplace à Rennes et en Ille-et-Vilaine sans frais, et plus loin avec des frais de déplacement. La page [consultant SEO à Rennes](/consultant-seo-rennes) décrit l'intervention sur place.
 
-## Travaillons ensemble
+## Sources
 
-Vous êtes à Rennes ou en Bretagne, et vous souhaitez construire une visibilité durable sur Google et les moteurs IA ? [Contactez-moi](/#contact) pour un premier échange sans engagement. Je vous proposerai un diagnostic rapide et une approche adaptée à votre secteur et à vos objectifs.
+- [OpenAI : robots et user-agents](https://developers.openai.com/api/docs/bots)
+- [Perplexity : robots](https://docs.perplexity.ai/guides/bots)
+- [Google Search Central : fonctionnalités IA et votre site web](https://developers.google.com/search/docs/appearance/ai-features)
+- [Aggarwal et al., « GEO: Generative Engine Optimization », arXiv](https://arxiv.org/abs/2311.09735)
+
+Vous voulez savoir si les IA vous citent aujourd'hui ? [Réservez le diagnostic offert](/contact) ou lisez la fiche [consultant SEO et GEO](/prestations/consultant-seo-geo).

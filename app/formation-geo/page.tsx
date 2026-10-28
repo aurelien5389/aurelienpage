@@ -22,7 +22,7 @@ const data: FicheData = {
   nom: 'Formation GEO',
   h1: 'Formation GEO',
   resume:
-    "**Formation GEO** pour équipes marketing et éditoriales : comprendre comment ChatGPT, Perplexity, Gemini et les AI Overviews choisissent leurs sources, écrire des contenus qu'ils citent, mesurer le résultat. Module de 2 à 3 heures ou atelier d'une demi-journée, à Rennes, dans vos locaux ou à distance. **Tarif sur devis**, selon le format et le nombre de participants.",
+    "**Formation GEO pour une équipe marketing** ou éditoriale : comprendre comment ChatGPT, Perplexity, Gemini et les AI Overviews choisissent leurs sources, écrire des contenus qu'ils citent, mesurer le résultat. Module de 2 à 3 heures ou atelier d'une demi-journée, pour 2 à 8 personnes, à Rennes, dans vos locaux ou à distance. **Tarif sur devis**, selon le format et le nombre de participants.",
   identite: [
     { label: 'Public', valeur: 'Équipes marketing, rédacteurs et content managers, responsables SEO, dirigeants' },
     { label: 'Prérequis', valeur: "Aucun. Connaître les bases du SEO aide ; sinon, voir la [formation SEO](/formation-seo)" },
@@ -101,6 +101,7 @@ const data: FicheData = {
     },
   ],
   liens: [
+    { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
     { href: '/reponses/faut-il-creer-un-fichier-llms-txt', label: 'Faut-il créer un fichier llms.txt ?' },
     { href: '/reponses/contenu-ia-penalise-par-google', label: "Le contenu rédigé avec l'IA est-il pénalisé par Google ?" },
     { href: '/reponses/qu-est-ce-que-le-geo', label: "Qu'est-ce que le GEO (Generative Engine Optimization) ?" },

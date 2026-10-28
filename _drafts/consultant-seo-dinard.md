@@ -36,7 +36,7 @@ Identification des requêtes à fort potentiel sur Dinard, la Côte d'Émeraude 
 Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurées Schema.org. Indispensable pour que vos contenus soient correctement lus et classés.
 
 **SEO local et Google Business Profile**
-Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées. Essentiel pour les commerces et prestataires qui ciblent une clientèle dinardaise ou des visiteurs en recherche locale.
+Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées. Indispensable pour les commerces et prestataires qui ciblent une clientèle dinardaise ou des visiteurs en recherche locale.
 
 **Netlinking et construction d'autorité**
 Acquisition de backlinks depuis des sources pertinentes : presse régionale bretonne, guides touristiques, annuaires spécialisés hôtellerie et immobilier. Approche qualitative, sans liens artificiels.

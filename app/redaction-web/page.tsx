@@ -8,12 +8,12 @@ const SLUG = 'redaction-web'
 const draft = parseDraft(`${SLUG}.md`)
 
 export const metadata: Metadata = {
-  title: 'Rédaction web SEO | Contenus optimisés Google & IA · Aurélien PAGE',
-  description: draft.metaDescription || 'Rédaction web SEO freelance. Articles de blog, pages de service, contenus optimisés pour Google et les moteurs IA.',
+  title: 'Rédaction web SEO : articles, pages de service, contenus que les IA citent · Aurélien PAGE',
+  description: draft.metaDescription,
   alternates: { canonical: `https://aurelienpage.fr/${SLUG}` },
   openGraph: {
-    title: 'Rédaction web SEO | Contenus optimisés Google & IA · Aurélien PAGE',
-    description: draft.metaDescription || 'Rédaction web SEO freelance. Articles de blog, pages de service, contenus optimisés pour Google et les moteurs IA.',
+    title: 'Rédaction web SEO : articles, pages de service, contenus que les IA citent · Aurélien PAGE',
+    description: draft.metaDescription,
     url: `https://aurelienpage.fr/${SLUG}`,
   },
 }

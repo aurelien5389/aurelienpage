@@ -24,15 +24,14 @@ const FOOTER_LINKS = {
   ],
   villes: [
     { href: '/consultant-seo-rennes', label: 'Rennes' },
-    { href: '/consultant-seo-nantes', label: 'Nantes' },
-    { href: '/consultant-seo-paris', label: 'Paris' },
-    { href: '/consultant-seo-lyon', label: 'Lyon' },
-    { href: '/consultant-seo-bordeaux', label: 'Bordeaux' },
-    { href: '/consultant-seo-marseille', label: 'Marseille' },
-    { href: '/consultant-seo-toulouse', label: 'Toulouse' },
+    { href: '/consultant-seo-saint-malo', label: 'Saint-Malo' },
+    { href: '/consultant-seo-vannes', label: 'Vannes' },
+    { href: '/consultant-seo-lorient', label: 'Lorient' },
     { href: '/consultant-seo-brest', label: 'Brest' },
-    { href: '/consultant-seo-lille', label: 'Lille' },
-    { href: '/consultant-seo-strasbourg', label: 'Strasbourg' },
+    { href: '/consultant-seo-nantes', label: 'Nantes' },
+    { href: '/consultant-seo-laval', label: 'Laval' },
+    { href: '/consultant-seo-angers', label: 'Angers' },
+    { href: '/zones-intervention', label: "Toutes les zones d'intervention" },
   ],
 }
 

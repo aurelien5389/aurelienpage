@@ -13,7 +13,25 @@ const contactSchema = z.object({
     .string()
     .min(20, 'Le message doit contenir au moins 20 caractères')
     .max(5000),
+  // « Comment m'avez-vous connu ? » (obligatoire) : sert à compter les demandes venues des IA
+  source: z.enum(['google', 'ia', 'linkedin', 'recommandation', 'autre']),
+  // Source technique mémorisée au premier chargement (champs cachés)
+  referrer: z.string().max(2000).optional(),
+  utmSource: z.string().max(200).optional(),
+  landing: z.string().max(500).optional(),
 })
+
+const SOURCE_LABELS: Record<string, string> = {
+  google: 'Google',
+  ia: 'Une IA (ChatGPT, Perplexity, Gemini, Claude…)',
+  linkedin: 'LinkedIn',
+  recommandation: 'Recommandation',
+  autre: 'Autre',
+}
+
+// Évite l'injection de HTML dans le mail (les champs sont saisis par le visiteur)
+const esc = (s: string) =>
+  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
 export async function POST(request: NextRequest) {
   try {
@@ -28,7 +46,13 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const { name, email, subject, message } = result.data
+    const { name, email, subject, message, source, referrer, utmSource, landing } = result.data
+    const techniqueParts = [
+      referrer ? `référent : ${referrer}` : '',
+      utmSource ? `utm_source : ${utmSource}` : '',
+      landing ? `page d'entrée : ${landing}` : '',
+    ].filter(Boolean)
+    const technique = techniqueParts.length > 0 ? techniqueParts.join(' · ') : 'accès direct ou inconnu'
     const contactEmail =
       process.env.CONTACT_EMAIL ?? 'aurelienpage89@gmail.com'
 
@@ -38,13 +62,14 @@ export async function POST(request: NextRequest) {
       timeStyle: 'short',
     })
 
-    const subjectLine = subject ? ` — ${subject}` : ''
+    const subjectLine = subject ? ` : ${subject}` : ''
+    const sourceLine = source === 'ia' ? ' [via IA]' : ''
 
     const { error } = await resend.emails.send({
       from: 'contact@aurelienpage.fr',
       to: contactEmail,
       reply_to: email,
-      subject: `[aurelienpage.fr] Nouveau message de ${name}${subjectLine}`,
+      subject: `[aurelienpage.fr] Nouveau message de ${name}${subjectLine}${sourceLine}`,
       html: `<!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -75,13 +100,13 @@ export async function POST(request: NextRequest) {
                   <tr>
                     <td style="padding:12px 0;border-bottom:1px solid #eef2f7;">
                       <span style="display:block;font-size:11px;color:#8B9BB4;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">De</span>
-                      <span style="font-size:16px;color:#0F1B2D;font-weight:600;">${name}</span>
+                      <span style="font-size:16px;color:#0F1B2D;font-weight:600;">${esc(name)}</span>
                     </td>
                   </tr>
                   <tr>
                     <td style="padding:12px 0;border-bottom:1px solid #eef2f7;">
                       <span style="display:block;font-size:11px;color:#8B9BB4;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">Email</span>
-                      <a href="mailto:${email}" style="font-size:15px;color:#00B4D8;text-decoration:none;">${email}</a>
+                      <a href="mailto:${esc(email)}" style="font-size:15px;color:#00B4D8;text-decoration:none;">${esc(email)}</a>
                     </td>
                   </tr>
                   ${
@@ -89,15 +114,27 @@ export async function POST(request: NextRequest) {
                       ? `<tr>
                     <td style="padding:12px 0;border-bottom:1px solid #eef2f7;">
                       <span style="display:block;font-size:11px;color:#8B9BB4;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">Sujet</span>
-                      <span style="font-size:15px;color:#333;">${subject}</span>
+                      <span style="font-size:15px;color:#333;">${esc(subject)}</span>
                     </td>
                   </tr>`
                       : ''
                   }
                   <tr>
+                    <td style="padding:12px 0;border-bottom:1px solid #eef2f7;">
+                      <span style="display:block;font-size:11px;color:#8B9BB4;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">Comment m'a-t-il connu</span>
+                      <span style="font-size:15px;color:#333;">${esc(SOURCE_LABELS[source] ?? source)}</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:12px 0;border-bottom:1px solid #eef2f7;">
+                      <span style="display:block;font-size:11px;color:#8B9BB4;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px;">Source technique</span>
+                      <span style="font-size:13px;color:#666;">${esc(technique)}</span>
+                    </td>
+                  </tr>
+                  <tr>
                     <td style="padding:16px 0;">
                       <span style="display:block;font-size:11px;color:#8B9BB4;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:10px;">Message</span>
-                      <div style="font-size:15px;color:#444;line-height:1.7;white-space:pre-wrap;">${message}</div>
+                      <div style="font-size:15px;color:#444;line-height:1.7;white-space:pre-wrap;">${esc(message)}</div>
                     </td>
                   </tr>
                 </table>
@@ -107,7 +144,7 @@ export async function POST(request: NextRequest) {
             <tr>
               <td style="padding:20px 40px;background-color:#f8fafc;border-top:1px solid #eef2f7;">
                 <p style="margin:0;font-size:12px;color:#aab4c4;">
-                  aurelienpage.fr · Reçu le ${timestamp} · Cliquez sur &ldquo;Répondre&rdquo; pour répondre directement à ${name}.
+                  aurelienpage.fr · Reçu le ${timestamp} · Cliquez sur &ldquo;Répondre&rdquo; pour répondre directement à ${esc(name)}.
                 </p>
               </td>
             </tr>

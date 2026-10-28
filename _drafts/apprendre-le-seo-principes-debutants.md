@@ -6,7 +6,7 @@ meta-description: "Comment apprendre le SEO quand on débute ? Trois piliers (te
 
 Chaque jour, vos futurs clients tapent une question dans Google avant de choisir un prestataire, un produit ou une formation. La plupart cliquent sur l'un des premiers résultats et ne vont jamais plus loin.
 
-Trois chiffres qui résument à eux seuls tout l'intérêt du SEO. Le référencement naturel est devenu un canal d'acquisition incontournable pour tout site web qui veut exister en ligne, et une compétence de plus en plus recherchée sur le marché du travail.
+Trois chiffres qui résument à eux seuls tout l'intérêt du SEO. Le référencement naturel est devenu un canal d'acquisition majeur pour tout site web qui veut exister en ligne, et une compétence de plus en plus recherchée sur le marché du travail.
 
 Vous avez décidé de vous y mettre, mais vous ne savez pas par où commencer ? Voici les principes que j'aurais aimé connaître avant de me lancer, après 8 ans de pratique en agence, en groupe média B2B et en freelance.
 
@@ -26,7 +26,7 @@ Réduire le SEO à quelques balises, c'est comme vouloir construire une maison e
 
 Ma formation initiale est juridique, et en droit, chaque cours commençait par un rappel historique. J'ai appliqué la même logique au SEO, et c'est l'un des meilleurs conseils que je puisse donner.
 
-Google est né en 1998, créé par deux étudiants de Stanford : Larry Page et Sergey Brin. À l'époque, les moteurs de recherche existants manquaient cruellement de pertinence. Leur innovation ? Ajouter un critère de **popularité** à l'algorithme. Cet algorithme s'appelle le **PageRank**, du nom de Larry Page, et il révolutionne la recherche en ligne.
+Google est né en 1998, créé par deux étudiants de Stanford : Larry Page et Sergey Brin. À l'époque, les moteurs de recherche existants manquaient cruellement de pertinence. Leur innovation ? Ajouter un critère de **popularité** à l'algorithme. Cet algorithme s'appelle le **PageRank**, du nom de Larry Page, et il transforme la recherche en ligne.
 
 Le principe : plus un site reçoit de liens entrants depuis des sources reconnues dans son domaine, plus Google le considère comme populaire et fiable. Ce mécanisme est toujours au cœur du [fonctionnement des moteurs de recherche](/blog/fonctionnement-moteurs-recherche) aujourd'hui, même si l'algorithme s'est considérablement complexifié depuis.
 
@@ -69,7 +69,7 @@ J'ai une définition du SEO que j'aime particulièrement, empruntée à Olivier 
 - **Les ingrédients** → les contenus : la qualité et la pertinence de ce que vous produisez
 - **Le four** → le netlinking : les liens externes qui permettent à votre site de "prendre du volume" et d'exister aux yeux de Google
 
-Une métaphore simple, mais qui dit l'essentiel.
+Une métaphore simple, mais qui dit le principal.
 
 ## La patience est une compétence SEO à part entière
 
@@ -117,7 +117,7 @@ Apprendre le SEO, c'est à la fois investir dans la visibilité de son site web 
 Si je devais résumer les principes à retenir pour bien débuter :
 
 1. Comprendre que le SEO repose sur trois piliers : technique, contenu, popularité
-2. Se plonger dans l'histoire et le fonctionnement des moteurs de recherche
+2. Étudier l'histoire et le fonctionnement des moteurs de recherche
 3. Passer à la pratique le plus tôt possible, sur son propre site
 4. Choisir une formation adaptée à son niveau et ses objectifs
 5. Cultiver la patience et l'humilité comme des qualités professionnelles

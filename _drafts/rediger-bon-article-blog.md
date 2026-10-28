@@ -48,7 +48,7 @@ Une introduction efficace suit généralement cette logique : identifier le prob
 
 ### La règle des 5W pour cadrer l'information
 
-Pour s'assurer que votre introduction (et plus généralement votre article) couvre l'essentiel, la règle des **5W** est un outil simple : Who (qui), What (quoi), When (quand), Where (où), Why (pourquoi). En répondant à ces cinq questions, vous posez le cadre de votre sujet et vous ne passez pas à côté d'une information essentielle pour votre lecteur.
+Pour s'assurer que votre introduction (et plus généralement votre article) couvre le nécessaire, la règle des **5W** est un outil simple : Who (qui), What (quoi), When (quand), Where (où), Why (pourquoi). En répondant à ces cinq questions, vous posez le cadre de votre sujet et vous ne passez pas à côté d'une information importante pour votre lecteur.
 
 ### Le corps de l'article : structure hiérarchique et progression logique
 

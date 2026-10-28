@@ -36,7 +36,7 @@ Les meta descriptions n'influencent pas directement le classement, mais elles im
 
 ## 4. Négliger le maillage interne
 
-Le maillage interne est l'une des leviers SEO les plus sous-estimés, et les plus faciles à activer. Il sert à deux choses essentielles : distribuer le PageRank entre vos pages (les pages bien liées en interne héritent d'une partie de l'autorité des pages qui les citent), et guider Google dans la compréhension de votre architecture thématique.
+Le maillage interne est l'une des leviers SEO les plus sous-estimés, et les plus faciles à activer. Il sert à deux choses : distribuer le PageRank entre vos pages (les pages bien liées en interne héritent d'une partie de l'autorité des pages qui les citent), et guider Google dans la compréhension de votre architecture thématique.
 
 Un site où les articles ne se lient jamais entre eux, où les pages de service ne pointent vers aucun article de blog connexe, ou où certaines pages sont complètement orphelines, ce site laisse de la valeur SEO sur la table, littéralement.
 

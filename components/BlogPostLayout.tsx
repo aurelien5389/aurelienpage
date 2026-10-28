@@ -7,7 +7,8 @@ import MarkdownRenderer from '@/components/MarkdownRenderer'
 import AuthorBio from '@/components/AuthorBio'
 import Icon from '@/components/Icon'
 import type { InternalLink } from '@/lib/internal-links'
-import { SITE_URL, PERSON_ID, breadcrumbSchema, type Crumb } from '@/lib/schema'
+import { SITE_URL, personRef, breadcrumbSchema, pageGraph, faqNode, type Crumb } from '@/lib/schema'
+import { extractFaq } from '@/lib/draft-parser'
 import { formatMonthYear, type ContentDates } from '@/lib/content-dates'
 import styles from './BlogPostLayout.module.css'
 
@@ -28,14 +29,12 @@ const BLOG_PARENT: Crumb = { name: 'Blog SEO', path: '/blog' }
 export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, path, parent = BLOG_PARENT }: Props) {
   const pagePath = path ?? `/blog/${slug}`
   const url = `${SITE_URL}${pagePath}`
-  const author = { '@type': 'Person', '@id': PERSON_ID, name: 'Aurélien Page', url: SITE_URL }
-
   const schema = {
-    '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': `${url}#article`,
     headline: h1,
-    author,
-    publisher: author,
+    author: personRef,
+    publisher: personRef,
     datePublished: dates.published,
     dateModified: dates.modified,
     url,
@@ -44,12 +43,13 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, pa
     inLanguage: 'fr-FR',
   }
   const crumbs = breadcrumbSchema([...(parent ? [parent] : []), { name: h1, path: pagePath }])
+  // FAQPage uniquement pour les questions réellement affichées dans l'article
+  const faq = faqNode(extractFaq(body))
 
   return (
     <>
       <Header />
-      <JsonLd schema={schema} />
-      <JsonLd schema={crumbs} />
+      <JsonLd schema={pageGraph(schema, faq, crumbs)} />
       <main className={styles.blogMain}>
         {/* Breadcrumb */}
         <div className={styles.blogFil}>
@@ -93,7 +93,7 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, pa
           </div>
         </article>
 
-        {/* Related links — maillage interne */}
+        {/* Related links : maillage interne */}
         {relatedLinks.length > 0 && (
           <section className={styles.blogConnexes}>
             <div className={styles.blogInner}>

@@ -6,7 +6,7 @@ import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import Icon from '@/components/Icon'
 import type { InternalLink } from '@/lib/internal-links'
-import { PERSON_ID, SITE_URL, breadcrumbSchema } from '@/lib/schema'
+import { personRef, breadcrumbSchema, pageGraph } from '@/lib/schema'
 import styles from './LocalSeoPageLayout.module.css'
 
 interface Props {
@@ -20,10 +20,10 @@ interface Props {
 
 export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks, blogLinks }: Props) {
   const schema = {
-    '@context': 'https://schema.org',
     '@type': 'Service',
+    '@id': `https://aurelienpage.fr${slug}#offre`,
     name: `Consultant SEO à ${ville}`,
-    provider: { '@type': 'Person', '@id': PERSON_ID, name: 'Aurélien Page', url: SITE_URL },
+    provider: personRef,
     areaServed: ville,
     url: `https://aurelienpage.fr${slug}`,
     description: `Consultant SEO freelance à ${ville}. Audit SEO, optimisation technique et stratégie GEO. Diagnostic offert.`,
@@ -37,8 +37,7 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
   return (
     <>
       <Header />
-      <JsonLd schema={schema} />
-      <JsonLd schema={crumbs} />
+      <JsonLd schema={pageGraph(schema, crumbs)} />
       <main className={styles.localMain}>
         {/* Breadcrumb */}
         <div className={styles.localFil}>
