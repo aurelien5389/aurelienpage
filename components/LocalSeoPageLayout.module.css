@@ -178,3 +178,24 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.localFilEtape {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.localModalite {
+  margin: 0 0 14px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--color-encre);
+}
+
+.localRegionLien {
+  font-weight: 700;
+  color: var(--color-encre);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-accent);
+}

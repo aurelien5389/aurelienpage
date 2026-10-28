@@ -43,6 +43,10 @@
   "created": "2026-10-28",
   "modified": "2026-10-28"
  },
+ "_drafts/choisir-consultant-seo-geo.md": {
+  "created": "2026-10-28",
+  "modified": "2026-10-28"
+ },
  "_drafts/choisir-mots-cles-seo.md": {
   "created": "2026-07-29",
   "modified": "2026-10-28"
@@ -161,6 +165,10 @@
  },
  "_drafts/donnees-structurees-schema-org.md": {
   "created": "2026-07-29",
+  "modified": "2026-10-28"
+ },
+ "_drafts/entreprise-locale-recommandee-par-ia.md": {
+  "created": "2026-10-28",
   "modified": "2026-10-28"
  },
  "_drafts/erreurs-seo-frequentes.md": {
@@ -339,6 +347,10 @@
   "created": "2026-07-29",
   "modified": "2026-10-04"
  },
+ "app/consultant-seo-a-distance/page.tsx": {
+  "created": "2026-10-28",
+  "modified": "2026-10-28"
+ },
  "app/consultant-seo-angers/page.tsx": {
   "created": "2026-07-29",
   "modified": "2026-07-29"
@@ -350,6 +362,10 @@
  "app/consultant-seo-brest/page.tsx": {
   "created": "2026-07-29",
   "modified": "2026-07-29"
+ },
+ "app/consultant-seo-bretagne/page.tsx": {
+  "created": "2026-10-28",
+  "modified": "2026-10-28"
  },
  "app/consultant-seo-caen/page.tsx": {
   "created": "2026-07-29",
@@ -369,7 +385,7 @@
  },
  "app/consultant-seo-le-mans/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-10-28"
  },
  "app/consultant-seo-lille/page.tsx": {
   "created": "2026-07-29",
@@ -402,6 +418,10 @@
  "app/consultant-seo-paris/page.tsx": {
   "created": "2026-07-29",
   "modified": "2026-07-29"
+ },
+ "app/consultant-seo-pays-de-la-loire/page.tsx": {
+  "created": "2026-10-28",
+  "modified": "2026-10-28"
  },
  "app/consultant-seo-quimper/page.tsx": {
   "created": "2026-07-29",
@@ -496,6 +516,10 @@
   "modified": "2026-10-28"
  },
  "app/ressources/[slug]/page.tsx": {
+  "created": "2026-10-28",
+  "modified": "2026-10-28"
+ },
+ "app/zones-intervention/page.tsx": {
   "created": "2026-10-28",
   "modified": "2026-10-28"
  },

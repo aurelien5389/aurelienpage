@@ -13,7 +13,41 @@ export const SRC = {
   openaiSearch: { href: 'https://help.openai.com/en/articles/9237897-chatgpt-search', label: 'Aide OpenAI : rechercher sur le web avec ChatGPT' },
   bingGuidelines: { href: 'https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a', label: 'Bing Webmaster Tools : Webmaster Guidelines' },
   indexnow: { href: 'https://www.indexnow.org/documentation', label: 'IndexNow : documentation du protocole' },
+  gbpLocal: { href: 'https://support.google.com/business/answer/7091?hl=fr', label: 'Aide Google Business Profile : améliorer son classement local' },
 }
+
+// Déroulé commun d'une mission, quel que soit le lieu (pages de zones)
+export const DEROULE_ZONE = [
+  {
+    titre: 'Diagnostic offert',
+    duree: '30 minutes',
+    livrable: "premières pistes et périmètre de l'audit",
+    texte: 'En visioconférence, ou en face à face quand vous êtes dans ma zone de déplacement. Nous regardons votre site, vos objectifs et vos concurrents.',
+  },
+  {
+    titre: 'Accès aux outils',
+    duree: 'au démarrage',
+    livrable: 'liste des accès nécessaires',
+    texte: 'Google Search Console, outil d’audience, CMS si j’interviens directement. Les accès sont donnés en lecture ou en écriture selon ce que nous décidons.',
+  },
+  {
+    titre: 'Audit SEO et GEO',
+    duree: 'selon la taille du site, précisée dans le devis',
+    livrable: 'rapport d’audit et relevé de visibilité dans les IA',
+    texte: 'Exploration, indexation, accès des robots de Google, de Bing et des IA, mots-clés, contenus, relevé de qui est cité par les IA sur les questions de vos clients.',
+  },
+  {
+    titre: "Restitution et plan d'action",
+    duree: 'une réunion',
+    livrable: "plan d'action classé par impact et par effort",
+    texte: 'Dans vos locaux ou en visioconférence. Vous appliquez les actions seul, avec votre équipe ou avec moi en suivi mensuel.',
+  },
+]
+
+export const TARIF_ZONE =
+  '**Audit SEO et GEO : 800 à 2 500 €** selon la taille du site. **Suivi mensuel : 500 à 2 000 € par mois**, au-delà sur devis. Formations et Google Ads : sur devis. Le lieu ne change pas le prix ; seuls les éventuels frais de déplacement s’ajoutent'
+
+export const OUTILS_ZONE = ['Google Search Console', 'Google Analytics 4', 'Screaming Frog', 'Semrush', 'Ahrefs', 'Looker Studio', 'Balise']
 
 // Parcours vérifiable (section Expériences de l'accueil), sans nom d'employeur ni de client
 export const PARCOURS =

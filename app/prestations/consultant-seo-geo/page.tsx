@@ -142,6 +142,8 @@ const data: FicheData = {
     },
   ],
   liens: [
+    { href: '/zones-intervention', label: "Zones d'intervention : Rennes, Bretagne, Pays de la Loire, à distance" },
+    { href: '/blog/choisir-consultant-seo-geo', label: 'Comment choisir un consultant SEO ou GEO ?' },
     { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
     { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
     { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes : la page locale' },

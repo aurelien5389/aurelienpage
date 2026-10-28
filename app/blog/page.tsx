@@ -78,7 +78,7 @@ const RUBRIQUES: { label: string; slugs: string[] }[] = [
   { label: 'Netlinking et autorité', slugs: ['netlinking-backlinks-pagerank', 'netlinking-avance'] },
   {
     label: 'Audit, pilotage et stratégie',
-    slugs: ['audit-seo', 'erreurs-seo-frequentes', '10-secrets-seo', 'reporting-seo-kpis', 'seo-startups', 'seo-local-google-my-business', 'tendances-seo-2026'],
+    slugs: ['audit-seo', 'erreurs-seo-frequentes', '10-secrets-seo', 'reporting-seo-kpis', 'seo-startups', 'seo-local-google-my-business', 'entreprise-locale-recommandee-par-ia', 'choisir-consultant-seo-geo', 'tendances-seo-2026'],
   },
   { label: 'Métier', slugs: ['devenir-consultant-seo-freelance', 'optimiser-profil-malt'] },
   { label: 'IA et automatisation', slugs: ['automatisation-ia-no-code-entreprise'] },

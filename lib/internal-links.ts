@@ -413,7 +413,7 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
   ],
   laval: [
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
-    { href: '/consultant-seo-le-mans', label: 'Consultant SEO au Le Mans' },
+    { href: '/consultant-seo-le-mans', label: 'Consultant SEO au Mans' },
     { href: '/consultant-seo-angers', label: 'Consultant SEO à Angers' },
   ],
   'le-mans': [
@@ -446,7 +446,7 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
   ],
   angers: [
     { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
-    { href: '/consultant-seo-le-mans', label: 'Consultant SEO au Le Mans' },
+    { href: '/consultant-seo-le-mans', label: 'Consultant SEO au Mans' },
   ],
   dinard: [
     { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
@@ -497,6 +497,8 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
 }
 
 export const LOCAL_BLOG_LINKS: InternalLink[] = [
+  { href: '/blog/entreprise-locale-recommandee-par-ia', label: 'Comment une entreprise locale peut-elle être recommandée par les IA ?' },
+  { href: '/blog/choisir-consultant-seo-geo', label: 'Comment choisir un consultant SEO ou GEO ?' },
   { href: '/prestations/consultant-seo-geo', label: 'Prestations SEO & GEO · Aurélien PAGE' },
   { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
   { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },

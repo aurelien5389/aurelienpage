@@ -7,6 +7,7 @@ import MarkdownRenderer from '@/components/MarkdownRenderer'
 import Icon from '@/components/Icon'
 import type { InternalLink } from '@/lib/internal-links'
 import { personRef, breadcrumbSchema, pageGraph } from '@/lib/schema'
+import { ZONES_PATH, aLaVille, getRegionDeVille, modaliteTexte, nomDeVille, villesLiens } from '@/lib/zones'
 import styles from './LocalSeoPageLayout.module.css'
 
 interface Props {
@@ -22,17 +23,19 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
   const schema = {
     '@type': 'Service',
     '@id': `https://aurelienpage.fr${slug}#offre`,
-    name: `Consultant SEO à ${ville}`,
+    name: `Consultant SEO ${aLaVille(ville)}`,
     provider: personRef,
     areaServed: ville,
     url: `https://aurelienpage.fr${slug}`,
-    description: `Consultant SEO freelance à ${ville}. Audit SEO, optimisation technique et stratégie GEO. Diagnostic offert.`,
+    description: `Consultant SEO freelance ${aLaVille(ville)}. Audit SEO, optimisation technique et stratégie GEO. Diagnostic offert.`,
   }
 
-  const crumbs = breadcrumbSchema([
-    { name: 'Consultant SEO & GEO', path: '/prestations/consultant-seo-geo' },
-    { name: ville, path: slug },
-  ])
+  // Cocon local : Zones d'intervention › région › ville
+  const zone = getRegionDeVille(slug)
+  const parents = zone
+    ? [{ name: "Zones d'intervention", path: ZONES_PATH }, { name: zone.region.nom, path: zone.region.path }]
+    : [{ name: 'Consultant SEO & GEO', path: '/prestations/consultant-seo-geo' }]
+  const crumbs = breadcrumbSchema([...parents, { name: ville, path: slug }])
 
   return (
     <>
@@ -45,10 +48,12 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
             <nav aria-label="Fil d'Ariane" className={styles.localFilNav}>
               <Link href="/" className={styles.localFilLien}>Accueil</Link>
               <span aria-hidden="true">›</span>
-              <Link href="/prestations/consultant-seo-geo" className={styles.localFilLien}>
-                Consultant SEO &amp; GEO
-              </Link>
-              <span aria-hidden="true">›</span>
+              {parents.map((p) => (
+                <span key={p.path} className={styles.localFilEtape}>
+                  <Link href={p.path} className={styles.localFilLien}>{p.name}</Link>
+                  <span aria-hidden="true">›</span>
+                </span>
+              ))}
               <span className={styles.localFilActuel}>{ville}</span>
             </nav>
           </div>
@@ -85,6 +90,31 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
           </div>
         </article>
 
+        {/* Modalités et région : remonte vers la page régionale, liens vers les autres villes */}
+        {zone && (
+          <section className={styles.localBloc}>
+            <div className={styles.localInner}>
+              <p className={styles.localBlocTitre}>Intervenir {aLaVille(ville)}</p>
+              <p className={styles.localModalite}>{modaliteTexte(zone.ville)}</p>
+              <p className={styles.localModalite}>
+                <Link href={zone.region.path} className={styles.localRegionLien}>{zone.region.label}</Link>
+                {' · '}
+                <Link href={ZONES_PATH} className={styles.localRegionLien}>Toutes mes zones d&apos;intervention</Link>
+              </p>
+              <ul className={styles.localVilles}>
+                {villesLiens(zone.region, slug).map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className={styles.localVilleLien}>
+                      <Icon name="pin" size={16} />
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+
         {/* Nearby cities */}
         {nearbyLinks.length > 0 && (
           <section className={styles.localBloc}>
@@ -95,7 +125,7 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
                   <li key={link.href}>
                     <Link href={link.href} className={styles.localVilleLien}>
                       <Icon name="pin" size={16} />
-                      {link.label.replace('Consultant SEO à ', '')}
+                      {nomDeVille(link.href) ?? link.label.replace('Consultant SEO à ', '')}
                     </Link>
                   </li>
                 ))}

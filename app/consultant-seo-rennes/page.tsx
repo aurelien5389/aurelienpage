@@ -25,6 +25,9 @@ const ZONES = [
   { href: '/consultant-seo-lorient', label: 'Lorient' },
   { href: '/consultant-seo-quimper', label: 'Quimper' },
   { href: '/consultant-seo-dinard', label: 'Dinard' },
+  { href: '/consultant-seo-bretagne', label: 'Toute la Bretagne' },
+  { href: '/consultant-seo-pays-de-la-loire', label: 'Pays de la Loire' },
+  { href: '/zones-intervention', label: "Toutes les zones d'intervention" },
 ]
 
 const data: FicheData = {

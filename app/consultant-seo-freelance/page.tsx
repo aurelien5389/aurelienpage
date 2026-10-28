@@ -113,6 +113,8 @@ const data: FicheData = {
     },
   ],
   liens: [
+    { href: '/consultant-seo-a-distance', label: 'Consultant SEO à distance, partout en France' },
+    { href: '/blog/choisir-consultant-seo-geo', label: 'Comment choisir un consultant SEO ou GEO ?' },
     { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
     { href: '/cout-prestation-seo', label: 'Combien coûte une prestation SEO ? Repères du marché' },
     { href: '/pourquoi-consultant-seo', label: 'Pourquoi faire appel à un consultant SEO ?' },

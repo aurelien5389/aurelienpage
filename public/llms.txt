@@ -15,6 +15,10 @@
 - [Chef de projet digital](https://aurelienpage.fr/prestations/chef-de-projet-digital): pilotage de projets web en freelance depuis Rennes.
 - [Consultant SEO à Rennes](https://aurelienpage.fr/consultant-seo-rennes): accompagnement SEO et GEO des entreprises bretonnes.
 - [Consultant GEO à Rennes](https://aurelienpage.fr/consultant-geo-rennes): optimisation pour être cité par les moteurs de réponse IA.
+- [Zones d'intervention](https://aurelienpage.fr/zones-intervention): sans frais à Rennes, Saint-Malo et Dinard, avec déplacement en Bretagne et en Pays de la Loire, à distance partout en France.
+- [Consultant SEO en Bretagne](https://aurelienpage.fr/consultant-seo-bretagne): Rennes, Saint-Malo, Dinard, Vannes, Lorient, Quimper, Brest.
+- [Consultant SEO en Pays de la Loire](https://aurelienpage.fr/consultant-seo-pays-de-la-loire): Nantes, Saint-Nazaire, Angers, Laval, Le Mans.
+- [Consultant SEO à distance](https://aurelienpage.fr/consultant-seo-a-distance): audit et suivi SEO et GEO en visioconférence, partout en France.
 - [Consultant SEO freelance](https://aurelienpage.fr/consultant-seo-freelance): tarifs, déroulé et zone d'intervention d'un consultant SEO freelance.
 - [Rédaction web SEO](https://aurelienpage.fr/redaction-web): articles de blog, pages de service et briefs, de 150 à 350 € l'article.
 
@@ -67,6 +71,8 @@
 - [Pourquoi mon site n'apparaît pas dans ChatGPT](https://aurelienpage.fr/blog/site-absent-reponses-chatgpt): six causes et le test pour chacune.
 - [Faire un audit GEO étape par étape](https://aurelienpage.fr/blog/audit-geo-etape-par-etape): questions, accès des robots, indexation, relevé, analyse, plan d'action.
 - [Lexique GEO](https://aurelienpage.fr/blog/lexique-geo): les termes de la recherche par IA définis, avec leurs sources officielles.
+- [Choisir un consultant SEO ou GEO](https://aurelienpage.fr/blog/choisir-consultant-seo-geo): questions à poser selon Google, signaux d'alerte, compétences GEO, local ou à distance.
+- [Entreprise locale recommandée par les IA](https://aurelienpage.fr/blog/entreprise-locale-recommandee-par-ia): fiche Google Business Profile, pages par ville, présence locale, mesure.
 - [Structurer son contenu pour le GEO](https://aurelienpage.fr/blog/structurer-contenu-geo): guide pratique et liste de contrôle.
 
 ## Articles SEO

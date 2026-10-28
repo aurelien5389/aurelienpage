@@ -35,6 +35,10 @@ const FOOTER_LINKS = {
     { href: '/consultant-seo-brest', label: 'Brest' },
     { href: '/consultant-seo-lille', label: 'Lille' },
     { href: '/consultant-seo-strasbourg', label: 'Strasbourg' },
+    { href: '/consultant-seo-bretagne', label: 'Bretagne' },
+    { href: '/consultant-seo-pays-de-la-loire', label: 'Pays de la Loire' },
+    { href: '/consultant-seo-a-distance', label: 'À distance' },
+    { href: '/zones-intervention', label: "Toutes les zones" },
   ],
 }
 
