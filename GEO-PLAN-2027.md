@@ -20,7 +20,7 @@ Feuille de route des nouveaux contenus, priorité GEO. Règles d'écriture et ga
 
 ---
 
-## 2. Vague 1 (rédigée, branche `contenus-geo-2027`, en relecture)
+## 2. Vague 1 (en ligne depuis le 28 octobre 2026)
 
 | Page | Format | Question Balise | Pourquoi |
 |---|---|---|---|
@@ -31,6 +31,12 @@ Feuille de route des nouveaux contenus, priorité GEO. Règles d'écriture et ga
 | /blog/lexique-geo | Ressource | A41 (P2, nouvelle) | Définitions autonomes et sourcées : le format que les IA reprennent le plus volontiers |
 
 ---
+
+## 2 bis. Architecture en cocons et onglet Ressources (en ligne)
+
+- Carte des cocons : `lib/cocons.ts` (9 dossiers : 3 GEO, 6 SEO). **Toute nouvelle page doit y être ajoutée**, dans un seul dossier ; le bloc « Dossier » (components/CoconNav.tsx) fait le maillage tout seul.
+- Ressources : /ressources (hub), /ressources/robots-ia, /ressources/checklist-geo, /ressources/modele-releve-geo (+ CSV dans public/ressources/). Contenu dans `_drafts/` avec un slug `/ressources/…`.
+- Pistes de ressources suivantes : modèle de liste de questions clients par secteur, gabarit de page « réponse » à copier, calendrier de relevé GEO.
 
 ## 3. Vague 2 (premier trimestre 2027)
 
