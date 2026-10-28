@@ -14,7 +14,7 @@ Feuille de route des nouveaux contenus, priorité GEO. Règles d'écriture et ga
 | Sujet | Pages en concurrence | Décision proposée |
 |---|---|---|
 | Être cité par ChatGPT et Perplexity | /blog/chatgpt-search-geo et /reponses/comment-etre-cite-par-chatgpt-et-perplexity (même question exacte) | Garder la réponse sur la question exacte ; recentrer le blog sur « comment » (méthode pas à pas, exemple), changer son H1 et sa ligne Balise (A29) |
-| Pages villes | 22 pages au gabarit et au texte très proches (Paris, Lyon, Marseille… sans déplacement réel) | Branche `fusion-villes` prête ; Bordeaux à garder tant que le lien digital64.fr pointe dessus |
+| Pages villes | 22 pages au gabarit et au texte très proches | Gardées (décision du 28/10/2026, objectif demandes entrantes) et rattachées à /zones-intervention et aux pages régionales. Reste à faire : réécrire les textes des villes (ton 2025, affirmations non sourcées), en commençant par le Grand Ouest. Branche `fusion-villes` abandonnée |
 | Années dans les contenus | Mentions « en 2026 » dans le corps d'une trentaine de fichiers | Les remplacer par des formulations sans année au fil des mises à jour, pour ne pas refaire l'opération en 2027 |
 | URL datée | /blog/tendances-seo-2026 (1 317 impressions) | Garder l'URL (décision GEO-REVUE-BLOG) ; mettre le contenu à jour chaque année |
 
