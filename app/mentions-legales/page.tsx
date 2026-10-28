@@ -41,7 +41,7 @@ export default function MentionsLegales() {
                 <div className={styles.mlListe}>
                   <p><span className={styles.mlFort}>Nom :</span> Aurélien PAGE</p>
                   <p><span className={styles.mlFort}>Statut :</span> Consultant freelance : [Forme juridique à compléter : auto-entrepreneur / SASU / EURL]</p>
-                  <p><span className={styles.mlFort}>SIRET :</span> [À compléter]</p>
+                  <p><span className={styles.mlFort}>SIRET :</span> 823 524 731 00036</p>
                   <p><span className={styles.mlFort}>Adresse :</span> Laval (siège), Mayenne, France</p>
                   <p>
                     <span className={styles.mlFort}>Email :</span>{' '}

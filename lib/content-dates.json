@@ -408,7 +408,7 @@
   "modified": "2026-10-04"
  },
  "app/consultant-geo-laval/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-geo-rennes/page.tsx": {
@@ -440,19 +440,19 @@
   "modified": "2026-07-29"
  },
  "app/consultant-seo-cancale/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-chateau-gontier/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-cholet/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-dinan/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-dinard/page.tsx": {
@@ -460,7 +460,7 @@
   "modified": "2026-10-28"
  },
  "app/consultant-seo-fougeres/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-freelance/page.tsx": {
@@ -468,11 +468,11 @@
   "modified": "2026-10-28"
  },
  "app/consultant-seo-la-baule/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-lannion/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-laval/page.tsx": {
@@ -500,7 +500,7 @@
   "modified": "2026-07-29"
  },
  "app/consultant-seo-mayenne/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-montpellier/page.tsx": {
@@ -532,7 +532,7 @@
   "modified": "2026-10-28"
  },
  "app/consultant-seo-saint-brieuc/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-saint-malo/page.tsx": {
@@ -544,7 +544,7 @@
   "modified": "2026-07-29"
  },
  "app/consultant-seo-saumur/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/consultant-seo-strasbourg/page.tsx": {
@@ -560,7 +560,7 @@
   "modified": "2026-10-28"
  },
  "app/consultant-seo-vitre/page.tsx": {
-  "created": "2026-10-28",
+  "created": "2026-07-29",
   "modified": "2026-10-28"
  },
  "app/contact/page.tsx": {
