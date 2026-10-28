@@ -1,0 +1,9 @@
+﻿date;question;famille;page_cible;ia;recherche_web;cite;page_citee;sites_cites;concurrents_nommes;remarque
+;Quel [métier] à [ville] ?;choix d'un prestataire;https://votre-site.fr/...;ChatGPT;oui;;;;;
+;Quel [métier] à [ville] ?;choix d'un prestataire;https://votre-site.fr/...;Perplexity;oui;;;;;
+;Quel [métier] à [ville] ?;choix d'un prestataire;https://votre-site.fr/...;Claude;oui;;;;;
+;Quel [métier] à [ville] ?;choix d'un prestataire;https://votre-site.fr/...;Gemini;oui;;;;;
+;Quel [métier] à [ville] ?;choix d'un prestataire;https://votre-site.fr/...;AI Overviews;oui;;;;;
+;Combien coûte [prestation] ?;prix;https://votre-site.fr/...;ChatGPT;oui;;;;;
+;Quelle différence entre [A] et [B] ?;comparaison;https://votre-site.fr/...;ChatGPT;oui;;;;;
+;Qu'est-ce que [notion de votre métier] ?;définition;https://votre-site.fr/...;ChatGPT;oui;;;;;

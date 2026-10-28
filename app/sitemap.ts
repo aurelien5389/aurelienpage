@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { MetadataRoute } from 'next'
-import { getBlogDrafts } from '@/lib/draft-parser'
+import { getBlogDrafts, getRessourceDrafts } from '@/lib/draft-parser'
 import { getContentDates } from '@/lib/content-dates'
 import { SITE_URL } from '@/lib/schema'
 import { REPONSES, reponseDates } from '@/lib/reponses'
@@ -12,7 +12,7 @@ const EXCLUDED = new Set(['/mentions-legales'])
 // Composants de mise en page partagés : leur modification ne change pas le contenu d'une page
 const SHARED_COMPONENTS = new Set([
   'Header', 'Footer', 'DiagnosticCTA', 'JsonLd', 'AvailabilityBadge', 'AuthorBio',
-  'BlogPostLayout', 'LocalSeoPageLayout', 'MarkdownRenderer', 'FicheLayout', 'ReponseLayout', 'Icon', 'MobileCta', 'Contact',
+  'BlogPostLayout', 'CoconNav', 'LocalSeoPageLayout', 'MarkdownRenderer', 'FicheLayout', 'ReponseLayout', 'Icon', 'MobileCta', 'Contact',
 ])
 
 // Fichiers sources d'une route : page.tsx, draft .md du même nom, composants de contenu importés
@@ -52,10 +52,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: getContentDates([`_drafts${d.slug.replace('/blog', '')}.md`]).modified,
   }))
 
+  const ressourcePages = getRessourceDrafts().map((d) => ({
+    url: `${SITE_URL}${d.slug}`,
+    lastModified: getContentDates([`_drafts${d.slug.replace('/ressources', '')}.md`]).modified,
+  }))
+
   const reponsePages = REPONSES.map((r) => ({
     url: `${SITE_URL}/reponses/${r.slug}`,
     lastModified: reponseDates(r).modified,
   }))
 
-  return [...pages, ...blogPages, ...reponsePages]
+  return [...pages, ...blogPages, ...ressourcePages, ...reponsePages]
 }

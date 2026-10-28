@@ -9,6 +9,7 @@ import styles from './Header.module.css'
 const NAV_LINKS = [
   { label: 'Prestations', href: '/prestations' },
   { label: 'Formations', href: '/formation-seo' },
+  { label: 'Ressources', href: '/ressources' },
   { label: 'Réponses', href: '/reponses' },
   { label: 'Blog', href: '/blog' },
   { label: 'À propos', href: '/a-propos' },
@@ -19,7 +20,7 @@ export default function Header() {
   const pathname = usePathname()
 
   useEffect(() => {
-    const onResize = () => { if (window.innerWidth >= 900) setMenuOpen(false) }
+    const onResize = () => { if (window.innerWidth >= 1024) setMenuOpen(false) }
     window.addEventListener('resize', onResize)
     return () => window.removeEventListener('resize', onResize)
   }, [])

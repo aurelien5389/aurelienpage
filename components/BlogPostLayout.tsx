@@ -5,6 +5,8 @@ import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import AuthorBio from '@/components/AuthorBio'
+import CoconNav from '@/components/CoconNav'
+import { getCocon } from '@/lib/cocons'
 import Icon from '@/components/Icon'
 import type { InternalLink } from '@/lib/internal-links'
 import { SITE_URL, personRef, breadcrumbSchema, pageGraph, faqNode, type Crumb } from '@/lib/schema'
@@ -26,8 +28,12 @@ interface Props {
 
 const BLOG_PARENT: Crumb = { name: 'Blog SEO', path: '/blog' }
 
-export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, path, parent = BLOG_PARENT }: Props) {
+export default function BlogPostLayout({ h1, body, slug, relatedLinks: allRelated, dates, path, parent = BLOG_PARENT }: Props) {
   const pagePath = path ?? `/blog/${slug}`
+  // « À lire aussi » ne garde que les liens hors du cocon, déjà listés par CoconNav
+  const cocon = getCocon(pagePath)
+  const dansLeCocon = new Set(cocon ? [cocon.mere.href, cocon.fiche.href, cocon.local.href, ...cocon.pages.map((p) => p.href)] : [])
+  const relatedLinks = allRelated.filter((l) => !dansLeCocon.has(l.href))
   const url = `${SITE_URL}${pagePath}`
   const schema = {
     '@type': 'Article',
@@ -92,6 +98,9 @@ export default function BlogPostLayout({ h1, body, slug, relatedLinks, dates, pa
             <MarkdownRenderer content={body} />
           </div>
         </article>
+
+        {/* Maillage du cocon : guide de départ, pages sœurs, fiche liée */}
+        <CoconNav path={pagePath} />
 
         {/* Related links : maillage interne */}
         {relatedLinks.length > 0 && (

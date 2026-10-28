@@ -116,6 +116,10 @@ export function getBlogDrafts(): DraftContent[] {
   return getAllDrafts().filter((d) => d.slug.startsWith('/blog/'))
 }
 
+export function getRessourceDrafts(): DraftContent[] {
+  return getAllDrafts().filter((d) => d.slug.startsWith('/ressources/'))
+}
+
 export function getLocalDrafts(): DraftContent[] {
   return getAllDrafts().filter((d) => d.slug.startsWith('/consultant-seo-'))
 }

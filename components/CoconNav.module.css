@@ -1,0 +1,124 @@
+/* Bloc de maillage du cocon. Unités px. */
+
+.cocon {
+  padding: 40px 0;
+  border-top: 1px solid var(--color-bord);
+}
+
+.coconInner {
+  max-width: 760px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+.coconSurtitre {
+  margin: 0 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.coconTitre {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-encre);
+}
+
+.coconMere {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 2px 12px;
+  margin-bottom: 24px;
+  padding: 14px 16px;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--rayon-s);
+  background: var(--color-surface);
+  color: var(--color-encre);
+  text-decoration: none;
+}
+
+.coconMereEtiquette {
+  grid-column: 1;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-encre-2);
+}
+
+.coconMereLabel {
+  grid-column: 1;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.coconFleche {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  color: var(--color-accent);
+}
+
+.coconMere:hover .coconMereLabel {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.coconSousTitre {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-encre-2);
+}
+
+.coconListe {
+  display: grid;
+  gap: 4px 24px;
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.coconLien {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  color: var(--color-encre);
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-bord);
+}
+
+.coconLien:hover {
+  text-decoration-color: var(--color-accent);
+}
+
+.coconFiche {
+  margin: 0;
+  font-size: 16px;
+  color: var(--color-encre-2);
+}
+
+.coconFicheLien {
+  color: var(--color-encre);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (min-width: 640px) {
+  .coconInner {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 900px) {
+  .coconListe {
+    grid-template-columns: 1fr 1fr;
+  }
+}

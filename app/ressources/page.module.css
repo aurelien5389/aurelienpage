@@ -1,0 +1,186 @@
+/* Page Ressources. Unités px. */
+
+.resMain {
+  padding: 24px 0 0;
+}
+
+.resInner {
+  max-width: 960px;
+  margin-inline: auto;
+  padding: 0 16px 48px;
+}
+
+.fil {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: var(--color-encre-2);
+}
+
+.filLien {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.filLien:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.filActuel {
+  color: var(--color-encre);
+}
+
+.resH1 {
+  margin: 0 0 16px;
+  font-size: 34px;
+  line-height: 1.15;
+  color: var(--color-encre);
+}
+
+.resChapo {
+  max-width: 720px;
+  margin: 0 0 32px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--color-encre-2);
+}
+
+.resSection {
+  padding: 32px 0;
+  border-top: 1px solid var(--color-bord);
+}
+
+.resH2 {
+  margin: 0 0 20px;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--color-encre);
+}
+
+.resH3 {
+  margin: 0 0 8px;
+  font-size: 19px;
+  line-height: 1.3;
+  color: var(--color-encre);
+}
+
+.resCartes {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resCarte {
+  padding: 20px;
+  border: 1px solid var(--color-bord);
+  border-radius: var(--rayon);
+  background: var(--color-surface);
+}
+
+.resCarteTitre {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--color-encre);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-accent);
+}
+
+.resCarteTexte {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--color-encre-2);
+}
+
+.resListe {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resItem {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.resItemTexte {
+  color: var(--color-encre-2);
+}
+
+.resLien {
+  color: var(--color-encre);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-accent);
+}
+
+.resDossiers {
+  display: grid;
+  gap: 28px;
+}
+
+.resDossier {
+  padding-bottom: 4px;
+}
+
+.resDepart {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: var(--color-encre-2);
+}
+
+.resSousListe {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.resSousLien {
+  display: inline-block;
+  padding: 6px 0;
+  font-size: 16px;
+  color: var(--color-encre);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-bord);
+}
+
+.resSousLien:hover,
+.resLien:hover {
+  text-decoration-color: var(--color-encre);
+}
+
+@media (min-width: 640px) {
+  .resInner {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 900px) {
+  .resH1 {
+    font-size: 44px;
+  }
+  .resCartes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .resDossiers {
+    grid-template-columns: 1fr 1fr;
+  }
+}

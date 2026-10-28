@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import JsonLd from '@/components/JsonLd'
 import QuiRepond from '@/components/QuiRepond'
+import CoconNav from '@/components/CoconNav'
 import MarkdownRenderer, { renderInline } from '@/components/MarkdownRenderer'
 import { SITE_URL, personRef, breadcrumbSchema, pageGraph, faqNode, plainText } from '@/lib/schema'
 import { formatMonthYear, type ContentDates } from '@/lib/content-dates'
@@ -157,6 +158,9 @@ export default function ReponseLayout({ r, dates, voirAussi }: Props) {
             </nav>
           )}
         </article>
+
+        {/* Maillage du cocon : guide de départ, pages sœurs, fiche liée */}
+        <CoconNav path={path} />
       </main>
       <Footer />
     </>

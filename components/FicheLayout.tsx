@@ -7,6 +7,7 @@ import QuiRepond from '@/components/QuiRepond'
 import { renderInline } from '@/components/MarkdownRenderer'
 import { SITE_URL, personRef, breadcrumbSchema, pageGraph, faqNode, webPageNode, plainText, type Crumb } from '@/lib/schema'
 import { formatMonthYear, type ContentDates } from '@/lib/content-dates'
+import { getCoconsDeFiche } from '@/lib/cocons'
 import styles from './FicheLayout.module.css'
 
 // Gabarit « fiche prestation ou formation » (10 blocs, voir GEO-REGLES.md).
@@ -189,6 +190,21 @@ export default function FicheLayout({ data }: { data: FicheData }) {
                 </li>
               ))}
             </ul>
+            {getCoconsDeFiche(data.path).length > 0 && (
+              <>
+                <h3 className={styles.ficheH3}>Dossiers thématiques</h3>
+                <ul className={styles.ficheListe}>
+                  {getCoconsDeFiche(data.path).map((c) => (
+                    <li key={c.id}>
+                      <Link href={c.mere.href} className={styles.ficheLien}>{c.titre} : {c.mere.label}</Link>
+                    </li>
+                  ))}
+                  <li>
+                    <Link href="/ressources" className={styles.ficheLien}>Ressources SEO et GEO : guides, modèles, checklists</Link>
+                  </li>
+                </ul>
+              </>
+            )}
             {data.sources.length > 0 && (
               <>
                 <h3 className={styles.ficheH3}>Sources</h3>

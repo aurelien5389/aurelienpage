@@ -13,6 +13,8 @@ const FOOTER_LINKS = {
     { href: 'https://www.audiaa.fr', label: 'IA et No Code : Audiaa' },
   ],
   ressources: [
+    { href: '/ressources', label: 'Ressources SEO et GEO' },
+    { href: '/ressources/checklist-geo', label: 'Checklist GEO en 25 points' },
     { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
     { href: '/pourquoi-consultant-seo', label: 'Pourquoi un consultant SEO ?' },
     { href: '/cout-prestation-seo', label: 'Coût d\'une prestation SEO' },

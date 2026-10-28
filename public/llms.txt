@@ -52,6 +52,13 @@
 - [Budget minimum Google Ads ?](https://aurelienpage.fr/reponses/budget-minimum-google-ads): budget quotidien moyen et limites de dépense.
 - [Formation SEO finançable par le CPF ou l'OPCO ?](https://aurelienpage.fr/reponses/formation-seo-cpf-opco): conditions du Code du travail.
 
+## Ressources gratuites
+
+- [Ressources SEO et GEO](https://aurelienpage.fr/ressources): référentiels, checklists, modèles et dossiers thématiques.
+- [Référentiel des robots d'IA](https://aurelienpage.fr/ressources/robots-ia): rôle de chaque robot d'OpenAI, Anthropic, Perplexity, Google et Bing, effet d'un blocage, trois modèles de robots.txt.
+- [Checklist GEO](https://aurelienpage.fr/ressources/checklist-geo): 25 points de contrôle pour être cité par les IA, avec le test de chacun.
+- [Modèle de relevé GEO](https://aurelienpage.fr/ressources/modele-releve-geo): tableau CSV gratuit et formule de la part de voix.
+
 ## Articles GEO et recherche par IA
 
 - [Apparaître dans les AI Overviews](https://aurelienpage.fr/blog/geo-ia-search-ai-overviews): conditions fixées par Google et méthode.

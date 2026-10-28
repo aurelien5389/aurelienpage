@@ -131,12 +131,24 @@
   }
 }
 
-@media (min-width: 900px) {
+/* Six liens + contact : la barre desktop s'affiche à partir de 1024px */
+@media (min-width: 1024px) {
   .navDesktop {
     display: flex;
+  }
+  .navLien {
+    padding: 0 10px;
+    font-size: 16px;
   }
   .burger,
   .menuMobile {
     display: none;
+  }
+}
+
+@media (min-width: 1180px) {
+  .navLien {
+    padding: 0 12px;
+    font-size: 17px;
   }
 }
