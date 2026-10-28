@@ -1,145 +1,73 @@
 ---
-slug: /consultant-seo-angers
-title: Consultant SEO à Angers | Expert SEO & GEO pour TPE, PME et agences, Maine-et-Loire
-meta_description: Consultant SEO freelance à Angers. Audit, optimisation technique, stratégie de contenu et GEO pour dominer Google et les moteurs IA. Devis personnalisé.
-intention_recherche: BOFU, entreprise angevine cherchant expert SEO local/national
+slug: "/consultant-seo-angers"
+title: "Consultant SEO et GEO à Angers : audit, e-commerce, visibilité dans les IA · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO à Angers : être trouvé sur Google et cité par ChatGPT, Perplexity et Gemini. Audit de 800 à 2 500 €, suivi mensuel, e-commerce et services. Sur place pour les étapes clés."
 ---
 
-# Consultant SEO à Angers, Référencement naturel & IA Search pour entreprises angevines
+# Consultant SEO et GEO à Angers
 
-Vous dirigez une PME, une TPE ou une agence marketing à Angers ou en Maine-et-Loire ? Votre site web ne génère pas assez de leads, vos concurrents vous devancent sur Google, et vous ne savez pas par où commencer. Vous êtes au bon endroit.
+Angers compte de nombreuses entreprises qui vendent au-delà de l'Anjou : producteurs et entreprises du végétal, e-commerçants, organismes de formation, sociétés de services. Pour elles, la concurrence ne se joue pas dans la rue d'à côté mais sur une page de résultats nationale, et maintenant dans les réponses des IA. Quand un client demande « où acheter [produit] de qualité en France ? », l'IA ne cite que quelques marchands.
 
-Je suis consultant SEO freelance spécialisé dans le référencement naturel pour les entreprises angevines et la région Maine-et-Loire. Mon approche combine l'expertise technique, la stratégie de contenu éthique (white hat), et la préparation aux mutations de la recherche en 2026 : AI Overviews, GEO (Generative Engine Optimization) et IA Search.
+**En bref :** je suis **consultant SEO et GEO**, basé à Rennes. J'accompagne les entreprises d'Angers et du Maine-et-Loire pour être trouvées sur Google et citées par ChatGPT, Perplexity, Gemini et les AI Overviews. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, puis suivi mensuel si besoin. Je viens à Angers pour le diagnostic et la restitution.
 
-Pas d'agence coûteuse. Pas de contrats piégeux. Juste un expert solo qui vous aide à conquérir Google et les nouveaux moteurs IA, avec transparence et responsabilité.
+## Qu'est-ce qui change pour un site e-commerce ou de services ?
 
-## Pourquoi investir en SEO en 2026 pour votre entreprise angevine
+Les questions de vos clients se déplacent. Au lieu de taper « [produit] pas cher », ils demandent à une IA de comparer, de conseiller, de recommander une boutique. L'IA lit les pages qu'elle trouve et en cite quelques-unes.
 
-Angers est devenue un hub économique majeur : université, startups, secteurs agro-alimentaire, technologie, santé et formation professionnelle. Le Maine-et-Loire concentre des centaines de PME qui toutes cherchent à augmenter leur visibilité en ligne.
+Côté Google, la base reste la même : Google indique qu'aucun balisage spécial n'est nécessaire pour apparaître dans ses fonctionnalités IA, mais qu'une page doit être indexée et pouvoir s'afficher avec un extrait ([Google Search Central](https://developers.google.com/search/docs/appearance/ai-features)). Autrement dit, un site e-commerce mal indexé (fiches en double, filtres qui créent des milliers d'URL) perd sur les deux tableaux.
 
-**Ce qui a changé depuis 2025 :**
-- **AI Overviews dans Google** : les réponses générées par IA dominent désormais les résultats. Être cité comme source devient crucial
-- **GEO et moteurs IA** : Perplexity, Claude, et autres moteurs générativistes favorisent les sources d'autorité localisées et structurées
-- **INP remplace le FID** : depuis mars 2024, Google évalue votre site sur l'Interaction to Next Paint (réactivité < 200ms). C'est vital pour le classement
-- **Concurrence accrue sur les mots-clés locaux** : chaque entreprise angevine se bat pour la première page
-- **Durabilité du ROI** : le SEO coûte moins que la pub Google Ads et génère du trafic gratuit à long terme
+## Quelles questions vos clients posent-ils ?
 
-Les entreprises qui attendent avant d'agir sur le SEO laissent des opportunités énormes à leurs concurrents. Maintenant, c'est le moment.
+| Votre activité | Question que pose votre client |
+|---|---|
+| E-commerce | « Quelle marque de [produit] choisir pour [usage] ? » |
+| Végétal, jardin, pépinière | « Où acheter des [plantes] robustes en ligne ? » |
+| Organisme de formation | « Quelle formation [thème] à Angers pour mon équipe ? » |
+| Services aux entreprises | « Quel prestataire [service] à Angers pour une PME ? » |
+| Artisan, commerce | « Quel [métier] de confiance à Angers ? » |
 
-## Mes prestations SEO à Angers et Maine-et-Loire
+Vous trouverez d'autres exemples dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-### Audit SEO complet et stratégique
-Diagnostic exhaustif : structure technique, performance, contenus, backlinks, visibilité dans les moteurs IA. Rapport avec plan d'action chiffré et priorisé.
-👉 [Démarrer un audit SEO](/blog/audit-seo)
+## Ce que je fais pour une entreprise angevine
 
-### Stratégie de contenu et optimisation on-page
-Création d'une stratégie de contenu adaptée à votre secteur et votre marché. Articles de blog, landing pages, guides : tout optimisé pour Google ET les moteurs IA. Pas de contenu mince : de la vraie expertise.
+- **[Audit SEO et GEO](/prestations/audit-geo)** : indexation, structure des catégories et des fiches, accès des robots, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
+- **[Rédaction web](/redaction-web)** : guides d'achat, pages catégories et fiches qui répondent vraiment aux questions, avec des informations vérifiables.
+- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et suivi de votre visibilité sur Google et dans les IA.
+- **SEO local** si vous avez une boutique ou un lieu d'accueil : fiche Google Business Profile, avis, cohérence des informations ([guide du SEO local](/blog/seo-local-google-my-business)).
+- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** pour l'équipe qui gère le site.
 
-### Optimisation technique et Web Vitals
-Performance, crawlabilité, indexation, Core Web Vitals, INP. Votre site répond au sous-seconde et Google le valorise.
+## Comment se passe une mission à Angers ?
 
-### Netlinking éthique et construction d'autorité
-Backlinks de qualité auprès de sites pertinents et locaux (partenaires sectoriels, médias régionaux, annuaires spécialisés). White hat uniquement : pas de raccourcis, pas de risques de pénalité.
+1. **Diagnostic offert de 30 minutes**, en visioconférence.
+2. **Devis** avant toute intervention.
+3. **Audit** à distance, **restitution** à Angers ou en visio.
+4. **Suivi** mensuel à distance si vous le souhaitez.
 
-### GEO et préparation IA Search
-Structuration sémantique avancée, balisage schéma JSON-LD, positionnement comme source d'autorité. Préparez dès maintenant votre visibilité face aux moteurs IA.
+## Combien ça coûte ?
 
-### Formation et transfert de compétences
-Vous voulez devenir progressivement autonome ? Je peux aussi vous former : ateliers SEO, partage de méthodologie, outillage. L'objectif : que vous ayez les clés pour continuer sans moi.
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article ou guide d'achat | 150 à 350 € |
+| Formation (2 h) | 300 € |
 
-## Consultant SEO freelance vs agence : transparence et alignement
+Les frais de déplacement à Angers sont ajoutés au devis, au réel. Le prix d'un audit varie surtout avec la taille du site : voir [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 
-| Aspect | Agence | Consultant freelance |
-|--------|--------|---------------------|
-| **Coût mensuel** | Sur devis | 500 à 2 000 € |
-| **Durée d'engagement** | 12 à 36 mois obligatoire | Mois par mois ou projet |
-| **Relation** | Vous + manager + juniors | Vous + expert directement |
-| **Réactivité** | 3 à 5 jours | 24 à 48h en général |
-| **Conflits d'intérêts** | Incitation à vendre plus de services | Intéressé par vos vrais résultats |
-| **Adaptabilité** | Processus rigide | Flexible et itératif |
+## Questions fréquentes
 
-En tant que consultant indépendant, mon intérêt n'est pas de vous vendre 10 services inutiles. C'est de vous donner des résultats SEO mesurables et durables. Si dans 6 mois votre site se classe naturellement et génère des leads, on peut réduire l'intervention. Vous redevenez autonome progressivement.
+**Un site e-commerce a-t-il besoin d'un audit GEO ?**
+Oui, si vos clients posent des questions de choix ou de comparaison. L'audit GEO regarde quels marchands les IA citent sur ces questions, et ce que leurs pages ont de plus que les vôtres. Voir [la différence entre audit SEO et audit GEO](/reponses/difference-audit-seo-audit-geo).
 
-## Ma méthode : SEO éthique + autonomie progressive
+**Les fiches produits rédigées avec l'IA sont-elles pénalisées ?**
+Google ne pénalise pas un contenu parce qu'il est rédigé avec l'IA ; il juge son utilité. Le détail est dans [le contenu IA est-il pénalisé par Google](/reponses/contenu-ia-penalise-par-google).
 
-**Phase 1 : Diagnostic (semaines 1 à 3)**
-- Audit complet
-- Benchmark concurrentiel
-- Cartographie des mots-clés rentables
-- Propositions prioritaires
+**Combien de temps avant d'être cité par ChatGPT ?**
+Il n'y a pas de délai garanti. Ce qui le fait varier est expliqué dans [combien de temps pour être cité par ChatGPT](/reponses/combien-de-temps-pour-etre-cite-par-chatgpt).
 
-**Phase 2 : Fondations (mois 1 à 3)**
-- Optimisation technique et structure site
-- Contenu stratégique et on-page
-- Premiers backlinks de qualité
-- Formation de votre équipe si souhaitée
+**Intervenez-vous aussi à Cholet, Saumur ou Laval ?**
+Oui. Les modalités sont sur la page [consultant SEO en Pays de la Loire](/consultant-seo-pays-de-la-loire).
 
-**Phase 3 : Croissance (mois 3 à 6)**
-- Expansion du contenu
-- Amélioration de l'autorité domaine
-- Positionnement dans les moteurs IA
-- Transfert progressif de compétences
+## Parlons de votre site
 
-**Phase 4 : Autonomie (mois 6+)**
-- Vous gérez seul ou avec support léger
-- Vous avez les outils et connaissances
-- Je reste disponible en cas de besoin
-
-## GEO et IA Search : l'avantage compétitif des entreprises angevines
-
-Les moteurs IA (Perplexity, Claude, Copilot) changent la recherche. Ils demandent "Quels sont les meilleurs consultants SEO à Angers ?" et synthétisent des réponses en citant des sources.
-
-**Si votre site est bien structuré, autorisé et optimisé, il sera cité.**
-
-Cela signifie :
-- Schéma de données et balisage sémantique avancé
-- Contenu généreux, cité dans les sources fiables
-- Présence dans les bases de données d'autorité
-- Préparation technique pour les futurs formats de résultats
-
-Les entreprises angevines qui attendent ne seront pas citées. Celles qui agissent maintenant seront les sources de référence demain.
-
-## Mes clients à Angers et Maine-et-Loire
-
-- **TPE et micro-entreprises** : services locaux, artisanats, professionnels libéraux
-- **PME angevines** : secteur agro, tech, santé, formation, commerce
-- **Startups et deeptech** : besoin de visibilité rapide et crédibilité
-- **Agences marketing** : qui revendent le SEO à leurs clients en white label
-- **Organismes de formation** : qui cherchent des apprenants qualifiés
-- **E-commerce régional** : produits angevins ou nationaux avec cible locale
-
-## 6 questions fréquentes
-
-### 1. Pourquoi faire appel à un consultant SEO local à Angers plutôt qu'une agence ?
-Une agence vous vend du design, de la pub, des réseaux sociaux. Un consultant SEO solo = expertise pure, pas de distractions, pas d'intérêts conflictuels. Vous payez pour du SEO, pas pour du marketing généraliste.
-
-### 2. Quel coût pour une prestation SEO à Angers ?
-Un audit SEO et GEO : 800 à 2 500 € selon la taille du site. Accompagnement mensuel : 500 à 2 000 € par mois selon le périmètre, au-delà sur devis. Moins qu'une agence, plus clair qu'une freelance anonyme.
-
-### 3. En combien de temps je verrai des résultats ?
-3 à 6 mois pour figurer en top 10 sur vos mots-clés prioritaires. 6 à 12 mois pour du top 3 durable. Le SEO est un investissement, pas une dépense marketing classique.
-
-### 4. Vous garantissez une position numéro 1 ?
-Non. Qui vous le garantit ment. Je peux vous garantir : une stratégie éthique, des actions mesurées, et une amélioration progressive et documentée. Le top 1 dépend aussi de la concurrence.
-
-### 5. GEO, AI Overviews, moteurs IA : c'est vraiment important pour mon PME angevine ?
-Oui. Dans 18 mois, la majorité des recherches passeront par des moteurs IA ou AI Overviews. Les entreprises qui ne se préparent pas seront invisibles. C'est aussi important que d'être sur Google en 2010.
-
-### 6. Je peux devenir autonome en SEO ou je dois vous garder éternellement ?
-Absolument vous pouvez devenir autonome. Mon rôle inclut la formation et le transfert de compétences. Après 6 à 12 mois, vous aurez les outils et le savoir pour continuer seul ou avec un support minimal.
-
-## Prêt à conquérir Google et les moteurs IA ?
-
-Le SEO n'est pas compliqué. Cela demande juste une approche systématique, une expertise solide, et de la patience. Je peux être ce partenaire pour votre entreprise angevine.
-
-**Commençons par un diagnostic gratuit.**
-
-👉 [Faire un audit SEO complet](/blog/audit-seo)
-
-👉 [En savoir plus sur GEO et IA Search](/blog/geo-ia-search-ai-overviews)
-
-👉 [Me contacter pour discuter votre projet](/#contact)
-
-Je suis basé à Angers. On peut se rencontrer autour d'un café pour parler de vos objectifs, vos défis, et comment je peux vous aider. Ou par visio si vous préférez.
-
-Que vous soyez une startup cherchant sa première visibilité ou une PME bien établie qui veut dominer son secteur, je peux vous y aider.
+Le diagnostic offert de 30 minutes permet de voir ce que Google et les IA retiennent aujourd'hui de votre site, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

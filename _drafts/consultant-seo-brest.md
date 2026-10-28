@@ -1,77 +1,72 @@
 ---
 slug: "/consultant-seo-brest"
-title: "Consultant SEO à Brest | Expert référencement naturel & GEO, Finistère"
-meta-description: "Consultant SEO freelance à Brest. Audit SEO, stratégie de contenu, GEO pour AI Overviews. Secteurs naval, défense, tech, PME finistériennes. Devis gratuit."
+title: "Consultant SEO et GEO à Brest : PME, industrie, services · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO pour les PME de Brest et du Finistère : être trouvé par vos clients B2B sur Google et dans ChatGPT. Audit de 800 à 2 500 €, travail à distance et sur place."
 ---
 
-Brest est bien plus qu'un port militaire. C'est un pôle d'excellence technologique et maritime : océanographie, défense, numérique, PME et ETI spécialisées. Mais ces entreprises brestoises sont souvent peu visibles sur Google. Elles maîtrisent leur métier, pas leur référencement naturel.
+# Consultant SEO et GEO à Brest
 
-Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'interviens à Brest et dans le Finistère en remote ou en présentiel, pour structurer votre visibilité sur Google et vous préparer aux nouveaux moteurs de réponse IA.
+À Brest, beaucoup d'entreprises vendent à d'autres entreprises : sous-traitance industrielle, activités maritimes, ingénierie, services informatiques, formation. Leurs clients ne sont pas toujours dans le Finistère. Un acheteur à Nantes ou à Paris qui cherche un fournisseur commence souvent par une question à Google, et de plus en plus à une IA : « quelle entreprise peut [réaliser tel service] en Bretagne ? ». Si votre site ne répond pas clairement à cette question, d'autres noms sortent.
 
-## Pourquoi travailler avec un consultant SEO à Brest ?
+**En bref :** je suis **consultant SEO et GEO**, basé à Rennes. J'aide les PME de Brest et du Finistère à être trouvées par leurs clients professionnels sur Google et dans les réponses de ChatGPT, Perplexity, Gemini et Claude. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site. Le travail se fait à distance ; je viens à Brest pour les étapes où le face-à-face compte.
 
-**Un interlocuteur direct.** Pas de chef de projet intermédiaire, pas de consultant junior affecté à votre dossier : vous travaillez directement avec l'expert qui audite, stratégise et optimise.
+## Pourquoi le GEO compte pour une PME B2B
 
-**Une connaissance du tissu économique brestois.** Naval, défense, océanographie, numérique : ces secteurs ont des cycles de vente longs, des audiences B2B spécifiques et des enjeux EEAT particuliers. Une stratégie SEO pour une PME maritime brestoise n'est pas la même que pour un e-commerce généraliste.
+Un acheteur professionnel compare. Il demande à une IA de lui lister des fournisseurs, de résumer leurs différences, parfois d'estimer un prix. L'IA s'appuie sur des pages qu'elle trouve sur le web. Si votre savoir-faire n'est décrit que dans une plaquette PDF ou dans une page « Nos métiers » vague, elle ne peut pas le citer.
 
-**Réactivité et transparence.** Tarifs clairs, périmètre défini à l'avance, reporting mensuel. Pas de contrat annuel imposé, pas de services additionnels non sollicités.
+Il y a aussi une question technique : OpenAI précise qu'un site qui bloque son robot **OAI-SearchBot** n'apparaît pas dans les réponses de recherche de ChatGPT ([OpenAI](https://developers.openai.com/api/docs/bots)). Un pare-feu réglé trop strictement peut vous rendre invisible sans que personne ne s'en aperçoive. Le [référentiel des robots d'IA](/ressources/robots-ia) explique quoi vérifier.
 
-**Proximité géographique.** Basé en Bretagne, je peux intervenir en présentiel à Brest pour des sessions de travail, des formations ou des ateliers stratégiques si votre projet le nécessite.
+## Quelles questions vos clients posent-ils ?
 
-## Ce que j'apporte au-delà du SEO classique : le GEO
+| Votre activité | Question que pose votre client |
+|---|---|
+| Sous-traitance, industrie | « Quel sous-traitant en [procédé] en Bretagne ? » |
+| Activités maritimes | « Quelle entreprise pour [service] sur un navire à Brest ? » |
+| Services informatiques | « Quel prestataire pour [besoin] pour une PME dans le Finistère ? » |
+| Formation professionnelle | « Quel organisme de formation [thème] à Brest ? » |
+| Cabinet, conseil | « Quel cabinet de conseil en [domaine] à Brest ? » |
 
-Le paysage de la recherche évolue. En 2026, les AI Overviews de Google s'affichent sur une part croissante des requêtes. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA synthétisent du contenu et retournent des réponses directes, sans toujours lister des liens cliquables.
+La ressource [questions à suivre dans les IA](/ressources/questions-geo-par-secteur) donne d'autres exemples, à télécharger en CSV.
 
-Le **GEO (Generative Engine Optimization)** est l'optimisation de votre contenu pour être cité comme source dans ces réponses IA. C'est une discipline encore rare sur le marché français, et une opportunité réelle pour les entreprises brestoises qui anticipent ce changement.
+## Ce que je fais pour une entreprise brestoise
 
-Je vous aide à structurer vos contenus pour les moteurs IA, renforcer vos signaux d'autorité EEAT, et ne pas dépendre uniquement des résultats organiques classiques.
+- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages métiers, relevé des réponses des IA sur les questions de vos acheteurs, sites cités à votre place, plan d'action.
+- **[Rédaction web](/redaction-web)** : pages métiers précises (procédés, capacités, zones d'intervention, délais), faciles à citer par une IA. Le [gabarit de page](/ressources/gabarit-page-reponse) montre la structure.
+- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre, suivi de votre visibilité dans Google et les IA.
+- **[Formation GEO](/formation-geo)** pour votre équipe marketing ou commerciale.
 
-## Mes prestations à Brest
+## Comment se passe une mission à Brest ?
 
-**Audit SEO complet**
-Diagnostic technique (crawl, indexation, Core Web Vitals), audit sémantique (mots-clés, intentions de recherche, maillage interne), audit de popularité (backlinks, autorité de domaine). Rapport priorisé avec actions classées par impact.
+1. **Diagnostic offert de 30 minutes** en visioconférence.
+2. **Devis** avec périmètre et prix, avant toute intervention.
+3. **Audit** à distance. **Restitution** en visio, ou à Brest si vous voulez réunir votre équipe.
+4. **Suivi** à distance, avec un relevé mensuel.
 
-**Stratégie de mots-clés et contenu**
-Identification des requêtes à forte intention commerciale sur Brest et le Finistère. Architecture de cocon sémantique, brief de contenus, calendrier éditorial adapté à vos ressources.
+## Combien ça coûte ?
 
-**Optimisation technique**
-Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurées Schema.org, sécurité HTTPS. Fondations techniques indispensables pour que vos contenus soient correctement lus et classés.
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article | 150 à 350 € |
+| Module de formation (3 à 4 h) | 450 à 600 € |
 
-**Netlinking et construction d'autorité**
-Acquisition de backlinks depuis des sources pertinentes pour votre secteur et votre marché breton. Partenariats locaux, presse régionale, annuaires spécialisés. Approche qualitative, sans liens artificiels.
-
-**SEO local et Google Business Profile**
-Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées. Indispensable pour les commerces et prestataires qui ciblent une clientèle brestoise.
-
-**GEO et IA Search**
-Structuration des contenus pour être référencé dans les réponses des moteurs IA. Balisage sémantique avancé, FAQ optimisées, renforcement des signaux de fiabilité.
-
-**Google Ads (SEA)**
-Création et gestion de campagnes Search et Shopping. Le SEO et le SEA sont complémentaires : le SEA génère du trafic immédiat pendant que le SEO monte en puissance. Je peux gérer les deux ou l'un des deux selon vos besoins.
-
-## Ma méthode de travail
-
-**Audit → Stratégie → Implémentation → Suivi.**
-
-1. **Audit** : diagnostic complet du site, analyse concurrentielle, identification des opportunités prioritaires.
-2. **Stratégie** : plan d'action chiffré et calendrisé, validé avec vous avant toute exécution.
-3. **Implémentation** : en collaboration avec vos équipes ou en intervention directe selon votre organisation.
-4. **Suivi** : reporting mensuel sur les KPIs définis, ajustements en fonction des résultats.
+Les frais de déplacement à Brest sont ajoutés au devis, au réel, seulement si un déplacement est prévu.
 
 ## Questions fréquentes
 
-**Quel budget pour une stratégie SEO sérieuse à Brest ?**
-Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel démarre à partir de 500 euros par mois. Je fournis un devis détaillé avant toute intervention. Pour des repères complets, l'article sur le [coût d'une prestation SEO](/cout-prestation-seo) vous donnera une grille de lecture utile.
+**Mes clients ne cherchent pas sur Google, ils viennent par le réseau. Le SEO sert-il à quelque chose ?**
+Même recommandé, un acheteur vérifie. Il tape votre nom, regarde votre site, demande parfois à une IA ce qu'elle sait de vous. Une présence claire confirme la recommandation au lieu de la fragiliser.
 
-**Avez-vous une expérience dans les secteurs naval et défense ?**
-Oui. Ces secteurs B2B ont des spécificités SEO importantes : cycles de vente longs, audiences niche, importance des signaux d'autorité et d'expertise (EEAT). J'adapte la stratégie de mots-clés et de contenu à ces contraintes spécifiques.
+**Faut-il bloquer les robots des IA pour protéger nos contenus ?**
+Cela dépend des robots. Bloquer un robot d'entraînement n'empêche pas d'être cité ; bloquer un robot de recherche, si. Voir [faut-il bloquer les robots d'IA](/reponses/robots-ia-faut-il-les-bloquer).
 
-**Combien de temps avant des résultats visibles à Brest ?**
-Entre 3 et 6 mois pour les premières progressions mesurables sur les positions et le trafic. Brest est moins compétitive que Nantes ou Paris sur la plupart des requêtes locales, ce qui peut accélérer les résultats. Je vous donne une visibilité mensuelle sur les progrès dès le début.
+**Pouvez-vous travailler entièrement à distance ?**
+Oui. Visioconférence, documents partagés, accès à vos outils. Les livrables sont les mêmes que sur place.
 
-**Travaillez-vous uniquement sur le SEO ou aussi sur Google Ads ?**
-Les deux. Je suis consultant SEO et Traffic Manager SEA. Je peux gérer votre stratégie organique, vos campagnes Google Ads, ou les deux en synergie. Beaucoup de mes clients combinent SEO et SEA pour maximiser leur visibilité à court et long terme.
+**Intervenez-vous à Quimper et Morlaix ?**
+Oui, dans les mêmes conditions. Voir les pages [Quimper](/consultant-seo-quimper) et [Bretagne](/consultant-seo-bretagne).
 
-## Travaillons ensemble
+## Parlons de votre visibilité
 
-Vous avez une PME brestoise, une activité dans le secteur maritime ou tech, ou tout autre projet qui nécessite une meilleure visibilité en ligne ? [Contactez-moi](/#contact) pour un premier échange sans engagement. Je vous proposerai un diagnostic rapide et un plan d'action adapté à votre marché et à vos objectifs.
+Le diagnostic offert de 30 minutes permet de voir comment Google et les IA présentent aujourd'hui votre entreprise, et ce qui manque. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

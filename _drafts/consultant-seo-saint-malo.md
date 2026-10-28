@@ -1,93 +1,72 @@
-# Consultant SEO Saint-Malo, Référencement naturel et IA Search
-
-**Slug / URL :** `/consultant-seo-saint-malo`  
-**H1 :** Consultant SEO Saint-Malo, Référencement naturel et IA Search
-
+---
+slug: "/consultant-seo-saint-malo"
+title: "Consultant SEO et GEO à Saint-Malo : tourisme, commerces, entreprises · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO à Saint-Malo : être trouvé sur Google Maps et recommandé par ChatGPT ou Perplexity. Audit de 800 à 2 500 €, déplacement sans frais depuis Rennes."
 ---
 
-Saint-Malo intra-muros, c'est 200 000 visiteurs par an. Port transmanche, restaurants, hôtels, boutiques, services touristiques : l'économie tourne autour du tourisme et du commerce. Et chaque commerçant, chaque hôtelier, chaque restaurateur veut être visible sur Google.
+# Consultant SEO et GEO à Saint-Malo
 
-Problème : la concurrence SEO à Saint-Malo est féroce. Tout le monde vise les mêmes mots-clés. "Hotel Saint-Malo", "Restaurant Saint-Malo", "Visite guidée". Des centaines de sites luttent pour la première position.
+À Saint-Malo, une partie de vos clients ne connaît pas la ville. Ils préparent un séjour, cherchent un restaurant pour le soir ou un artisan pour une maison secondaire. Ils tapent leur question dans Google, regardent la carte, ou la posent directement à ChatGPT. Les établissements qui apparaissent dans ces réponses récupèrent la réservation ; les autres ne sont même pas comparés.
 
-Vous avez un commerce ou un service à Saint-Malo ? Vous avez besoin de visibilité. Pas de visibilité, pas de clients. C'est aussi simple.
+**En bref :** je suis **consultant SEO et GEO**, basé à Rennes, et je me déplace **sans frais** à Saint-Malo et sur la Côte d'Émeraude. J'aide hôtels, gîtes, restaurants, commerces, artisans et entreprises de services à être trouvés sur Google, sur Google Maps et dans les réponses des IA. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site.
 
-Je suis Aurélien Page, consultant SEO/GEO & Traffic Manager freelance. Je aide les entreprises maloines à conquérir leurs positions sur Google et sur les nouveaux moteurs IA, sans déléguer à une agence distante. Un consultant sur place, réactif, qui comprend votre marché.
+## Qu'est-ce qui fait qu'un établissement malouin est recommandé ?
 
-## Pourquoi travailler avec un consultant SEO à Saint-Malo ?
+Deux choses comptent : votre **fiche Google Business Profile** et ce que le web dit de vous. Google indique que le classement local repose sur la pertinence, la distance et la notoriété, et que les avis et les informations complètes y contribuent ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
 
-**Interlocuteur unique et réactif.** Vous appelez, c'est moi qui réponds. Besoin d'une modif, d'une ajustement ? Ça se règle vite. Pas de ticket support ou de file d'attente.
+Les IA, elles, citent des pages : votre site, mais aussi les guides, les sites d'avis et les articles qui parlent de vous. Ce que j'observe sur les sites que je suis : un établissement bien décrit sur son propre site, avec des informations précises (prix, horaires, accès, spécialités), a plus de chances d'être repris qu'un site qui se contente de belles photos. J'ai détaillé cette logique dans [comment une entreprise locale peut être recommandée par les IA](/blog/entreprise-locale-recommandee-par-ia).
 
-**Compréhension du marché malouin.** Le SEO à Saint-Malo, c'est spécifique. Tourisme saisonnier, commerce local, reputation management crucial, Google Business Profile vital. Je connais ces enjeux. Une agence généraliste ne les comprend pas.
+## Quelles questions vos clients posent-ils ?
 
-**Coûts accessibles.** Un consultant solo facture moins qu'une agence. Si vous êtes un commerce malouin de taille petite-moyenne, cela fait une vraie différence.
+| Votre activité | Question que pose votre client |
+|---|---|
+| Hôtel, gîte, chambre d'hôtes | « Où dormir à Saint-Malo près de l'intra-muros ? » |
+| Restaurant | « Quel restaurant de fruits de mer à Saint-Malo ? » |
+| Activité de loisirs | « Que faire à Saint-Malo quand il pleut ? » |
+| Artisan, entreprise du bâtiment | « Quel couvreur de confiance à Saint-Malo ? » |
+| Services aux entreprises | « Quel cabinet comptable à Saint-Malo pour une SARL ? » |
 
-**Expertise en SEO local et reviews.** Pour le tourisme et le commerce local, les avis, les signalements Google, le Google Business Profile sont cruciaux. C'est une de mes spécialités.
+D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur). Posez-les vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi.
 
-## Ce que j'apporte au-delà du SEO classique : le GEO
+## Ce que je fais pour une entreprise de Saint-Malo
 
-Le SEO évolue vite. En 2026, vous devez viser non seulement Google Search (classements bleus), mais aussi les moteurs génératifs : AI Overviews, Perplexity, ChatGPT Search.
+- **[Audit SEO et GEO](/prestations/audit-geo)** : site, fiche Google, présence sur les sites tiers, relevé des réponses des IA sur vos questions, plan d'action.
+- **SEO local** : fiche Google Business Profile complète, catégories, photos, réponses aux avis, cohérence de vos informations partout sur le web. La méthode est dans [le guide du SEO local et de la fiche Google](/blog/seo-local-google-my-business).
+- **[Rédaction web](/redaction-web)** : pages qui répondent aux questions des visiteurs (accès, prix, saison, spécialités), avec des informations exactes et à jour.
+- **[Accompagnement mensuel](/accompagnement-seo)** pour suivre la saison, les avis et votre visibilité dans les IA.
 
-Pour Saint-Malo, ça signifie quoi ?
+## Comment se passe une mission à Saint-Malo ?
 
-Imaginez : quelqu'un cherche "restaurant fruits de mer Saint-Malo" sur ChatGPT Search. Le moteur lui retourne une réponse synthétisée et cite les 3-4 meilleurs restaurants. Être dans cette synthèse sans lien cliquable = visibilité gratuite. Rater cette visibilité = perte de clients.
+1. **Diagnostic offert de 30 minutes**, en visio ou dans votre établissement.
+2. **Devis** clair avant toute intervention.
+3. **Audit**, puis **restitution sur place** : Saint-Malo est dans ma zone de déplacement sans frais.
+4. **Suivi** si vous le souhaitez, avec un point avant chaque saison.
 
-Le **GEO (Generative Engine Optimization)** est la discipline qui vous positionne dans ces réponses synthétisées. C'est neuf, c'est puissant, et personne à Saint-Malo ne la maîtrise encore.
+## Combien ça coûte ?
 
-Je vous aide à :
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article ou d'une page | 150 à 350 € |
+| Formation (2 h, pour vous ou votre équipe) | 300 € |
 
-- Optimiser votre contenu pour être cité dans les AI Overviews de Google.
-- Structurer vos données (avis, descriptifs, localisation) pour que Perplexity et ChatGPT vous valorisent.
-- Maintenir une présence forte sur Google Search ET sur les moteurs génératifs.
-- Anticiper les changements du paysage de recherche.
+Pas de frais de déplacement à Saint-Malo, Dinard et sur la Côte d'Émeraude.
 
-Pour un commerce malouin, c'est un avantage concurrentiel massif.
+## Questions fréquentes
 
-## Mes prestations à Saint-Malo
+**Ma fiche Google suffit-elle, sans site web ?**
+Elle peut suffire pour apparaître sur la carte. Mais les IA s'appuient sur des pages : sans site, elles n'ont que ce que les autres disent de vous. Un site simple et précis reste un atout.
 
-- **Audit SEO complet** : analyse de votre site, concurrence maloinn, visibilité actuelle, points à corriger.
-- **Stratégie de mots-clés locaux** : identification des requêtes pertinentes pour votre métier et votre zone (Saint-Malo, Bretagne Nord, Ille-et-Vilaine).
-- **Optimisation technique** : Core Web Vitals (LCP, INP depuis mars 2024, CLS), vitesse, mobile, structure.
-- **Optimisation du Google Business Profile** : photos, description, catégories, services, horaires. C'est CRUCIAL pour le tourisme et le commerce.
-- **Stratégie GEO** : positionnement pour AI Overviews et Perplexity, adaptation du contenu, crédibilité.
-- **Gestion des avis et reputation** : suivi des notes Google, réponses aux avis, amélioration continue de la perception.
-- **Netlinking local** : partenariats avec annuaires, sites de tourisme, médias locaux, pour renforcer l'autorité.
+**Faut-il répondre aux avis négatifs ?**
+Oui, calmement et factuellement. Google recommande de répondre aux avis ; une réponse utile rassure le client suivant plus qu'elle ne pénalise.
 
-## Ma méthode de travail
+**Les IA peuvent-elles recommander un restaurant ou un hôtel précis ?**
+Oui, quand on leur demande. Elles s'appuient sur des sources trouvées sur le web. L'objectif est que votre établissement figure dans ces sources, avec des informations exactes.
 
-Simple, pragmatique, adapté à Saint-Malo.
+**Intervenez-vous à Dinard et Cancale ?**
+Oui, avec les mêmes conditions. Voir aussi la page [consultant SEO à Dinard](/consultant-seo-dinard) et la page [Bretagne](/consultant-seo-bretagne).
 
-**1. Audit** : je fais un diagnostic de votre visibilité actuelle. Où êtes-vous classé ? Qui sont vos concurrents directs ? Quelles sont les opportunités rapides ?
+## Parlons de votre établissement
 
-**2. Stratégie** : plan d'action réaliste et chiffré. Priorités claires. Calendrier. Budget transparent.
-
-**3. Exécution** : mise en œuvre progressive. Contenu, technique, avis, localisation. Je travaille avec vous et vos équipes.
-
-**4. Suivi** : reporting mensuel. Classements, trafic, leads, conversions. On ajuste ensemble selon les résultats.
-
-Vous avez une seule personne à manager. Pas de perte d'info. Pas d'intermédiaires.
-
-## FAQ, Saint-Malo
-
-**Combien de temps pour être premier sur "hôtel Saint-Malo" ou ma requête clé ?**
-
-Cela dépend de votre site actuel, de votre budget, et de la concurrence. "Hôtel Saint-Malo" est très compétitif. Vous pouvez viser 6-12 mois pour une place top 3. Mais "hôtel 3 étoiles Saint-Malo" ou "hôtel vue remparts" : plus rapide (3-6 mois).
-
-**Je suis un petit restaurant avec un site basique. Ça vaut le coup de faire du SEO ?**
-
-Absolument. Un restaurant malouin dépend 100% de ses clients locaux. Être bien classé sur "restaurant Saint-Malo" ou "seafood Saint-Malo" peut doubler votre chiffre. C'est ROI positif rapide.
-
-**Vous gérez les avis Google aussi ?**
-
-Je vous aide à mettre en place un système de collecte d'avis et à répondre aux avis négatifs. Je ne peux pas inventer de faux avis (c'est contraire à la déontologie). Mais une bonne politique d'avis, c'est puissant.
-
-**Et si je veux aussi faire de la pub Facebook/Instagram ?**
-
-Je suis spécialiste SEO. Pas publicité payante. Mais je peux vous conseiller sur la synergie : SEO pour les recherches, pub pour la notoriété. Les deux se complètent.
-
-## Prêt à dominer votre secteur à Saint-Malo ?
-
-Saint-Malo offre des opportunités énormes à celui qui maîtrise le SEO local et le GEO. Que vous soyez hôtelier, restaurateur, artisan ou commerçant, la visibilité digitale est votre levier de croissance.
-
-Discutons de votre situation. Quel est votre métier, votre position actuelle, vos objectifs ? Comment je peux vous aider concrètement.
-
-[→ Contactez-moi](/#contact)
+Commencez par le diagnostic offert de 30 minutes : on regarde votre fiche, votre site et ce que répondent les IA sur vos questions. Je peux venir à Saint-Malo pour en parler. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

@@ -1,77 +1,74 @@
 ---
 slug: "/consultant-seo-nantes"
-title: "Consultant SEO à Nantes | Expert SEO & GEO · Aurélien PAGE"
-meta-description: "Consultant SEO freelance à Nantes. Audit SEO, optimisation technique, stratégie GEO pour AI Overviews et moteurs IA. Interlocuteur unique, tarifs transparents. Devis gratuit."
+title: "Consultant SEO et GEO à Nantes : audit, suivi, visibilité dans les IA · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO pour les entreprises de Nantes : audit de 800 à 2 500 €, suivi mensuel, visibilité dans ChatGPT, Perplexity et Google. Basé à Rennes, sur place pour les étapes clés."
 ---
 
-Nantes, 4e métropole française et hub numérique majeur, attire entrepreneurs, startups et PME en quête de visibilité. Que vous soyez basé dans le quartier des Chantiers, à Saint-Herblain ou en périphérie de la métropole, la concurrence SEO à Nantes est réelle et croissante. Industrie agroalimentaire, aérospatial, e-commerce, fintech : les secteurs sont variés et tous ont besoin d'acquisition client digitale.
+# Consultant SEO et GEO à Nantes
 
-Je suis Aurélien PAGE, consultant SEO et GEO freelance. Pas une agence avec un commercial et plusieurs intermédiaires. Un interlocuteur unique qui audite votre site, construit une stratégie adaptée à votre marché nantais, et la met en oeuvre avec vous.
+Une entreprise nantaise qui cherche un prestataire SEO a l'embarras du choix : agences, freelances, studios web. Ses propres clients sont dans la même situation. Quand ils demandent à Google ou à ChatGPT « quel prestataire choisir à Nantes », la réponse ne cite que quelques noms. Mon travail consiste à faire en sorte que le vôtre en fasse partie.
 
-## Pourquoi travailler avec un consultant SEO à Nantes ?
+**En bref :** je suis **consultant SEO et GEO**, basé à Rennes. J'accompagne les entreprises de Nantes et de sa métropole pour être trouvées sur Google et citées par les IA (ChatGPT, Perplexity, Gemini, AI Overviews). **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, puis suivi mensuel si besoin. Je viens à Nantes pour le diagnostic et la restitution ; le reste se fait à distance.
 
-**Disponibilité directe.** Vous parlez à celui qui fait le travail, pas à un chef de projet qui relaie vos demandes. Réactivité, clarté, responsabilité : ce sont mes règles.
+## Pourquoi un consultant plutôt qu'une agence à Nantes ?
 
-**Expertise terrain.** Nantes, ce n'est pas Paris. Le tissu économique, les tendances locales, la concurrence spécifique à la métropole nantaise : j'ajuste mes diagnostics et mes stratégies à cette réalité. Une PME agroalimentaire nantaise n'a pas les mêmes enjeux SEO qu'une startup tech parisienne.
+Sur un marché où les agences sont nombreuses, la différence se joue sur qui fait le travail. Avec moi, la personne qui audite votre site est celle qui vous présente les résultats et qui suit les actions. Pas de chef de projet entre nous.
 
-**Approche sur mesure.** Les agences vendent des forfaits standardisés. Moi, j'écoute votre situation, vos objectifs, votre budget, et je construis une stratégie adaptée. Tarifs transparents, périmètre défini à l'avance, livrables clairs.
+Ce choix a aussi ses limites, et je préfère les dire : si vous avez besoin d'une équipe complète (développement, design, campagnes publicitaires en volume), une agence sera mieux placée. J'explique comment trancher dans [comment choisir un consultant SEO et GEO](/blog/choisir-consultant-seo-geo).
 
-**Aucun délai inutile.** Vous avez une question ou une demande ? Elle se traite en direct, rapidement. Pas de file d'attente, pas de ticket qui traîne entre plusieurs services.
+## Quelles questions vos clients posent-ils aux IA ?
 
-## Ce que j'apporte au-delà du SEO classique : le GEO
+À Nantes, les questions qui précèdent un achat sont souvent des questions de **choix** et de **comparaison**. Quelques exemples, à adapter à votre métier :
 
-SEO traditionnel = Google Search. Mais en 2026, le paysage évolue.
+| Votre activité | Question que pose votre client |
+|---|---|
+| Services aux entreprises | « Quelle agence ou quel freelance choisir à Nantes pour [service] ? » |
+| Organisme de formation | « Où former mon équipe à [thème] à Nantes ? » |
+| Cabinet (comptable, avocat, conseil) | « Quel expert-comptable choisir à Nantes pour une SAS ? » |
+| Commerce ou artisan | « Quel [métier] de confiance à Nantes ou à Rezé ? » |
 
-Google AI Overviews remplacent progressivement les listes de résultats classiques sur les requêtes à fort volume. Perplexity et ChatGPT Search captent une part croissante des recherches. Ces moteurs génératifs synthétisent du contenu et retournent des réponses directes, souvent sans lien cliquable.
+La liste complète, secteur par secteur, est dans la ressource [questions à suivre dans les IA](/ressources/questions-geo-par-secteur). C'est le point de départ de l'audit : on choisit vos questions, on regarde qui est cité à votre place, et pourquoi.
 
-**C'est à la fois un risque et une opportunité.**
+## Ce que je fais pour une entreprise nantaise
 
-Le risque : votre trafic organique se réduit si vous n'apparaissez pas dans les réponses IA. L'opportunité : très peu de consultants SEO à Nantes maîtrisent le GEO (Generative Engine Optimization). C'est ma spécialité depuis 2023. Je vous aide à :
+- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages qui doivent répondre aux questions de vos clients, relevé des réponses de ChatGPT, Perplexity, Gemini et Google, plan d'action classé par impact.
+- **[Accompagnement SEO mensuel](/accompagnement-seo)** : mise en œuvre du plan, relevé mensuel de votre visibilité dans les IA, ajustements.
+- **[Rédaction web](/redaction-web)** : pages services et articles écrits pour être compris par vos clients et repris par les IA.
+- **SEO local** : fiche Google Business Profile, avis, cohérence de vos informations sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+- **[Formation GEO](/formation-geo)** pour une équipe marketing qui veut faire elle-même.
 
-- Optimiser votre contenu pour être cité dans les AI Overviews de Google
-- Structurer vos données pour que les moteurs génératifs les trouvent et les valorisent
-- Repenser votre stratégie éditoriale autour du nouvel équilibre SEO / GEO
-- Anticiper l'évolution du trafic organique et diversifier vos sources d'acquisition
+## Comment se déroule une mission à Nantes ?
 
-Ce n'est pas du "SEO du futur". C'est du SEO du présent, actif dès maintenant sur les requêtes à fort volume.
+1. **Diagnostic offert de 30 minutes**, en visioconférence : votre situation, vos objectifs, ce qui est prioritaire.
+2. **Devis** avec le périmètre et le prix, avant toute intervention.
+3. **Audit**, réalisé à distance, puis **restitution** à Nantes ou en visio, selon votre préférence.
+4. **Suivi** mensuel si vous le souhaitez, avec un relevé de votre visibilité dans les IA et sur Google.
 
-## Mes prestations à Nantes
+## Combien coûte un consultant SEO à Nantes ?
 
-- **Audit SEO complet** : analyse technique, on-page, off-page, analyse concurrentielle, état des lieux priorisé
-- **Stratégie de mots-clés et architecture éditoriale** : segmentation par intention, parcours client, plan de contenu structuré
-- **Optimisation technique** : Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurées
-- **Stratégie de contenu GEO** : formats adaptés aux moteurs IA, profondeur sémantique, positionnement pour AI Overviews et Perplexity
-- **Netlinking et autorité** : acquisition de liens contextuels, partenariats locaux et régionaux, renforcement des signaux EEAT
-- **SEO local et Google Business Profile** : optimisation de la fiche établissement, avis, cohérence NAP, visibilité locale sur Nantes et sa périphérie
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article | 150 à 350 € |
+| Formation (2 h) | 300 € |
 
-## Ma méthode de travail
-
-**Audit → Stratégie → Implémentation → Suivi.**
-
-1. **Audit** : diagnostic complet du site, analyse des concurrents et des opportunités. Baseline claire avant toute action.
-
-2. **Stratégie** : plan d'action détaillé, calendrier, KPIs définis. Vous validez la direction avant l'exécution.
-
-3. **Implémentation** : collaboration avec vos équipes (développeurs, rédacteurs) ou intervention directe selon votre organisation. Suivi des tâches en temps réel.
-
-4. **Suivi et reporting** : rapport mensuel sur les positions, le trafic et les conversions. Ajustements en fonction des résultats.
-
-Un interlocuteur unique du début à la fin. Aucune perte d'information entre les étapes.
+Les frais de déplacement à Nantes sont ajoutés au devis, au réel. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 
 ## Questions fréquentes
 
-**Combien de temps faut-il pour voir des résultats SEO à Nantes ?**
-Entre 3 et 6 mois pour les premiers résultats mesurables sur les positions et le trafic. Nantes est une métropole compétitive, notamment sur les requêtes commerciales locales. Je vous donne une visibilité mensuelle sur les progrès dès le premier mois.
+**Faut-il un consultant basé à Nantes pour bien référencer une entreprise nantaise ?**
+Non. Le référencement local dépend de votre fiche Google, de vos pages et de votre présence sur le web, pas de l'adresse de votre consultant. Je viens à Nantes pour les moments où le face-à-face compte.
 
-**Intervenez-vous aussi bien pour les PME que pour les indépendants et artisans ?**
-Oui. Qu'il s'agisse d'un artisan qui veut dominer les requêtes locales ("plombier Nantes", "électricien Saint-Herblain") ou d'une startup en phase de croissance, j'adapte mon approche à la taille et aux contraintes de chaque projet.
+**Combien de temps avant de voir des résultats ?**
+Cela dépend du point de départ et de la concurrence sur vos requêtes. Google ne donne pas de délai garanti ; j'explique ce qui fait varier ce délai dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
-**Pourquoi ne pas confier ça à une agence SEO nantaise ?**
-Une agence offre un service industrialisé. Je propose une relation directe : plus de réactivité, moins d'intermédiaires, tarifs plus transparents. Et une expertise GEO que la plupart des agences généralistes n'ont pas encore intégrée.
+**Le GEO remplace-t-il le SEO ?**
+Non, il s'appuie dessus. Une page mal indexée ne sera citée ni par Google ni par les IA. La différence est expliquée dans [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
 
-**Le GEO est-il vraiment utile si mon objectif principal reste Google Search ?**
-Google Search reste le coeur du trafic organique. Mais les AI Overviews s'affichent déjà sur une part significative des requêtes à fort volume. Anticiper cette évolution maintenant coûte moins cher que de le subir dans 12 mois.
+**Intervenez-vous aussi à Saint-Nazaire et dans le reste des Pays de la Loire ?**
+Oui. Les modalités, ville par ville, sont sur la page [consultant SEO en Pays de la Loire](/consultant-seo-pays-de-la-loire).
 
-## Prêt à développer votre visibilité à Nantes ?
+## Parlons de votre visibilité à Nantes
 
-Que vous soyez une PME nantaise qui plafonne sur Google, un prestataire qui veut réduire sa dépendance à la publicité payante, ou une startup qui structure son acquisition organique : [contactez-moi](/#contact) pour qu'on évalue ensemble vos enjeux et les leviers disponibles. Premier échange gratuit, sans engagement.
+Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble où vous en êtes sur Google et dans les IA, et ce qui mérite d'être fait en premier. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

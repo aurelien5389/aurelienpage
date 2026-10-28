@@ -66,7 +66,7 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
               <Icon name="pin" size={18} />
               {ville}
             </div>
-            <h1 className={styles.localH1}>{h1}</h1>
+            <h1 className={styles.localH1}>{h1.split(/ [|·] /)[0]}</h1>
             <div className={styles.localHeroActions}>
               <a
                 href="https://calendly.com/aurelienpage89/diagnostic-offert-30-min"

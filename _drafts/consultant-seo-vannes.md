@@ -1,79 +1,73 @@
 ---
 slug: "/consultant-seo-vannes"
-title: "Consultant SEO à Vannes | Expert référencement naturel & GEO, Morbihan"
-meta-description: "Consultant SEO freelance à Vannes. Audit SEO, stratégie de contenu, GEO pour AI Overviews. PME morbihannaises, tourisme, santé, commerce. Devis gratuit."
+title: "Consultant SEO et GEO à Vannes et dans le Morbihan · Aurélien PAGE"
+meta-description: "Consultant SEO et GEO à Vannes : être trouvé sur Google et recommandé par les IA dans le Golfe du Morbihan. Audit de 800 à 2 500 €, sur place pour le diagnostic et la restitution."
 ---
 
-# Consultant SEO à Vannes | Expert référencement naturel & GEO, Morbihan
+# Consultant SEO et GEO à Vannes
 
-Vannes est l'une des villes bretonnes les plus dynamiques. Préfecture du Morbihan, elle concentre un tissu économique varié : PME et ETI régionales, secteur santé et bien-être en expansion, tourisme autour du golfe, commerce de proximité, startups en développement. Mais beaucoup de ces entreprises vannetaises investissent dans leur produit ou leur service sans structurer leur visibilité en ligne, et laissent ainsi du trafic qualifié à leurs concurrents.
+Autour de Vannes et du Golfe du Morbihan, beaucoup d'entreprises vivent de deux clientèles : les habitants à l'année et les visiteurs de passage. Les premiers comparent des artisans, des cabinets, des commerces. Les seconds cherchent où manger, quoi visiter, à qui louer. Dans les deux cas, la recherche commence de plus en plus par une question posée à Google ou à une IA.
 
-Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'interviens à Vannes et dans tout le Morbihan en remote ou en présentiel, pour construire une visibilité durable sur Google et vous préparer aux nouveaux moteurs de réponse IA.
+**En bref :** je suis **consultant SEO et GEO**, basé à Rennes. J'accompagne les entreprises de Vannes et du Morbihan pour apparaître sur Google, sur Google Maps et dans les réponses de ChatGPT, Perplexity et Gemini. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site. Je viens à Vannes pour le diagnostic et la restitution ; le suivi se fait à distance.
 
-## Pourquoi travailler avec un consultant SEO à Vannes ?
+## Quel est le vrai enjeu pour une entreprise vannetaise ?
 
-**Un interlocuteur direct.** Pas de chef de projet intermédiaire, pas de consultant junior affecté à votre dossier : vous travaillez directement avec l'expert qui audite, stratégise et optimise. La cohérence est totale, du diagnostic à l'exécution.
+Être **la réponse locale évidente**. Sur une requête comme « paysagiste Vannes » ou « restaurant port de Vannes », Google affiche d'abord une carte avec quelques établissements, et les IA citent une poignée de noms. Le reste de la liste reçoit peu de visites.
 
-**Une connaissance du marché vannetais.** Tourisme et golfe du Morbihan, santé, commerce B2B et B2C, startups : chaque secteur a ses propres intentions de recherche et ses propres leviers SEO. Une stratégie pour un acteur du tourisme vannetais n'est pas la même que pour une PME industrielle.
+Pour la carte, Google indique que le classement local dépend de la pertinence, de la distance et de la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)). Pour les IA, tout part des pages qu'elles trouvent : votre site, vos fiches, les articles et annuaires qui vous mentionnent. Un site qui dit clairement ce que vous faites, où et à quel prix a plus de chances d'être repris.
 
-**Réactivité et transparence.** Tarifs clairs, périmètre défini à l'avance, reporting mensuel. Pas de contrat annuel imposé, pas de services additionnels non sollicités.
+## Quelles questions vos clients posent-ils ?
 
-**Proximité géographique.** Basé en Bretagne, je peux intervenir en présentiel à Vannes pour des sessions de travail, des formations ou des ateliers stratégiques si votre projet le nécessite.
+| Votre activité | Question que pose votre client |
+|---|---|
+| Artisan, entreprise du bâtiment | « Quelle entreprise pour rénover une maison à Vannes ? » |
+| Commerce | « Où acheter [produit] à Vannes ? » |
+| Tourisme, loisirs | « Que faire autour du Golfe du Morbihan en famille ? » |
+| Cabinet, profession libérale | « Quel avocat en droit du travail à Vannes ? » |
+| Services aux entreprises | « Quel prestataire informatique pour une PME à Vannes ? » |
 
-## Ce que j'apporte au-delà du SEO classique : le GEO
+Pour construire votre propre liste, utilisez la ressource [questions à suivre dans les IA](/ressources/questions-geo-par-secteur), puis le [modèle de relevé GEO](/ressources/modele-releve-geo) pour suivre les réponses chaque mois.
 
-Le paysage de la recherche évolue. En 2026, les AI Overviews de Google s'affichent sur une part croissante des requêtes. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA synthétisent du contenu et retournent des réponses directes, sans toujours lister des liens cliquables.
+## Ce que je fais pour une entreprise du Morbihan
 
-Le **GEO (Generative Engine Optimization)** est l'optimisation de votre contenu pour être cité comme source dans ces réponses IA. C'est une discipline encore rare sur le marché breton, et une opportunité réelle pour les entreprises vannetaises qui anticipent ce changement.
+- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, plan d'action classé.
+- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. La méthode est dans [le guide du SEO local](/blog/seo-local-google-my-business).
+- **[Rédaction web](/redaction-web)** : pages services et pages par commune desservie, écrites pour vos clients, sans texte copié d'une page à l'autre.
+- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et suivi, avec un relevé de votre visibilité dans les IA.
+- **[Formation SEO](/formation-seo)** si vous préférez gérer vous-même votre site et votre fiche.
 
-Je vous aide à structurer vos contenus pour les moteurs IA, renforcer vos signaux d'autorité EEAT, et ne pas dépendre uniquement des résultats organiques classiques.
+## Comment se passe une mission à Vannes ?
 
-## Mes prestations à Vannes
+1. **Diagnostic offert de 30 minutes**, en visioconférence.
+2. **Devis** précis avant toute intervention.
+3. **Audit** à distance, puis **restitution à Vannes** ou en visio.
+4. **Suivi** mensuel si besoin, à distance, avec un déplacement quand un atelier sur place est utile.
 
-**Audit SEO complet**
-Diagnostic technique (crawl, indexation, Core Web Vitals), audit sémantique (mots-clés, intentions de recherche, maillage interne), audit de popularité (backlinks, autorité de domaine). Rapport priorisé avec actions classées par impact.
+## Combien ça coûte ?
 
-**Stratégie de mots-clés et contenu**
-Identification des requêtes à forte intention commerciale sur Vannes et le Morbihan. Architecture de cocon sémantique, brief de contenus, calendrier éditorial adapté à vos ressources.
+| Prestation | Tarif |
+|---|---|
+| Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
+| Accompagnement mensuel | 500 à 2 000 € par mois |
+| Rédaction d'un article | 150 à 350 € |
+| Formation (2 h) | 300 € |
 
-**Optimisation technique**
-Core Web Vitals (LCP, INP, CLS), crawlabilité, indexation, données structurées Schema.org. Fondations techniques indispensables pour que vos contenus soient correctement lus et classés.
-
-**Netlinking et construction d'autorité**
-Acquisition de backlinks depuis des sources pertinentes pour votre secteur et votre marché breton. Presse régionale, annuaires spécialisés, partenariats locaux. Approche qualitative, sans liens artificiels.
-
-**SEO local et Google Business Profile**
-Optimisation de la fiche établissement, gestion des avis, cohérence NAP, pages locales ciblées. Indispensable pour les commerces et prestataires qui ciblent une clientèle vannetaise.
-
-**GEO et IA Search**
-Structuration des contenus pour être référencé dans les réponses des moteurs IA. Balisage sémantique avancé, FAQ optimisées, renforcement des signaux EEAT.
-
-**Google Ads (SEA)**
-Création et gestion de campagnes Search et Shopping. Le SEO et le SEA sont complémentaires : le SEA génère du trafic immédiat pendant que le SEO monte en puissance. Je peux gérer les deux ou l'un des deux selon vos besoins.
-
-## Ma méthode de travail
-
-**Audit → Stratégie → Implémentation → Suivi.**
-
-1. **Audit** : diagnostic complet du site, analyse concurrentielle, identification des opportunités prioritaires.
-2. **Stratégie** : plan d'action chiffré et calendrisé, validé avec vous avant toute exécution.
-3. **Implémentation** : en collaboration avec vos équipes ou en intervention directe selon votre organisation.
-4. **Suivi** : reporting mensuel sur les KPIs définis, ajustements en fonction des résultats.
+Les frais de déplacement à Vannes sont ajoutés au devis, au réel.
 
 ## Questions fréquentes
 
-**Quel budget pour une stratégie SEO sérieuse à Vannes ?**
-Un audit SEO complet est facturé entre 800 et 2 500 euros selon la taille et la complexité du site. Un accompagnement mensuel démarre à partir de 500 euros par mois. Je fournis un devis détaillé avant toute intervention. Pour des repères complets, l'article sur le [coût d'une prestation SEO](/cout-prestation-seo) vous donnera une grille de lecture utile.
+**Faut-il créer une page par commune autour de Vannes ?**
+Seulement si vous intervenez vraiment dans ces communes et que vous avez quelque chose de propre à dire sur chacune. Des pages copiées en changeant le nom de la ville n'aident ni Google ni vos clients.
 
-**Combien de temps avant des résultats visibles à Vannes ?**
-Entre 3 et 6 mois pour les premières progressions mesurables. Vannes est moins compétitive que Nantes ou Rennes sur de nombreuses requêtes locales, ce qui peut accélérer les premiers résultats. Je vous donne une visibilité mensuelle sur les progrès dès le début de la mission.
+**Mon activité est saisonnière : quand commencer ?**
+Avant la saison. Le travail sur le site et la fiche Google prend du temps à porter ses fruits ; [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo) explique ce qui fait varier ce délai.
 
-**Travaillez-vous uniquement sur le SEO ou aussi sur Google Ads ?**
-Les deux. Je suis consultant SEO et Traffic Manager SEA. Je peux gérer votre stratégie organique, vos campagnes Google Ads, ou les deux en synergie selon vos objectifs.
+**Comment savoir si ChatGPT me recommande ?**
+Posez-lui les questions de vos clients, notez qui il cite, et recommencez chaque mois avec les mêmes questions. C'est ce que mesure la [part de voix dans les IA](/reponses/part-de-voix-dans-les-ia).
 
-**Intervenez-vous en présentiel à Vannes ?**
-Oui. La grande majorité des missions se déroule en remote. Des déplacements à Vannes sont possibles pour des sessions de travail ou des formations si votre projet le justifie.
+**Intervenez-vous à Lorient, Auray ou Ploërmel ?**
+Oui, dans les mêmes conditions. Voir la page [consultant SEO en Bretagne](/consultant-seo-bretagne) et celle de [Lorient](/consultant-seo-lorient).
 
-## Travaillons ensemble
+## Parlons de votre visibilité dans le Morbihan
 
-Vous avez une PME vannetaise, une activité dans le tourisme, la santé ou les services, et vous souhaitez développer votre visibilité en ligne ? [Contactez-moi](/#contact) pour un premier échange sans engagement. Je vous proposerai un diagnostic rapide et un plan d'action adapté à votre marché et à vos objectifs.
+Le diagnostic offert de 30 minutes permet de voir où vous en êtes sur Google et dans les IA, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).
