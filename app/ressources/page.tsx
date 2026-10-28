@@ -9,9 +9,9 @@ import { SITE_URL, breadcrumbSchema, pageGraph } from '@/lib/schema'
 import styles from './page.module.css'
 
 const PATH = '/ressources'
-const TITLE = 'Ressources SEO et GEO : référentiels, checklists et modèles gratuits · Aurélien PAGE'
+const TITLE = 'Ressources GEO et SEO gratuites : guides, checklists, modèles · Aurélien PAGE'
 const DESCRIPTION =
-  "Référentiel des robots d'IA, checklist GEO en 25 points, modèle de relevé de part de voix, lexiques SEO et GEO, dossiers thématiques : des ressources gratuites et sourcées."
+  "Comprendre et démarrer le GEO : positions officielles de Google, OpenAI et Anthropic, plan en 30 jours, checklist, gabarit de page, robots d'IA, modèles de relevé. Gratuit et sourcé."
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -20,26 +20,75 @@ export const metadata: Metadata = {
   openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}${PATH}` },
 }
 
-const OUTILS = [
+const OUTILS_GROUPES = [
   {
-    href: '/ressources/robots-ia',
-    titre: "Référentiel des robots d'IA et modèles de robots.txt",
-    texte: "Les robots d'OpenAI, d'Anthropic, de Perplexity, de Google et de Bing : rôle, effet d'un blocage, et trois modèles de robots.txt prêts à copier.",
+    id: 'comprendre',
+    titre: 'Comprendre le GEO',
+    items: [
+      {
+        href: '/ressources/positions-officielles-ia',
+        titre: 'Ce que disent officiellement Google, OpenAI, Anthropic, Perplexity et Microsoft',
+        texte: 'Les positions des éditeurs d’IA sur les sites web, éditeur par éditeur, chaque point avec sa source.',
+      },
+      {
+        href: '/blog/lexique-geo',
+        titre: 'Lexique GEO',
+        texte: 'Les termes de la recherche par IA définis simplement : AI Overviews, part de voix, query fan-out, RAG…',
+      },
+      {
+        href: '/ressources/robots-ia',
+        titre: "Référentiel des robots d'IA et modèles de robots.txt",
+        texte: "Rôle de chaque robot d'OpenAI, d'Anthropic, de Perplexity, de Google et de Bing, effet d'un blocage, trois modèles prêts à copier.",
+      },
+    ],
   },
   {
-    href: '/ressources/checklist-geo',
-    titre: 'Checklist GEO : 25 points pour être cité par les IA',
-    texte: 'Accès des robots, indexation, format des pages, crédibilité, présence externe, mesure : chaque point avec son test.',
+    id: 'agir',
+    titre: 'Passer à l’action',
+    items: [
+      {
+        href: '/ressources/plan-geo-30-jours',
+        titre: 'Plan GEO en 30 jours',
+        texte: 'Quatre semaines pour démarrer : robots et indexation, questions et premier relevé, pages à reprendre, présence externe.',
+      },
+      {
+        href: '/ressources/checklist-geo',
+        titre: 'Checklist GEO : 25 points pour être cité par les IA',
+        texte: 'Accès des robots, indexation, format des pages, crédibilité, présence externe, mesure : chaque point avec son test.',
+      },
+      {
+        href: '/ressources/gabarit-page-reponse',
+        titre: 'Gabarit de page que les IA peuvent citer',
+        texte: 'La structure à copier : réponse en tête, intertitres en questions, tableau, sources, FAQ.',
+      },
+    ],
   },
   {
-    href: '/ressources/modele-releve-geo',
-    titre: 'Modèle de relevé GEO (tableau à télécharger)',
-    texte: 'Un tableau CSV gratuit pour relever chaque mois si les IA vous citent, et la formule pour calculer votre part de voix.',
+    id: 'mesurer',
+    titre: 'Mesurer sa visibilité dans les IA',
+    items: [
+      {
+        href: '/ressources/questions-geo-par-secteur',
+        titre: 'Questions à suivre, secteur par secteur',
+        texte: 'Exemples de questions clients pour sept secteurs, en fichier CSV, pour construire votre liste.',
+      },
+      {
+        href: '/ressources/modele-releve-geo',
+        titre: 'Modèle de relevé GEO (tableau à télécharger)',
+        texte: 'Un tableau CSV gratuit pour relever chaque mois si les IA vous citent, et la formule de la part de voix.',
+      },
+      {
+        href: '/reponses/trafic-ia-google-analytics-4',
+        titre: 'Le trafic des IA dans Google Analytics 4',
+        texte: 'Où trouver le canal « Assistant IA » et comment créer votre propre canal IA.',
+      },
+    ],
   },
 ]
 
+const OUTILS = OUTILS_GROUPES.flatMap((g) => g.items)
+
 const GUIDES = [
-  { href: '/blog/lexique-geo', titre: 'Lexique GEO', texte: 'Les termes de la recherche par IA, définis et sourcés.' },
   { href: '/blog/lexique-seo', titre: 'Lexique SEO', texte: 'Cinquante termes du référencement naturel expliqués.' },
   { href: '/blog/audit-geo-etape-par-etape', titre: 'Faire un audit GEO, étape par étape', texte: 'La méthode complète, de la liste de questions au plan d’action.' },
   { href: '/blog/audit-seo', titre: 'Faire un audit SEO', texte: 'Technique, contenu, popularité : la méthode de diagnostic.' },
@@ -80,22 +129,25 @@ export default function RessourcesPage() {
 
           <h1 className={styles.resH1}>Ressources SEO et GEO</h1>
           <p className={styles.resChapo}>
-            Des outils gratuits pour travailler votre visibilité dans Google et dans les réponses des IA : un
-            référentiel des robots, une checklist, un modèle de relevé, des lexiques. Chaque ressource cite ses
-            sources officielles. Les dossiers thématiques, plus bas, regroupent tous les guides du site par sujet.
+            Des ressources gratuites pour comprendre le GEO, passer à l&apos;action et mesurer votre visibilité dans
+            ChatGPT, Perplexity, Claude, Gemini et Google : positions officielles des éditeurs, plan en 30 jours,
+            checklist, gabarit de page, modèles à télécharger. Chaque ressource cite ses sources officielles. Les
+            dossiers thématiques, plus bas, regroupent tous les guides du site par sujet.
           </p>
 
-          <section aria-labelledby="outils" className={styles.resSection}>
-            <h2 id="outils" className={styles.resH2}>Référentiels, checklists et modèles</h2>
-            <ul className={styles.resCartes}>
-              {OUTILS.map((o) => (
-                <li key={o.href} className={styles.resCarte}>
-                  <Link href={o.href} className={styles.resCarteTitre}>{o.titre}</Link>
-                  <p className={styles.resCarteTexte}>{o.texte}</p>
-                </li>
-              ))}
-            </ul>
-          </section>
+          {OUTILS_GROUPES.map((g) => (
+            <section key={g.id} aria-labelledby={g.id} className={styles.resSection}>
+              <h2 id={g.id} className={styles.resH2}>{g.titre}</h2>
+              <ul className={styles.resCartes}>
+                {g.items.map((o) => (
+                  <li key={o.href} className={styles.resCarte}>
+                    <Link href={o.href} className={styles.resCarteTitre}>{o.titre}</Link>
+                    <p className={styles.resCarteTexte}>{o.texte}</p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
 
           <section aria-labelledby="guides" className={styles.resSection}>
             <h2 id="guides" className={styles.resH2}>Guides de référence</h2>

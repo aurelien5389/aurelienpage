@@ -101,6 +101,9 @@ const data: FicheData = {
     },
   ],
   liens: [
+    { href: '/ressources/positions-officielles-ia', label: 'Ce que disent officiellement Google, OpenAI, Anthropic, Perplexity et Microsoft' },
+    { href: '/ressources/plan-geo-30-jours', label: 'Plan GEO en 30 jours' },
+    { href: '/ressources/gabarit-page-reponse', label: 'Gabarit de page que les IA peuvent citer' },
     { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Comment être cité par ChatGPT et Perplexity ?' },
     { href: '/reponses/faut-il-creer-un-fichier-llms-txt', label: 'Faut-il créer un fichier llms.txt ?' },
     { href: '/reponses/contenu-ia-penalise-par-google', label: "Le contenu rédigé avec l'IA est-il pénalisé par Google ?" },

@@ -1,0 +1,36 @@
+﻿secteur;famille;question
+Services B2B (conseil, agences, informatique);choix d'un prestataire;Quelle agence [spécialité] choisir à [ville] pour une PME ?
+Services B2B (conseil, agences, informatique);choix d'un prestataire;Quel prestataire [service] recommandes-tu pour une entreprise de [taille] ?
+Services B2B (conseil, agences, informatique);prix;Combien coûte [prestation] pour une PME ?
+Services B2B (conseil, agences, informatique);comparaison;Faut-il un freelance ou une agence pour [besoin] ?
+Services B2B (conseil, agences, informatique);définition;Qu'est-ce que [notion de votre métier] et à quoi ça sert ?
+Organismes de formation;choix d'un prestataire;Quel organisme de formation [thème] à [ville] ?
+Organismes de formation;choix d'un prestataire;Où former mon équipe à [thème] en intra-entreprise ?
+Organismes de formation;prix;Combien coûte une formation [thème] pour [nombre] salariés ?
+Organismes de formation;comparaison;Formation [thème] en présentiel ou à distance : que choisir ?
+Organismes de formation;définition;La formation [thème] est-elle obligatoire pour [public] ?
+Cabinets (expertise comptable, avocats, notaires, conseil RH);choix d'un prestataire;Quel expert-comptable choisir à [ville] pour une [forme de société] ?
+Cabinets (expertise comptable, avocats, notaires, conseil RH);choix d'un prestataire;Quel avocat en [spécialité] à [ville] ?
+Cabinets (expertise comptable, avocats, notaires, conseil RH);prix;Combien coûte un expert-comptable pour une [forme de société] ?
+Cabinets (expertise comptable, avocats, notaires, conseil RH);comparaison;Expert-comptable en ligne ou cabinet local : que choisir ?
+Cabinets (expertise comptable, avocats, notaires, conseil RH);définition;Quelles obligations pour [situation] ?
+E-commerce;choix d'un prestataire;Où acheter [produit] de qualité en France ?
+E-commerce;choix d'un prestataire;Quelle marque de [produit] choisir pour [usage] ?
+E-commerce;prix;Quel est le prix d'un bon [produit] ?
+E-commerce;comparaison;[Produit A] ou [produit B] : lequel choisir ?
+E-commerce;définition;Comment choisir [produit] ?
+Artisans et entreprises du bâtiment;choix d'un prestataire;Quel [métier] de confiance à [ville] ?
+Artisans et entreprises du bâtiment;choix d'un prestataire;Quelle entreprise pour [travaux] à [ville] ?
+Artisans et entreprises du bâtiment;prix;Combien coûtent [travaux] pour [surface ou volume] ?
+Artisans et entreprises du bâtiment;comparaison;[Matériau ou solution A] ou [B] : que choisir pour [usage] ?
+Artisans et entreprises du bâtiment;définition;Quelles aides pour [travaux] ?
+Tourisme, hébergement, restauration;choix d'un prestataire;Où dormir à [ville] pour [type de séjour] ?
+Tourisme, hébergement, restauration;choix d'un prestataire;Quel restaurant [type] à [ville] ?
+Tourisme, hébergement, restauration;prix;Quel budget pour un séjour de [durée] à [ville] ?
+Tourisme, hébergement, restauration;comparaison;[Quartier ou lieu A] ou [B] pour séjourner à [ville] ?
+Tourisme, hébergement, restauration;définition;Que faire à [ville] en [saison] ?
+Santé, bien-être, services à la personne;choix d'un prestataire;Quel [praticien] à [ville] pour [besoin] ?
+Santé, bien-être, services à la personne;choix d'un prestataire;Comment trouver un [service] fiable à [ville] ?
+Santé, bien-être, services à la personne;prix;Combien coûte une séance de [prestation] ?
+Santé, bien-être, services à la personne;comparaison;[Approche A] ou [approche B] pour [besoin] ?
+Santé, bien-être, services à la personne;définition;En quoi consiste [prestation] ?

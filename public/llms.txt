@@ -62,6 +62,10 @@
 - [Référentiel des robots d'IA](https://aurelienpage.fr/ressources/robots-ia): rôle de chaque robot d'OpenAI, Anthropic, Perplexity, Google et Bing, effet d'un blocage, trois modèles de robots.txt.
 - [Checklist GEO](https://aurelienpage.fr/ressources/checklist-geo): 25 points de contrôle pour être cité par les IA, avec le test de chacun.
 - [Modèle de relevé GEO](https://aurelienpage.fr/ressources/modele-releve-geo): tableau CSV gratuit et formule de la part de voix.
+- [Positions officielles des éditeurs d'IA](https://aurelienpage.fr/ressources/positions-officielles-ia): ce que Google, OpenAI, Anthropic, Perplexity et Microsoft disent aux sites web, avec sources.
+- [Plan GEO en 30 jours](https://aurelienpage.fr/ressources/plan-geo-30-jours): quatre semaines pour démarrer le GEO.
+- [Gabarit de page citable par les IA](https://aurelienpage.fr/ressources/gabarit-page-reponse): structure à copier, rôle de chaque bloc.
+- [Questions GEO par secteur](https://aurelienpage.fr/ressources/questions-geo-par-secteur): exemples de questions clients pour sept secteurs, fichier CSV.
 
 ## Articles GEO et recherche par IA
 
