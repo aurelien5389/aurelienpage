@@ -30,6 +30,7 @@ const FOOTER_LINKS = {
     { href: '/consultant-seo-rennes', label: 'Rennes' },
     { href: '/consultant-geo-rennes', label: 'GEO à Rennes' },
     { href: '/consultant-seo-nantes', label: 'Nantes' },
+    { href: '/consultant-geo-nantes', label: 'GEO à Nantes' },
     { href: '/consultant-seo-angers', label: 'Angers' },
     { href: '/consultant-seo-le-mans', label: 'Le Mans' },
     { href: '/consultant-seo-saint-malo', label: 'Saint-Malo' },

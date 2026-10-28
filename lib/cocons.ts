@@ -168,6 +168,7 @@ export const COCONS: Cocon[] = [
       { href: '/blog/choisir-consultant-seo-geo', label: 'Comment choisir un consultant SEO ou GEO ?' },
       { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
       { href: '/consultant-geo-laval', label: 'Consultant GEO à Laval' },
+      { href: '/consultant-geo-nantes', label: 'Consultant GEO à Nantes' },
       { href: '/zones-intervention', label: "Zones d'intervention : Laval, Rennes, Bretagne, Pays de la Loire, à distance" },
       { href: '/consultant-seo-bretagne', label: 'Consultant SEO en Bretagne' },
       { href: '/consultant-seo-pays-de-la-loire', label: 'Consultant SEO en Pays de la Loire' },

@@ -377,6 +377,13 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/consultant-seo-mayenne', label: 'Consultant SEO à Mayenne' },
     { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes' },
   ],
+  'consultant-geo-nantes': [
+    { href: '/consultant-seo-nantes', label: 'Consultant SEO à Nantes' },
+    { href: '/prestations/audit-geo', label: 'Audit GEO : relevé des réponses des IA et part de voix' },
+    { href: '/consultant-seo-saint-nazaire', label: 'Consultant SEO à Saint-Nazaire' },
+    { href: '/consultant-geo-laval', label: 'Consultant GEO à Laval' },
+    { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes' },
+  ],
   'pourquoi-consultant-seo': [
     { href: '/prestations/consultant-seo-geo', label: 'Mes prestations SEO & GEO' },
     { href: '/consultant-seo-freelance', label: 'Consultant SEO freelance' },

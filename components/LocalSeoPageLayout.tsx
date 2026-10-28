@@ -30,6 +30,11 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
     description: `Consultant SEO freelance ${aLaVille(ville)}. Audit SEO, optimisation technique et stratégie GEO. Diagnostic offert.`,
   }
 
+  // Appel au diagnostic au milieu du texte, juste avant les tarifs (ou la FAQ à défaut)
+  const coupure = body.search(/^## (Combien|Tarifs|Questions fréquentes)/m)
+  const avantTarifs = coupure > 0 ? body.slice(0, coupure) : body
+  const apresTarifs = coupure > 0 ? body.slice(coupure) : ''
+
   // Cocon local : Zones d'intervention › région › ville
   const zone = getRegionDeVille(slug)
   const parents = zone
@@ -86,7 +91,13 @@ export default function LocalSeoPageLayout({ h1, body, ville, slug, nearbyLinks,
         {/* Content */}
         <article className={styles.localArticle}>
           <div className={styles.localInner}>
-            <MarkdownRenderer content={body} />
+            <MarkdownRenderer content={avantTarifs} />
+            {apresTarifs && (
+              <>
+                <DiagnosticCTA variant="banner" />
+                <MarkdownRenderer content={apresTarifs} />
+              </>
+            )}
           </div>
         </article>
 

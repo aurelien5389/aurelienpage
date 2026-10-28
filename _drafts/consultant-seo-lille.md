@@ -24,7 +24,7 @@ Au-delà du référencement Google traditionnel, j'intègre systématiquement la
 
 Google AI Overviews s'affichent désormais sur une part croissante des requêtes à fort volume. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA ne listent pas des liens. Ils synthétisent des réponses à partir de sources qu'ils jugent fiables et autoritaires.
 
-Être cité comme source dans ces réponses représente une visibilité gratuite et durable, encore peu exploitée par les entreprises lilloises. C'est ma spécialité depuis 2023 et un avantage compétitif concret pour mes clients.
+Être cité comme source dans ces réponses représente une visibilité gratuite et durable, encore peu exploitée par les entreprises lilloises. C'est le cœur de mon travail : vérifier que les IA peuvent lire votre site, rendre vos pages citables et mesurer les citations.
 
 ## Mes prestations à Lille
 

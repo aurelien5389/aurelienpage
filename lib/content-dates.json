@@ -63,6 +63,10 @@
   "created": "2026-10-28",
   "modified": "2026-10-28"
  },
+ "_drafts/consultant-geo-nantes.md": {
+  "created": "2026-10-28",
+  "modified": "2026-10-28"
+ },
  "_drafts/consultant-geo-rennes.md": {
   "created": "2026-07-29",
   "modified": "2026-10-28"
@@ -125,7 +129,7 @@
  },
  "_drafts/consultant-seo-lille.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
+  "modified": "2026-10-28"
  },
  "_drafts/consultant-seo-lorient.md": {
   "created": "2026-07-29",
@@ -409,6 +413,10 @@
  },
  "app/consultant-geo-laval/page.tsx": {
   "created": "2026-07-29",
+  "modified": "2026-10-28"
+ },
+ "app/consultant-geo-nantes/page.tsx": {
+  "created": "2026-10-28",
   "modified": "2026-10-28"
  },
  "app/consultant-geo-rennes/page.tsx": {

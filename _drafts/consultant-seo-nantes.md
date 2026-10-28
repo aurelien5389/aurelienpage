@@ -37,6 +37,8 @@ La liste complète, secteur par secteur, est dans la ressource [questions à sui
 - **SEO local** : fiche Google Business Profile, avis, cohérence de vos informations sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
 - **[Formation GEO](/formation-geo)** pour une équipe marketing qui veut faire elle-même.
 
+Le volet IA est détaillé sur la page [consultant GEO à Nantes](/consultant-geo-nantes) : livrables, critères pour choisir, comparaison avec une agence.
+
 ## Comment se déroule une mission à Nantes ?
 
 1. **Diagnostic offert de 30 minutes**, en visioconférence : votre situation, vos objectifs, ce qui est prioritaire.

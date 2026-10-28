@@ -69,6 +69,7 @@ const data: FicheData = {
     { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
     { href: '/consultant-geo-laval', label: 'Consultant GEO à Laval' },
     { href: '/consultant-seo-nantes', label: 'Consultant SEO à Nantes' },
+    { href: '/consultant-geo-nantes', label: 'Consultant GEO à Nantes' },
     { href: '/consultant-seo-bretagne', label: 'Consultant SEO en Bretagne' },
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
     { href: '/blog/choisir-consultant-seo-geo', label: 'Comment choisir un consultant SEO ou GEO ?' },
