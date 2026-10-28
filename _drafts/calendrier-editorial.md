@@ -30,7 +30,7 @@ Le calendrier éditorial permet aussi d'organiser votre contenu autour de **clus
 
 Autre avantage : anticiper les temps forts de votre secteur. Si vous savez qu'une conférence importante a lieu en mai ou que votre audience est particulièrement active en septembre-octobre, vous pouvez prévoir les contenus correspondants à l'avance, sans vous retrouver à rédiger dans l'urgence.
 
-En 2025, le calendrier éditorial doit aussi intégrer une dimension **GEO (Generative Engine Optimization)** : planifier des mises à jour régulières de vos contenus existants, car les moteurs de recherche génératifs (Google AI Overviews, Perplexity) privilégient les sources fraîches et récemment mises à jour. La mise à jour des anciens articles doit donc figurer dans votre planning au même titre que la création de nouveaux contenus.
+En 2026, le calendrier éditorial doit aussi intégrer une dimension **GEO (Generative Engine Optimization)** : planifier des mises à jour régulières de vos contenus existants, car les moteurs de recherche génératifs (Google AI Overviews, Perplexity) privilégient les sources fraîches et récemment mises à jour. La mise à jour des anciens articles doit donc figurer dans votre planning au même titre que la création de nouveaux contenus.
 
 ## Les questions à se poser avant de créer son calendrier
 

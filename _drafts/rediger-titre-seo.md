@@ -47,7 +47,7 @@ Exemple : "Les 5 erreurs qui sabotent vos titres SEO". La mise en garde active l
 Exemple : "Vos titres sont-ils vraiment optimisés pour Google ?". Elle interpelle directement le lecteur et qualifie son intention.
 
 **La formule "Guide complet"**
-Exemple : "La balise title : le guide complet pour le SEO en 2025". Elle positionne l'article comme une référence exhaustive, idéale pour les requêtes informationnelles.
+Exemple : "La balise title : le guide complet pour le SEO en 2026". Elle positionne l'article comme une référence exhaustive, idéale pour les requêtes informationnelles.
 
 Quelle que soit la formule choisie, un bon H1 répond à une question simple : **pourquoi l'internaute devrait-il lire cet article plutôt qu'un autre** ?
 
@@ -64,7 +64,7 @@ Le taux de clics (CTR) est un signal indirect que Google utilise pour évaluer l
 Pour améliorer le CTR de vos titres :
 
 - Testez plusieurs formulations en modifiant la balise title de pages existantes et en comparant l'évolution du CTR via [Google Search Console](/blog/google-search-console)
-- Ajoutez l'année en cours pour les articles de type "guide complet" ou "comparatif" : "Meilleurs outils SEO 2025" surpasse généralement "Meilleurs outils SEO"
+- Ajoutez l'année en cours pour les articles de type "guide complet" ou "comparatif" : "Meilleurs outils SEO 2026" surpasse généralement "Meilleurs outils SEO"
 - Utilisez des verbes d'action : "découvrez", "maîtrisez", "évitez", "testez"
 - Intégrez des parenthèses ou des crochets pour des précisions : "Comment rédiger un titre SEO (+ 5 exemples concrets)"
 

@@ -4,7 +4,7 @@
 
 Marseille, deuxième ville de France, concentre un tissu économique dense et varié : commerce et logistique (grâce au port international), tourisme dynamique, secteur technologique émergent (Joliette), agroalimentaire. Sur ce marché ultra-concurrentiel, la visibilité digitale n'est plus optionnelle. Elle est stratégique. Les entreprises marseillaises doivent apparaître sur Google quand leurs prospects les cherchent localement, et désormais aussi dans les réponses IA (AI Overviews, Perplexity, ChatGPT Search).
 
-En 2025, le SEO s'est fragmenté. Un site bien classique sur Google n'est plus suffisant : il faut aussi être visible dans les moteurs génératifs IA qui dominent les recherches des utilisateurs avertis. C'est précisément là où les entreprises marseillaises accumulent un retard que je corrige directement.
+En 2026, le SEO s'est fragmenté. Un site bien classique sur Google n'est plus suffisant : il faut aussi être visible dans les moteurs génératifs IA qui dominent les recherches des utilisateurs avertis. C'est précisément là où les entreprises marseillaises accumulent un retard que je corrige directement.
 
 Je suis consultant SEO/GEO freelance. Pas une agence. Pas de décalage de communication, pas de délais, un interlocuteur unique qui maîtrise à la fois le SEO technique et cette nouvelle discipline : l'optimisation pour les moteurs IA.
 

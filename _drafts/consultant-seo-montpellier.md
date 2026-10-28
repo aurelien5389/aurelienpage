@@ -6,7 +6,7 @@ Montpellier est une anomalie positive dans la France profonde : ville universita
 
 Sur le plan digital, ça signifie un marché en expansion, avec une demande croissante pour des services modernes (agences digitales, SaaS, services B2B) et une offre encore fragmentée et peu structurée en SEO/GEO. Les entreprises montpelliéraines comprennent que la visibilité digitale est critique, mais beaucoup sous-estiment encore la complexité : le SEO pur ne suffit plus, il faut aussi être visible dans les moteurs IA (AI Overviews, Perplexity, ChatGPT Search).
 
-Je suis consultant SEO/GEO freelance. Je travaille directement avec les entrepreneurs et PME montpelliéraines qui veulent grandir rapidement. Pas de processus lourd, pas de delays d'agence. Juste un consultant qui optimise votre présence digitale pour 2025 et au-delà.
+Je suis consultant SEO/GEO freelance. Je travaille directement avec les entrepreneurs et PME montpelliéraines qui veulent grandir rapidement. Pas de processus lourd, pas de delays d'agence. Juste un consultant qui optimise votre présence digitale pour 2026 et au-delà.
 
 ---
 

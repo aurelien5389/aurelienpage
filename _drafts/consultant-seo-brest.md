@@ -20,7 +20,7 @@ Je suis Aurélien PAGE, consultant SEO et GEO freelance basé en Bretagne. J'int
 
 ## Ce que j'apporte au-delà du SEO classique : le GEO
 
-Le paysage de la recherche évolue. En 2025, les AI Overviews de Google s'affichent sur une part croissante des requêtes. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA synthétisent du contenu et retournent des réponses directes, sans toujours lister des liens cliquables.
+Le paysage de la recherche évolue. En 2026, les AI Overviews de Google s'affichent sur une part croissante des requêtes. Perplexity et ChatGPT Search captent une audience grandissante. Ces moteurs de réponse IA synthétisent du contenu et retournent des réponses directes, sans toujours lister des liens cliquables.
 
 Le **GEO (Generative Engine Optimization)** est l'optimisation de votre contenu pour être cité comme source dans ces réponses IA. C'est une discipline encore rare sur le marché français, et une opportunité réelle pour les entreprises brestoises qui anticipent ce changement.
 

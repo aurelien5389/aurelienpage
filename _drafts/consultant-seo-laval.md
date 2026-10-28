@@ -6,7 +6,7 @@ Laval est une anomalie en France provinciale : pionnière incontestée de la ré
 
 Ce positionnement dual (tech + agricole) crée un marché SEO intéressant et peu saturé. D'un côté, des startups/PME tech cherchent la visibilité pour attirer clients et talents. De l'autre, des entreprises agroalimentaires et agricoles cherchent juste une présence digitale basique mais efficace.
 
-En 2025, la couche IA Search change la donne : ChatGPT Search, Perplexity, AI Overviews ne se limitent pas aux SaaS. Les recherches sur "réalité virtuelle France", "agroalimentaire innovation", "solution logistique agricole" utilisent de plus en plus ces moteurs IA. Ignorer le GEO (Generative Engine Optimization) signifie laisser une partie croissante de vos prospects aux mains des moteurs génératifs, sans apparaître dans les réponses synthétisées.
+En 2026, la couche IA Search change la donne : ChatGPT Search, Perplexity, AI Overviews ne se limitent pas aux SaaS. Les recherches sur "réalité virtuelle France", "agroalimentaire innovation", "solution logistique agricole" utilisent de plus en plus ces moteurs IA. Ignorer le GEO (Generative Engine Optimization) signifie laisser une partie croissante de vos prospects aux mains des moteurs génératifs, sans apparaître dans les réponses synthétisées.
 
 Je suis consultant SEO/GEO freelance. Je travaille directement avec les PME/startups lavaliennes qui prennent la visibilité digitale au sérieux.
 

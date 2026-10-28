@@ -23,7 +23,7 @@ Je suis Aurélien Page, consultant SEO/GEO & Traffic Manager freelance. Je aide 
 
 ## Ce que j'apporte au-delà du SEO classique : le GEO
 
-2025 : le SEO n'est plus juste Google Search. Les moteurs génératifs montent (AI Overviews, Perplexity, ChatGPT Search). Votre stratégie doit s'adapter.
+2026 : le SEO n'est plus juste Google Search. Les moteurs génératifs montent (AI Overviews, Perplexity, ChatGPT Search). Votre stratégie doit s'adapter.
 
 La bonne nouvelle : très peu de consultants SEO en France maîtrisent cette transition. C'est ma spécialisation : le **GEO (Generative Engine Optimization)**.
 

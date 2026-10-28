@@ -62,7 +62,7 @@ Les SERPs navigationnelles affichent directement le site ou la page recherchée,
 
 L'utilisateur est en phase d'évaluation. Il a identifié son besoin, il compare des options, il cherche à être convaincu. C'est un prospect tiède, au milieu du funnel (MOFU).
 
-Exemples : "meilleur outil SEO 2025", "Semrush vs Ahrefs", "consultant SEO vs agence SEO", "avis sur [produit/service]"
+Exemples : "meilleur outil SEO 2026", "Semrush vs Ahrefs", "consultant SEO vs agence SEO", "avis sur [produit/service]"
 
 Les SERPs commerciales affichent des comparatifs, des classements, des avis, des vidéos de démonstration, des pages de catégories e-commerce, parfois Google Shopping.
 
@@ -106,7 +106,7 @@ Avant de rédiger n'importe quelle page ou article, prenez 10 minutes pour analy
 
 **Quelle est la longueur et la profondeur des contenus positionnés ?** Ce n'est pas le nombre de mots qui compte, mais la couverture du sujet. Un article qui répond à toutes les questions d'un utilisateur sans qu'il ait besoin d'aller chercher ailleurs est ce que Google cherche à valoriser.
 
-## Les éléments composant une SERP en 2025
+## Les éléments composant une SERP en 2026
 
 Outre les résultats organiques classiques, une SERP peut contenir aujourd'hui :
 

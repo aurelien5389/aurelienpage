@@ -8,7 +8,7 @@ Sur le plan SEO, Strasbourg présente deux défis distincts :
 1. **Concurrence institutionnelle** : les institutions UE et structures publiques dominent certains mots-clés
 2. **Nécessité du multilingue** : vos prospects cherchent en français ET en allemand (et parfois anglais)
 
-En 2025, ajouter la couche IA Search (AI Overviews, Perplexity, ChatGPT Search) : ces moteurs génératifs captent de plus en plus de recherches, notamment dans les contextes B2B et technique où Strasbourg excelle. Ne pas optimiser pour le GEO signifie ignorer une part croissante de vos prospects.
+En 2026, ajouter la couche IA Search (AI Overviews, Perplexity, ChatGPT Search) : ces moteurs génératifs captent de plus en plus de recherches, notamment dans les contextes B2B et technique où Strasbourg excelle. Ne pas optimiser pour le GEO signifie ignorer une part croissante de vos prospects.
 
 Je suis consultant SEO/GEO freelance. Je travaille directement avec les PME, ETI et cabinets stratégiques strasbourgeois qui prennent au sérieux leur visibilité digitale.
 

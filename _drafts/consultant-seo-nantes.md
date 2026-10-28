@@ -20,7 +20,7 @@ Je suis Aurélien PAGE, consultant SEO et GEO freelance. Pas une agence avec un 
 
 ## Ce que j'apporte au-delà du SEO classique : le GEO
 
-SEO traditionnel = Google Search. Mais en 2025, le paysage évolue.
+SEO traditionnel = Google Search. Mais en 2026, le paysage évolue.
 
 Google AI Overviews remplacent progressivement les listes de résultats classiques sur les requêtes à fort volume. Perplexity et ChatGPT Search captent une part croissante des recherches. Ces moteurs génératifs synthétisent du contenu et retournent des réponses directes, souvent sans lien cliquable.
 

@@ -18,7 +18,7 @@ La pagination crée plusieurs problèmes structurels pour les moteurs de recherc
 
 **Cannibalisation.** Si plusieurs pages paginées sont indexées sur les mêmes mots-clés que la page principale de la catégorie, elles entrent en compétition avec elle dans les SERPs.
 
-## Ce que Google dit officiellement (2025)
+## Ce que Google dit officiellement (2026)
 
 Depuis mars 2019, Google a confirmé ne plus utiliser `rel="next"` et `rel="prev"` pour comprendre la pagination. Ces attributs sont devenus neutres : les ajouter ne nuit pas, mais n'apporte plus de bénéfice direct.
 

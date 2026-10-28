@@ -86,7 +86,7 @@ Search Console vous dit précisément sur quelles requêtes vous apparaissez, qu
 
 Le SEO n'est pas une case à cocher. C'est une discipline continue. Faire un audit SEO une fois, optimiser les balises title, puis ne plus y toucher pendant deux ans : c'est exactement la logique qui explique pourquoi des sites qui démarraient bien finissent par reculer.
 
-Google met à jour son algorithme en permanence. La concurrence publie de nouveaux contenus. Les requêtes évoluent. Ce qui fonctionnait en 2022 peut ne plus fonctionner en 2025, et vice versa.
+Google met à jour son algorithme en permanence. La concurrence publie de nouveaux contenus. Les requêtes évoluent. Ce qui fonctionnait en 2022 peut ne plus fonctionner en 2026, et vice versa.
 
 **Comment éviter cette erreur :** intégrez le SEO dans votre calendrier de travail régulier. Un audit léger tous les trimestres, une mise à jour des contenus importants chaque semestre, une veille sur les évolutions algorithmiques : ce rythme minimal suffit à maintenir et améliorer vos positions dans la durée.
 

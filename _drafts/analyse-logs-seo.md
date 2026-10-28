@@ -17,7 +17,7 @@ Un **log serveur** (ou log d'accès) est un fichier généré automatiquement pa
 Une ligne de log type ressemble à ceci :
 
 ```
-66.249.66.1 - - [10/Apr/2025:14:32:01 +0000] "GET /blog/seo-technique/ HTTP/1.1" 200 45231 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.66.1 - - [10/Apr/2026:14:32:01 +0000] "GET /blog/seo-technique/ HTTP/1.1" 200 45231 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 ```
 
 On y lit : l'IP source, la date et l'heure, la méthode HTTP et l'URL requise, le code de réponse du serveur, la taille de la réponse, et l'User-Agent qui identifie le client. Pour le SEO, ce qui nous intéresse est de filtrer uniquement les lignes correspondant aux crawlers, Googlebot, Bingbot, mais aussi, de plus en plus, les bots IA (GPTBot, PerplexityBot, anthropic-ai, ClaudeBot…).
@@ -58,7 +58,7 @@ Cette analyse croisée est l'une des plus puissantes en SEO technique. Elle rév
 
 ### 4. Le comportement des bots IA
 
-C'est l'utilisation la plus stratégique de l'analyse de logs en 2025. En filtrant par User-Agent, vous identifiez quels bots IA visitent votre site (GPTBot, PerplexityBot, Claude-Web, Amazonbot, YouBot…), à quelle fréquence, et quelles pages ils consultent en priorité.
+C'est l'utilisation la plus stratégique de l'analyse de logs en 2026. En filtrant par User-Agent, vous identifiez quels bots IA visitent votre site (GPTBot, PerplexityBot, Claude-Web, Amazonbot, YouBot…), à quelle fréquence, et quelles pages ils consultent en priorité.
 
 Cette information permet de valider, ou d'ajuster, votre stratégie `robots.txt` vis-à-vis des bots IA, et de comprendre quels contenus attirent l'attention des moteurs génératifs. Si PerplexityBot crawle systématiquement vos articles sur un thème précis, c'est que votre contenu sur ce thème est potentiellement cité dans les réponses de Perplexity, un signal de visibilité GEO.
 

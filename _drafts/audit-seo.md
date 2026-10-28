@@ -147,7 +147,7 @@ Un bon audit SEO ne se termine pas par un rapport de 80 pages illisible. Il déb
 
 ## Audit SEO et IA générative : les nouvelles dimensions
 
-En 2025, un audit SEO complet intègre une dimension supplémentaire : la **visibilité dans les moteurs génératifs** (Google AI Overviews, Perplexity, ChatGPT Search).
+En 2026, un audit SEO complet intègre une dimension supplémentaire : la **visibilité dans les moteurs génératifs** (Google AI Overviews, Perplexity, ChatGPT Search).
 
 Des questions à ajouter à votre audit : vos contenus sont-ils structurés pour être "répondables" (réponse directe en tête d'article, format Q&A, listes exploitables par les LLMs) ? Vos pages stratégiques apparaissent-elles dans les AI Overviews sur vos requêtes cibles ? Vos signaux EEAT sont-ils suffisamment forts pour que les LLMs vous considèrent comme une source citable ?
 

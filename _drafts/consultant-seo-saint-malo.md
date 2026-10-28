@@ -25,7 +25,7 @@ Je suis Aurélien Page, consultant SEO/GEO & Traffic Manager freelance. Je aide 
 
 ## Ce que j'apporte au-delà du SEO classique : le GEO
 
-Le SEO évolue vite. En 2025, vous devez viser non seulement Google Search (classements bleus), mais aussi les moteurs génératifs : AI Overviews, Perplexity, ChatGPT Search.
+Le SEO évolue vite. En 2026, vous devez viser non seulement Google Search (classements bleus), mais aussi les moteurs génératifs : AI Overviews, Perplexity, ChatGPT Search.
 
 Pour Saint-Malo, ça signifie quoi ?
 

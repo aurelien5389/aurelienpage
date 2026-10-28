@@ -28,7 +28,7 @@ Aujourd'hui, Google ne publie plus le score de PageRank publiquement (le PageRan
 
 Longtemps, la stratégie netlinking s'est résumée à accumuler le maximum de liens. Cette approche est révolue, et dangereuse. Depuis les mises à jour Penguin (2012) et leurs versions suivantes, Google pénalise activement les profils de liens artificiels ou de mauvaise qualité.
 
-La règle absolue du netlinking en 2025 : **un bon lien vaut mieux que mille mauvais liens**.
+La règle absolue du netlinking en 2026 : **un bon lien vaut mieux que mille mauvais liens**.
 
 ### Ce qui fait la qualité d'un backlink
 

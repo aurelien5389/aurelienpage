@@ -64,8 +64,8 @@ Pour les articles de blog et les pages de contenu éditorial. Les propriétés c
     "name": "Aurélien Page",
     "url": "https://www.aurelienpage.fr/a-propos/"
   },
-  "datePublished": "2025-04-10",
-  "dateModified": "2025-04-10",
+  "datePublished": "2026-04-10",
+  "dateModified": "2026-04-10",
   "image": "https://www.aurelienpage.fr/images/donnees-structurees.jpg",
   "publisher": {
     "@type": "Organization",
@@ -147,7 +147,7 @@ Pour le fil d'Ariane (voir l'article dédié). Permet l'affichage de la hiérarc
 
 **Valider avant de mettre en ligne.** Utilisez le [Google Rich Results Test](https://search.google.com/test/rich-results) pour vérifier la validité syntaxique de votre JSON-LD, et le rapport "Améliorations" de la Search Console pour le suivi en production.
 
-**Mettre à jour les données temporelles.** Les propriétés `datePublished` et `dateModified` doivent refléter les dates réelles. Une page mise à jour en 2025 mais avec une `datePublished` de 2020 et sans `dateModified` sera perçue comme obsolète.
+**Mettre à jour les données temporelles.** Les propriétés `datePublished` et `dateModified` doivent refléter les dates réelles. Une page mise à jour en 2026 mais avec une `datePublished` de 2020 et sans `dateModified` sera perçue comme obsolète.
 
 ## Données structurées et IA : la dimension émergente
 

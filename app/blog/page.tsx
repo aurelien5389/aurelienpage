@@ -175,7 +175,7 @@ export default function BlogPage() {
                 → Pourquoi faire appel à un consultant SEO ?
               </Link>
               <Link href="/cout-prestation-seo" className={styles.blogIdxPrestaLien}>
-                → Tarifs SEO 2025
+                → Tarifs SEO 2026
               </Link>
             </div>
           </div>

@@ -119,7 +119,7 @@ Exemple : une marque de mobilité douce positionnée sur "vélo électrique pas 
 
 **Intention navigationnelle** : l'internaute cherche un site ou une page spécifique. Exemple : "connexion Google Search Console". Peu de valeur SEO sauf pour votre propre marque.
 
-**Intention commerciale** (ou investigatrice) : l'internaute compare des options avant de décider. Exemple : "meilleur outil SEO 2025" ou "Semrush vs Ahrefs". Pages comparatives, avis, tops listes.
+**Intention commerciale** (ou investigatrice) : l'internaute compare des options avant de décider. Exemple : "meilleur outil SEO 2026" ou "Semrush vs Ahrefs". Pages comparatives, avis, tops listes.
 
 Adapter votre contenu à l'intention derrière chaque mot-clé est aussi important que le mot-clé lui-même. Google sait faire la différence entre une page qui répond à une intention et une page qui tente de se positionner sur un terme sans y répondre correctement.
 

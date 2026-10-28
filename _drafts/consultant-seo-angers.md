@@ -9,15 +9,15 @@ intention_recherche: BOFU, entreprise angevine cherchant expert SEO local/nation
 
 Vous dirigez une PME, une TPE ou une agence marketing à Angers ou en Maine-et-Loire ? Votre site web ne génère pas assez de leads, vos concurrents vous devancent sur Google, et vous ne savez pas par où commencer. Vous êtes au bon endroit.
 
-Je suis consultant SEO freelance spécialisé dans le référencement naturel pour les entreprises angevines et la région Maine-et-Loire. Mon approche combine l'expertise technique, la stratégie de contenu éthique (white hat), et la préparation aux mutations de la recherche en 2025 : AI Overviews, GEO (Generative Engine Optimization) et IA Search.
+Je suis consultant SEO freelance spécialisé dans le référencement naturel pour les entreprises angevines et la région Maine-et-Loire. Mon approche combine l'expertise technique, la stratégie de contenu éthique (white hat), et la préparation aux mutations de la recherche en 2026 : AI Overviews, GEO (Generative Engine Optimization) et IA Search.
 
 Pas d'agence coûteuse. Pas de contrats piégeux. Juste un expert solo qui vous aide à conquérir Google et les nouveaux moteurs IA, avec transparence et responsabilité.
 
-## Pourquoi investir en SEO en 2025 pour votre entreprise angevine
+## Pourquoi investir en SEO en 2026 pour votre entreprise angevine
 
 Angers est devenue un hub économique majeur : université, startups, secteurs agro-alimentaire, technologie, santé et formation professionnelle. Le Maine-et-Loire concentre des centaines de PME qui toutes cherchent à augmenter leur visibilité en ligne.
 
-**Ce qui a changé en 2025 :**
+**Ce qui a changé depuis 2025 :**
 - **AI Overviews dans Google** : les réponses générées par IA dominent désormais les résultats. Être cité comme source devient crucial
 - **GEO et moteurs IA** : Perplexity, Claude, et autres moteurs générativistes favorisent les sources d'autorité localisées et structurées
 - **INP remplace le FID** : depuis mars 2024, Google évalue votre site sur l'Interaction to Next Paint (réactivité < 200ms). C'est vital pour le classement

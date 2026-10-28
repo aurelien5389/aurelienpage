@@ -50,7 +50,7 @@ Limitez-vous au H4 dans la plupart des cas. Au-delà, interrogez-vous sur la per
 
 Exemple de hiérarchie bien structurée :
 ```
-H1 : Le référencement naturel : guide complet SEO 2025
+H1 : Le référencement naturel : guide complet SEO 2026
   H2 : Qu'est-ce que le SEO ?
   H2 : Les trois piliers du SEO
     H3 : Le SEO technique

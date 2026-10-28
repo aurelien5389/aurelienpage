@@ -22,7 +22,7 @@ Avant de rédiger, analysez les 5 premiers résultats sur votre requête cible. 
 
 Publier de nouveaux articles génère de l'enthousiasme. Mettre à jour les anciens génère du trafic.
 
-Google valorise la **fraîcheur du contenu** (freshness), notamment sur les sujets qui évoluent (technologie, réglementation, pratiques professionnelles). Un article publié en 2022 sur "les meilleures pratiques SEO" qui n'a pas été touché depuis stagne ou recule. Le même article mis à jour en 2025 avec des données actuelles, des nouvelles références et une section sur les AI Overviews peut rebondir significativement.
+Google valorise la **fraîcheur du contenu** (freshness), notamment sur les sujets qui évoluent (technologie, réglementation, pratiques professionnelles). Un article publié en 2022 sur "les meilleures pratiques SEO" qui n'a pas été touché depuis stagne ou recule. Le même article mis à jour en 2026 avec des données actuelles, des nouvelles références et une section sur les AI Overviews peut rebondir significativement.
 
 Méthode : dans [Google Search Console](/blog/google-search-console), identifiez vos pages qui reçoivent des impressions mais peu de clics (CTR faible malgré une position 5-15). Ce sont vos meilleures candidates à la mise à jour.
 

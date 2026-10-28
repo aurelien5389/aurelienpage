@@ -39,7 +39,7 @@ Pour les PME nazairiennes, cela signifie :
 
 - **Anticiper la migration des recherches B2B.** Les acheteurs utilisent de plus en plus ChatGPT Search pour faire du sourcing. Vous devez y être visible.
 
-- **Maintenir une présence double : Google Search + Moteurs IA.** La stratégie 2025, c'est pas l'un ou l'autre. C'est les deux.
+- **Maintenir une présence double : Google Search + Moteurs IA.** La stratégie 2026, c'est pas l'un ou l'autre. C'est les deux.
 
 ## Mes prestations à Saint-Nazaire
 

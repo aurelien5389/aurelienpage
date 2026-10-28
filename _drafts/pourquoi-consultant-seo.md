@@ -16,7 +16,7 @@ Le SEO est l'un de ces sujets où chacun pense pouvoir se débrouiller seul, jus
 
 Faire appel à un consultant SEO, c'est investir dans une expertise qui vous évite les erreurs coûteuses, accélère les résultats, et vous libère pour vous concentrer sur votre cœur de métier.
 
-## Le SEO en 2025 : une discipline plus complexe que jamais
+## Le SEO en 2026 : une discipline plus complexe que jamais
 
 Le référencement naturel n'a jamais été aussi technique, aussi évolutif, et aussi stratégique. En quelques années, le SEO s'est enrichi de nouvelles dimensions qui exigent une expertise à jour permanente.
 
@@ -26,7 +26,7 @@ Le référencement naturel n'a jamais été aussi technique, aussi évolutif, et
 
 **L'IA Search change les règles du jeu.** Depuis 2024, Google AI Overviews génère des réponses directement dans les SERPs pour de nombreuses requêtes informatives. Perplexity, ChatGPT Search et Bing Copilot captent une part croissante des recherches. Optimiser pour ces moteurs génératifs, ce qu'on appelle le **GEO (Generative Engine Optimization)**, est une compétence nouvelle que peu de professionnels maîtrisent réellement.
 
-Un consultant SEO compétent en 2025 ne se contente plus d'optimiser les balises title et de construire des backlinks. Il pilote une stratégie complète qui couvre le SEO technique, le contenu, l'autorité, l'expérience utilisateur, et la visibilité dans les moteurs génératifs.
+Un consultant SEO compétent en 2026 ne se contente plus d'optimiser les balises title et de construire des backlinks. Il pilote une stratégie complète qui couvre le SEO technique, le contenu, l'autorité, l'expérience utilisateur, et la visibilité dans les moteurs génératifs.
 
 ## Ce qu'un consultant SEO apporte concrètement
 

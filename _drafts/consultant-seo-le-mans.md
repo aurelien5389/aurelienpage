@@ -6,9 +6,9 @@ Le Mans c'est l'automobile : 24h du Mans mondialement connus, tissu industriel d
 
 Le marché SEO y est particulier : vous avez des entreprises B2B industrielles (pour lesquelles le SEO classique est déjà niche), mais aussi du B2C (tourisme autour de la course, commerce local). Sur ce terrain fragmenté, la visibilité digitale est souvent ignorée ou confié à des prestataires parisiens qui ne comprennent pas les enjeux locaux.
 
-En 2025, ajouter la complexité IA : ChatGPT Search, Perplexity, AI Overviews ne sont pas juste pour les SaaS du Silicon Valley. Les entreprises industrielles, les fournisseurs manuels, les logisticiens y cherchent aussi des partners. Si vous n'y êtes pas visible (GEO), vous perdez des appels d'offres.
+En 2026, ajouter la complexité IA : ChatGPT Search, Perplexity, AI Overviews ne sont pas juste pour les SaaS du Silicon Valley. Les entreprises industrielles, les fournisseurs manuels, les logisticiens y cherchent aussi des partners. Si vous n'y êtes pas visible (GEO), vous perdez des appels d'offres.
 
-Je suis consultant SEO/GEO freelance. Je travaille avec les PME/ETI du Mans qui comprennent que la visibilité digitale est un actif stratégique en 2025, qu'elles vendent du B2B industriel ou du B2C local.
+Je suis consultant SEO/GEO freelance. Je travaille avec les PME/ETI du Mans qui comprennent que la visibilité digitale est un actif stratégique en 2026, qu'elles vendent du B2B industriel ou du B2C local.
 
 ---
 

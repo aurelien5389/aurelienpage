@@ -1,6 +1,6 @@
 ---
 slug: /consultant-seo-bordeaux
-title: Consultant SEO à Bordeaux | Expert référencement naturel & GEO 2025
+title: Consultant SEO à Bordeaux | Expert référencement naturel & GEO 2026
 meta-description: Consultant SEO freelance à Bordeaux. Stratégies sur mesure, audit SEO, optimisation Core Web Vitals et GEO pour dominer Google et les moteurs IA. Contactez-moi.
 intention-recherche: BOFU, entreprise bordelaise cherchant expert SEO freelance
 ---
@@ -13,7 +13,7 @@ Je suis consultant SEO freelance expert en référencement naturel et **Generati
 
 Bordeaux Métropropole est un pôle économique dynamique, startups tech, secteur viticole, tourisme, services. Vos clients potentiels cherchent sur Google. Je suis là pour les faire arriver jusqu'à vous.
 
-## Pourquoi le SEO est essentiel en 2025 à Bordeaux
+## Pourquoi le SEO est essentiel en 2026 à Bordeaux
 
 Le marché bordelais est saturé de concurrence SEO locale. Sur des requêtes comme « agence web Bordeaux », « consultant SEO Bordeaux », « meilleur restaurant Bordeaux », la bataille est féroce. Les agences nationales vous promettent du classement ; elles livrent du spam de contenu. Les freelances inexpérimentés vous coûtent du temps et de l'argent.
 
@@ -41,8 +41,8 @@ Création d'une architecture thématique cohérente. Articles de blog, pages de 
 ### Netlinking naturel & partenariats
 Construction d'un profil de liens thématisé, partnerships avec médias bordelais, relations avec influenceurs sectoriels, guest posts pertinents. Du vrai netlinking, pas du spam de PBN.
 
-### GEO & IA Search, Mon différenciant 2025
-Positionnement spécifique dans les AI Overviews, stratégie pour Perplexity et autres moteurs génératifs, visibilité augmentée. C'est là que 30-40% de vos clients potentiels cherchent en 2025. [Découvrir GEO & IA Search](/blog/geo-ia-search-ai-overviews)
+### GEO & IA Search, Mon différenciant 2026
+Positionnement spécifique dans les AI Overviews, stratégie pour Perplexity et autres moteurs génératifs, visibilité augmentée. C'est là que 30-40% de vos clients potentiels cherchent en 2026. [Découvrir GEO & IA Search](/blog/geo-ia-search-ai-overviews)
 
 ## Consultant freelance vs. agence SEO : pourquoi la différence compte
 
@@ -57,13 +57,13 @@ Une agence SEO à Bordeaux ou ailleurs, c'est une machine : commerciaux, chefs d
 
 Le SEO n'est pas sexy. C'est du travail long, méticuleux, basé sur des données. Les agences en ont peur. Moi, c'est mon bread-and-butter.
 
-## Les 3 piliers du SEO : ma méthode 2025
+## Les 3 piliers du SEO : ma méthode 2026
 
 ### Pilier 1 : SEO Technique
 Un site rapide, mobile-friendly, bien structuré. L'INP (Interaction to Next Paint) est devenu critique en 2024. Beaucoup de sites bordelais le négligent. Je l'optimise. Vous gagnez des points auprès de Google ET auprès de vos visiteurs.
 
 ### Pilier 2 : SEO de Contenu
-Contenu pensé pour vos clients réels et pour Google. Articles qui répondent à l'intention de recherche, qui construisent votre autorité, qui sont liés entre eux (topic clusters). Contenu aussi optimisé pour les AI Overviews et Perplexity, c'est essentiel en 2025.
+Contenu pensé pour vos clients réels et pour Google. Articles qui répondent à l'intention de recherche, qui construisent votre autorité, qui sont liés entre eux (topic clusters). Contenu aussi optimisé pour les AI Overviews et Perplexity, c'est essentiel en 2026.
 
 ### Pilier 3 : SEO de Netlinking
 Backlinks naturels, thématisés, depuis des sites pertinents. Pas de PBN, pas de spam. Des vrais liens qui signalent à Google : « Cette entreprise est une source de confiance ».
@@ -119,7 +119,7 @@ Un accompagnement mensuel coûte de 500 à 2 000 € par mois selon le périmèt
 Cela dépend de votre baseline et de vos mots-clés. En moyenne : +150% de trafic organique dans les 12 mois, +200% de leads qualifiés, +3 positions en moyenne sur les mots-clés stratégiques. Mais on mesure les leads, pas juste les clics, c'est ça qui compte réellement.
 
 **Q6. GEO, c'est quoi concrètement ?**
-GEO = Generative Engine Optimization. C'est l'art de vous positionner dans les résultats générés par les AI (AI Overviews, Perplexity, Claude Search, etc.). Ces moteurs cherchent du contenu crédible, varié, bien-argued. Mon rôle : assurer que votre entreprise soit visible dans ces résultats augmentés, où 30-40% des chercheurs commencent leur décision en 2025.
+GEO = Generative Engine Optimization. C'est l'art de vous positionner dans les résultats générés par les AI (AI Overviews, Perplexity, Claude Search, etc.). Ces moteurs cherchent du contenu crédible, varié, bien-argued. Mon rôle : assurer que votre entreprise soit visible dans ces résultats augmentés, où 30-40% des chercheurs commencent leur décision en 2026.
 
 ## Dominer la recherche à Bordeaux : Commençons maintenant
 
