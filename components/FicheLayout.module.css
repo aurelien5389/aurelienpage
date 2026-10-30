@@ -15,7 +15,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   color: var(--color-gray-secondary);
 }
 
@@ -215,4 +215,41 @@
   margin: 16px 0 0;
   font-size: 16px;
   color: var(--color-encre-2);
+}
+
+/* Actions en tête de fiche : l'appel à l'action n'attend pas le bas de page */
+.ficheActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.ficheActions :global(.btn) {
+  font-variant-numeric: tabular-nums;
+}
+
+.ficheReassurance {
+  margin: 0.75rem 0 0;
+  font-size: 0.9375rem;
+  color: var(--color-encre-2);
+}
+
+.ficheBandeau {
+  margin-top: 1.5rem;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 639px) {
+  .ficheActions :global(.btn) {
+    flex: 1 1 100%;
+  }
 }

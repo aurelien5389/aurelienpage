@@ -29,9 +29,9 @@ const siteUrl = 'https://aurelienpage.fr'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
+  title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Laval et Rennes',
   description:
-    'Consultant SEO, GEO et SEA à Rennes : être trouvé sur Google et cité par ChatGPT, Perplexity et les AI Overviews. Audits, accompagnement, Google Ads, formations. Diagnostic offert.',
+    'Consultant SEO, GEO et SEA à Laval et Rennes : être trouvé sur Google et cité par ChatGPT, Perplexity et les AI Overviews. Audits, accompagnement, Google Ads, formations. Diagnostic offert.',
   authors: [{ name: 'Aurélien PAGE' }],
   creator: 'Aurélien PAGE',
   icons: {
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: siteUrl,
     siteName: 'Aurélien PAGE',
-    title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Rennes',
+    title: 'Aurélien PAGE · Consultant SEO, GEO et SEA à Laval et Rennes',
     description:
-      "J'aide les entreprises à être trouvées sur Google et citées par les IA : audits SEO et GEO, accompagnement, Google Ads, formations. Rennes et à distance.",
+      "J'aide les entreprises à être trouvées sur Google et citées par les IA : audits SEO et GEO, accompagnement, Google Ads, formations. Laval, Rennes et à distance.",
     images: [
       {
         url: '/og-default.png',

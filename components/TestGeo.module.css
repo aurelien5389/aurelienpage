@@ -1,0 +1,156 @@
+/* Test GEO en trois étapes. Unités px. */
+
+.test {
+  padding: 24px 20px;
+  border: 1.5px solid var(--color-encre);
+  border-radius: var(--rayon);
+  background: var(--color-surface);
+  box-shadow: 6px 6px 0 var(--color-encre);
+}
+
+.etapes {
+  display: grid;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.etape {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 14px;
+}
+
+.num {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-signal);
+  color: var(--color-encre);
+  font-family: var(--font-titre), sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.etapeTitre {
+  margin: 4px 0 10px;
+  font-family: var(--font-titre), sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--color-encre);
+}
+
+.champs {
+  min-width: 0;
+}
+
+.ligne {
+  display: grid;
+  gap: 12px;
+}
+
+.champ {
+  display: grid;
+  gap: 4px;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-encre-2);
+}
+
+.input {
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1.5px solid var(--color-bord);
+  border-radius: var(--rayon-s);
+  background: var(--color-fond);
+  color: var(--color-encre);
+  font: inherit;
+  font-size: 17px;
+}
+
+.input:focus-visible {
+  border-color: var(--color-filet);
+}
+
+/* La question, présentée comme le message envoyé par le client */
+.bulle {
+  position: relative;
+  margin: 0 0 14px;
+  padding: 14px 18px;
+  border-radius: 18px 18px 18px 4px;
+  background: var(--color-encre);
+  color: var(--color-surface);
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.outils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.outil {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1.5px solid var(--color-encre);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-encre);
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.outil:hover {
+  background: var(--color-signal-pale);
+}
+
+.texte {
+  margin: 0 0 16px;
+  font-size: 17px;
+  color: var(--color-encre-2);
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 22px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-bord);
+  font-size: 15px;
+  color: var(--color-encre-2);
+}
+
+.note :global(.ico) {
+  color: var(--color-ok);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (min-width: 640px) {
+  .test {
+    padding: 32px;
+  }
+  .ligne {
+    grid-template-columns: 1.4fr 1fr;
+  }
+}

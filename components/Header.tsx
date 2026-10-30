@@ -4,6 +4,8 @@ import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import Icon from '@/components/Icon'
+import { CALENDLY_URL } from '@/components/DiagnosticCTA'
+import { CONTACT } from '@/config/contact'
 import styles from './Header.module.css'
 
 const NAV_LINKS = [
@@ -24,6 +26,13 @@ export default function Header() {
     window.addEventListener('resize', onResize)
     return () => window.removeEventListener('resize', onResize)
   }, [])
+
+  useEffect(() => {
+    if (!menuOpen) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setMenuOpen(false) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [menuOpen])
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
@@ -53,10 +62,19 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/contact" className={`btn btn-primaire ${styles.navContact}`}>
-              Me contacter
-            </Link>
+            <a href={CONTACT.telHref} className={styles.navTel}>
+              <Icon name="phone" size={18} />
+              <span>{CONTACT.telAffiche}</span>
+            </a>
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className={`btn btn-primaire ${styles.navContact}`}>
+              Diagnostic offert
+              <span className={styles.srOnly}> (ouvre Calendly dans un nouvel onglet)</span>
+            </a>
           </nav>
+
+          <a href={CONTACT.telHref} className={styles.telMobile} aria-label={`Appeler le ${CONTACT.telAffiche}`}>
+            <Icon name="phone" size={20} />
+          </a>
 
           <button
             type="button"
@@ -79,9 +97,15 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/contact" onClick={closeMenu} className={`btn btn-primaire ${styles.menuContact}`}>
-              Me contacter
+            <Link href="/contact" onClick={closeMenu} className={styles.menuLien}>
+              Contact
             </Link>
+            <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" onClick={closeMenu} className={`btn btn-primaire ${styles.menuContact}`}>
+              Réserver mon diagnostic offert
+            </a>
+            <a href={CONTACT.telHref} className={`btn btn-secondaire ${styles.menuTel}`}>
+              <Icon name="phone" size={20} /> {CONTACT.telAffiche}
+            </a>
           </nav>
         </div>
       )}

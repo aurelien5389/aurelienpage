@@ -21,6 +21,12 @@
   --color-ok-pale: #ddf1e6;
   --color-erreur: #b42318;
 
+  /* Signal « surligneur » : réservé aux actions et aux passages surlignés.
+     Encre sur signal : 10,4 ; encre sur signal pâle : 13,6. */
+  --color-signal: #ffcf3f;
+  --color-signal-fonce: #f2b705;
+  --color-signal-pale: #fff1c2;
+
   /* Alias historiques : les anciennes feuilles de style héritent du thème clair */
   --color-navy: var(--color-fond);
   --color-steel: var(--color-bord);
@@ -99,11 +105,16 @@ summary:focus-visible,
 }
 
 .btn-primaire {
-  background: var(--color-accent);
-  color: var(--color-surface);
+  background: var(--color-signal);
+  color: var(--color-encre);
+  border-color: var(--color-encre);
+  box-shadow: 3px 3px 0 var(--color-encre);
+  transition: background-color 0.2s ease, box-shadow 0.2s cubic-bezier(0.22, 1, 0.36, 1), transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .btn-primaire:hover {
-  background: var(--color-accent-fonce);
+  background: var(--color-signal-fonce);
+  box-shadow: 1px 1px 0 var(--color-encre);
+  transform: translate(2px, 2px);
 }
 
 .btn-secondaire {
@@ -116,11 +127,18 @@ summary:focus-visible,
 }
 
 .btn-sombre {
-  background: var(--color-sombre-lien);
+  background: var(--color-signal);
   color: var(--color-sombre);
 }
 .btn-sombre:hover {
-  background: #c3edf6;
+  background: var(--color-signal-fonce);
+}
+
+/* Passage surligné : le trait du surligneur sous le texte */
+.surligne {
+  background: linear-gradient(transparent 58%, var(--color-signal-pale) 58%, var(--color-signal-pale) 92%, transparent 92%);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .btn[disabled],
@@ -215,6 +233,13 @@ summary:focus-visible,
   padding-bottom: 14px;
   color: var(--color-encre-2);
   font-size: 17px;
+}
+
+/* Barre d'action mobile fixe (MobileCta) : elle ne doit pas masquer le bas de page */
+@media (max-width: 899px) {
+  body {
+    padding-bottom: 72px;
+  }
 }
 
 /* Animations désactivées si prefers-reduced-motion */

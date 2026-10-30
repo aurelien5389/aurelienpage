@@ -179,7 +179,7 @@
   min-width: 0;
 }
 
-.coordItem .ico {
+.coordItem :global(.ico) {
   color: var(--color-accent);
   margin-top: 2px;
 }

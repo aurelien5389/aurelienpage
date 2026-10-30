@@ -125,7 +125,7 @@
   border-color: var(--color-accent);
 }
 
-.localVilleLien .ico {
+.localVilleLien :global(.ico) {
   color: var(--color-accent);
 }
 
@@ -156,7 +156,7 @@
   border-color: var(--color-accent);
 }
 
-.localRessourceLien .ico {
+.localRessourceLien :global(.ico) {
   color: var(--color-accent);
 }
 

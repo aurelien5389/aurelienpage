@@ -1,7 +1,10 @@
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import DiagnosticCTA from '@/components/DiagnosticCTA'
+import DiagnosticCTA, { CALENDLY_URL } from '@/components/DiagnosticCTA'
+import Icon from '@/components/Icon'
+import { CONTACT } from '@/config/contact'
+import { availability } from '@/config/availability'
 import JsonLd from '@/components/JsonLd'
 import QuiRepond from '@/components/QuiRepond'
 import { renderInline } from '@/components/MarkdownRenderer'
@@ -85,6 +88,18 @@ export default function FicheLayout({ data }: { data: FicheData }) {
             <p className={styles.ficheMaj}>
               <Link href="/a-propos" className={styles.ficheLien}>Aurélien Page</Link> · <time dateTime={data.dates.modified}>Mis à jour en {formatMonthYear(data.dates.modified)}</time>
             </p>
+            <div className={styles.ficheActions} data-cta-principal>
+              <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primaire">
+                Réserver mon diagnostic offert
+                <span className={styles.srOnly}> (ouvre Calendly dans un nouvel onglet)</span>
+              </a>
+              <a href={CONTACT.telHref} className="btn btn-secondaire">
+                <Icon name="phone" size={18} /> {CONTACT.telAffiche}
+              </a>
+            </div>
+            <p className={styles.ficheReassurance}>
+              30 min · Visio ou téléphone · Gratuit{availability.reponseSous ? ` · ${availability.reponseSous}` : ''}
+            </p>
           </header>
 
           {/* 3. Carte d'identité */}
@@ -100,6 +115,9 @@ export default function FicheLayout({ data }: { data: FicheData }) {
                 ))}
               </tbody>
             </table>
+            <div className={styles.ficheBandeau}>
+              <DiagnosticCTA variant="banner" />
+            </div>
           </section>
 
           {/* 4. Pourquoi */}

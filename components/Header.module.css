@@ -29,6 +29,7 @@
   font-family: var(--font-titre), sans-serif;
   font-weight: 700;
   font-size: 19px;
+  white-space: nowrap;
 }
 
 .logoCarre {
@@ -57,6 +58,7 @@
   color: var(--color-encre);
   font-size: 17px;
   text-decoration: none;
+  white-space: nowrap;
   transition: background-color 0.2s ease;
 }
 
@@ -70,10 +72,57 @@
 }
 
 .navContact {
+  white-space: nowrap;
   margin-left: 12px;
   min-height: 44px;
   padding-inline: 18px;
   font-size: 16px;
+}
+
+.navTel {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  margin-left: 8px;
+  padding: 0 10px;
+  border-radius: var(--rayon-s);
+  color: var(--color-encre);
+  font-weight: 700;
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navTel:hover {
+  background: var(--color-pale);
+}
+
+.navTel :global(.ico) {
+  color: var(--color-accent);
+}
+
+.telMobile {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-left: auto;
+  margin-right: 8px;
+  border: 1px solid var(--color-bord);
+  border-radius: var(--rayon-s);
+  background: var(--color-surface);
+  color: var(--color-encre);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
 .burger {
@@ -121,6 +170,11 @@
   width: 100%;
 }
 
+.menuTel {
+  margin-top: 12px;
+  width: 100%;
+}
+
 @media (min-width: 640px) {
   .enteteInner {
     padding-inline: 24px;
@@ -141,7 +195,8 @@
     font-size: 16px;
   }
   .burger,
-  .menuMobile {
+  .menuMobile,
+  .telMobile {
     display: none;
   }
 }
@@ -150,5 +205,12 @@
   .navLien {
     padding: 0 12px;
     font-size: 17px;
+  }
+}
+
+/* Le numéro en clair seulement quand la barre a la place de l'afficher sur une ligne */
+@media (min-width: 1360px) {
+  .navTel {
+    display: inline-flex;
   }
 }

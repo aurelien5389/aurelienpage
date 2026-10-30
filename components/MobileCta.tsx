@@ -3,9 +3,10 @@
 import { useEffect, useState } from 'react'
 import Icon from '@/components/Icon'
 import { CALENDLY_URL } from '@/components/DiagnosticCTA'
+import { CONTACT } from '@/config/contact'
 import styles from './MobileCta.module.css'
 
-// Pastille « Diagnostic offert » fixée en bas à droite sur mobile.
+// Barre d'action fixée en bas de l'écran sur mobile : Appeler · Réserver le diagnostic.
 // Masquée tant que l'appel à l'action principal de la page (data-cta-principal) est visible,
 // ou sur les 400 premiers pixels s'il n'y en a pas. Masquée en CSS sur ordinateur.
 export default function MobileCta() {
@@ -27,10 +28,14 @@ export default function MobileCta() {
   }, [])
 
   return (
-    <div className={`${styles.fixe} ${visible ? styles.visible : ''}`}>
-      <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className={`btn btn-primaire ${styles.pastille}`} tabIndex={visible ? 0 : -1}>
+    <div className={`${styles.fixe} ${visible ? styles.visible : ''}`} aria-hidden={visible ? undefined : true}>
+      <a href={CONTACT.telHref} className={`btn btn-secondaire ${styles.appeler}`} tabIndex={visible ? 0 : -1}>
+        <Icon name="phone" size={20} />
+        Appeler
+      </a>
+      <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className={`btn btn-primaire ${styles.reserver}`} tabIndex={visible ? 0 : -1}>
         <Icon name="calendar" size={20} />
-        Diagnostic offert
+        Réserver 30 min
       </a>
     </div>
   )
