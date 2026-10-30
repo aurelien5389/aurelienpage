@@ -9,7 +9,9 @@ import { consignesChatbot } from '@/lib/chatbot-consignes'
 
 const MODELE_ANTHROPIC = 'claude-haiku-5-5'
 const MODELE_GATEWAY = 'anthropic/claude-haiku-5.5'
-const MAX_TOKENS = 500
+// Large marge : une partie du budget peut servir à la réflexion du modèle avant la réponse.
+// La longueur visible est tenue par les consignes (90 mots).
+const MAX_TOKENS = 2000
 
 const schema = z.object({
   messages: z
@@ -60,6 +62,9 @@ async function viaAnthropic(cle: string, systeme: string, messages: Message[]) {
   })
   if (!r.ok) throw new Error(`Anthropic ${r.status} ${(await r.text()).slice(0, 300)}`)
   const data = await r.json()
+  if (data.stop_reason && data.stop_reason !== 'end_turn') {
+    console.warn('[chat] arrêt', data.stop_reason, (data.content || []).map((b: { type: string }) => b.type).join(','))
+  }
   return (data.content || [])
     .filter((b: { type: string }) => b.type === 'text')
     .map((b: { text: string }) => b.text)
