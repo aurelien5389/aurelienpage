@@ -73,7 +73,7 @@
   var accueilAffiche = false;
 
   function escapeHtml(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
-  function liens(s) { return s.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>'); }
+  function liens(s) { return s.replace(/(https?:\/\/[^\s<]*[^\s<.,;:!?)»])/g, '<a href="$1" target="_blank" rel="noopener">$1</a>'); }
   function ajouterMessage(texte, qui) {
     var div = document.createElement('div');
     div.className = 'ap-msg ap-msg-' + qui;
