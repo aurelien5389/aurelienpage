@@ -1,18 +1,19 @@
 /* aurelienpage.fr - Widget chatbot
- * Bulle de chat + panneau, branché sur le webhook n8n (agent Claude Haiku).
- * Persona : Aurélien Page, consultant SEO / SEA / GEO / IA / No Code.
+ * Bulle de chat + panneau, branché sur la route /api/chat du site (Claude, consignes dans lib/chatbot-consignes.ts).
+ * Historique de la conversation gardé le temps de la session du navigateur.
  * Inclus via next/script dans app/layout.tsx (src="/chatbot.js").
  */
 (function () {
   'use strict';
 
-  var WEBHOOK_URL = 'https://n8n.audiaa.fr/webhook/aurelienpage-chat';
-  var ACCUEIL = "Bonjour ! Je suis l'assistant d'Aurélien Page, consultant SEO, SEA, GEO et IA. Une question sur le référencement, la pub en ligne ou l'automatisation ? Je suis là.";
+  var API_URL = '/api/chat';
+  var ACCUEIL = "Bonjour ! Je suis l'assistant d'Aurélien Page, consultant SEO, GEO et SEA à Laval et Rennes. Une question sur Google, sur la visibilité dans ChatGPT ou sur Google Ads ? Je vous réponds.";
 
-  var sessionId = localStorage.getItem('ap-chat-session');
-  if (!sessionId) {
-    sessionId = 'sess-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
-    localStorage.setItem('ap-chat-session', sessionId);
+  var historique = [];
+  try { historique = JSON.parse(sessionStorage.getItem('ap-chat-historique') || '[]'); } catch (e) { historique = []; }
+  function memoriser() {
+    historique = historique.slice(-20);
+    try { sessionStorage.setItem('ap-chat-historique', JSON.stringify(historique)); } catch (e) { /* stockage indisponible */ }
   }
 
   // --- Styles (charte aurelienpage : navy #14263A, cyan #0B6E8C, off-white) ---
@@ -55,7 +56,7 @@
   var panneau = document.createElement('div');
   panneau.className = 'ap-chat-panneau';
   panneau.innerHTML = ''
-    + '<div class="ap-chat-entete"><strong>Assistant - Aurélien Page</strong><span>SEO - SEA - GEO - IA</span></div>'
+    + '<div class="ap-chat-entete"><strong>Assistant · Aurélien Page</strong><span>SEO · GEO · SEA · Laval et Rennes</span></div>'
     + '<div class="ap-chat-fil" id="ap-fil"></div>'
     + '<form class="ap-chat-pied" id="ap-form">'
     + '<input id="ap-input" type="text" placeholder="Votre message..." autocomplete="off" />'
@@ -94,7 +95,11 @@
   bulle.addEventListener('click', function () {
     panneau.classList.toggle('est-ouvert');
     if (panneau.classList.contains('est-ouvert')) {
-      if (!accueilAffiche) { ajouterMessage(ACCUEIL, 'bot'); accueilAffiche = true; }
+      if (!accueilAffiche) {
+        ajouterMessage(ACCUEIL, 'bot');
+        historique.forEach(function (m) { ajouterMessage(m.content, m.role === 'user' ? 'user' : 'bot'); });
+        accueilAffiche = true;
+      }
       input.focus();
     }
   });
@@ -104,24 +109,30 @@
     var message = input.value.trim();
     if (!message) return;
     ajouterMessage(message, 'user');
+    historique.push({ role: 'user', content: message.slice(0, 1500) });
+    memoriser();
     input.value = '';
     sendBtn.disabled = true;
     pointsAttente(true);
 
-    fetch(WEBHOOK_URL, {
+    fetch(API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: message, sessionId: sessionId })
+      body: JSON.stringify({ messages: historique })
     })
       .then(function (r) { return r.json(); })
       .then(function (data) {
         pointsAttente(false);
-        var reply = (data && (data.reply || data.output)) || "Désolé, je n'ai pas pu répondre. Écrivez-moi via aurelienpage.fr/contact";
+        var reply = (data && data.reply) || "Désolé, je n'ai pas pu répondre. Écrivez-moi via https://aurelienpage.fr/contact";
         ajouterMessage(reply, 'bot');
+        historique.push({ role: 'assistant', content: reply.slice(0, 1500) });
+        memoriser();
       })
       .catch(function () {
         pointsAttente(false);
-        ajouterMessage("Petit souci technique. Écrivez-moi via aurelienpage.fr/contact, je reviens vers vous vite.", 'bot');
+        historique.pop();
+        memoriser();
+        ajouterMessage("Petit souci technique. Écrivez-moi via https://aurelienpage.fr/contact, je reviens vers vous vite.", 'bot');
       })
       .finally(function () { sendBtn.disabled = false; input.focus(); });
   });
