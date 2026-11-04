@@ -6,7 +6,7 @@ meta-description: "Ce qui change avec ChatGPT, Perplexity et les AI Overviews, c
 
 # Comment adapter sa stratégie SEO à la recherche par IA ?
 
-Beaucoup de stratégies SEO ont été construites pour une page de dix liens bleus : un mot-clé, une page, une position, un clic. Puis les questions ont commencé à recevoir des réponses rédigées, dans Google, dans ChatGPT, dans Perplexity. Le plan de mots-clés tient toujours debout, mais il ne dit plus tout.
+Beaucoup de [stratégies SEO](https://www.digital64.fr/agence-referencement-naturel-seo/) ont été construites pour une page de dix liens bleus : un mot-clé, une page, une position, un clic. Puis les questions ont commencé à recevoir des réponses rédigées, dans Google, dans ChatGPT, dans Perplexity. Le plan de mots-clés tient toujours debout, mais il ne dit plus tout.
 
 **En bref :** gardez les fondations du SEO, car les moteurs de réponse s'appuient sur des pages explorables et indexées. Ajoutez trois choses : l'accès des robots des IA et l'indexation dans Bing, des pages qui répondent à des questions précises, et une mesure des citations en plus des positions.
 

@@ -2,6 +2,9 @@ import Link from 'next/link'
 import { Fragment } from 'react'
 import styles from './MarkdownRenderer.module.css'
 
+// Lien partenaire ouvert dans le même onglet (échange de liens Digital 64)
+const SAME_TAB_LINK_PREFIX = 'https://www.digital64.fr/'
+
 // Converts inline markdown to JSX: **bold**, *italic*, `code`, [link](url)
 export function renderInline(text: string, key: string | number): React.ReactNode {
   const parts: React.ReactNode[] = []
@@ -58,8 +61,9 @@ export function renderInline(text: string, key: string | number): React.ReactNod
           <a
             key={`${key}-l-${i}`}
             href={href}
-            target="_blank"
-            rel="noopener noreferrer"
+            {...(href.startsWith(SAME_TAB_LINK_PREFIX)
+              ? {}
+              : { target: '_blank', rel: 'noopener noreferrer' })}
             className={styles.mdLien}
           >
             {earliest[2]}
