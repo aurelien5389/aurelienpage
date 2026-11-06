@@ -9,11 +9,11 @@ const SLUG = 'redaction-web'
 const draft = parseDraft(`${SLUG}.md`)
 
 export const metadata: Metadata = {
-  title: seoTitle('Rédaction web SEO : articles, pages de service, contenus que les IA citent'),
+  title: seoTitle('Rédaction web SEO à Rennes : articles et pages de service'),
   description: draft.metaDescription,
   alternates: { canonical: `https://aurelienpage.fr/${SLUG}` },
   openGraph: {
-    title: seoTitle('Rédaction web SEO : articles, pages de service, contenus que les IA citent'),
+    title: seoTitle('Rédaction web SEO à Rennes : articles et pages de service'),
     description: draft.metaDescription,
     url: `https://aurelienpage.fr/${SLUG}`,
   },

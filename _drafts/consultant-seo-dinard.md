@@ -1,14 +1,14 @@
 ---
 slug: "/consultant-seo-dinard"
-title: "Consultant SEO à Dinard : hôtels, restaurants, immobilier"
-meta-description: "Consultant SEO et GEO à Dinard : être trouvé sur Google et recommandé par ChatGPT et Perplexity par une clientèle exigeante. Audit de 800 à 2 500 €, sans frais de déplacement."
+title: "Consultant SEO à Dinard : référencement local, Google et IA"
+meta-description: "Consultant SEO freelance à Dinard : référencement local d'hôtels, restaurants et agences immobilières, sur Google et dans les IA. Audit de 800 à 2 500 €, sans frais de déplacement."
 ---
 
 # Consultant SEO et GEO à Dinard
 
 Dinard attire une clientèle qui compare avant de choisir : un hôtel de charme, une table, une villa à louer ou à acheter, un lieu pour un séminaire. Cette clientèle prépare souvent son séjour de loin, et pose de plus en plus ses questions à une IA. Sur ces demandes, la concurrence est forte et la réponse ne cite que quelques noms.
 
-**En bref :** je suis **consultant SEO et GEO**. J'aide les entreprises de Dinard et des environs à être trouvées sur Google, sur Google Maps et dans les réponses de ChatGPT, Perplexity, Gemini et des AI Overviews. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, suivi mensuel de 500 à 2 000 €. Je me déplace **sans frais** à Dinard : mon siège est à Laval et je travaille aussi depuis Rennes.
+**En bref :** je suis **consultant SEO et GEO freelance**, spécialiste du référencement naturel et du SEO local. J'aide les entreprises de Dinard et des environs à être trouvées sur Google, sur Google Maps et dans les réponses de ChatGPT, Perplexity, Gemini et des AI Overviews. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site, suivi mensuel de 500 à 2 000 €. Je me déplace **sans frais** à Dinard : mon siège est à Laval et je travaille aussi depuis Rennes.
 
 ## Pourquoi Dinard est un marché à fort potentiel ?
 
@@ -28,7 +28,7 @@ Pour un hôtel, une agence immobilière ou un traiteur, chaque client gagné a u
 
 Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-## Quel travail de référencement pour un établissement de Dinard ?
+## Quel travail de référencement local pour un établissement de Dinard ?
 
 À Dinard, la demande suit la saison et se décide souvent à distance. Le travail porte donc sur trois points.
 
@@ -38,9 +38,11 @@ Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez p
 
 Le suivi se cale sur votre calendrier : un **[accompagnement mensuel](/accompagnement-seo)** pendant la préparation de la saison, ou une **[formation SEO](/formation-seo)** si vous tenez vous-même votre site et votre fiche.
 
-## Consultant SEO ou agence web à Dinard et Saint-Malo ?
+## Consultant SEO freelance, agence SEO ou agence web à Dinard ?
 
 Une agence web construit votre site. Un consultant SEO s'occupe de ce qui se passe ensuite : est-ce que le site apparaît, sur quelles recherches, et est-ce qu'il amène des réservations ou des demandes. Si une agence de la Côte d'Émeraude a réalisé votre site, je travaille avec elle et je lui remets des recommandations prêtes à appliquer.
+
+Vous cherchez plutôt une **agence SEO à Dinard** ? Je travaille seul, en freelance : l'expert en référencement qui audite votre site est celui qui l'optimise et qui vous rend compte. Pour une refonte complète ou une production de contenus en volume, une agence répondra mieux, et je vous le dirai pendant le diagnostic.
 
 ## Comment se passe une mission à Dinard ?
 

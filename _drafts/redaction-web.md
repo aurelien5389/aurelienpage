@@ -1,12 +1,12 @@
 ---
 slug: "/redaction-web"
-title: "Rédaction web SEO : articles, pages de service et contenus que les IA citent · Aurélien PAGE"
-meta-description: "Rédaction web SEO par un consultant SEO et GEO, ancien journaliste web. Articles de blog de 150 à 350 €, pages de service et briefs sur devis. Rennes ou à distance."
+title: "Rédaction web SEO à Rennes : articles et pages de service · Aurélien PAGE"
+meta-description: "Rédacteur web SEO à Rennes, ancien journaliste web : articles de blog de 150 à 350 €, pages de service et briefs sur devis. Sur place à Rennes ou à distance."
 ---
 
-# Rédaction web SEO
+# Rédaction web SEO, à Rennes ou à distance
 
-**Rédaction web SEO** par un consultant SEO et GEO, journaliste web et rédacteur de 2012 à 2019. J'écris des articles de blog, des pages de service et des briefs pour vos rédacteurs, pensés pour être trouvés sur Google et repris par ChatGPT, Perplexity et les AI Overviews. **Article de blog de 800 à 1 500 mots : 150 à 350 €** selon le sujet ; pages de service et briefs sur devis. La rédaction s'inscrit le plus souvent dans un [accompagnement SEO mensuel](/accompagnement-seo).
+**Rédaction web SEO** par un consultant SEO et GEO installé à Rennes, journaliste web et rédacteur de 2012 à 2019. J'écris des articles de blog, des pages de service et des briefs pour vos rédacteurs, pensés pour être trouvés sur Google et repris par ChatGPT, Perplexity et les AI Overviews. **Article de blog de 800 à 1 500 mots : 150 à 350 €** selon le sujet ; pages de service et briefs sur devis. La rédaction s'inscrit le plus souvent dans un [accompagnement SEO mensuel](/accompagnement-seo).
 
 ## Qu'est-ce que la rédaction web SEO ?
 
@@ -32,6 +32,12 @@ Quatre formats, toujours à partir de vos connaissances et de vos sources.
 
 **Reprise de contenus existants.** Un article bien écrit qui ne sort pas : je regarde ce qu'il manque (réponse directe, structure, sources, liens) et je le reprends sans le réécrire entièrement.
 
+## Un rédacteur web à Rennes, pour quels besoins ?
+
+Je rédige pour des entreprises de Rennes et d'Ille-et-Vilaine : PME, e-commerce, organismes de formation, cabinets, médias, collectivités. Le cadrage se fait sur place, dans vos locaux ou autour d'un café, sans frais de déplacement ; la rédaction se poursuit à distance.
+
+La **rédaction de contenus professionnels** demande de connaître votre métier avant d'écrire. Je pars de vos documents, de vos réponses aux clients et d'un entretien avec la personne qui sait, pas d'un texte générique repris d'ailleurs.
+
 ## Comment je travaille
 
 1. **Cadrage** : la requête visée, le lecteur, ce que vous savez sur le sujet et que personne d'autre ne sait.
@@ -52,6 +58,7 @@ Surtout sur le digital, le marketing, le SEO, la tech, le B2B et les services au
 
 **Travaillez-vous à Rennes ou à distance ?**
 Les deux. Je suis basé à Rennes et je rencontre les clients de la région pour le cadrage ; la rédaction se fait ensuite à distance, avec des échanges par document partagé et visioconférence.
+
 **Fournissez-vous les images ?**
 Non. Je livre des textes, avec des recommandations d'illustration et de texte alternatif si vous le souhaitez. La production ou la sélection des visuels n'est pas incluse.
 

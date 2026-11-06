@@ -55,6 +55,14 @@ const data: FicheData = {
       ],
     },
     {
+      id: 'abonnement',
+      titre: 'Abonnement SEO, forfait ou accompagnement : quelle différence ?',
+      paragraphes: [
+        "Les trois mots désignent une mensualité fixe pour un travail de référencement continu. Ce qui change d'une offre à l'autre, c'est ce qu'elle contient : un **abonnement SEO** peut se limiter à un outil et à un rapport automatique, un accompagnement comprend le travail lui-même, c'est-à-dire les corrections, les contenus, les liens et le pilotage. Avant de comparer deux prix, demandez ce qui est fait chaque mois, et par qui.",
+        "Mon accompagnement fonctionne comme un **abonnement SEO mensuel sans engagement annuel** : une mensualité fixée dans le devis, de 500 à 2 000 € selon le périmètre, résiliable avec un préavis d'un mois.",
+      ],
+    },
+    {
       id: 'contenu',
       titre: 'Que contient un mois de suivi SEO ?',
       paragraphes: ["Cinq volets, dont le poids change selon le mois et selon ce que l'audit a montré."],
@@ -95,6 +103,14 @@ const data: FicheData = {
           ['Concurrence', 'Marché local ou de niche', 'Marché national disputé'],
         ],
       },
+    },
+    {
+      id: 'sur-mesure',
+      titre: 'Un accompagnement SEO personnalisé, sur quelle durée ?',
+      paragraphes: [
+        "Il n'y a pas de formule toute faite. Le périmètre de l'**accompagnement SEO personnalisé** est fixé après l'audit : les pages à travailler, la part de technique, de contenus et de liens, ce que fait votre équipe et ce que je fais. Il est revu chaque mois, selon les résultats.",
+        "Le SEO se juge **sur le long terme** : je recommande 6 mois au minimum avant de tirer des conclusions, et le plan d'action couvre 6 à 12 mois. Les délais habituels sont détaillés dans [combien de temps faut-il pour voir les résultats du SEO ?](/reponses/combien-de-temps-resultats-seo)",
+      ],
     },
     {
       id: 'e-commerce',
@@ -164,7 +180,11 @@ const data: FicheData = {
     },
     {
       q: "Y a-t-il un engagement de durée ?",
-      a: "Non. Pas de contrat annuel imposé : l'accompagnement est résiliable avec un préavis d'un mois. Je recommande 6 mois au minimum pour juger des résultats.",
+      a: "Non. L'accompagnement fonctionne comme un abonnement SEO mensuel, sans contrat annuel imposé : il est résiliable avec un préavis d'un mois. Je recommande 6 mois au minimum pour juger des résultats.",
+    },
+    {
+      q: 'Que contient le rapport SEO mensuel ?',
+      a: "Quelques pages, lisibles sans connaître le SEO : impressions et clics par page, positions sur les requêtes choisies au départ, trafic et demandes reçues, citations dans les IA, actions menées et plan du mois suivant. Il est commenté pendant la réunion mensuelle.",
     },
     {
       q: 'Intervenez-vous directement sur mon site ?',
