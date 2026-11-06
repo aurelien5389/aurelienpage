@@ -28,20 +28,22 @@ Pour une PME industrielle, l'enjeu est d'être trouvée par un acheteur qui ne l
 
 Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-## Ce que je fais pour une entreprise de Château-Gontier
+## Trois chantiers pour une entreprise de Château-Gontier
 
-- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
-- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
-- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
-- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
-- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
+**Deux publics, deux jeux de pages.** Pour une PME des zones de Bellitourne ou de Bazouges, l'acheteur est souvent loin et cherche un fournisseur par capacité : il lui faut des pages métiers précises, avec secteurs servis, délais et certifications. Pour un commerce du centre ou un service aux habitants, le client est à vingt minutes et cherche sur Google Maps ou demande à une IA « qui, près de chez moi ». L'audit traite les deux séparément et classe les actions par impact.
+
+**La carte et les avis pour le commerce.** Catégorie exacte, horaires du jeudi de marché, photos, réponses aux avis : la fiche Google Business Profile fait l'essentiel pour un commerce castrogontérien. Google classe les fiches selon la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+
+**Les sources que les IA lisent.** Pages du Pays de Château-Gontier, annuaires professionnels, presse locale, fédérations : une entreprise citée sur ces sources est plus souvent reprise par une IA. L'[audit SEO et GEO](/prestations/audit-geo) relève qui est cité sur vos questions, et ce qui manque.
+
+Pour la suite, un [accompagnement mensuel](/accompagnement-seo) pour une PME qui vend loin, ou une [formation SEO](/formation-seo) de 2 heures pour un commerce qui veut tenir lui-même sa fiche et son site.
 
 ## Comment se passe une mission à Château-Gontier ?
 
-1. **Diagnostic offert de 30 minutes**, en visio ou dans vos locaux, sans frais.
-2. **Devis** avec le périmètre et le prix, avant toute intervention.
-3. **Audit**, puis **restitution** dans vos locaux, sans frais.
-4. **Suivi** mensuel si vous le souhaitez.
+1. **Diagnostic offert de 30 minutes**, dans vos locaux ou en visioconférence : vos clients, d'où ils viennent, ce que Google Maps et les IA disent de vous.
+2. **Devis** écrit, avec le périmètre et le prix.
+3. **Audit, puis restitution sur place.** Château-Gontier est à une demi-heure de Laval : je viens sans frais, hors des heures d'ouverture si vous recevez du public.
+4. **Suivi** si vous le souhaitez : mensuel pour une PME industrielle, trimestriel pour un commerce.
 
 ## Combien ça coûte ?
 
@@ -52,7 +54,7 @@ Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez p
 | Rédaction d'un article | 150 à 350 € |
 | Formation | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
-Pas de frais de déplacement à Château-Gontier. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
+Pas de frais de déplacement à Château-Gontier ni dans le sud de la Mayenne. Pour un commerce, la formation de 2 heures est souvent le bon point de départ ; pour une PME industrielle, l'audit complet. On le décide pendant le diagnostic. Le détail des prix est sur la page [combien coûte une prestation SEO](/cout-prestation-seo).
 
 ## Questions fréquentes
 
@@ -62,12 +64,12 @@ Oui. Un candidat cherche aussi l'entreprise sur Google et demande parfois à une
 **Intervenez-vous à Craon et Sablé-sur-Sarthe ?**
 Oui. Pour Angers, voir la page [consultant SEO à Angers](/consultant-seo-angers).
 
-**Combien de temps avant de voir des résultats ?**
-Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
+**Mon marché est national : une page locale sert-elle à quelque chose ?**
+La page locale sert à la carte Google et aux acheteurs qui cherchent un fournisseur dans la région. Pour le marché national, ce sont vos pages métiers qui travaillent, et c'est là que va l'essentiel de l'effort. Les deux sont dans le même plan d'action.
 
-**Le GEO remplace-t-il le SEO ?**
-Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
+**Combien de temps avant de voir un effet ?**
+Pour un commerce, les corrections de fiche se voient en quelques semaines. Pour une PME qui vise des acheteurs dans toute la France, comptez plusieurs mois. Les délais sont détaillés dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
 ## Parlons de votre visibilité à Château-Gontier
 
-Je me déplace aussi sans frais à [Laval](/consultant-seo-laval), [Mayenne](/consultant-seo-mayenne) et [Vitré](/consultant-seo-vitre). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).
+Je me déplace aussi sans frais à [Laval](/consultant-seo-laval), [Mayenne](/consultant-seo-mayenne) et [Vitré](/consultant-seo-vitre). PME industrielle, commerce du centre ou exploitation du sud Mayenne : le diagnostic offert de 30 minutes est le bon premier pas. Je viens de Laval, ou on se parle en visioconférence. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

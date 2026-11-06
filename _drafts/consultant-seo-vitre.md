@@ -28,20 +28,22 @@ Pour une PME de ce type, une page « Nos métiers » vague ne suffit plus. Un ac
 
 Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-## Ce que je fais pour une entreprise de Vitré
+## Trois chantiers pour une entreprise de Vitré
 
-- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
-- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
-- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
-- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
-- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
+**Des pages qui parlent aux acheteurs et aux candidats.** À Vitré, le même site doit convaincre un acheteur industriel et un futur salarié. Ce ne sont pas les mêmes pages : une page par métier ou par capacité (ce que vous produisez, pour quels secteurs, avec quels délais et quelles certifications) pour les premiers ; une page « travailler chez nous » précise (postes, horaires, lieu, avantages) pour les seconds. Une IA interrogée sur « les entreprises de [secteur] près de Rennes » reprend ces pages quand elles existent, et seulement elles.
+
+**Une présence externe cohérente.** Fiches des annuaires industriels, pages de Vitré Communauté, articles de presse économique, fiches des salons : les IA et Google s'appuient sur ces sources pour juger qu'une entreprise est réelle et sérieuse. L'[audit SEO et GEO](/prestations/audit-geo) relève où vous êtes cité, où vos concurrents le sont, et ce qui manque.
+
+**La technique, sans la négliger.** Les sites industriels sont souvent anciens, lourds, parfois fermés aux robots des IA sans que personne le sache. Le volet technique de l'audit vérifie l'exploration, l'indexation et l'accès des robots de Google, de Bing et des assistants d'IA.
+
+Pour la suite, un [accompagnement mensuel](/accompagnement-seo) si le site doit évoluer régulièrement, ou une [formation SEO](/formation-seo) de votre équipe communication ou RH, dans vos locaux.
 
 ## Comment se passe une mission à Vitré ?
 
-1. **Diagnostic offert de 30 minutes**, en visio ou dans vos locaux, sans frais.
-2. **Devis** avec le périmètre et le prix, avant toute intervention.
-3. **Audit**, puis **restitution** dans vos locaux, sans frais.
-4. **Suivi** mensuel si vous le souhaitez.
+1. **Diagnostic offert de 30 minutes**, dans vos locaux ou en visioconférence : vos marchés, vos recrutements en cours, ce que Google et les IA disent de vous aujourd'hui.
+2. **Devis** écrit, avec le périmètre et le prix.
+3. **Audit, puis restitution sur place.** Vitré est à mi-chemin de mes deux bases, Rennes et Laval : je viens sans frais, avec votre direction, votre responsable commercial ou RH, et la personne qui tient le site.
+4. **Suivi** si vous le souhaitez, calé sur vos temps forts : salons, campagnes de recrutement, lancements.
 
 ## Combien ça coûte ?
 
@@ -52,7 +54,7 @@ Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez p
 | Rédaction d'un article | 150 à 350 € |
 | Formation | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
-Pas de frais de déplacement à Vitré. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
+Pas de frais de déplacement à Vitré ni dans Vitré Communauté. Pour une PME industrielle, l'audit complet est en général le bon point de départ : il traite les pages métiers et les pages recrutement dans le même plan d'action. Le détail des prix est sur la page [combien coûte une prestation SEO](/cout-prestation-seo).
 
 ## Questions fréquentes
 
@@ -62,12 +64,12 @@ Oui, si ses clients ou ses candidats posent des questions de choix à une IA. L'
 **Intervenez-vous à Châteaubourg et La Guerche-de-Bretagne ?**
 Oui, sans frais de déplacement, comme à Vitré.
 
-**Combien de temps avant de voir des résultats ?**
-Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
+**Faut-il un site en anglais pour les acheteurs étrangers ?**
+Seulement si vous les visez. Si c'est le cas, chaque page métier existe dans les deux langues, avec un balisage qui indique la langue à Google ; c'est un point que l'audit vérifie et chiffre. Une traduction automatique non relue fait plus de mal que l'absence de version anglaise.
 
-**Le GEO remplace-t-il le SEO ?**
-Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
+**Combien de temps avant que les candidatures ou les demandes arrivent ?**
+Les pages recrutement se voient en quelques semaines, car la concurrence y est faible localement. Les pages métiers visent des acheteurs qui cherchent dans toute la France : comptez plusieurs mois. Les délais sont détaillés dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
 ## Parlons de votre visibilité à Vitré
 
-Je me déplace aussi sans frais à [Rennes](/consultant-seo-rennes), [Laval](/consultant-seo-laval) et [Fougères](/consultant-seo-fougeres). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).
+Je me déplace aussi sans frais à [Rennes](/consultant-seo-rennes), [Laval](/consultant-seo-laval) et [Fougères](/consultant-seo-fougeres). Direction, service commercial ou RH d'une entreprise vitréenne : le diagnostic offert de 30 minutes est le bon premier pas. On regarde ensemble ce que Google et les IA disent de vous, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

@@ -28,20 +28,22 @@ Ce savoir-faire est une matière éditoriale très utile : une page qui explique
 
 Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-## Ce que je fais pour une entreprise de Fougères
+## Trois chantiers pour une entreprise de Fougères
 
-- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
-- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
-- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
-- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
-- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
+**Rendre le savoir-faire lisible.** Une page qui explique un procédé, une capacité de production, une tolérance, un délai, avec des chiffres et des photos de l'atelier, est exactement le passage qu'une IA peut reprendre quand un acheteur lui demande « qui fabrique [pièce] en Bretagne ? ». Beaucoup de sites fougerais résument tout cela en trois lignes. Je réécris ces pages en [rédaction web](/redaction-web), à partir d'un entretien avec la personne qui sait.
+
+**Être cité ailleurs que chez soi.** Fougères Agglomération, les fédérations professionnelles, la presse économique, les visites d'entreprises de Destination Fougères : chaque mention cohérente avec votre site compte pour Google et pour les IA. L'[audit SEO et GEO](/prestations/audit-geo) relève qui est cité sur vos questions, et sur quelles sources.
+
+**La carte pour les commerces.** Pour les commerces et les services du centre historique, la fiche Google Business Profile et les avis font l'essentiel : catégorie exacte, horaires, photos, réponses. Google classe les fiches selon la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+
+Pour la suite, un [accompagnement mensuel](/accompagnement-seo), ou une [formation GEO](/formation-geo) de votre équipe pour écrire vous-mêmes les pages que les IA reprennent.
 
 ## Comment se passe une mission à Fougères ?
 
-1. **Diagnostic offert de 30 minutes**, en visio ou dans vos locaux, sans frais.
-2. **Devis** avec le périmètre et le prix, avant toute intervention.
-3. **Audit**, puis **restitution** dans vos locaux, sans frais.
-4. **Suivi** mensuel si vous le souhaitez.
+1. **Diagnostic offert de 30 minutes**, dans vos locaux ou en visioconférence : vos marchés, vos pages actuelles, ce que les IA répondent sur votre spécialité.
+2. **Devis** écrit, avec le périmètre et le prix.
+3. **Audit, puis restitution sur place.** Fougères est à moins d'une heure de Rennes comme de Laval : je viens sans frais, de préférence avec une visite de l'atelier, c'est là que se trouve la matière des pages.
+4. **Suivi** si vous le souhaitez, au rythme de vos sorties de produits et de vos salons.
 
 ## Combien ça coûte ?
 
@@ -52,7 +54,7 @@ Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez p
 | Rédaction d'un article | 150 à 350 € |
 | Formation | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
-Pas de frais de déplacement à Fougères. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
+Pas de frais de déplacement à Fougères ni dans Fougères Agglomération. Pour une entreprise à fort savoir-faire, la rédaction des pages métiers est souvent le poste principal du devis, plus que la technique. Le détail des prix est sur la page [combien coûte une prestation SEO](/cout-prestation-seo).
 
 ## Questions fréquentes
 
@@ -62,12 +64,12 @@ Avec une page par métier ou par procédé, qui répond en tête à la question 
 **Intervenez-vous à Saint-Aubin-du-Cormier et Louvigné-du-Désert ?**
 Oui, sans frais de déplacement.
 
-**Combien de temps avant de voir des résultats ?**
-Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
+**Nos clients nous connaissent déjà : à quoi bon ?**
+À être trouvé par ceux qui ne vous connaissent pas encore : un nouvel acheteur, un donneur d'ordre qui change de fournisseur, un candidat. Ces personnes demandent de plus en plus à une IA, qui ne cite que les entreprises qu'elle trouve décrites précisément en ligne.
 
-**Le GEO remplace-t-il le SEO ?**
-Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
+**Pouvez-vous écrire sur un procédé technique sans le connaître ?**
+J'écris à partir de vous : un entretien d'une heure avec la personne qui maîtrise le sujet, vos documents, vos photos. Vous validez le fond avant publication. Je n'invente aucune caractéristique.
 
 ## Parlons de votre visibilité à Fougères
 
-Je me déplace aussi sans frais à [Rennes](/consultant-seo-rennes), [Vitré](/consultant-seo-vitre) et [Laval](/consultant-seo-laval). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).
+Je me déplace aussi sans frais à [Rennes](/consultant-seo-rennes), [Vitré](/consultant-seo-vitre) et [Laval](/consultant-seo-laval). Industrie, artisanat d'art ou commerce du pays de Fougères : le diagnostic offert de 30 minutes est le bon premier pas. On regarde ensemble ce que Google et les IA disent de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).
