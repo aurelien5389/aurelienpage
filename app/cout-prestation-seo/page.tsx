@@ -19,9 +19,9 @@ import styles from './page.module.css'
 const PATH = '/cout-prestation-seo'
 const SLUG = 'cout-prestation-seo'
 const draft = parseDraft(`${SLUG}.md`)
-const TITLE = 'Combien coûte une prestation SEO ? Mes tarifs · Aurélien PAGE'
+const TITLE = "Tarif d'un consultant SEO : mes prix et les repères du marché"
 const DESCRIPTION =
-  'Mes tarifs SEO et GEO : audit de 800 à 2 500 €, accompagnement mensuel de 500 à 2 000 €, article de blog de 150 à 350 €, formation dès 300 €, Google Ads sur devis. Diagnostic offert.'
+  "Mes tarifs SEO et GEO : audit de 800 à 2 500 €, accompagnement mensuel de 500 à 2 000 €, formation dès 300 €. Et les repères du marché : tarif jour moyen, prix d'un audit, freelance ou agence."
 
 export const metadata: Metadata = {
   title: seoTitle(TITLE),
