@@ -2,7 +2,7 @@
 
 **Slug / URL :** `/blog/choisir-mots-cles-seo`
 
-**H1 :** Comment choisir les bons mots-clés en SEO : méthode en 4 étapes
+**H1 :** Comment choisir les bons mots-clés en SEO ? Méthode en 4 étapes
 
 **Intention de recherche :**
 Requête cible : "comment choisir ses mots clés SEO" / "choisir mots clés SEO" / "stratégie mots clés SEO"
@@ -10,7 +10,7 @@ Cible : responsables marketing, entrepreneurs, créateurs de contenu qui veulent
 
 ---
 
-# Comment choisir les bons mots-clés en SEO : méthode en 4 étapes
+# Comment choisir les bons mots-clés en SEO ? Méthode en 4 étapes
 
 Beaucoup de pages bien écrites ne reçoivent presque aucune visite depuis Google. Ce que j'observe sur les sites que je suis : la cause la plus fréquente n'est pas la technique ni les liens, c'est une mauvaise stratégie de mots-clés.
 
@@ -18,7 +18,7 @@ Cibler les mauvais termes, c'est produire du contenu pour personne. Cibler des m
 
 Voici une méthode en quatre étapes pour choisir des mots-clés qui vous apportent du trafic qualifié, c'est-à-dire des visiteurs qui ont une vraie raison d'être sur votre site.
 
-## Pourquoi les mots-clés sont la fondation de toute stratégie SEO
+## Pourquoi les mots-clés sont la fondation de toute stratégie SEO ?
 
 Les mots-clés sont les ponts entre ce que vous proposez et ce que cherchent vos clients potentiels. S'ils ne correspondent pas, votre site sera ignoré, par Google et par vos prospects.
 
@@ -60,7 +60,7 @@ Les **mots-clés de longue traîne** (3 mots et plus) sont plus précis, moins r
 
 La stratégie idéale pour la plupart des sites : se concentrer d'abord sur la longue traîne pour accumuler du trafic qualifié et de l'autorité, puis progressivement viser des termes plus compétitifs.
 
-### Comment évaluer si un mot-clé est trop compétitif
+### Comment évaluer si un mot-clé est trop compétitif ?
 
 Regardez les sites positionnés sur la première page pour ce terme. Si ce sont exclusivement des marques nationales, des médias à très forte autorité (DA > 70) ou des sites avec des centaines de backlinks, le combat sera difficile à court terme. Privilégiez les requêtes où des sites comparables au vôtre en taille et en ancienneté sont positionnés.
 

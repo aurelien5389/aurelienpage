@@ -22,7 +22,7 @@ Un calendrier éditorial est un outil de planification qui recense l'ensemble de
 
 C'est un document vivant, pas un planning gravé dans le marbre. Il s'adapte à l'actualité de votre secteur, aux performances de vos contenus existants, et aux priorités qui évoluent. Ce qui ne change pas, en revanche, c'est son utilité fondamentale : vous donner une vision globale de votre production de contenu sur plusieurs semaines ou plusieurs mois.
 
-## Pourquoi le calendrier éditorial est indispensable en SEO
+## Pourquoi le calendrier éditorial est indispensable en SEO ?
 
 La régularité de publication est un signal de sérieux pour Google et pour votre audience. Un site qui publie du contenu de qualité de façon régulière, même peu fréquemment, progresse plus durablement dans les SERPs qu'un site qui publie en rafales irrégulières.
 

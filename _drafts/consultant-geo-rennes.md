@@ -18,7 +18,7 @@ Trois choses, dans cet ordre : vérifier l'accès, revoir les pages, mesurer.
 
 **Mesurer qui est cité.** Il n'existe pas de Search Console pour ChatGPT. Je pose aux IA une liste de questions que vos clients se posent, je relève qui est cité, et j'en tire une part de voix, IA par IA. Je fais ces relevés avec Balise, un outil que j'ai construit. La méthode est détaillée dans [comment être cité par ChatGPT et Perplexity](/reponses/comment-etre-cite-par-chatgpt-et-perplexity).
 
-## Pourquoi le GEO compte pour une entreprise rennaise
+## Pourquoi le GEO compte pour une entreprise rennaise ?
 
 Parce que vos clients posent déjà leurs questions à une IA. « Quel cabinet d'expertise comptable à Rennes ? », « combien coûte une formation SST ? », « quelle agence web en Bretagne ? » : la réponse cite trois ou quatre sources, et la Search Console ne vous dira pas si vous en faites partie.
 

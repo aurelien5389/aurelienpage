@@ -83,7 +83,7 @@ Les images optimisées peuvent générer du trafic via Google Images, un canal s
 
 Les données structurées sont des balises HTML spéciales (format JSON-LD principalement) qui fournissent à Google des informations précises et structurées sur le contenu de votre page. Elles permettent à Google de "comprendre" vos données plutôt que de les deviner.
 
-**Pourquoi c'est important :**
+**Pourquoi c'est important ?**
 
 Les données structurées peuvent débloquer des **rich snippets** (résultats enrichis) dans la SERP : étoiles d'avis, prix, FAQ développables, fil d'Ariane, informations d'événement, recette, etc. Ces enrichissements augmentent la visibilité et le CTR de votre résultat dans la SERP.
 

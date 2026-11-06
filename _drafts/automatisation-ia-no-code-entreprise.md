@@ -10,7 +10,7 @@ meta-description: "Make, n8n, agents IA, Claude : comment structurer un projet d
 
 Je suis Aurélien PAGE, consultant SEO/GEO et formateur No-Code & IA. Voici la méthode que j'utilise pour cadrer un projet d'automatisation IA & No-Code, que ce soit pour ma propre activité ou pour les entreprises que j'accompagne.
 
-## Pourquoi la plupart des projets d'automatisation échouent
+## Pourquoi la plupart des projets d'automatisation échouent ?
 
 **On automatise un process qui n'aurait pas dû exister.** Avant de brancher Make ou n8n sur une tâche répétitive, il faut se demander si cette tâche a encore une raison d'être. Automatiser un mauvais process, c'est le rendre invisible, donc plus difficile à corriger.
 

@@ -39,7 +39,7 @@ const data: FicheData = {
       valeur: "Liste des questions testées, relevé des réponses des IA, part de voix, sites cités à votre place, analyse des pages qui gagnent, plan d'action",
     },
   ],
-  pourquoiTitre: 'Pourquoi un audit GEO',
+  pourquoiTitre: 'Pourquoi un audit GEO ?',
   pourquoi: [
     "Vos clients ne tapent plus seulement des mots-clés dans Google. Ils demandent à une IA quel prestataire choisir, combien ça coûte, ce qu'il faut savoir avant de se lancer. Si la réponse cite trois concurrents, vous n'êtes pas dans la course, et la Search Console ne vous dira pas qui est cité à votre place.",
     `Certaines causes sont techniques. OpenAI précise qu'un site qui bloque son robot **OAI-SearchBot** n'apparaît pas dans les réponses de recherche de ChatGPT ([OpenAI](${SRC.openai.href})). Anthropic et Perplexity documentent aussi leurs robots de recherche, Claude-SearchBot et PerplexityBot ([Anthropic](${SRC.anthropic.href}), [Perplexity](${SRC.perplexity.href})). Côté Google, une page doit être indexée et éligible à un extrait pour apparaître dans les AI Overviews ([Google Search Central](${SRC.googleIa.href})).`,

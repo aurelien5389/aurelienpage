@@ -39,7 +39,7 @@ Une propriété standard accepte **deux groupes personnalisés** en plus du grou
     },
   ],
   tableau: {
-    titre: 'Où retrouver le trafic des IA dans Google Analytics 4',
+    titre: 'Où retrouver le trafic des IA dans Google Analytics 4 ?',
     colonnes: ['Origine de la visite', 'Canal GA4 par défaut', 'Comment l’isoler'],
     lignes: [
       ['ChatGPT, Gemini, Copilot, Grok, Deepseek', 'Assistant IA', 'Source de session dans Acquisition de trafic'],

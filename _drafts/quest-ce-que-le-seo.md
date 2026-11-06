@@ -16,7 +16,7 @@ C'est l'ensemble des techniques visant à améliorer la visibilité d'un site we
 
 L'objectif : apparaître en bonne position sur les requêtes que tapent vos clients potentiels, sans payer pour chaque clic.
 
-## Comment Google classe les résultats
+## Comment Google classe les résultats ?
 
 Pour comprendre le SEO, il faut d'abord comprendre comment Google fonctionne. En simplifiant, le moteur de recherche opère en trois étapes :
 

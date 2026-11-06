@@ -43,7 +43,7 @@ const data: FicheData = {
         'Compte structuré, campagnes actives, suivi des conversions (GA4, Google Tag Manager), landing pages si besoin, reporting mensuel dans Looker Studio',
     },
   ],
-  pourquoiTitre: 'Pourquoi confier vos campagnes à un traffic manager',
+  pourquoiTitre: 'Pourquoi confier vos campagnes à un traffic manager ?',
   pourquoi: [
     "Un compte Google Ads se crée vite. Il se pilote mal sans méthode : mots-clés trop larges, conversions mal suivies, budget consommé sur des clics qui ne vendent rien. Le problème se voit rarement dans l'interface, et beaucoup plus sur la facture.",
     `Le budget, lui, se règle simplement mais pas toujours comme on le croit. Google indique qu'une campagne peut dépenser jusqu'à **deux fois son budget quotidien moyen** un jour donné, dans la limite de **30,4 fois ce budget sur un mois** ([Aide Google Ads](${SRC.googleAdsBudget.href})). Le pilotage se fait donc au mois, avec des conversions fiables.`,

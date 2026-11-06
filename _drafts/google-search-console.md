@@ -22,7 +22,7 @@ C'est à la fois un outil de diagnostic (que se passe-t-il sur mon site du point
 
 **Qui devrait l'utiliser ?** Tout le monde. Que vous soyez consultant SEO, responsable marketing d'une TPE, développeur web ou propriétaire d'un blog personnel, dès que vous avez un site et que vous voulez du trafic depuis Google, la Search Console est indispensable.
 
-## Comment accéder à Google Search Console
+## Comment accéder à Google Search Console ?
 
 L'accès se fait via [search.google.com/search-console](https://search.google.com/search-console). Il faut d'abord **vérifier la propriété de votre site**, prouver à Google que vous en êtes le gestionnaire légitime.
 
@@ -43,7 +43,7 @@ C'est le rapport le plus consulté. Il affiche les données de trafic organique 
 - **CTR (Click-Through Rate)** : ratio clics/impressions. Un CTR faible sur une page bien positionnée (position 1-3) indique un problème de balise title ou de meta description qui n'incite pas au clic.
 - **Position moyenne** : position moyenne de votre URL pour une requête donnée, sur la période sélectionnée.
 
-**Comment l'utiliser en pratique :**
+**Comment l'utiliser en pratique ?**
 
 Filtrez par "Pages" pour identifier vos meilleures et moins bonnes performances. Identifiez les pages avec de nombreuses impressions mais un CTR faible, elles sont visibles mais n'incitent pas au clic, signal que votre titre ou meta description mérite d'être retravaillé.
 

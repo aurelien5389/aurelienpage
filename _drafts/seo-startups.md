@@ -10,7 +10,7 @@ Une startup n'est pas une petite entreprise. Elle a ses propres contraintes : bu
 
 La question n'est pas "est-ce que le SEO vaut la peine pour une startup ?" mais **"quelle stratégie SEO est adaptée aux contraintes d'une startup ?"**
 
-## Pourquoi le SEO des startups est différent
+## Pourquoi le SEO des startups est différent ?
 
 **La timeline est compressée.** Une PME établie peut investir 18 mois dans le SEO avant d'en voir les retombées. Une startup en phase d'amorçage a souvent besoin de résultats plus rapides, ou du moins de signaux positifs rapides pour justifier l'investissement.
 

@@ -24,7 +24,7 @@ Mais une SERP n'est pas une simple liste de liens bleus. Elle est composée d'é
 
 La composition d'une SERP n'est jamais le fruit du hasard : elle reflète ce que Google interprète comme l'**intention de recherche** derrière la requête.
 
-## Pourquoi comprendre les SERPs compte pour le SEO
+## Pourquoi comprendre les SERPs compte pour le SEO ?
 
 Avant de créer une page ou un article, analyser la SERP du mot-clé ciblé est une étape non négociable. Elle vous renseigne sur deux choses fondamentales :
 
@@ -92,7 +92,7 @@ Les requêtes navigationnelles se retrouvent quant à elles à chaque niveau, el
 
 Une stratégie SEO solide couvre l'ensemble du funnel avec des contenus adaptés à chaque étape. C'est ce qui permet d'accompagner un utilisateur depuis sa première recherche informationnelle jusqu'à la conversion.
 
-## Comment lire une SERP avant de créer du contenu
+## Comment lire une SERP avant de créer du contenu ?
 
 Avant de rédiger n'importe quelle page ou article, prenez 10 minutes pour analyser la SERP du mot-clé ciblé. Posez-vous ces questions :
 

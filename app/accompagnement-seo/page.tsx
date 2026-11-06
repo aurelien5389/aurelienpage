@@ -40,7 +40,7 @@ const data: FicheData = {
       valeur: "Plan d'action sur 6 à 12 mois, optimisations ou recommandations prêtes à appliquer, contenus ou briefs, reporting mensuel",
     },
   ],
-  pourquoiTitre: 'Pourquoi un accompagnement plutôt qu\'un audit seul',
+  pourquoiTitre: 'Pourquoi un accompagnement plutôt qu\'un audit seul ?',
   pourquoi: [
     "Un audit identifie les problèmes. Beaucoup restent ensuite dans un tiroir : l'équipe manque de temps, les priorités changent, le rapport vieillit. L'accompagnement sert à les résoudre, mois après mois, et à continuer de construire votre visibilité.",
     "Ce n'est pas un abonnement à des exports de positions. Chaque mois, il y a du travail réel sur votre site : technique, contenus, liens, et la visibilité dans les réponses des IA, qui bouge vite.",

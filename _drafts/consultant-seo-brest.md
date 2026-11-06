@@ -10,7 +10,7 @@ meta-description: "Consultant SEO et GEO pour les PME de Brest et du Finistère 
 
 **En bref :** je suis **consultant SEO et GEO**, basé à Rennes. J'aide les PME de Brest et du Finistère à être trouvées par leurs clients professionnels sur Google et dans les réponses de ChatGPT, Perplexity, Gemini et Claude. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site. Le travail se fait à distance ; je viens à Brest pour les étapes où le face-à-face compte.
 
-## Pourquoi le GEO compte pour une PME B2B
+## Pourquoi le GEO compte pour une PME B2B ?
 
 Un acheteur professionnel compare. Il demande à une IA de lui lister des fournisseurs, de résumer leurs différences, parfois d'estimer un prix. L'IA s'appuie sur des pages qu'elle trouve sur le web. Si votre savoir-faire n'est décrit que dans une plaquette PDF ou dans une page « Nos métiers » vague, elle ne peut pas le citer.
 

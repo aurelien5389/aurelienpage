@@ -20,7 +20,7 @@ Ce guide vous donne les KPIs qui comptent vraiment, comment les lire, et comment
 
 **Ce qu'il mesure :** le nombre de visites provenant des moteurs de recherche, hors publicité.
 
-**Comment le lire :**
+**Comment le lire ?**
 - Comparez toujours sur la même période de l'année passée (N-1), pas sur le mois précédent. Le trafic organique a des saisonnalités fortes selon les secteurs.
 - Distinguez le trafic de marque (requêtes contenant votre nom) du trafic hors marque. Le trafic de marque augmente naturellement avec la notoriété. Seul le trafic hors marque mesure la performance SEO pure.
 - Méfiez-vous des pics isolés qui ne se confirment pas : une mention virale peut gonfler le trafic ponctuellement sans gain SEO durable.
@@ -33,7 +33,7 @@ Ce guide vous donne les KPIs qui comptent vraiment, comment les lire, et comment
 
 **Ce qu'il mesure :** les impressions (combien de fois votre site est apparu dans les résultats), les clics (combien de fois un utilisateur a cliqué), le CTR (taux de clics = clics / impressions), la position moyenne.
 
-**Comment le lire :**
+**Comment le lire ?**
 - Les impressions progressent avant les clics : si vos impressions augmentent mais pas les clics, vos pages se positionnent mais le titre ou la méta-description n'est pas assez convaincant.
 - Le CTR varie beaucoup selon la position. Un CTR de 10% en position 3 est correct. Un CTR de 1% en position 1 est suspect : votre snippet n'est pas attractif, ou une fonctionnalité SERP (AI Overview, featured snippet) capte les clics.
 - Filtrez par page pour identifier vos meilleures pages et celles qui underperforment.
@@ -46,7 +46,7 @@ Ce guide vous donne les KPIs qui comptent vraiment, comment les lire, et comment
 
 **Ce qu'il mesure :** le classement de vos pages sur les mots-clés stratégiques que vous avez identifiés au départ.
 
-**Comment le lire :**
+**Comment le lire ?**
 - Suivez un ensemble de 20 à 50 requêtes cibles défini en amont de la mission. Ne vous contentez pas des requêtes pour lesquelles vous vous positionnez déjà : c'est le statu quo.
 - Distinguez : top 3 (trafic élevé), top 10 (trafic visible), top 20 (zone de progression), au-delà (pas de trafic significatif).
 - Les positions fluctuent naturellement de quelques places. Ce qui compte, c'est la tendance sur 2 à 3 mois, pas les variations hebdomadaires.
@@ -59,7 +59,7 @@ Ce guide vous donne les KPIs qui comptent vraiment, comment les lire, et comment
 
 **Ce qu'il mesure :** les actions à valeur commerciale réalisées par les visiteurs organiques. Formulaires remplis, demandes de devis, achats, appels téléphoniques (si trackés), inscriptions.
 
-**Comment le lire :**
+**Comment le lire ?**
 - Définissez vos conversions en amont : une conversion SEO n'est pas forcément une vente directe. Un téléchargement de livre blanc, une inscription à une newsletter, une demande de contact : tout ce qui représente un premier engagement qualifié.
 - Distinguez les conversions directes (la visite organique → conversion sur la même session) des conversions assistées (la visite organique contribue à une conversion ultérieure via un autre canal).
 - Le taux de conversion organique fluctue moins que les positions : une baisse durable est un signal sérieux.
@@ -92,7 +92,7 @@ Un reporting SEO mensuel utile tient en une page ou deux, et répond à ces ques
 
 Ce que le reporting ne doit pas contenir : des métriques non actionnables (score DA, nombre de mots-clés en top 100 tous confondus, nombre de pages crawlées). Ces chiffres gonflent le document sans aider à décider.
 
-## Comment évaluer le reporting d'un prestataire SEO
+## Comment évaluer le reporting d'un prestataire SEO ?
 
 Si vous externalisez votre SEO, le reporting mensuel est votre outil de contrôle. Quelques questions à poser :
 

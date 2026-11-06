@@ -1,6 +1,6 @@
 ---
 slug: "/blog/rediger-titre-seo"
-title: "Comment rédiger un titre efficace : H1, balise title et copywriting"
+title: "Comment rédiger un titre efficace ? H1, balise title et copywriting"
 meta-description: "H1, balise title, accroche : comment rédiger un titre qui attire les clics et positionne vos pages sur Google ? Méthodes, formules et erreurs à éviter."
 ---
 
@@ -30,7 +30,7 @@ La balise title est l'élément on-page qui pèse le plus lourd dans le position
 
 **Inclure la promesse ou le différenciateur.** "Comment choisir ses mots-clés SEO" est informatif mais plat. "Comment choisir ses mots-clés SEO : méthode en 5 étapes" donne une raison de cliquer.
 
-## Comment écrire un H1 qui retient l'attention
+## Comment écrire un H1 qui retient l'attention ?
 
 Le H1 est votre accroche éditoriale. Un visiteur décide en 3 secondes s'il va lire votre article ou repartir. Voici les formules qui fonctionnent le mieux en rédaction web.
 

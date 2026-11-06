@@ -47,7 +47,7 @@ Prenons un exemple concret pour illustrer. Si votre sujet central est le SEO, vo
 
 Chaque page de niveau 3 renvoie vers sa page de niveau 2. Chaque page de niveau 2 renvoie vers la page pilier. Et la page pilier renvoie vers toutes les pages de niveau 2. C'est ce réseau de liens qui constitue le cocon.
 
-## Pourquoi le cocon sémantique est efficace en SEO
+## Pourquoi le cocon sémantique est efficace en SEO ?
 
 ### Il concentre l'autorité sur vos pages prioritaires
 
@@ -67,7 +67,7 @@ Un cocon bien construit guide naturellement l'utilisateur vers le contenu compl�
 
 Au-delà du SEO, le cocon sémantique est un outil de planification éditoriale. Il vous permet d'identifier les contenus manquants, de prioriser les créations selon leur position dans l'architecture, et d'éviter la cannibalisation (plusieurs pages qui ciblent le même mot-clé et se font concurrence).
 
-## Comment construire un cocon sémantique
+## Comment construire un cocon sémantique ?
 
 ### Étape 1 : Identifier votre thématique centrale
 
@@ -105,7 +105,7 @@ La cannibalisation SEO se produit quand plusieurs pages de votre site ciblent le
 
 Un cocon sémantique bien construit évite ce problème par design : chaque page cible une requête précise et unique dans l'arborescence. Le mapping de mots-clés (associer chaque page à un mot-clé cible unique) est une étape préalable indispensable.
 
-## Comment auditer son maillage interne
+## Comment auditer son maillage interne ?
 
 Avant d'optimiser, il faut mesurer. Un audit de maillage interne répond à trois questions :
 

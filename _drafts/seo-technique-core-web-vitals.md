@@ -64,7 +64,7 @@ Les Core Web Vitals (CWV) sont trois métriques définies par Google pour mesure
 
 **CLS, Cumulative Layout Shift** : mesure l'instabilité visuelle de la page, ces décalages de mise en page qui font que le contenu "saute" pendant le chargement, parfois au moment où vous allez cliquer sur quelque chose. Objectif : inférieur à 0,1.
 
-### Comment améliorer ses Core Web Vitals
+### Comment améliorer ses Core Web Vitals ?
 
 Pour le LCP : optimisez vos images (format WebP, compression, attribut `loading="lazy"` sauf pour l'image above the fold), utilisez un CDN, activez le cache navigateur, préchargez les ressources critiques.
 

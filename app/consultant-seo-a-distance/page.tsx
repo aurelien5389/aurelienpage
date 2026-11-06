@@ -34,13 +34,13 @@ const data: FicheData = {
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },
     { label: 'Livrables', valeur: "Rapport d'audit, relevé de visibilité dans les IA, plan d'action classé par impact, reporting mensuel" },
   ],
-  pourquoiTitre: 'Pourquoi le SEO et le GEO se travaillent bien à distance',
+  pourquoiTitre: 'Pourquoi le SEO et le GEO se travaillent bien à distance ?',
   pourquoi: [
     "Tout ce qu'un audit examine est accessible en ligne : l'exploration du site par un robot, l'indexation dans la Search Console et dans Bing Webmaster Tools, la vitesse des pages, les contenus, les liens. Le relevé GEO consiste à poser les questions de vos clients à ChatGPT, Perplexity, Claude, Gemini et Google : il se fait d'où que l'on soit.",
     "Ce qui fait la réussite d'une mission à distance, c'est l'organisation : un interlocuteur côté client, des accès donnés dès le départ, une réunion de restitution où l'on décide, puis un point mensuel. C'est ce cadre que je propose, avec des livrables écrits que votre équipe peut reprendre sans moi.",
     `Avant de choisir, Google conseille de demander au prestataire des exemples de travaux, s'il respecte les consignes de Google et quels résultats il attend, dans quel délai ([Google Search Central](${SRC.googleSeo.href})). Ces questions valent à distance comme en face à face : voir [comment choisir un consultant SEO ou GEO](/blog/choisir-consultant-seo-geo).`,
   ],
-  derouleTitre: 'Comment se déroule une mission à distance',
+  derouleTitre: 'Comment se déroule une mission à distance ?',
   deroule: [
     {
       titre: 'Diagnostic offert en visioconférence',

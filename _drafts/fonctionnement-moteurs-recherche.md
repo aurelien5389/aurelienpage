@@ -2,7 +2,7 @@
 
 **Slug / URL :** `/blog/fonctionnement-moteurs-recherche`
 
-**H1 :** Comment fonctionnent les moteurs de recherche : crawl, indexation et ranking
+**H1 :** Comment fonctionnent les moteurs de recherche ? Crawl, indexation et ranking
 
 **Intention de recherche :**
 Requête cible : "comment fonctionnent les moteurs de recherche" / "fonctionnement Google" / "crawl indexation SEO"
@@ -10,7 +10,7 @@ Cible : débutants et professionnels du marketing qui veulent comprendre les mé
 
 ---
 
-# Comment fonctionnent les moteurs de recherche : crawl, indexation et ranking
+# Comment fonctionnent les moteurs de recherche ? Crawl, indexation et ranking
 
 Optimiser un site pour Google sans comprendre comment Google fonctionne, c'est un peu comme conduire sans connaître le code de la route. On peut avancer, mais les risques d'erreur sont élevés. Comprendre les mécanismes internes d'un moteur de recherche, crawl, indexation, ranking, est la base de toute stratégie SEO solide.
 
@@ -20,7 +20,7 @@ Ces processus se déroulent en trois grandes étapes : la découverte des pages 
 
 ## Étape 1 : La découverte des pages, le crawl
 
-### Comment Google découvre de nouvelles pages
+### Comment Google découvre de nouvelles pages ?
 
 Le crawl est l'exploration du web par des robots automatisés, appelés crawlers, spiders ou bots. Le principal crawler de Google se nomme Googlebot. Il navigue de lien en lien sur le web, à la façon d'un internaute qui clique sur des liens depuis une page vers une autre, indéfiniment.
 

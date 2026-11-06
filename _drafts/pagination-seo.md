@@ -8,7 +8,7 @@ La pagination est l'un des sujets SEO techniques qui génèrent le plus de confu
 
 Cet article fait le point sur les bonnes pratiques actuelles de la pagination SEO, pour les blogs, les sites e-commerce et tout site avec des listes de contenus paginées.
 
-## Pourquoi la pagination pose problème au SEO
+## Pourquoi la pagination pose problème au SEO ?
 
 La pagination crée plusieurs problèmes structurels pour les moteurs de recherche.
 

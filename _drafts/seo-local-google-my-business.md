@@ -66,13 +66,13 @@ La vérification de votre fiche se fait généralement par courrier postal (Goog
 
 Les avis Google sont le signal de crédibilité le plus visible sur votre fiche, et l'un des facteurs de classement les plus importants pour le Local Pack.
 
-### Pourquoi les avis comptent autant
+### Pourquoi les avis comptent autant ?
 
 D'abord pour la confiance : un prospect qui compare deux consultants va naturellement se tourner vers celui qui a 4,9 étoiles sur 23 avis plutôt que vers une fiche sans avis. Les avis sont la preuve sociale la plus tangible que vous existez et que vous livrez de la valeur.
 
 Ensuite pour le SEO : Google analyse le contenu des avis pour comprendre votre activité. Un client qui écrit "excellent consultant SEO, m'a aidé à tripler mon trafic organique à Lyon" injecte des mots-clés dans votre fiche que vous ne pouvez pas y mettre vous-même.
 
-### Comment obtenir plus d'avis
+### Comment obtenir plus d'avis ?
 
 La méthode la plus simple : **demandez-les, systématiquement**. Après chaque mission terminée avec succès, envoyez un message simple à votre client avec votre lien Google direct. La plupart des gens sont ravis de laisser un avis, ils n'y pensent tout simplement pas si on ne le leur demande pas.
 

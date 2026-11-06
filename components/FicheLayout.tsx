@@ -87,7 +87,7 @@ export default function FicheLayout({ data }: { data: FicheData }) {
     { id: 'pourquoi', titre: data.pourquoiTitre },
     ...(data.sections ?? []).map((s) => ({ id: s.id, titre: s.titre })),
     { id: 'deroule', titre: data.derouleTitre },
-    { id: 'moi', titre: 'Pourquoi travailler avec moi' },
+    { id: 'moi', titre: 'Pourquoi travailler avec moi ?' },
     { id: 'faq', titre: 'Questions fréquentes' },
   ]
 
@@ -236,7 +236,7 @@ export default function FicheLayout({ data }: { data: FicheData }) {
 
           {/* 6. Pourquoi travailler avec moi */}
           <section aria-labelledby="moi" className={styles.ficheBloc}>
-            <h2 id="moi" className={styles.ficheH2}>Pourquoi travailler avec moi</h2>
+            <h2 id="moi" className={styles.ficheH2}>Pourquoi travailler avec moi ?</h2>
             {data.pourquoiMoi.map((p, i) => (
               <p key={i} className={styles.fichePara}>{md(p, `moi-${i}`)}</p>
             ))}

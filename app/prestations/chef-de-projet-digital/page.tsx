@@ -33,7 +33,7 @@ const data: FicheData = {
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },
     { label: 'Livrables', valeur: 'Note de cadrage, planning, comptes rendus de suivi, recette, tableau de bord des indicateurs' },
   ],
-  pourquoiTitre: 'Pourquoi un chef de projet digital',
+  pourquoiTitre: 'Pourquoi un chef de projet digital ?',
   pourquoi: [
     "Une refonte de site réunit souvent une agence, un développeur, un rédacteur, la direction et le service marketing. Sans pilote, chacun avance de son côté, les délais glissent et des décisions se prennent trop tard, au moment de la mise en ligne.",
     "La migration est le moment le plus risqué : URL modifiées sans redirection, contenus perdus, suivi analytics coupé. Un projet piloté avec un regard SEO protège le trafic que vous avez déjà construit.",

@@ -20,7 +20,7 @@ Une **page orpheline** est une page de votre site web qui ne reçoit aucun lien 
 
 Pour un crawler, qu'il s'agisse de Googlebot ou d'un outil d'audit SEO, une page orpheline est pratiquement introuvable. Ces robots découvrent les pages en suivant les liens. Sans lien entrant interne, la page n'est jamais trouvée lors du crawl standard du site.
 
-## Pourquoi les pages orphelines posent problème en SEO
+## Pourquoi les pages orphelines posent problème en SEO ?
 
 ### Elles ne reçoivent pas de PageRank interne
 
@@ -50,7 +50,7 @@ Un visiteur qui arrive sur votre site ne peut pas découvrir une page orpheline 
 
 **Les suppressions partielles de menus** : si vous avez modifié votre menu principal et supprimé des liens vers certaines sections, les pages qui n'étaient accessibles que depuis ce menu deviennent orphelines.
 
-## Comment identifier les pages orphelines de votre site
+## Comment identifier les pages orphelines de votre site ?
 
 ### Avec un crawler SEO
 
@@ -66,7 +66,7 @@ La Search Console peut révéler des pages indexées qui ne reçoivent aucun lie
 
 Comparez vos pages les plus visibles dans Search Console avec vos pages les plus trafiquées dans Analytics. Les URLs indexées mais avec zéro trafic et zéro lien interne sont de bonnes candidates orphelines.
 
-## Comment corriger les pages orphelines
+## Comment corriger les pages orphelines ?
 
 ### Intégrer les pages dans le maillage interne
 

@@ -45,7 +45,7 @@ Depuis 2023, j'intègre systématiquement la dimension GEO dans mes missions : s
 **Reporting mensuel**
 Compte-rendu mensuel clair : évolution des positions, du trafic organique, des KPIs définis en début de mission. Analyse des actions menées, résultats observés, plan du mois suivant. Pas de tableau Excel illisible : un document synthétique qui vous permet de piloter votre investissement SEO.
 
-## Comment se déroule un accompagnement SEO
+## Comment se déroule un accompagnement SEO ?
 
 **Phase 1 : Audit (avant le démarrage)**
 Diagnostic complet : technique, sémantique, popularité. Analyse concurrentielle. Identification des opportunités prioritaires. C'est la fondation indispensable avant toute action.

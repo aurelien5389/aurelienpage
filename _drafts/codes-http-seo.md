@@ -102,7 +102,7 @@ Erreur générique indiquant un dysfonctionnement du serveur. Googlebot ne peut 
 
 Le serveur est temporairement indisponible (surcharge, maintenance). Googlebot reconnaît le 503 comme un signal temporaire et reviendra plus tard. C'est le code à utiliser lors d'une maintenance planifiée pour éviter que Googlebot interprète l'indisponibilité comme permanente.
 
-## Comment surveiller vos codes HTTP
+## Comment surveiller vos codes HTTP ?
 
 **Google Search Console** : le rapport "Couverture" liste les URLs en erreur détectées par Googlebot, regroupées par type d'erreur (4xx, 5xx, redirigées, exclues). C'est le point de départ pour identifier les problèmes d'indexation.
 

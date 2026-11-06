@@ -62,7 +62,7 @@ C'est l'utilisation la plus stratégique de l'analyse de logs en 2026. En filtra
 
 Cette information permet de valider, ou d'ajuster, votre stratégie `robots.txt` vis-à-vis des bots IA, et de comprendre quels contenus attirent l'attention des moteurs génératifs. Si PerplexityBot crawle systématiquement vos articles sur un thème précis, c'est que votre contenu sur ce thème est potentiellement cité dans les réponses de Perplexity, un signal de visibilité GEO.
 
-## Comment accéder à vos logs
+## Comment accéder à vos logs ?
 
 **Hébergement mutualisé** (OVH, o2switch, Infomaniak) : les logs sont accessibles depuis le panneau de contrôle (cPanel, DirectAdmin). Format Apache Combined Log Format.
 

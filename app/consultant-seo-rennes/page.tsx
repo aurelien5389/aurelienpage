@@ -57,7 +57,7 @@ const data: FicheData = {
         "Rapport d'audit avec actions classées par priorité, relevé de visibilité dans les IA, plan d'action. En suivi : optimisations ou recommandations prêtes à appliquer, reporting mensuel",
     },
   ],
-  pourquoiTitre: 'Pourquoi un consultant SEO à Rennes',
+  pourquoiTitre: 'Pourquoi un consultant SEO à Rennes ?',
   pourquoi: [
     "Pour se voir. Un audit se restitue mieux autour d'une table, avec votre équipe technique et vos rédacteurs, qu'en pièce jointe. Je me déplace dans vos locaux à Rennes et en Ille-et-Vilaine pour la restitution et les points importants, le reste se fait à distance.",
     `Pour choisir en connaissance de cause. Google conseille de demander à un prestataire SEO des exemples de travaux, s'il respecte les Google Search Essentials et quels résultats il attend, dans quel délai ([Google Search Central](${SRC.googleSeo.href})). Le diagnostic offert sert à cela, et je ne promets ni position ni nombre de citations.`,

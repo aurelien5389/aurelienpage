@@ -5,11 +5,11 @@
  },
  "_drafts/accompagnement-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
+  "modified": "2026-11-06"
  },
  "_drafts/analyse-logs-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/apprendre-le-seo-principes-debutants.md": {
   "created": "2026-07-29",
@@ -25,15 +25,15 @@
  },
  "_drafts/automatisation-ia-no-code-entreprise.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
+  "modified": "2026-11-06"
  },
  "_drafts/balise-canonique.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/calendrier-editorial.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/chatgpt-search-geo.md": {
   "created": "2026-07-29",
@@ -49,7 +49,7 @@
  },
  "_drafts/choisir-mots-cles-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/cocon-semantique-maillage-interne.md": {
   "created": "2026-07-29",
@@ -57,7 +57,7 @@
  },
  "_drafts/codes-http-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-geo-laval.md": {
   "created": "2026-10-28",
@@ -77,7 +77,7 @@
  },
  "_drafts/consultant-seo-bordeaux.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-seo-brest.md": {
   "created": "2026-07-29",
@@ -209,7 +209,7 @@
  },
  "_drafts/crawler-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/devenir-consultant-seo-freelance.md": {
   "created": "2026-07-29",
@@ -237,7 +237,7 @@
  },
  "_drafts/fonctionnement-moteurs-recherche.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/formation-seo.md": {
   "created": "2026-07-29",
@@ -261,7 +261,7 @@
  },
  "_drafts/google-search-console.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/ia-search-moteurs-reponses.md": {
   "created": "2026-07-29",
@@ -297,11 +297,11 @@
  },
  "_drafts/page-orpheline-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/pagination-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/plan-geo-30-jours.md": {
   "created": "2026-10-28",
@@ -317,7 +317,7 @@
  },
  "_drafts/quest-ce-que-le-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/questions-geo-par-secteur.md": {
   "created": "2026-10-28",
@@ -333,11 +333,11 @@
  },
  "_drafts/rediger-titre-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/reporting-seo-kpis.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/robots-ia.md": {
   "created": "2026-10-28",
@@ -349,23 +349,23 @@
  },
  "_drafts/seo-local-google-my-business.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/seo-on-page-optimisation.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/seo-startups.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
+  "modified": "2026-11-06"
  },
  "_drafts/seo-technique-core-web-vitals.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/serp-typologies-intentions-recherche.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/site-absent-reponses-chatgpt.md": {
   "created": "2026-10-28",
@@ -585,7 +585,7 @@
  },
  "app/page.tsx": {
   "created": "2026-03-29",
-  "modified": "2026-10-30"
+  "modified": "2026-11-06"
  },
  "app/pourquoi-consultant-seo/page.tsx": {
   "created": "2026-07-29",
@@ -797,7 +797,7 @@
  },
  "lib/reponses/trafic-ia-google-analytics-4.ts": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "lib/reponses/types.ts": {
   "created": "2026-10-04",

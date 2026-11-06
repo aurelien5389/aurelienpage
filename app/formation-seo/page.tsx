@@ -45,7 +45,7 @@ const data: FicheData = {
     { label: 'Financement', valeur: FINANCEMENT_FORMATION },
     { label: 'Livrables', valeur: "Supports (diaporama, ressources, listes de contrôle) envoyés après chaque session, liste d'actions prioritaires sur votre site" },
   ],
-  pourquoiTitre: 'Pourquoi se former au SEO',
+  pourquoiTitre: 'Pourquoi se former au SEO ?',
   pourquoi: [
     "Comprendre le SEO vous rend autonome. Vous savez évaluer le travail de votre agence ou de votre consultant, poser les bonnes questions à vos développeurs, prendre de meilleures décisions éditoriales. Et si vous gérez le SEO en interne, vous évitez les erreurs qui coûtent des mois de trafic.",
     "Les ressources gratuites expliquent le SEO en général. En formation, nous travaillons sur votre site, vos requêtes et vos concurrents : vous repartez avec un plan d'action applicable le lendemain.",

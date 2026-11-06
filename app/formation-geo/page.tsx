@@ -39,7 +39,7 @@ const data: FicheData = {
     { label: 'Financement', valeur: FINANCEMENT_FORMATION },
     { label: 'Livrables', valeur: "Supports envoyés après la session, liste de contrôle des contenus citables, liste d'actions sur votre site" },
   ],
-  pourquoiTitre: 'Pourquoi former votre équipe au GEO',
+  pourquoiTitre: 'Pourquoi former votre équipe au GEO ?',
   pourquoi: [
     "Votre équipe produit des contenus pour Google. Une partie de vos clients pose maintenant ses questions à une IA, qui répond en citant quelques sources. Les réflexes SEO restent utiles, mais ils ne suffisent pas à expliquer pourquoi un concurrent est cité et pas vous.",
     `La base est connue. Google indique qu'aucun fichier ni balisage spécial n'est nécessaire pour apparaître dans ses fonctionnalités IA : une page indexée et éligible à un extrait suffit ([Google Search Central](${SRC.googleIa.href})). Le reste se joue sur la façon d'écrire, de sourcer et de mesurer : c'est l'objet de la formation.`,

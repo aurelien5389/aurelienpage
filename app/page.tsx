@@ -234,7 +234,7 @@ export default function HomePage() {
         {/* 5. Pourquoi travailler avec moi + repères */}
         <section className={`${styles.section} ${styles.sectionSurface}`} aria-labelledby="pourquoi">
           <div className={styles.inner}>
-            <h2 id="pourquoi" className={styles.h2}>Pourquoi travailler avec moi</h2>
+            <h2 id="pourquoi" className={styles.h2}>Pourquoi travailler avec moi ?</h2>
             <div className={styles.pourquoi}>
               {POURQUOI.map((p, i) => (
                 <div key={p.titre} className={styles.pq}>

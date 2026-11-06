@@ -28,7 +28,7 @@ Cette balise se lit comme ceci : "cette page est une copie ou une variante de la
 
 La balise canonique appartient à la même famille que la balise `<title>` ou la meta description : c'est une information fournie aux moteurs de recherche dans l'en-tête HTML de la page. Elle n'est pas visible par l'internaute, mais elle est lue par Googlebot lors du crawl.
 
-## Pourquoi le contenu dupliqué pose problème
+## Pourquoi le contenu dupliqué pose problème ?
 
 Le contenu dupliqué survient quand plusieurs URLs distinctes servent un contenu identique ou quasi-identique. C'est plus fréquent qu'on ne le pense :
 
@@ -42,7 +42,7 @@ Le contenu dupliqué survient quand plusieurs URLs distinctes servent un contenu
 
 Enfin, et c'est souvent sous-estimé, le contenu dupliqué consomme inutilement le **budget de crawl** : Googlebot passe du temps à explorer des pages redondantes au lieu d'explorer vos nouvelles pages ou vos pages stratégiques.
 
-## Comment la balise canonique résout le problème
+## Comment la balise canonique résout le problème ?
 
 En plaçant une balise canonique sur chaque page dupliquée qui pointe vers la version principale, vous signalez à Google laquelle indexer et laquelle ignorer. Google consolide les signaux de popularité (backlinks, PageRank) vers l'URL canonique désignée.
 

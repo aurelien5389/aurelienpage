@@ -41,7 +41,7 @@ const data: FicheData = {
         "Rapport d'audit avec actions classées par priorité, relevé de visibilité dans les IA, plan d'action. En suivi : optimisations ou recommandations prêtes à appliquer, reporting mensuel",
     },
   ],
-  pourquoiTitre: 'Pourquoi un consultant SEO freelance plutôt qu’une agence',
+  pourquoiTitre: 'Pourquoi un consultant SEO freelance plutôt qu’une agence ?',
   pourquoi: [
     "Vous avez un seul interlocuteur. La personne qui audite votre site est celle qui écrit les recommandations, les applique ou les explique à votre équipe, et vous rend compte chaque mois. Rien ne se perd entre un commercial, un chef de projet et un consultant.",
     `Vous payez le temps d'un consultant, pas une structure. Avant de choisir, Google conseille de demander au prestataire des exemples de travaux, s'il respecte les Google Search Essentials et quels résultats il attend, dans quel délai ([Google Search Central](${SRC.googleSeo.href})). Posez-moi ces questions lors du diagnostic offert : c'est à cela qu'il sert.`,

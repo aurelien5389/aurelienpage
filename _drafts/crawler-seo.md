@@ -55,7 +55,7 @@ Ces données constituent la matière première d'un audit SEO technique.
 
 La **profondeur de crawl** (ou profondeur de page) correspond au nombre de clics nécessaires pour atteindre une page depuis la page d'accueil, en suivant l'arborescence naturelle du site (menus, liens internes). Une page à 1 clic de la home est en profondeur 1 ; une page accessible en 5 clics est en profondeur 5.
 
-### Pourquoi la profondeur impacte le SEO
+### Pourquoi la profondeur impacte le SEO ?
 
 La profondeur est directement liée au budget de crawl et à la transmission du PageRank. Plus une page est profonde :
 
@@ -69,7 +69,7 @@ La règle empirique en SEO est de maintenir vos pages stratégiques à **3 clics
 
 La pagination est souvent la première coupable : une boutique ou un blog avec 50 pages de résultats génère mécaniquement des URLs de plus en plus profondes. Les architectures de site mal pensées, les catégories en cascade, et les pages de tags peuvent également créer des profondeurs problématiques.
 
-### Comment réduire la profondeur
+### Comment réduire la profondeur ?
 
 Plusieurs leviers permettent d'améliorer la profondeur de crawl :
 
@@ -81,7 +81,7 @@ Plusieurs leviers permettent d'améliorer la profondeur de crawl :
 
 **La revue de l'architecture** : sur les sites avec des problèmes de profondeur structurels, une refonte de l'arborescence (réduire le nombre de niveaux de catégories, aplatir la hiérarchie) est parfois la seule solution durable.
 
-## Pourquoi utiliser un crawler SEO dans sa pratique
+## Pourquoi utiliser un crawler SEO dans sa pratique ?
 
 ### Pour l'audit initial
 

@@ -57,7 +57,7 @@ const data: FicheData = {
         "Rapport d'audit avec actions classées par priorité, relevé de visibilité dans les IA (questions testées, part de voix, sites cités), plan d'action. En suivi : reporting mensuel",
     },
   ],
-  pourquoiTitre: 'Pourquoi un audit SEO et GEO',
+  pourquoiTitre: 'Pourquoi un audit SEO et GEO ?',
   pourquoi: [
     "Je vois souvent des sites bien placés sur Google et absents des réponses de ChatGPT ou de Perplexity. Le prospect pose sa question à une IA, lit une réponse qui cite trois concurrents, et ne visite jamais votre site.",
     `Le point de départ reste le SEO. Google l'écrit : pour apparaître dans ses fonctionnalités IA (AI Overviews, AI Mode), une page doit être **indexée et éligible à un extrait** dans la recherche, sans exigence technique supplémentaire ([Google Search Central](${SRC_GOOGLE_IA})). Côté ChatGPT, OpenAI précise que les sites qui bloquent son robot **OAI-SearchBot** n'apparaissent pas dans les réponses de recherche ([documentation OpenAI](${SRC_OPENAI})).`,

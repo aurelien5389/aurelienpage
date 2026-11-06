@@ -84,7 +84,7 @@ export const COCONS: Cocon[] = [
     titre: 'Les fondamentaux du SEO',
     mere: { href: '/blog/quest-ce-que-le-seo', label: "Qu'est-ce que le SEO ? Définition, piliers et fonctionnement" },
     pages: [
-      { href: '/blog/fonctionnement-moteurs-recherche', label: 'Comment fonctionnent les moteurs de recherche' },
+      { href: '/blog/fonctionnement-moteurs-recherche', label: 'Comment fonctionnent les moteurs de recherche ?' },
       { href: '/blog/apprendre-le-seo-principes-debutants', label: 'Apprendre le SEO : les principes fondamentaux' },
       { href: '/blog/serp-typologies-intentions-recherche', label: 'SERP : typologies et intentions de recherche' },
       { href: '/blog/google-eeat', label: 'Google EEAT : définition et amélioration' },
