@@ -36,9 +36,11 @@ Ressources gratuites : checklist GEO, modèle de relevé, plan GEO en 30 jours, 
 
 | Plateforme | Pourquoi | Statut |
 |---|---|---|
-| Google Business Profile | Carte et réponses locales ; adresse Laval, catégorie « Consultant en marketing », zone desservie Mayenne + Ille-et-Vilaine | À vérifier |
+| Google Business Profile | Carte et réponses locales ; fiche à Rennes (adresse masquée, domicile), zone desservie Ille-et-Vilaine + Mayenne | Créée le 06/11/2026, vidéo de validation à tourner |
+| jesuisnumerique.fr | Annuaire ; sa page « consultants SEO à Rennes » est 13e sur la requête ; lien suivi vers /consultant-seo-rennes contre un lien retour sur /a-propos | Fait le 06/11/2026 (profil 35090) |
+| jeveuxunfreelance.fr | Annuaire de freelances, même éditeur ; profil sans échange de liens | À créer |
 | meilleurs-consultants-geo.fr | Classement GEO par ville, cité dans les résultats « consultant GEO Rennes/Nantes » ; lien « Soumettre un profil » | À soumettre |
-| Malt | Profils souvent cités par les IA pour « freelance GEO » ; titre « Consultant SEO et GEO · Laval et Rennes » | À créer ou mettre à jour |
+| Malt | Profils souvent cités par les IA pour « freelance GEO » ; 17e sur « consultant seo rennes » ; titre « Consultant SEO et GEO · Rennes et Laval » | À créer ou mettre à jour |
 | LinkedIn | Titre et section Infos alignés sur la description longue ; localisation Laval | À aligner |
 | Laval Économie, CCI Mayenne | Annuaires d'entreprises locales, sources institutionnelles | À demander |
 | France Num (activateurs) | Annuaire national d'accompagnants au numérique, souvent cité | À demander |

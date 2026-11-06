@@ -27,6 +27,7 @@ export default function Page() {
       slug={SLUG}
       path={`/${SLUG}`}
       parent={{ name: 'Prestations', path: '/prestations' }}
+      offre
       dates={draftDates(SLUG)}
       relatedLinks={getBlogRelatedLinks(SLUG)}
     />

@@ -4,6 +4,7 @@ import BlogPostLayout from '@/components/BlogPostLayout'
 import { draftDates } from '@/lib/content-dates'
 import { getBlogRelatedLinks } from '@/lib/internal-links'
 import { seoTitle } from '@/lib/titles'
+import { rennesNode } from '@/lib/schema'
 
 const SLUG = 'consultant-geo-rennes'
 const draft = parseDraft(`${SLUG}.md`)
@@ -27,6 +28,8 @@ export default function Page() {
       slug={SLUG}
       path={`/${SLUG}`}
       parent={{ name: 'Prestations', path: '/prestations' }}
+      offre
+      noeuds={[rennesNode]}
       dates={draftDates(SLUG)}
       relatedLinks={getBlogRelatedLinks(SLUG)}
     />

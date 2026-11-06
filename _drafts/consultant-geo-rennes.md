@@ -1,12 +1,12 @@
 ---
 slug: "/consultant-geo-rennes"
-title: "Consultant GEO à Rennes : être cité par ChatGPT et les IA"
-meta-description: "Consultant GEO à Rennes : accès des robots des IA, pages que ChatGPT et Perplexity citent, mesure de la part de voix avec Balise. Inclus dans l'audit SEO et GEO, de 800 à 2 500 €."
+title: "Consultant GEO freelance à Rennes : être cité par les IA"
+meta-description: "Consultant GEO freelance à Rennes, alternative à une agence GEO : accès des robots des IA, pages que ChatGPT et Perplexity citent, mesure avec Balise. Audit de 800 à 2 500 €."
 ---
 
 # Consultant GEO à Rennes
 
-**Quel consultant GEO pour être cité par ChatGPT et les IA ?** Je suis Aurélien Page, consultant SEO et GEO présent à Rennes, avec mon siège à [Laval](/consultant-geo-laval). Le **GEO (Generative Engine Optimization)** consiste à faire citer votre site dans les réponses de ChatGPT, Perplexity, Gemini, Claude et des AI Overviews de Google. Je le travaille dans le cadre de l'[audit SEO et GEO](/prestations/consultant-seo-geo), de 800 à 2 500 € selon la taille du site, puis en suivi mensuel. Rendez-vous à Rennes et en Ille-et-Vilaine sans frais de déplacement.
+**Quel consultant GEO pour être cité par ChatGPT et les IA ?** Je suis Aurélien Page, consultant SEO et GEO freelance, installé à Rennes, avec le siège de mon entreprise à [Laval](/consultant-geo-laval). Le **GEO (Generative Engine Optimization)** consiste à faire citer votre site dans les réponses de ChatGPT, Perplexity, Gemini, Claude et des AI Overviews de Google. Je le travaille dans le cadre de l'[audit SEO et GEO](/prestations/consultant-seo-geo), de 800 à 2 500 € selon la taille du site, puis en suivi mensuel. Rendez-vous à Rennes et en Ille-et-Vilaine sans frais de déplacement.
 
 ## Que fait un consultant GEO ?
 
@@ -51,7 +51,7 @@ Le volet mesure est décrit en détail sur la fiche [audit GEO](/prestations/aud
 
 ## Consultant GEO ou agence GEO à Rennes ?
 
-Des agences ajoutent le GEO à leur offre, et le choix se fait sur les mêmes critères que pour le SEO.
+Vous cherchez une **agence GEO à Rennes** ? Je ne suis pas une agence : je travaille seul, en freelance. Des agences ajoutent le GEO à leur offre, et le choix se fait sur les mêmes critères que pour le SEO.
 
 | | Consultant GEO | Agence GEO |
 |---|---|---|
@@ -85,7 +85,7 @@ En posant régulièrement la même liste de questions aux IA et en relevant qui 
 Les deux, toujours ensemble. L'audit couvre le SEO technique, les contenus et la visibilité dans les IA, avec un seul plan d'action. Si votre SEO est déjà solide, la part GEO du travail est simplement plus importante.
 
 **Proposez-vous une formation GEO à Rennes ?**
-Oui, pour les équipes marketing et communication, dans vos locaux ou à distance : robots des IA, écriture de pages citables, mesure de la part de voix. Le programme est sur la fiche [formation GEO](/formation-geo).
+Oui, pour les équipes marketing et communication, dans vos locaux ou à distance : robots des IA, écriture de pages citables, mesure de la part de voix. Comptez 300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée. Le programme est sur la fiche [formation GEO](/formation-geo).
 
 **Intervenez-vous ailleurs qu'à Rennes ?**
 Oui. Le GEO se travaille à distance comme le SEO. Je me déplace à Rennes et en Ille-et-Vilaine sans frais, et plus loin avec des frais de déplacement. La page [consultant SEO à Rennes](/consultant-seo-rennes) décrit l'intervention sur place.

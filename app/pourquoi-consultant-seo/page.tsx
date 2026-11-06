@@ -3,7 +3,10 @@ import { seoTitle } from '@/lib/titles'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import DiagnosticCTA from '@/components/DiagnosticCTA'
+import DiagnosticCTA, { CALENDLY_URL } from '@/components/DiagnosticCTA'
+import Icon from '@/components/Icon'
+import { CONTACT } from '@/config/contact'
+import { availability } from '@/config/availability'
 import JsonLd from '@/components/JsonLd'
 import MarkdownRenderer from '@/components/MarkdownRenderer'
 import { parseDraft } from '@/lib/draft-parser'
@@ -81,19 +84,19 @@ export default function Page() {
             <h1 className={styles.artH1}>
               {draft.h1}
             </h1>
-            <div className={styles.artActions}>
-              <a
-                href="https://calendly.com/aurelienpage89/diagnostic-offert-30-min"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.artBtnPrim}
-              >
-                Diagnostic offert →
+            <div className={styles.artActions} data-cta-principal>
+              <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primaire">
+                Réserver mon diagnostic offert
+                <span className={styles.srOnly}> (ouvre Calendly dans un nouvel onglet)</span>
               </a>
-              <Link href="/cout-prestation-seo" className={styles.artBtnSec}>
-                Voir les tarifs SEO
-              </Link>
+              <a href={CONTACT.telHref} className="btn btn-secondaire">
+                <Icon name="phone" size={18} /> {CONTACT.telAffiche}
+              </a>
             </div>
+            <p className={styles.artReassurance}>
+              30 min · Visio ou téléphone · Gratuit{availability.reponseSous ? ` · ${availability.reponseSous}` : ''} ·{' '}
+              <Link href="/cout-prestation-seo" className={styles.artMajLien}>Voir les tarifs</Link>
+            </p>
           </div>
         </section>
 

@@ -1,6 +1,6 @@
 ---
 slug: "/consultant-geo-laval"
-title: "Consultant GEO à Laval (Mayenne) : être cité par ChatGPT, Perplexity et les AI Overviews"
+title: "Consultant GEO à Laval (Mayenne) : être cité par les IA"
 meta-description: "Consultant GEO à Laval (53), où est mon siège : accès des robots des IA, pages que ChatGPT et Perplexity citent, mesure de la part de voix. Inclus dans l'audit SEO et GEO, de 800 à 2 500 €."
 ---
 
