@@ -76,7 +76,7 @@ OpenAI ne documente pas de critère lié aux avis. Google, lui, indique que les 
 Seulement pour les villes où vous intervenez vraiment, avec des informations propres à chacune. Une page par ville copiée n'aide ni vos clients ni les moteurs.
 
 **Je suis à Rennes ou dans le Grand Ouest : pouvez-vous m'aider ?**
-Oui. Je suis consultant SEO et GEO basé à Rennes et je me déplace en [Bretagne](/consultant-seo-bretagne) ([Saint-Malo](/consultant-seo-saint-malo), [Vannes](/consultant-seo-vannes), [Lorient](/consultant-seo-lorient), [Quimper](/consultant-seo-quimper), [Brest](/consultant-seo-brest)) et en [Pays de la Loire](/consultant-seo-pays-de-la-loire) ([Nantes](/consultant-seo-nantes), [Angers](/consultant-seo-angers), [Laval](/consultant-seo-laval), [Le Mans](/consultant-seo-le-mans), [Saint-Nazaire](/consultant-seo-saint-nazaire)). Le premier pas est un [diagnostic offert de 30 minutes](/contact), en face à face ou en visioconférence. Voir aussi [consultant SEO à Rennes](/consultant-seo-rennes).
+Oui. Je suis consultant SEO et GEO basé à Rennes et je me déplace en [Bretagne](/consultant-seo-bretagne) ([Saint-Malo](/consultant-seo-saint-malo), [Vannes](/consultant-seo-vannes), Lorient, Quimper, [Brest](/consultant-seo-brest)) et en [Pays de la Loire](/consultant-seo-pays-de-la-loire) ([Nantes](/consultant-seo-nantes), [Angers](/consultant-seo-angers), [Laval](/consultant-seo-laval), [Le Mans](/consultant-seo-le-mans), Saint-Nazaire). Le premier pas est un [diagnostic offert de 30 minutes](/contact), en face à face ou en visioconférence. Voir aussi [consultant SEO à Rennes](/consultant-seo-rennes).
 
 ## Sources
 

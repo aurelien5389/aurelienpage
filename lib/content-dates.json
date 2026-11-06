@@ -45,7 +45,7 @@
  },
  "_drafts/choisir-consultant-seo-geo.md": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/choisir-mots-cles-seo.md": {
   "created": "2026-07-29",
@@ -81,7 +81,7 @@
  },
  "_drafts/consultant-seo-brest.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-seo-caen.md": {
   "created": "2026-07-29",
@@ -193,7 +193,7 @@
  },
  "_drafts/consultant-seo-vannes.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-seo-vitre.md": {
   "created": "2026-10-28",
@@ -221,7 +221,7 @@
  },
  "_drafts/entreprise-locale-recommandee-par-ia.md": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/erreurs-seo-frequentes.md": {
   "created": "2026-07-29",
@@ -653,7 +653,7 @@
  },
  "components/Contact.tsx": {
   "created": "2026-03-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "components/DiagnosticCTA.tsx": {
   "created": "2026-04-06",
@@ -701,11 +701,11 @@
  },
  "components/RessourcesEmail.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "components/SourceTracker.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "components/TestGeo.tsx": {
   "created": "2026-10-30",

@@ -65,7 +65,7 @@ Cela dépend des robots. Bloquer un robot d'entraînement n'empêche pas d'être
 Oui. Visioconférence, documents partagés, accès à vos outils. Les livrables sont les mêmes que sur place.
 
 **Intervenez-vous à Quimper et Morlaix ?**
-Oui, dans les mêmes conditions. Voir les pages [Quimper](/consultant-seo-quimper) et [Bretagne](/consultant-seo-bretagne).
+Oui, dans les mêmes conditions. Voir la page [consultant SEO en Bretagne](/consultant-seo-bretagne).
 
 ## Parlons de votre visibilité
 

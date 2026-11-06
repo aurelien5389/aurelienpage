@@ -40,7 +40,18 @@ const BLOG_NOINDEX = [
 ]
 
 // Bordeaux reste indexée : la page reçoit un lien externe (échange Digital 64).
-const VILLES_NOINDEX = ['paris', 'lyon', 'marseille', 'lille', 'toulouse', 'nice', 'strasbourg', 'montpellier', 'caen']
+const VILLES_LOINTAINES = ['paris', 'lyon', 'marseille', 'lille', 'toulouse', 'nice', 'strasbourg', 'montpellier', 'caen']
+
+// Villes du Grand Ouest dont la page partage 65 à 72 % de ses phrases avec les autres pages villes
+// (mesure du 6 novembre 2026). Presque toutes étaient inconnues de Google. À retirer de la liste
+// une fois la page réécrite avec du contenu propre à la ville.
+// Mayenne (65 % de phrases communes) reste indexée : zone du siège, liée depuis le pied de page. À réécrire.
+const VILLES_GABARIT = [
+  'cholet', 'la-baule', 'quimper', 'saumur', 'saint-brieuc', 'dinan',
+  'lorient', 'lannion', 'saint-nazaire', 'cancale',
+]
+
+const VILLES_NOINDEX = [...VILLES_LOINTAINES, ...VILLES_GABARIT]
 
 export const NOINDEX_PATHS = new Set<string>([
   ...BLOG_NOINDEX.map((s) => `/blog/${s}`),

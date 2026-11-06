@@ -4,6 +4,7 @@ import { useState, type FormEvent } from 'react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import styles from './RessourcesEmail.module.css'
+import { suivre } from '@/components/SourceTracker'
 
 type Etat = 'repos' | 'envoi' | 'ok' | 'erreur'
 
@@ -25,6 +26,7 @@ export default function RessourcesEmail() {
         body: JSON.stringify({ email, consent, page: pathname, website }),
       })
       setEtat(res.ok ? 'ok' : 'erreur')
+      if (res.ok) suivre('ressources_email')
     } catch {
       setEtat('erreur')
     }

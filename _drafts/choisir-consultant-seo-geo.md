@@ -51,7 +51,7 @@ Demandez à voir un relevé type. S'il n'en a pas, il fait du SEO, ce qui est d�
 
 Pas forcément. Un audit se fait sur vos données (site, Search Console, réponses des IA), pas dans vos locaux. La proximité compte pour la relation : un diagnostic en face à face, une restitution devant votre équipe, un atelier. Si ces moments comptent pour vous, choisissez quelqu'un qui peut venir.
 
-C'est la logique que j'applique : basé à Rennes, je me déplace en [Bretagne](/consultant-seo-bretagne), de [Saint-Malo](/consultant-seo-saint-malo) à [Brest](/consultant-seo-brest) en passant par [Vannes](/consultant-seo-vannes) et [Quimper](/consultant-seo-quimper), et en [Pays de la Loire](/consultant-seo-pays-de-la-loire), à [Nantes](/consultant-seo-nantes), [Angers](/consultant-seo-angers), [Laval](/consultant-seo-laval) ou [Le Mans](/consultant-seo-le-mans). Je travaille [à distance](/consultant-seo-a-distance) pour Paris, Lyon, Bordeaux et le reste de la France. Les modalités ville par ville sont sur la page [zones d'intervention](/zones-intervention).
+C'est la logique que j'applique : basé à Rennes, je me déplace en [Bretagne](/consultant-seo-bretagne), de [Saint-Malo](/consultant-seo-saint-malo) à [Brest](/consultant-seo-brest) en passant par [Vannes](/consultant-seo-vannes) et Quimper, et en [Pays de la Loire](/consultant-seo-pays-de-la-loire), à [Nantes](/consultant-seo-nantes), [Angers](/consultant-seo-angers), [Laval](/consultant-seo-laval) ou [Le Mans](/consultant-seo-le-mans). Je travaille [à distance](/consultant-seo-a-distance) pour Paris, Lyon, Bordeaux et le reste de la France. Les modalités ville par ville sont sur la page [zones d'intervention](/zones-intervention).
 
 ## Combien faut-il prévoir ?
 

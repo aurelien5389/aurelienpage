@@ -3,7 +3,7 @@
 import { useEffect, useState, type FormEvent } from 'react'
 import Icon, { type IconName } from '@/components/Icon'
 import { CALENDLY_URL } from '@/components/DiagnosticCTA'
-import { lireSource } from '@/components/SourceTracker'
+import { lireSource, suivre } from '@/components/SourceTracker'
 import styles from './Contact.module.css'
 
 // Validation côté client sans bibliothèque (le serveur revalide dans app/api/contact).
@@ -86,6 +86,8 @@ export default function Contact({ niveauTitre = 2 }: Props) {
       if (res.ok) {
         setStatus('success')
         setValeurs(VIDE)
+        // Événement clé déjà déclaré dans GA4 sous ce nom
+        suivre('formulaire_contact')
       } else {
         setStatus('error')
       }

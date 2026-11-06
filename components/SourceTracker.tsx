@@ -8,6 +8,8 @@ import { useEffect } from 'react'
 //    Google Analytics « source_ia » (une fois par session).
 // 3. Ajoute des paramètres UTM aux liens Calendly au moment du clic, pour retrouver la source
 //    dans l'export des rendez-vous (Calendly accepte utm_source, utm_medium, utm_campaign, utm_content).
+// 4. Compte les demandes dans Google Analytics : « clic_telephone », « clic_email », « clic_calendly »
+//    (ici), « formulaire_contact » (Contact.tsx) et « ressources_email » (RessourcesEmail.tsx).
 
 export const CLE_REFERENT = 'ap_referrer'
 export const CLE_UTM = 'ap_utm_source'
@@ -48,6 +50,23 @@ const gtag = function () {
   window.dataLayer.push(arguments)
 } as unknown as (...args: unknown[]) => void
 
+/**
+ * Envoie un événement de demande à Google Analytics (formulaire envoyé, clic téléphone, clic Calendly…).
+ * Aucune donnée personnelle : seulement la page et la source de la visite.
+ */
+export function suivre(evenement: string, params: Record<string, string> = {}) {
+  try {
+    const src = lireSource()
+    gtag('event', evenement, {
+      page_path: window.location.pathname,
+      page_entree: src.landing || window.location.pathname,
+      ...params,
+    })
+  } catch {
+    // La mesure ne doit jamais bloquer l'action du visiteur
+  }
+}
+
 export default function SourceTracker() {
   useEffect(() => {
     let dejaStocke = false
@@ -70,9 +89,16 @@ export default function SourceTracker() {
     }
 
     // Liens Calendly : UTM ajoutés au clic (liens rendus par le serveur, donc intouchés dans le HTML)
+    // Les mêmes clics sont comptés comme demandes : téléphone, e-mail, prise de rendez-vous.
     const onClick = (ev: MouseEvent) => {
-      const a = (ev.target as Element | null)?.closest?.('a[href^="https://calendly.com/"]') as HTMLAnchorElement | null
-      if (!a) return
+      const lien = (ev.target as Element | null)?.closest?.('a[href]') as HTMLAnchorElement | null
+      if (!lien) return
+      const href = lien.getAttribute('href') || ''
+      if (href.startsWith('tel:')) return suivre('clic_telephone')
+      if (href.startsWith('mailto:')) return suivre('clic_email')
+      if (!href.startsWith('https://calendly.com/')) return
+      suivre('clic_calendly')
+      const a = lien
       try {
         const url = new URL(a.href)
         if (url.searchParams.has('utm_source')) return

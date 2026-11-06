@@ -76,4 +76,4 @@ Elles apportent des clients, et elles prennent une commission. Un site et une fi
 
 ## Parlons de votre visibilité à Dinard
 
-Je me déplace aussi sans frais à [Saint-Malo](/consultant-seo-saint-malo), [Dinan](/consultant-seo-dinan) et [Cancale](/consultant-seo-cancale). Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).
+Je me déplace aussi sans frais à [Saint-Malo](/consultant-seo-saint-malo), Dinan et Cancale. Le plus simple est de commencer par le diagnostic offert de 30 minutes : on regarde ensemble ce que Google et les IA disent aujourd'hui de votre entreprise, et par quoi commencer. Vous pouvez aussi m'écrire depuis la page [contact](/contact).

@@ -24,8 +24,6 @@ const ZONES = [
   ...getCityLinks('rennes').map((l) => ({ href: l.href, label: l.label.replace('Consultant SEO à ', '') })),
   { href: '/consultant-seo-nantes', label: 'Nantes' },
   { href: '/consultant-seo-laval', label: 'Laval' },
-  { href: '/consultant-seo-lorient', label: 'Lorient' },
-  { href: '/consultant-seo-quimper', label: 'Quimper' },
   { href: '/consultant-seo-dinard', label: 'Dinard' },
   { href: '/consultant-seo-bretagne', label: 'Toute la Bretagne' },
   { href: '/consultant-seo-pays-de-la-loire', label: 'Pays de la Loire' },

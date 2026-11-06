@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { seoTitle } from '@/lib/titles'
+import { robotsFor } from '@/lib/indexation'
 import { parseDraft } from '@/lib/draft-parser'
 import { getCityLinks, LOCAL_BLOG_LINKS } from '@/lib/internal-links'
 import LocalSeoPageLayout from '@/components/LocalSeoPageLayout'
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
   title: seoTitle(draft.title!),
   description: draft.metaDescription || `Consultant SEO freelance à Château-Gontier. Audit SEO, optimisation technique, stratégie GEO. Devis gratuit.`,
   alternates: { canonical: `https://aurelienpage.fr${SLUG}` },
+  ...robotsFor(SLUG),
   openGraph: {
     title: seoTitle(draft.title!),
     description: draft.metaDescription || `Consultant SEO freelance à Château-Gontier. Audit SEO, optimisation technique, stratégie GEO.`,

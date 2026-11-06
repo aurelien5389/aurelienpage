@@ -66,7 +66,7 @@ Avant la saison. Le travail sur le site et la fiche Google prend du temps à por
 Posez-lui les questions de vos clients, notez qui il cite, et recommencez chaque mois avec les mêmes questions. C'est ce que mesure la [part de voix dans les IA](/reponses/part-de-voix-dans-les-ia).
 
 **Intervenez-vous à Lorient, Auray ou Ploërmel ?**
-Oui, dans les mêmes conditions. Voir la page [consultant SEO en Bretagne](/consultant-seo-bretagne) et celle de [Lorient](/consultant-seo-lorient).
+Oui, dans les mêmes conditions. Voir la page [consultant SEO en Bretagne](/consultant-seo-bretagne).
 
 ## Parlons de votre visibilité dans le Morbihan
 
