@@ -11,6 +11,9 @@ import { parseDraft, extractFaq } from '@/lib/draft-parser'
 import { draftDates, formatMonthYear } from '@/lib/content-dates'
 import { breadcrumbSchema, pageGraph, personRef, faqNode, webPageNode } from '@/lib/schema'
 import { CALENDLY_URL } from '@/components/DiagnosticCTA'
+import Icon from '@/components/Icon'
+import { CONTACT } from '@/config/contact'
+import { availability } from '@/config/availability'
 import styles from './page.module.css'
 
 const PATH = '/cout-prestation-seo'
@@ -104,18 +107,22 @@ export default function Page() {
         <section className={styles.artHero}>
           <div className={styles.artInner}>
             <h1 className={styles.artH1}>{draft.h1}</h1>
-            <p className={styles.artComparatifIntro}>
-              <Link href="/a-propos" className={styles.artLien}>Aurélien Page</Link> ·{' '}
+            <p className={styles.artMaj}>
+              <Link href="/a-propos" className={styles.artMajLien}>Aurélien Page</Link> ·{' '}
               <time dateTime={dates.modified}>Mis à jour en {formatMonthYear(dates.modified)}</time>
             </p>
-            <div className={styles.artActions}>
-              <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className={styles.artBtnPrim}>
-                Réserver mon diagnostic offert →
+            <div className={styles.artActions} data-cta-principal>
+              <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primaire">
+                Réserver mon diagnostic offert
+                <span className={styles.srOnly}> (ouvre Calendly dans un nouvel onglet)</span>
               </a>
-              <Link href="/pourquoi-consultant-seo" className={styles.artBtnSec}>
-                Pourquoi un consultant SEO ?
-              </Link>
+              <a href={CONTACT.telHref} className="btn btn-secondaire">
+                <Icon name="phone" size={18} /> {CONTACT.telAffiche}
+              </a>
             </div>
+            <p className={styles.artReassurance}>
+              30 min · Visio ou téléphone · Gratuit{availability.reponseSous ? ` · ${availability.reponseSous}` : ''}
+            </p>
           </div>
         </section>
 

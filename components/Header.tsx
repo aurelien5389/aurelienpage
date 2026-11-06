@@ -8,12 +8,12 @@ import { CALENDLY_URL } from '@/components/DiagnosticCTA'
 import { CONTACT } from '@/config/contact'
 import styles from './Header.module.css'
 
-const NAV_LINKS = [
+// Réponses et Blog sont rangés sous Ressources (hub /ressources) : l'onglet reste actif sur ces sections.
+const NAV_LINKS: { label: string; href: string; aussi?: string[] }[] = [
   { label: 'Prestations', href: '/prestations' },
-  { label: 'Formations', href: '/formation-seo' },
-  { label: 'Ressources', href: '/ressources' },
-  { label: 'Réponses', href: '/reponses' },
-  { label: 'Blog', href: '/blog' },
+  { label: 'Tarifs', href: '/cout-prestation-seo' },
+  { label: 'Formations', href: '/formation-seo', aussi: ['/formation-geo'] },
+  { label: 'Ressources', href: '/ressources', aussi: ['/reponses', '/blog'] },
   { label: 'À propos', href: '/a-propos' },
 ]
 
@@ -40,7 +40,8 @@ export default function Header() {
   }, [menuOpen])
 
   const closeMenu = useCallback(() => setMenuOpen(false), [])
-  const isActive = (href: string) => pathname === href || (href !== '/' && pathname.startsWith(href + '/'))
+  const correspond = (href: string) => pathname === href || (href !== '/' && pathname.startsWith(href + '/'))
+  const isActive = (link: { href: string; aussi?: string[] }) => correspond(link.href) || (link.aussi || []).some(correspond)
 
   return (
     <>
@@ -56,8 +57,8 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`${styles.navLien} ${isActive(link.href) ? styles.navLienActif : ''}`}
-                aria-current={isActive(link.href) ? 'page' : undefined}
+                className={`${styles.navLien} ${isActive(link) ? styles.navLienActif : ''}`}
+                aria-current={correspond(link.href) ? 'page' : undefined}
               >
                 {link.label}
               </Link>

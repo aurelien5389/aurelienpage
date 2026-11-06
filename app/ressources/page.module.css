@@ -52,6 +52,20 @@
   color: var(--color-encre-2);
 }
 
+/* Accès aux deux autres sections rangées sous Ressources (Réponses, Blog) */
+.resAcces {
+  max-width: 720px;
+  margin: -12px 0 32px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-encre-2);
+}
+
+.resAccesTitre {
+  font-weight: 700;
+  color: var(--color-encre);
+}
+
 .resSection {
   padding: 32px 0;
   border-top: 1px solid var(--color-bord);

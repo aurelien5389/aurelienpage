@@ -14,6 +14,15 @@ Cible : dirigeants et responsables marketing qui évaluent un budget SEO avant d
 
 Voici mes tarifs, les mêmes que sur chaque fiche de prestation : **audit SEO et GEO de 800 à 2 500 €** selon la taille du site, **accompagnement mensuel de 500 à 2 000 € par mois**, **article de blog de 150 à 350 €**. **Formation : 300 € les 2 h, 500 € la demi-journée, 900 € la journée**. Google Ads et chef de projet digital sont sur devis. Chaque mission commence par un **diagnostic offert de 30 minutes**, puis un devis détaillé avant toute intervention. Je ne publie pas de « prix moyen du marché » : je n'ai pas de source fiable pour le faire.
 
+| Prestation | Tarif | Ce que vous obtenez |
+|---|---|---|
+| Diagnostic de 30 minutes | Offert | Un premier regard sur votre site et les pistes à creuser |
+| Audit SEO et GEO | 800 à 2 500 € | Ce qui bloque, et un plan d'action classé par priorité |
+| Accompagnement mensuel | 500 à 2 000 € par mois | Les actions menées et suivies chaque mois, sans contrat annuel |
+| Article de blog | 150 à 350 € | Un contenu de 800 à 1 500 mots, prêt à publier |
+| Formation SEO ou GEO | 300 € les 2 h, 500 € la demi-journée, 900 € la journée | Votre équipe autonome, formée sur votre propre site |
+| Google Ads, chef de projet digital | Sur devis | Un chiffrage après le diagnostic |
+
 ## Pourquoi publier ses tarifs ?
 
 Parce que c'est la première question que vous vous posez, et qu'une réponse franche fait gagner du temps aux deux parties. Google conseille, avant de choisir un prestataire SEO, de lui demander des exemples de travaux, s'il respecte les Google Search Essentials, et quels résultats il attend, dans quel délai ([Google Search Central](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)). Le prix fait partie de ces questions, et il ne doit pas dépendre de la tête du client.

@@ -138,6 +138,12 @@ export default function RessourcesPage() {
             dossiers thématiques, plus bas, regroupent tous les guides du site par sujet.
           </p>
 
+          <p className={styles.resAcces}>
+            <span className={styles.resAccesTitre}>Aussi dans cette rubrique :</span>{' '}
+            <Link href="/reponses" className={styles.resLien}>les réponses courtes</Link>, une question par page, et{' '}
+            <Link href="/blog" className={styles.resLien}>le blog</Link>, pour les guides complets.
+          </p>
+
           {OUTILS_GROUPES.map((g) => (
             <section key={g.id} aria-labelledby={g.id} className={styles.resSection}>
               <h2 id={g.id} className={styles.resH2}>{g.titre}</h2>

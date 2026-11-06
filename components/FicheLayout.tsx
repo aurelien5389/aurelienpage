@@ -81,6 +81,15 @@ export default function FicheLayout({ data }: { data: FicheData }) {
   // Page datée : la date visible (« Mis à jour en… ») et dateModified sont la même valeur
   const page = webPageNode(data.path, data.h1, data.dates, { mainEntity: { '@id': `${url}#offre` } })
   const crumbs = breadcrumbSchema([data.parent, { name: data.nom, path: data.path }])
+  // Sommaire : les grandes sections de la page, dans l'ordre d'affichage
+  const sommaire = [
+    { id: 'identite', titre: 'En bref' },
+    { id: 'pourquoi', titre: data.pourquoiTitre },
+    ...(data.sections ?? []).map((s) => ({ id: s.id, titre: s.titre })),
+    { id: 'deroule', titre: data.derouleTitre },
+    { id: 'moi', titre: 'Pourquoi travailler avec moi' },
+    { id: 'faq', titre: 'Questions fréquentes' },
+  ]
 
   return (
     <>
@@ -118,6 +127,20 @@ export default function FicheLayout({ data }: { data: FicheData }) {
               30 min · Visio ou téléphone · Gratuit{availability.reponseSous ? ` · ${availability.reponseSous}` : ''}
             </p>
           </header>
+
+          {/* Qui répond : la personne d'abord, avant le détail de l'offre */}
+          <QuiRepond />
+
+          <nav aria-label="Sommaire" className={styles.ficheSommaire}>
+            <p className={styles.ficheSommaireTitre}>Sur cette page</p>
+            <ol className={styles.ficheSommaireListe}>
+              {sommaire.map((s) => (
+                <li key={s.id}>
+                  <a href={`#${s.id}`} className={styles.ficheSommaireLien}>{s.titre}</a>
+                </li>
+              ))}
+            </ol>
+          </nav>
 
           {/* 3. Carte d'identité */}
           <section aria-labelledby="identite" className={styles.ficheBloc}>
@@ -311,8 +334,6 @@ export default function FicheLayout({ data }: { data: FicheData }) {
             )}
           </section>
 
-          {/* Qui répond */}
-          <QuiRepond />
         </article>
 
         <DiagnosticCTA variant="section" />

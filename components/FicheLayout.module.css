@@ -75,6 +75,8 @@
 }
 
 .ficheH2 {
+  /* L'ancre s'arrête sous l'en-tête collant */
+  scroll-margin-top: 96px;
   margin: 0 0 1rem;
   font-family: var(--font-space-grotesk), sans-serif;
   font-weight: 600;
@@ -262,4 +264,65 @@
 
 .ficheTableWrap :global(.tableau) {
   min-width: 34rem;
+}
+
+/* Sommaire : liste compacte de liens, sans carte */
+.ficheSommaire {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-bord);
+}
+
+.ficheSommaireTitre {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-encre-2);
+}
+
+.ficheSommaireListe {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.25rem 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: sommaire;
+}
+
+.ficheSommaireListe li {
+  counter-increment: sommaire;
+}
+
+.ficheSommaireLien {
+  display: flex;
+  gap: 0.625rem;
+  align-items: baseline;
+  min-height: 44px;
+  padding: 0.5rem 0;
+  line-height: 1.4;
+  color: var(--color-encre);
+  text-decoration: none;
+}
+
+.ficheSommaireLien::before {
+  content: counter(sommaire);
+  flex-shrink: 0;
+  min-width: 1.25rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--color-encre-2);
+}
+
+.ficheSommaireLien:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .ficheSommaireListe {
+    grid-template-columns: 1fr;
+  }
 }
