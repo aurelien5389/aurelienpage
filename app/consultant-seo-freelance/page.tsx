@@ -32,7 +32,7 @@ const data: FicheData = {
     {
       label: 'Tarif',
       valeur:
-        '**Audit SEO et GEO : 800 à 2 500 €** selon la taille du site. **Suivi mensuel : 500 à 2 000 € par mois**, au-delà sur devis. Google Ads, formation, chef de projet : sur devis. Devis détaillé avant toute intervention',
+        '**Audit SEO et GEO : 800 à 2 500 €** selon la taille du site. **Suivi mensuel : 500 à 2 000 € par mois**, au-delà sur devis. Formation : 300 € les 2 h, 900 € la journée. Google Ads, chef de projet : sur devis. Devis détaillé avant toute intervention',
     },
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },
     {

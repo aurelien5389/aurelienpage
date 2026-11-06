@@ -18,7 +18,7 @@ const SLUG = 'cout-prestation-seo'
 const draft = parseDraft(`${SLUG}.md`)
 const TITLE = 'Combien coûte une prestation SEO ? Mes tarifs · Aurélien PAGE'
 const DESCRIPTION =
-  'Mes tarifs SEO et GEO : audit de 800 à 2 500 €, accompagnement mensuel de 500 à 2 000 €, article de blog de 150 à 350 €, formations et Google Ads sur devis. Diagnostic offert.'
+  'Mes tarifs SEO et GEO : audit de 800 à 2 500 €, accompagnement mensuel de 500 à 2 000 €, article de blog de 150 à 350 €, formation dès 300 €, Google Ads sur devis. Diagnostic offert.'
 
 export const metadata: Metadata = {
   title: seoTitle(TITLE),
@@ -53,6 +53,12 @@ const schemaService = {
       name: 'Rédaction d’un article de blog SEO',
       priceCurrency: 'EUR',
       priceSpecification: { '@type': 'PriceSpecification', minPrice: 150, maxPrice: 350, priceCurrency: 'EUR' },
+    },
+    {
+      '@type': 'Offer',
+      name: 'Formation SEO ou GEO',
+      priceCurrency: 'EUR',
+      priceSpecification: { '@type': 'PriceSpecification', minPrice: 300, maxPrice: 900, priceCurrency: 'EUR' },
     },
   ],
 }

@@ -56,7 +56,7 @@ Une agence web construit votre site. Un consultant SEO s'occupe de ce qui se pas
 | Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
 | Accompagnement mensuel | 500 à 2 000 € par mois |
 | Rédaction d'un article | 150 à 350 € |
-| Formation (2 h) | 300 € |
+| Formation | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
 Pas de frais de déplacement à Dinard. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 

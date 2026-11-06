@@ -8,7 +8,7 @@ const PATH = '/formation-seo'
 const URL = `https://aurelienpage.fr${PATH}`
 const TITLE = 'Formation SEO à Rennes ou à distance, en individuel ou en équipe · Aurélien PAGE'
 const DESCRIPTION =
-  "Formation SEO sur votre site : fondamentaux, technique, contenus, GEO, reporting. Individuel ou équipe, Rennes ou à distance. Tarif sur devis."
+  "Formation SEO sur votre site : fondamentaux, technique, contenus, GEO, reporting. Individuel ou équipe, Rennes ou à distance. Dès 300 € les 2 h."
 
 export const metadata: Metadata = {
   title: seoTitle(TITLE),
@@ -23,7 +23,7 @@ const data: FicheData = {
   nom: 'Formation SEO',
   h1: 'Formation SEO',
   resume:
-    "**Formation SEO** individuelle ou en équipe (2 à 8 personnes), à Rennes, dans vos locaux ou à distance. Fondamentaux, SEO technique, mots-clés et contenus, GEO, reporting : modules de 2 à 4 heures, construits sur votre site. **Tarif sur devis**, selon le format et le nombre de participants. Non finançable par le CPF ni par un OPCO.",
+    "**Formation SEO** individuelle ou en équipe (2 à 8 personnes), à Rennes, dans vos locaux ou à distance. Fondamentaux, SEO technique, mots-clés et contenus, GEO, reporting : modules de 2 à 4 heures, construits sur votre site. **300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée**, jusqu'à 8 personnes, préparation sur votre site comprise. Non finançable par le CPF ni par un OPCO.",
   identite: [
     {
       label: 'Public',
@@ -40,7 +40,7 @@ const data: FicheData = {
     {
       label: 'Tarif',
       valeur:
-        "**Sur devis**, selon le format (session de 2 heures, module de 3 à 4 heures, parcours sur mesure), le nombre de participants et la durée",
+        "**300 € la session de 2 heures, 500 € la demi-journée (3 h 30), 900 € la journée (7 heures)**, jusqu'à 8 personnes, préparation sur votre site comprise. Parcours sur plusieurs séances : sur devis",
     },
     { label: 'Financement', valeur: FINANCEMENT_FORMATION },
     { label: 'Livrables', valeur: "Supports (diaporama, ressources, listes de contrôle) envoyés après chaque session, liste d'actions prioritaires sur votre site" },
@@ -104,11 +104,11 @@ const data: FicheData = {
   faq: [
     {
       q: 'Quelle formation SEO suivre à Rennes ou à distance ?',
-      a: "Je propose une formation SEO en modules de 2 à 4 heures, à Rennes, dans vos locaux ou à distance en visioconférence. Elle se fait sur votre propre site : fondamentaux, technique, mots-clés et contenus, GEO, reporting. Le tarif est établi sur devis, selon le format et le nombre de participants.",
+      a: "Je propose une formation SEO en modules de 2 à 4 heures, à Rennes, dans vos locaux ou à distance en visioconférence. Elle se fait sur votre propre site : fondamentaux, technique, mots-clés et contenus, GEO, reporting. Comptez 300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée, jusqu'à 8 personnes.",
     },
     {
       q: 'Qui peut former une équipe marketing au SEO en intra-entreprise ?',
-      a: "Je forme des équipes de 2 à 8 personnes dans vos locaux ou à distance. Le programme est construit en amont à partir d'un questionnaire, puis adapté à vos outils et à votre site. Le tarif dépend du nombre de participants et de la durée.",
+      a: "Je forme des équipes de 2 à 8 personnes dans vos locaux ou à distance. Le programme est construit en amont à partir d'un questionnaire, puis adapté à vos outils et à votre site. Le tarif est le même de 2 à 8 participants : 500 € la demi-journée, 900 € la journée.",
     },
     {
       q: 'Une formation SEO est-elle finançable par le CPF ou l\'OPCO ?',
@@ -140,7 +140,7 @@ const data: FicheData = {
       { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: 'PT2H' },
       { '@type': 'CourseInstance', courseMode: 'onsite', location: 'Rennes', courseWorkload: 'PT2H' },
     ],
-    offers: { '@type': 'Offer', category: 'Paid', description: 'Sur devis, selon le format et le nombre de participants' },
+    offers: { '@type': 'Offer', category: 'Paid', priceCurrency: 'EUR', priceSpecification: { '@type': 'PriceSpecification', minPrice: 300, maxPrice: 900, priceCurrency: 'EUR' }, description: '300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée' },
   },
   dates: getContentDates([`app${PATH}/page.tsx`]),
 }

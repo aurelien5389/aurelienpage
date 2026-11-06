@@ -45,7 +45,7 @@ export const DEROULE_ZONE = [
 ]
 
 export const TARIF_ZONE =
-  '**Audit SEO et GEO : 800 à 2 500 €** selon la taille du site. **Suivi mensuel : 500 à 2 000 € par mois**, au-delà sur devis. Formations et Google Ads : sur devis. Le lieu ne change pas le prix ; seuls les éventuels frais de déplacement s’ajoutent'
+  '**Audit SEO et GEO : 800 à 2 500 €** selon la taille du site. **Suivi mensuel : 500 à 2 000 € par mois**, au-delà sur devis. Formations : 300 € les 2 h, 900 € la journée. Google Ads : sur devis. Le lieu ne change pas le prix ; seuls les éventuels frais de déplacement s’ajoutent'
 
 export const OUTILS_ZONE = ['Google Search Console', 'Google Analytics 4', 'Screaming Frog', 'Semrush', 'Ahrefs', 'Looker Studio', 'Balise']
 

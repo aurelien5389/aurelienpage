@@ -50,7 +50,7 @@ Pour construire votre propre liste, utilisez la ressource [questions à suivre d
 | Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
 | Accompagnement mensuel | 500 à 2 000 € par mois |
 | Rédaction d'un article | 150 à 350 € |
-| Formation (2 h) | 300 € |
+| Formation | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
 Les frais de déplacement à Vannes sont ajoutés au devis, au réel.
 

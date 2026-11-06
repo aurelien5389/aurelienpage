@@ -12,7 +12,7 @@ Cible : dirigeants et responsables marketing qui évaluent un budget SEO avant d
 
 # Combien coûte une prestation SEO ? Mes tarifs
 
-Voici mes tarifs, les mêmes que sur chaque fiche de prestation : **audit SEO et GEO de 800 à 2 500 €** selon la taille du site, **accompagnement mensuel de 500 à 2 000 € par mois**, **article de blog de 150 à 350 €**. Formations, Google Ads et chef de projet digital sont sur devis. Chaque mission commence par un **diagnostic offert de 30 minutes**, puis un devis détaillé avant toute intervention. Je ne publie pas de « prix moyen du marché » : je n'ai pas de source fiable pour le faire.
+Voici mes tarifs, les mêmes que sur chaque fiche de prestation : **audit SEO et GEO de 800 à 2 500 €** selon la taille du site, **accompagnement mensuel de 500 à 2 000 € par mois**, **article de blog de 150 à 350 €**. **Formation : 300 € les 2 h, 500 € la demi-journée, 900 € la journée**. Google Ads et chef de projet digital sont sur devis. Chaque mission commence par un **diagnostic offert de 30 minutes**, puis un devis détaillé avant toute intervention. Je ne publie pas de « prix moyen du marché » : je n'ai pas de source fiable pour le faire.
 
 ## Pourquoi publier ses tarifs ?
 
@@ -32,9 +32,9 @@ Ce qui fait varier le prix est détaillé dans [combien coûte un audit SEO](/re
 
 **De 150 à 350 €** pour un article de blog de 800 à 1 500 mots, selon la complexité du sujet et le niveau de recherche. Pages de service, contenus longs et briefs pour vos rédacteurs : sur devis. Les clients en accompagnement ont un volume d'articles compris dans leur forfait. Détails sur la page [rédaction web SEO](/redaction-web).
 
-## Formations, Google Ads, chef de projet : sur devis
+## Formations, Google Ads, chef de projet
 
-- **Formation SEO et formation GEO** : modules de 2 à 4 heures, en individuel ou en équipe de 2 à 8 personnes, à Rennes ou à distance. Tarif sur devis selon le format et le nombre de participants. Non finançables par le CPF ni par un OPCO : voir [une formation SEO est-elle finançable](/reponses/formation-seo-cpf-opco).
+- **Formation SEO et formation GEO** : modules de 2 à 4 heures, en individuel ou en équipe de 2 à 8 personnes, à Rennes ou à distance. **300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée**, préparation sur votre site comprise. Non finançables par le CPF ni par un OPCO : voir [une formation SEO est-elle finançable](/reponses/formation-seo-cpf-opco).
 - **Google Ads (SEA)** : création et pilotage de campagnes, sur devis selon le budget média et le nombre de campagnes. Fiche [traffic manager SEA](/prestations/traffic-manager-sea).
 - **Chef de projet digital** : refonte, migration SEO, déploiement d'outils, sur devis. Fiche [chef de projet digital](/prestations/chef-de-projet-digital).
 

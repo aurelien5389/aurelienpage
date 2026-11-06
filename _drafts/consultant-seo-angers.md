@@ -50,7 +50,7 @@ Vous trouverez d'autres exemples dans la ressource [questions à suivre dans les
 | Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
 | Accompagnement mensuel | 500 à 2 000 € par mois |
 | Rédaction d'un article ou guide d'achat | 150 à 350 € |
-| Formation (2 h) | 300 € |
+| Formation | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
 Les frais de déplacement à Angers sont ajoutés au devis, au réel. Le prix d'un audit varie surtout avec la taille du site : voir [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 

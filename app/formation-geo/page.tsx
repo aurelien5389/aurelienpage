@@ -8,7 +8,7 @@ const PATH = '/formation-geo'
 const URL = `https://aurelienpage.fr${PATH}`
 const TITLE = 'Formation GEO pour équipes marketing : être cité par les IA · Aurélien PAGE'
 const DESCRIPTION =
-  "Formation GEO de 2 à 3 h ou atelier d'une demi-journée : comment les IA choisissent leurs sources, contenus citables, mesure. Rennes ou à distance, sur devis."
+  "Formation GEO de 2 à 3 h ou atelier d'une demi-journée : comment les IA choisissent leurs sources, contenus citables, mesure. Rennes ou à distance, dès 300 €."
 
 export const metadata: Metadata = {
   title: seoTitle(TITLE),
@@ -23,7 +23,7 @@ const data: FicheData = {
   nom: 'Formation GEO',
   h1: 'Formation GEO',
   resume:
-    "**Formation GEO pour une équipe marketing** ou éditoriale : comprendre comment ChatGPT, Perplexity, Gemini et les AI Overviews choisissent leurs sources, écrire des contenus qu'ils citent, mesurer le résultat. Module de 2 à 3 heures ou atelier d'une demi-journée, pour 2 à 8 personnes, à Rennes, dans vos locaux ou à distance. **Tarif sur devis**, selon le format et le nombre de participants.",
+    "**Formation GEO pour une équipe marketing** ou éditoriale : comprendre comment ChatGPT, Perplexity, Gemini et les AI Overviews choisissent leurs sources, écrire des contenus qu'ils citent, mesurer le résultat. Module de 2 à 3 heures ou atelier d'une demi-journée, pour 2 à 8 personnes, à Rennes, dans vos locaux ou à distance. **300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée**, jusqu'à 8 personnes, préparation comprise.",
   identite: [
     { label: 'Public', valeur: 'Équipes marketing, rédacteurs et content managers, responsables SEO, dirigeants' },
     { label: 'Prérequis', valeur: "Aucun. Connaître les bases du SEO aide ; sinon, voir la [formation SEO](/formation-seo)" },
@@ -34,7 +34,7 @@ const data: FicheData = {
     },
     {
       label: 'Tarif',
-      valeur: "**Sur devis**, selon le format (session de 2 heures, module de 3 heures, atelier d'une demi-journée) et le nombre de participants",
+      valeur: "**300 € la session de 2 heures, 500 € l'atelier d'une demi-journée, 900 € la journée**, jusqu'à 8 personnes, préparation comprise",
     },
     { label: 'Financement', valeur: FINANCEMENT_FORMATION },
     { label: 'Livrables', valeur: "Supports envoyés après la session, liste de contrôle des contenus citables, liste d'actions sur votre site" },
@@ -120,7 +120,7 @@ const data: FicheData = {
       { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: 'PT2H' },
       { '@type': 'CourseInstance', courseMode: 'onsite', location: 'Rennes', courseWorkload: 'PT2H' },
     ],
-    offers: { '@type': 'Offer', category: 'Paid', description: 'Sur devis, selon le format et le nombre de participants' },
+    offers: { '@type': 'Offer', category: 'Paid', priceCurrency: 'EUR', priceSpecification: { '@type': 'PriceSpecification', minPrice: 300, maxPrice: 900, priceCurrency: 'EUR' }, description: '300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée' },
   },
   dates: getContentDates([`app${PATH}/page.tsx`]),
 }

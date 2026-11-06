@@ -5,6 +5,7 @@ import { getContentDates } from '@/lib/content-dates'
 import { getCityLinks } from '@/lib/internal-links'
 import { SRC, PARCOURS, BALISE, METHODE, DIAGNOSTIC, DEMARRAGE, FINANCEMENT_CONSEIL } from '@/lib/fiche-commun'
 import { S } from '@/lib/reponses/sources'
+import { rennesNode } from '@/lib/schema'
 
 const PATH = '/consultant-seo-rennes'
 const URL = `https://aurelienpage.fr${PATH}`
@@ -36,17 +37,18 @@ const data: FicheData = {
   nom: 'Rennes',
   h1: 'Consultant SEO freelance à Rennes',
   resume:
-    "**Quel consultant SEO à Rennes ?** Je suis **consultant SEO et GEO freelance**, présent à Rennes et en Ille-et-Vilaine, avec mon siège à Laval. Audit SEO et GEO de 800 à 2 500 € selon la taille du site, suivi mensuel de 500 à 2 000 €, formations sur devis. Premier échange : un diagnostic offert de 30 minutes, en visioconférence ou autour d'un café à Rennes.",
+    "**Quel consultant SEO à Rennes ?** Je suis **consultant SEO et GEO freelance**, installé à Rennes, avec le siège de mon entreprise à Laval. Audit SEO et GEO de 800 à 2 500 € selon la taille du site, suivi mensuel de 500 à 2 000 €, formations dès 300 € les 2 h. Premier échange : un diagnostic offert de 30 minutes, en visioconférence ou autour d'un café à Rennes.",
   identite: [
     { label: 'Public', valeur: 'Entreprises rennaises et bretonnes : PME, e-commerce, organismes de formation, cabinets, médias, collectivités' },
     { label: 'Prérequis', valeur: 'Un site en ligne' },
     { label: 'Durée', valeur: 'Audit : délai précisé dans le devis selon la taille du site. Suivi : mensuel, sans contrat annuel imposé' },
     { label: 'Format', valeur: 'Sur place à Rennes et dans un rayon d’une heure (Saint-Malo, Vitré, Fougères, Redon…), ou à distance' },
     { label: 'Zone', valeur: 'Rennes, Rennes Métropole, Ille-et-Vilaine, Bretagne. Au-delà : à distance, ou en déplacement avec frais en supplément' },
+    { label: 'Adresse', valeur: 'Rennes (35000). Rendez-vous dans vos locaux, autour d’un café à Rennes ou en visioconférence. Siège de l’entreprise à Laval (Mayenne)' },
     {
       label: 'Tarif',
       valeur:
-        '**Audit SEO et GEO : 800 à 2 500 €** selon la taille du site. **Suivi mensuel : 500 à 2 000 € par mois**, au-delà sur devis. Formations SEO et GEO : sur devis. Devis détaillé avant toute intervention',
+        '**Audit SEO et GEO : 800 à 2 500 €** selon la taille du site. **Suivi mensuel : 500 à 2 000 € par mois**, au-delà sur devis. Formations SEO et GEO : 300 € les 2 h, 900 € la journée. Devis détaillé avant toute intervention',
     },
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },
     {
@@ -222,7 +224,7 @@ const data: FicheData = {
     },
     {
       q: 'Proposez-vous une formation SEO à Rennes ?',
-      a: "Oui, dans vos locaux ou à distance, en individuel ou en équipe de 2 à 8 personnes, sur votre propre site. Modules de 2 à 4 heures, tarif sur devis, non finançable par le CPF ni par un OPCO. Détails sur la fiche [formation SEO](/formation-seo).",
+      a: "Oui, dans vos locaux ou à distance, en individuel ou en équipe de 2 à 8 personnes, sur votre propre site. 300 € la session de 2 heures, 500 € la demi-journée, 900 € la journée, non finançable par le CPF ni par un OPCO. Détails sur la fiche [formation SEO](/formation-seo).",
     },
     {
       q: 'Intervenez-vous en dehors de Rennes ?',
@@ -263,6 +265,7 @@ const data: FicheData = {
       },
     ],
   },
+  noeuds: [rennesNode],
   dates: getContentDates([`app${PATH}/page.tsx`]),
 }
 

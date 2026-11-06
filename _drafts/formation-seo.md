@@ -76,7 +76,7 @@ Les supports (slides, ressources, checklists) sont fournis après chaque session
 ## Questions fréquentes
 
 **Quel est le tarif d'une formation SEO ?**
-Une session individuelle de 2 heures est facturée 300 euros. Un module complet (3-4 heures) est facturé entre 450 et 600 euros. Un parcours sur mesure multi-modules est défini sur devis selon le périmètre et le format. La formation en équipe est facturée en fonction du nombre de participants et de la durée. [Contactez-moi](/#contact) pour un devis adapté.
+Une session individuelle de 2 heures est facturée 300 euros. Une demi-journée (3 h 30) est facturée 500 euros, une journée (7 heures) 900 euros. Un parcours sur mesure multi-modules est défini sur devis selon le périmètre et le format. Le tarif est le même de 1 à 8 participants. [Contactez-moi](/#contact) pour un devis adapté.
 
 **La formation est-elle éligible au CPF ou à des financements OPCO ?**
 Je suis formateur indépendant et non certifié Qualiopi à ce jour. Les formations ne sont donc pas éligibles au CPF. Certains OPCO prennent en charge des formations auprès de formateurs indépendants selon votre convention collective : renseignez-vous auprès de votre OPCO.

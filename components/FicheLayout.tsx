@@ -62,6 +62,8 @@ export interface FicheData {
   sources: { href: string; label: string }[]
   /** Nœud Service ou Course (sans @context, provider ni url : ajoutés ici) */
   schema: Record<string, unknown>
+  /** Nœuds de données structurées ajoutés au graphe de la page (ex. présence locale) */
+  noeuds?: Record<string, unknown>[]
   dates: ContentDates
 }
 
@@ -83,7 +85,7 @@ export default function FicheLayout({ data }: { data: FicheData }) {
   return (
     <>
       <Header />
-      <JsonLd schema={pageGraph(page, mainSchema, faqNode(data.faq), crumbs)} />
+      <JsonLd schema={pageGraph(page, mainSchema, faqNode(data.faq), crumbs, ...(data.noeuds || []))} />
       <main className={styles.ficheMain}>
         <div className={styles.fil}>
           <nav aria-label="Fil d'Ariane" className={styles.filNav}>

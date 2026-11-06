@@ -64,7 +64,7 @@ Si vous avez déjà une agence web à Laval, je travaille avec elle : je lui rem
 | Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
 | Accompagnement mensuel | 500 à 2 000 € par mois |
 | Rédaction d'un article | 150 à 350 € |
-| Formation (2 h) | 300 € |
+| Formation | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
 Pas de frais de déplacement à Laval. Le détail des écarts de prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo).
 

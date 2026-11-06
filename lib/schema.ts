@@ -74,6 +74,30 @@ export const businessNode = {
   knowsAbout: personNode.knowsAbout,
 }
 
+// Présence à Rennes (fiche Google à Rennes). Ville et code postal seulement : pas d'adresse postale publique.
+export const RENNES_ID = `${SITE_URL}/#rennes`
+export const rennesNode = {
+  '@type': 'ProfessionalService',
+  '@id': RENNES_ID,
+  name: 'Aurélien Page, consultant SEO et GEO à Rennes',
+  url: `${SITE_URL}/consultant-seo-rennes`,
+  image: `${SITE_URL}/photo.jpg`,
+  telephone: '+33781981114',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Rennes',
+    postalCode: '35000',
+    addressRegion: 'Bretagne',
+    addressCountry: 'FR',
+  },
+  areaServed: [
+    { '@type': 'City', name: 'Rennes' },
+    { '@type': 'AdministrativeArea', name: 'Ille-et-Vilaine' },
+  ],
+  parentOrganization: { '@id': BUSINESS_ID },
+  founder: { '@id': PERSON_ID },
+}
+
 export const websiteNode = {
   '@type': 'WebSite',
   '@id': WEBSITE_ID,

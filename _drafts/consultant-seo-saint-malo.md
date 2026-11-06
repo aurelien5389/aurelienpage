@@ -55,7 +55,7 @@ Les entreprises qui ne vivent pas du tourisme sont aussi concernées : négoce, 
 | Audit SEO et GEO | 800 à 2 500 € selon la taille du site |
 | Accompagnement mensuel | 500 à 2 000 € par mois |
 | Rédaction d'un article ou d'une page | 150 à 350 € |
-| Formation (2 h, pour vous ou votre équipe) | 300 € |
+| Formation (pour vous ou votre équipe) | 300 € les 2 h, 500 € la demi-journée, 900 € la journée |
 
 Pas de frais de déplacement à Saint-Malo, Dinard et sur la Côte d'Émeraude.
 
