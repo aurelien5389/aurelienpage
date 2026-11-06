@@ -1,6 +1,6 @@
 ---
 slug: "/consultant-seo-laval"
-title: "Consultant SEO et GEO à Laval (Mayenne) : audit, suivi, visibilité dans les IA · Aurélien PAGE"
+title: "Consultant SEO à Laval (Mayenne) : référencement et GEO"
 meta-description: "Consultant SEO et GEO à Laval, où est mon siège : être trouvé sur Google et cité par ChatGPT. Audit de 800 à 2 500 €, suivi dès 500 €/mois, rencontres sans frais en Mayenne."
 ---
 
@@ -28,20 +28,34 @@ Beaucoup de ces entreprises vendent loin de la Mayenne. Leurs clients ne les con
 
 Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-## Ce que je fais pour une entreprise de Laval
+## Quel travail de référencement pour une entreprise de Laval ?
 
-- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
-- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
-- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
-- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
-- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
+Le travail change selon ce que vous vendez et à qui.
+
+- **Vous vendez en Mayenne** (commerce, artisan, cabinet) : la priorité est le référencement local. Fiche Google Business Profile complète, avis, coordonnées identiques partout, une page par service. Google classe les établissements selon la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+- **Vous vendez loin de Laval** (industrie, sous-traitance, numérique, agroalimentaire) : la priorité est le site. Une page par procédé, par produit ou par marché, avec les informations qu'un acheteur vérifie avant d'appeler : capacités, normes, délais, zones livrées.
+- **Dans les deux cas**, je commence par un **[audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, relevé des réponses des IA sur vos questions, sites cités à votre place. Il se termine par un plan d'action classé par impact.
+
+Ensuite, vous choisissez : appliquer seul, me confier la mise en œuvre en **[accompagnement mensuel](/accompagnement-seo)**, faire écrire vos pages en **[rédaction web](/redaction-web)**, ou former votre équipe avec une **[formation SEO](/formation-seo)** ou une **[formation GEO](/formation-geo)**.
+
+## Consultant SEO, agence SEO ou agence web à Laval : qui fait quoi ?
+
+Ces trois recherches sont souvent confondues, et elles ne mènent pas au même prestataire.
+
+| Vous cherchez | Ce que fait ce prestataire | Quand le choisir |
+|---|---|---|
+| Une agence web à Laval | Elle conçoit et développe le site | Vous n'avez pas de site, ou il faut le refaire |
+| Une agence SEO | Elle réunit référenceurs, rédacteurs et développeurs | Vous avez de gros volumes de pages à produire |
+| Un consultant SEO | Il audite, recommande, suit les résultats, et travaille avec votre agence web ou votre développeur | Vous avez un site et il ne vous amène pas de demandes |
+
+Si vous avez déjà une agence web à Laval, je travaille avec elle : je lui remets des recommandations prêtes à appliquer, classées par priorité. Avant une création ou une refonte, j'interviens en amont, sur la structure, les pages et les redirections, pour que le nouveau site ne perde pas ce que l'ancien avait gagné.
 
 ## Comment se passe une mission à Laval ?
 
-1. **Diagnostic offert de 30 minutes**, en visio ou dans vos locaux, sans frais.
+1. **Diagnostic offert de 30 minutes**, dans vos locaux à Laval ou en visio.
 2. **Devis** avec le périmètre et le prix, avant toute intervention.
-3. **Audit**, puis **restitution** dans vos locaux, sans frais.
-4. **Suivi** mensuel si vous le souhaitez.
+3. **Audit**, puis **restitution** sur place, avec les personnes qui appliqueront les actions.
+4. **Suivi** mensuel si vous le souhaitez, avec un point en face à face quand c'est utile.
 
 ## Combien ça coûte ?
 
@@ -62,11 +76,14 @@ Parce que deux villes portent ce nom. Pour Google comme pour les IA, une entrepr
 **Avez-vous une page dédiée au GEO à Laval ?**
 Oui : la page [consultant GEO à Laval](/consultant-geo-laval) détaille le volet IA, avec les livrables et la comparaison entre consultant et agence.
 
-**Combien de temps avant de voir des résultats ?**
-Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
+**Y a-t-il beaucoup de concurrence sur Google à Laval ?**
+Cela se vérifie recherche par recherche, pas à l'échelle de la ville. Pendant le diagnostic, je regarde qui apparaît sur vos recherches locales, sur la carte Google et dans les réponses des IA, et avec quelles pages. Sur les marchés nationaux, la concurrence ne dépend pas de Laval : elle se mesure requête par requête.
 
-**Le GEO remplace-t-il le SEO ?**
-Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
+**Intervenez-vous dans le reste de la Mayenne ?**
+Oui, sans frais de déplacement : [Mayenne](/consultant-seo-mayenne), [Château-Gontier](/consultant-seo-chateau-gontier), Évron, Ernée et les communes autour de Laval. La carte complète est sur la page [zones d'intervention](/zones-intervention).
+
+**Combien de temps avant de voir des résultats ?**
+Une fiche Google corrigée ou une page débloquée peut agir vite ; une page réécrite se juge après quelques semaines. Personne ne peut garantir un délai : ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
 ## Parlons de votre visibilité à Laval
 

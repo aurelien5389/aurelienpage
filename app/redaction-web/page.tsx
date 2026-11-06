@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import { parseDraft } from '@/lib/draft-parser'
 import BlogPostLayout from '@/components/BlogPostLayout'
 import { draftDates } from '@/lib/content-dates'
@@ -8,11 +9,11 @@ const SLUG = 'redaction-web'
 const draft = parseDraft(`${SLUG}.md`)
 
 export const metadata: Metadata = {
-  title: 'Rédaction web SEO : articles, pages de service, contenus que les IA citent · Aurélien PAGE',
+  title: seoTitle('Rédaction web SEO : articles, pages de service, contenus que les IA citent'),
   description: draft.metaDescription,
   alternates: { canonical: `https://aurelienpage.fr/${SLUG}` },
   openGraph: {
-    title: 'Rédaction web SEO : articles, pages de service, contenus que les IA citent · Aurélien PAGE',
+    title: seoTitle('Rédaction web SEO : articles, pages de service, contenus que les IA citent'),
     description: draft.metaDescription,
     url: `https://aurelienpage.fr/${SLUG}`,
   },

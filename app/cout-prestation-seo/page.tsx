@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -20,10 +21,10 @@ const DESCRIPTION =
   'Mes tarifs SEO et GEO : audit de 800 à 2 500 €, accompagnement mensuel de 500 à 2 000 €, article de blog de 150 à 350 €, formations et Google Ads sur devis. Diagnostic offert.'
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: `https://aurelienpage.fr${PATH}` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `https://aurelienpage.fr${PATH}` },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: `https://aurelienpage.fr${PATH}` },
 }
 
 // Offres balisées = tarifs visibles sur la page (aucun prix « marché »)

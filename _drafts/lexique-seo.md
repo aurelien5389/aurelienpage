@@ -16,7 +16,7 @@ Il complète l'article sur les [principes fondamentaux pour apprendre le SEO](/b
 Ensemble de règles et de calculs que Google utilise pour classer les pages web dans ses résultats. L'algorithme de Google compte des centaines de facteurs de classement et est mis à jour plusieurs milliers de fois par an. Les mises à jour majeures (Core Updates, Helpful Content Update, Penguin, Panda) ont un impact significatif sur les positions.
 
 **Anchor text (texte d'ancre)**
-Le texte cliquable d'un lien hypertexte. "Cliquez ici" est une ancre pauvre. "Guide complet de l'audit SEO" est une ancre descriptive qui transmet un signal thématique fort à Google sur la page de destination. L'optimisation des ancres est un levier important du [maillage interne](/blog/optimiser-liens-internes).
+Le texte cliquable d'un lien hypertexte. "Cliquez ici" est une ancre pauvre. "Guide complet de l'audit SEO" est une ancre descriptive qui transmet un signal thématique fort à Google sur la page de destination. L'optimisation des ancres est un levier important du [maillage interne](/blog/cocon-semantique-maillage-interne).
 
 **Audit SEO**
 Analyse complète d'un site web sous trois angles : technique (crawl, indexation, vitesse), sémantique (mots-clés, contenu, intentions de recherche) et popularité (backlinks, autorité). C'est le point de départ de toute mission SEO sérieuse. Voir l'article complet sur l'[audit SEO](/blog/audit-seo).
@@ -147,7 +147,7 @@ Requêtes de recherche longues et spécifiques ("consultant SEO freelance Rennes
 ## M
 
 **Maillage interne**
-Ensemble des liens qui relient les pages d'un même site entre elles. Un bon maillage améliore la circulation du PageRank, la profondeur de crawl et la compréhension de la structure thématique par Google. Voir l'article sur [l'optimisation des liens internes](/blog/optimiser-liens-internes).
+Ensemble des liens qui relient les pages d'un même site entre elles. Un bon maillage améliore la circulation du PageRank, la profondeur de crawl et la compréhension de la structure thématique par Google. Voir l'article sur [l'optimisation des liens internes](/blog/cocon-semantique-maillage-interne).
 
 **Meta description**
 Courte description d'une page (160 caractères max) affichée dans les SERPs sous la balise title. Elle n'est pas un facteur de classement direct, mais influence le taux de clics.

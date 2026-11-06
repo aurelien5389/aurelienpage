@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -9,12 +10,12 @@ import Icon, { type IconName } from '@/components/Icon'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
-  title: 'Prestations · SEO, GEO, SEA et formation · Aurélien PAGE',
+  title: seoTitle('Prestations · SEO, GEO, SEA et formation'),
   description:
     "SEO et GEO, audit GEO, accompagnement mensuel, Google Ads, chef de projet digital, formations SEO et GEO. Freelance à Rennes.",
   alternates: { canonical: 'https://aurelienpage.fr/prestations' },
   openGraph: {
-    title: 'Prestations · SEO, GEO, SEA et formation · Aurélien PAGE',
+    title: seoTitle('Prestations · SEO, GEO, SEA et formation'),
     description: "SEO et GEO, audit GEO, accompagnement mensuel, Google Ads, chef de projet digital, formations SEO et GEO. Freelance à Rennes.",
     url: 'https://aurelienpage.fr/prestations',
   },

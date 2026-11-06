@@ -253,3 +253,13 @@
     flex: 1 1 100%;
   }
 }
+
+/* Tableau d'une section libre : défile horizontalement sur petit écran, sans élargir la page */
+.ficheTableWrap {
+  overflow-x: auto;
+  margin: 1rem 0 1.25rem;
+}
+
+.ficheTableWrap :global(.tableau) {
+  min-width: 34rem;
+}

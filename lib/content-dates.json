@@ -1,7 +1,7 @@
 {
  "_drafts/10-secrets-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/accompagnement-seo.md": {
   "created": "2026-07-29",
@@ -37,7 +37,7 @@
  },
  "_drafts/chatgpt-search-geo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
+  "modified": "2026-11-06"
  },
  "_drafts/checklist-geo.md": {
   "created": "2026-10-28",
@@ -53,7 +53,7 @@
  },
  "_drafts/cocon-semantique-maillage-interne.md": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "_drafts/codes-http-seo.md": {
   "created": "2026-07-29",
@@ -69,7 +69,7 @@
  },
  "_drafts/consultant-geo-rennes.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-seo-angers.md": {
   "created": "2026-07-29",
@@ -105,7 +105,7 @@
  },
  "_drafts/consultant-seo-dinard.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-seo-fougeres.md": {
   "created": "2026-10-28",
@@ -121,7 +121,7 @@
  },
  "_drafts/consultant-seo-laval.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-seo-le-mans.md": {
   "created": "2026-07-29",
@@ -173,7 +173,7 @@
  },
  "_drafts/consultant-seo-saint-malo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/consultant-seo-saint-nazaire.md": {
   "created": "2026-07-29",
@@ -233,7 +233,7 @@
  },
  "_drafts/fil-ariane-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/fonctionnement-moteurs-recherche.md": {
   "created": "2026-07-29",
@@ -277,7 +277,7 @@
  },
  "_drafts/lexique-seo.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/mesurer-visibilite-geo.md": {
   "created": "2026-07-29",
@@ -287,17 +287,9 @@
   "created": "2026-10-28",
   "modified": "2026-10-28"
  },
- "_drafts/netlinking-avance.md": {
-  "created": "2026-07-29",
-  "modified": "2026-07-29"
- },
  "_drafts/netlinking-backlinks-pagerank.md": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
- },
- "_drafts/optimiser-liens-internes.md": {
-  "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "_drafts/optimiser-profil-malt.md": {
   "created": "2026-07-29",
@@ -397,179 +389,179 @@
  },
  "app/a-propos/page.tsx": {
   "created": "2026-10-04",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/accompagnement-seo/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/blog/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/blog/[slug]/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
+  "modified": "2026-11-06"
  },
  "app/consultant-geo-laval/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-geo-nantes/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-geo-rennes/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-04"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-a-distance/page.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-angers/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-bordeaux/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-brest/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-bretagne/page.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-caen/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-cancale/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-chateau-gontier/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-cholet/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-dinan/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-dinard/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-fougeres/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-freelance/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-la-baule/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-lannion/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-laval/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-le-mans/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-lille/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-lorient/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-lyon/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-marseille/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-mayenne/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-montpellier/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-nantes/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-nice/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-paris/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-pays-de-la-loire/page.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-quimper/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-rennes/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-saint-brieuc/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-saint-malo/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-saint-nazaire/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-saumur/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-strasbourg/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-toulouse/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-07-29"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-vannes/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/consultant-seo-vitre/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/contact/page.tsx": {
   "created": "2026-07-29",
@@ -577,19 +569,19 @@
  },
  "app/cout-prestation-seo/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/formation-geo/page.tsx": {
   "created": "2026-10-04",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/formation-seo/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-05"
+  "modified": "2026-11-06"
  },
  "app/mentions-legales/page.tsx": {
   "created": "2026-04-06",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/page.tsx": {
   "created": "2026-03-29",
@@ -597,51 +589,51 @@
  },
  "app/pourquoi-consultant-seo/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/prestations/audit-geo/page.tsx": {
   "created": "2026-10-04",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/prestations/chef-de-projet-digital/page.tsx": {
   "created": "2026-04-06",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/prestations/consultant-seo-geo/page.tsx": {
   "created": "2026-04-06",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/prestations/page.tsx": {
   "created": "2026-04-03",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/prestations/traffic-manager-sea/page.tsx": {
   "created": "2026-04-06",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/redaction-web/page.tsx": {
   "created": "2026-07-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/reponses/page.tsx": {
   "created": "2026-10-04",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/reponses/[slug]/page.tsx": {
   "created": "2026-10-04",
-  "modified": "2026-10-04"
+  "modified": "2026-11-06"
  },
  "app/ressources/page.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/ressources/[slug]/page.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "app/zones-intervention/page.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "components/AuthorBio.tsx": {
   "created": "2026-07-29",
@@ -657,7 +649,7 @@
  },
  "components/CoconNav.tsx": {
   "created": "2026-10-28",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "components/Contact.tsx": {
   "created": "2026-03-29",
@@ -669,11 +661,11 @@
  },
  "components/FicheLayout.tsx": {
   "created": "2026-10-04",
-  "modified": "2026-10-30"
+  "modified": "2026-11-06"
  },
  "components/Footer.tsx": {
   "created": "2026-03-29",
-  "modified": "2026-10-28"
+  "modified": "2026-11-06"
  },
  "components/Header.tsx": {
   "created": "2026-03-29",

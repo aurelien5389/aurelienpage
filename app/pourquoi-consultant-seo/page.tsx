@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -12,12 +13,12 @@ import styles from './page.module.css'
 const draft = parseDraft('pourquoi-consultant-seo.md')
 
 export const metadata: Metadata = {
-  title: 'Pourquoi faire appel à un consultant SEO ? · Aurélien PAGE',
+  title: seoTitle('Pourquoi faire appel à un consultant SEO ?'),
   description:
     'Découvrez ce qu\'un consultant SEO apporte concrètement : diagnostic précis, stratégie sur-mesure, gain de temps. Consultant SEO freelance vs agence.',
   alternates: { canonical: 'https://aurelienpage.fr/pourquoi-consultant-seo' },
   openGraph: {
-    title: 'Pourquoi faire appel à un consultant SEO ? · Aurélien PAGE',
+    title: seoTitle('Pourquoi faire appel à un consultant SEO ?'),
     description: 'Ce qu\'un consultant SEO apporte concrètement : diagnostic précis, stratégie sur-mesure, gain de temps.',
     url: 'https://aurelienpage.fr/pourquoi-consultant-seo',
   },

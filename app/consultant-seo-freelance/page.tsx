@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import FicheLayout, { type FicheData } from '@/components/FicheLayout'
 import { getContentDates } from '@/lib/content-dates'
 import { SRC, PARCOURS, BALISE, METHODE, DIAGNOSTIC, DEMARRAGE, FINANCEMENT_CONSEIL, PROVIDER_AREA } from '@/lib/fiche-commun'
@@ -10,10 +11,10 @@ const DESCRIPTION =
   "Combien coûte un consultant SEO freelance ? Mes tarifs : audit SEO et GEO de 800 à 2 500 €, suivi mensuel de 500 à 2 000 €, sans contrat annuel. Rennes ou à distance."
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: URL },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: URL },
 }
 
 const data: FicheData = {

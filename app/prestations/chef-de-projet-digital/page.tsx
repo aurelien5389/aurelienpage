@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import FicheLayout, { type FicheData } from '@/components/FicheLayout'
 import { getContentDates } from '@/lib/content-dates'
 import { PARCOURS, DIAGNOSTIC, DEMARRAGE, FINANCEMENT_CONSEIL, PROVIDER_AREA } from '@/lib/fiche-commun'
@@ -10,10 +11,10 @@ const DESCRIPTION =
   'Chef de projet digital freelance à Rennes : cadrage et pilotage de refontes, migrations SEO, coordination des prestataires, reporting. Mission projet ou mensuelle, sur devis.'
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: URL },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: URL },
 }
 
 const data: FicheData = {

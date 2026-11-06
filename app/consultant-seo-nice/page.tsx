@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import { parseDraft } from '@/lib/draft-parser'
 import { getCityLinks, LOCAL_BLOG_LINKS } from '@/lib/internal-links'
 import LocalSeoPageLayout from '@/components/LocalSeoPageLayout'
+import { robotsFor } from '@/lib/indexation'
 
 const CITY_KEY = 'nice'
 const VILLE = 'Nice'
@@ -11,11 +13,12 @@ const FILENAME = `consultant-seo-nice.md`
 const draft = parseDraft(FILENAME)
 
 export const metadata: Metadata = {
-  title: `Consultant SEO à Nice | Expert SEO & GEO · Aurélien PAGE`,
+  title: seoTitle(`Consultant SEO à Nice | Expert SEO & GEO`),
   description: draft.metaDescription || `Consultant SEO freelance à Nice. Audit SEO, optimisation technique, stratégie GEO. Devis gratuit.`,
   alternates: { canonical: `https://aurelienpage.fr${SLUG}` },
+  ...robotsFor(SLUG),
   openGraph: {
-    title: `Consultant SEO à Nice | Expert SEO & GEO · Aurélien PAGE`,
+    title: seoTitle(`Consultant SEO à Nice | Expert SEO & GEO`),
     description: draft.metaDescription || `Consultant SEO freelance à Nice. Audit SEO, optimisation technique, stratégie GEO.`,
     url: `https://aurelienpage.fr${SLUG}`,
   },

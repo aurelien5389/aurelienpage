@@ -1,19 +1,21 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
+import { isNoindex } from '@/lib/indexation'
 import FicheLayout, { type FicheData } from '@/components/FicheLayout'
 import { getContentDates } from '@/lib/content-dates'
 import { availability } from '@/config/availability'
 
 const PATH = '/prestations/consultant-seo-geo'
 const URL = `https://aurelienpage.fr${PATH}`
-const TITLE = 'Consultant SEO et GEO à Rennes · Aurélien PAGE'
+const TITLE = 'Consultant SEO et GEO freelance : audit, suivi, tarifs'
 const DESCRIPTION =
   "Audit SEO et GEO de 800 à 2 500 € et suivi dès 500 €/mois. Être trouvé sur Google et cité par ChatGPT, Perplexity, Gemini. Rennes ou à distance."
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: URL },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: URL },
 }
 
 const LOCAL_PAGES = [
@@ -23,7 +25,9 @@ const LOCAL_PAGES = [
   ['caen', 'Caen'], ['vannes', 'Vannes'], ['lorient', 'Lorient'], ['quimper', 'Quimper'],
   ['saint-malo', 'Saint-Malo'], ['dinard', 'Dinard'], ['saint-nazaire', 'Saint-Nazaire'],
   ['laval', 'Laval'], ['le-mans', 'Le Mans'], ['angers', 'Angers'],
-].map(([slug, label]) => ({ href: `/consultant-seo-${slug}`, label }))
+]
+  .map(([slug, label]) => ({ href: `/consultant-seo-${slug}`, label }))
+  .filter((l) => !isNoindex(l.href))
 
 const SRC_GOOGLE_IA = 'https://developers.google.com/search/docs/appearance/ai-features'
 const SRC_OPENAI = 'https://developers.openai.com/api/docs/bots'

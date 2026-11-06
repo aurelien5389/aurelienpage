@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Icon from '@/components/Icon'
 import { COCONS, getCocon } from '@/lib/cocons'
+import { isNoindex } from '@/lib/indexation'
 import styles from './CoconNav.module.css'
 
 interface Props {
@@ -14,9 +15,13 @@ export default function CoconNav({ path }: Props) {
   const cocon = getCocon(path)
   if (!cocon) return null
   const estMere = cocon.mere.href === path
-  const pages = cocon.pages.filter((p) => p.href !== path)
+  // Une page indexée ne lie jamais une page hors index : le maillage reste entre pages que Google garde.
+  const horsIndex = isNoindex(path)
+  const visible = (href: string) => horsIndex || !isNoindex(href)
+  const pages = cocon.pages.filter((p) => p.href !== path && visible(p.href))
+  const montrerMere = !estMere && visible(cocon.mere.href)
   const autresMeres = estMere
-    ? COCONS.filter((c) => c.famille === cocon.famille && c.id !== cocon.id).map((c) => ({ href: c.mere.href, label: c.titre }))
+    ? COCONS.filter((c) => c.famille === cocon.famille && c.id !== cocon.id && visible(c.mere.href)).map((c) => ({ href: c.mere.href, label: c.titre }))
     : []
 
   return (
@@ -25,7 +30,7 @@ export default function CoconNav({ path }: Props) {
         <p className={styles.coconSurtitre}>Dossier {cocon.famille}</p>
         <p className={styles.coconTitre}>{cocon.titre}</p>
 
-        {!estMere && (
+        {montrerMere && (
           <Link href={cocon.mere.href} className={styles.coconMere}>
             <span className={styles.coconMereEtiquette}>Guide de départ</span>
             <span className={styles.coconMereLabel}>{cocon.mere.label}</span>
@@ -33,14 +38,18 @@ export default function CoconNav({ path }: Props) {
           </Link>
         )}
 
-        <p className={styles.coconSousTitre}>{estMere ? 'Toutes les pages du dossier' : 'Dans le même dossier'}</p>
-        <ul className={styles.coconListe}>
-          {pages.map((p) => (
-            <li key={p.href}>
-              <Link href={p.href} className={styles.coconLien}>{p.label}</Link>
-            </li>
-          ))}
-        </ul>
+        {pages.length > 0 && (
+          <>
+            <p className={styles.coconSousTitre}>{estMere ? 'Toutes les pages du dossier' : 'Dans le même dossier'}</p>
+            <ul className={styles.coconListe}>
+              {pages.map((p) => (
+                <li key={p.href}>
+                  <Link href={p.href} className={styles.coconLien}>{p.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
 
         {autresMeres.length > 0 && (
           <>

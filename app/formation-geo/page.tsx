@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import FicheLayout, { type FicheData } from '@/components/FicheLayout'
 import { getContentDates } from '@/lib/content-dates'
 import { SRC, PARCOURS, BALISE, DEMARRAGE, FINANCEMENT_FORMATION } from '@/lib/fiche-commun'
@@ -10,10 +11,10 @@ const DESCRIPTION =
   "Formation GEO de 2 à 3 h ou atelier d'une demi-journée : comment les IA choisissent leurs sources, contenus citables, mesure. Rennes ou à distance, sur devis."
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: URL },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: URL },
 }
 
 const data: FicheData = {

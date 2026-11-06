@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -6,15 +7,16 @@ import DiagnosticCTA from '@/components/DiagnosticCTA'
 import JsonLd from '@/components/JsonLd'
 import { breadcrumbSchema, pageGraph, personRef } from '@/lib/schema'
 import { getBlogDrafts } from '@/lib/draft-parser'
+import { isNoindex } from '@/lib/indexation'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
-  title: 'Blog SEO : guides, méthodes et stratégies · Aurélien PAGE',
+  title: seoTitle('Blog SEO : guides, méthodes et stratégies'),
   description:
     'Articles de référence sur le SEO technique, la stratégie de contenu, le netlinking, le GEO et l\'IA Search. Par Aurélien PAGE, consultant SEO/GEO freelance.',
   alternates: { canonical: 'https://aurelienpage.fr/blog' },
   openGraph: {
-    title: 'Blog SEO : guides, méthodes et stratégies · Aurélien PAGE',
+    title: seoTitle('Blog SEO : guides, méthodes et stratégies'),
     description: 'Articles de référence sur le SEO technique, la stratégie de contenu, le netlinking, le GEO et l\'IA Search.',
     url: 'https://aurelienpage.fr/blog',
   },
@@ -65,7 +67,6 @@ const RUBRIQUES: { label: string; slugs: string[] }[] = [
       'choisir-mots-cles-seo',
       'seo-on-page-optimisation',
       'cocon-semantique-maillage-interne',
-      'optimiser-liens-internes',
       'rediger-bon-article-blog',
       'rediger-titre-seo',
       'techniques-redaction-web',
@@ -75,7 +76,7 @@ const RUBRIQUES: { label: string; slugs: string[] }[] = [
       'calendrier-editorial',
     ],
   },
-  { label: 'Netlinking et autorité', slugs: ['netlinking-backlinks-pagerank', 'netlinking-avance'] },
+  { label: 'Netlinking et autorité', slugs: ['netlinking-backlinks-pagerank'] },
   {
     label: 'Audit, pilotage et stratégie',
     slugs: ['audit-seo', 'erreurs-seo-frequentes', '10-secrets-seo', 'reporting-seo-kpis', 'seo-startups', 'seo-local-google-my-business', 'entreprise-locale-recommandee-par-ia', 'choisir-consultant-seo-geo', 'tendances-seo-2026'],
@@ -84,15 +85,25 @@ const RUBRIQUES: { label: string; slugs: string[] }[] = [
   { label: 'IA et automatisation', slugs: ['automatisation-ia-no-code-entreprise'] },
 ]
 
+// Les articles hors index (lib/indexation.ts) sont regroupés en fin de page, dans la bibliothèque.
 function getClusters() {
   const drafts = getBlogDrafts()
   const titles = new Map(drafts.map((d) => [d.slug.replace('/blog/', ''), d.h1 || d.title]))
+  const horsIndex = (slug: string) => isNoindex(`/blog/${slug}`)
   const listed = new Set(RUBRIQUES.flatMap((r) => r.slugs))
-  const autres = Array.from(titles.keys()).filter((slug) => !listed.has(slug))
-  return [...RUBRIQUES, ...(autres.length ? [{ label: 'Autres guides', slugs: autres }] : [])].map((r) => ({
-    label: r.label,
-    articles: r.slugs.filter((slug) => titles.has(slug)).map((slug) => ({ slug, title: titles.get(slug) as string })),
-  }))
+  const autres = Array.from(titles.keys()).filter((slug) => !listed.has(slug) && !horsIndex(slug))
+  const ordre = [...RUBRIQUES.flatMap((r) => r.slugs), ...Array.from(titles.keys())]
+  const bibliotheque = Array.from(new Set(ordre)).filter((slug) => titles.has(slug) && horsIndex(slug))
+  return [
+    ...RUBRIQUES.map((r) => ({ label: r.label, slugs: r.slugs.filter((slug) => !horsIndex(slug)) })),
+    ...(autres.length ? [{ label: 'Autres guides', slugs: autres }] : []),
+    ...(bibliotheque.length ? [{ label: 'Bibliothèque SEO : fondamentaux, technique et rédaction', slugs: bibliotheque }] : []),
+  ]
+    .map((r) => ({
+      label: r.label,
+      articles: r.slugs.filter((slug) => titles.has(slug)).map((slug) => ({ slug, title: titles.get(slug) as string })),
+    }))
+    .filter((r) => r.articles.length > 0)
 }
 
 const schema = {

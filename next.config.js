@@ -45,6 +45,9 @@ const nextConfig = {
         destination: '/blog/chatgpt-search-geo',
         statusCode: 301,
       },
+      // Fusions de l'audit SEO de novembre 2026
+      { source: '/blog/netlinking-avance', destination: '/blog/netlinking-backlinks-pagerank', statusCode: 301 },
+      { source: '/blog/optimiser-liens-internes', destination: '/blog/cocon-semantique-maillage-interne', statusCode: 301 },
       // Pages IA et No Code transférées vers Audiaa (décision GEO, phase 2)
       {
         source: '/prestations/consultant-ia',
@@ -108,12 +111,12 @@ const nextConfig = {
       },
       {
         source: '/optimiser-ses-liens-internes',
-        destination: '/blog/optimiser-liens-internes',
+        destination: '/blog/cocon-semantique-maillage-interne',
         permanent: true,
       },
       {
         source: '/optimiser-ses-liens-internes/',
-        destination: '/blog/optimiser-liens-internes',
+        destination: '/blog/cocon-semantique-maillage-interne',
         permanent: true,
       },
       {

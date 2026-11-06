@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/Header'
@@ -11,15 +12,15 @@ import Icon from '@/components/Icon'
 import styles from './page.module.css'
 
 const PATH = '/a-propos'
-const TITLE = 'À propos : Aurélien Page, consultant SEO, GEO et SEA à Rennes · Aurélien PAGE'
+const TITLE = 'Aurélien Page, consultant SEO et GEO à Laval et Rennes'
 const DESCRIPTION =
-  "Parcours, formations et méthode d'Aurélien Page, consultant SEO, GEO et SEA à Rennes, formateur SEO et GEO, fondateur d'Audiaa et créateur de Balise."
+  "Parcours, formations et méthode d'Aurélien Page, consultant SEO, GEO et SEA à Laval et Rennes, formateur SEO et GEO, fondateur d'Audiaa et créateur de Balise."
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}${PATH}` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}${PATH}`, type: 'profile' },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: `${SITE_URL}${PATH}`, type: 'profile' },
 }
 
 const PARCOURS = [
@@ -74,7 +75,7 @@ export default function AProposPage() {
           <header className={styles.apEntete}>
             <Image src="/photo.jpg" alt="Aurélien Page" width={96} height={96} className={styles.apPhoto} priority />
             <div>
-              <h1 className={styles.apH1}>Aurélien Page, consultant SEO, GEO et SEA à Rennes</h1>
+              <h1 className={styles.apH1}>Aurélien Page, consultant SEO, GEO et SEA à Laval et Rennes</h1>
               <p className={styles.apResume}>
                 J&apos;aide les entreprises à être trouvées sur Google et citées par les IA : ChatGPT, Perplexity,
                 Gemini, Claude et les AI Overviews. Je réalise des <strong>audits SEO et GEO</strong>, j&apos;accompagne

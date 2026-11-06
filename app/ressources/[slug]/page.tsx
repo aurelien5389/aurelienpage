@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import { notFound } from 'next/navigation'
 import { getRessourceDrafts, parseDraft } from '@/lib/draft-parser'
 import BlogPostLayout from '@/components/BlogPostLayout'
@@ -22,10 +23,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const draft = parseDraft(`${params.slug}.md`)
     const url = `https://aurelienpage.fr/ressources/${params.slug}`
     return {
-      title: `${draft.title} · Aurélien PAGE`,
+      title: seoTitle(draft.title),
       description: draft.metaDescription || draft.h1,
       alternates: { canonical: url },
-      openGraph: { title: `${draft.title} · Aurélien PAGE`, description: draft.metaDescription || draft.h1, url },
+      openGraph: { title: seoTitle(draft.title), description: draft.metaDescription || draft.h1, url },
     }
   } catch {
     return { title: 'Ressources SEO et GEO · Aurélien PAGE' }

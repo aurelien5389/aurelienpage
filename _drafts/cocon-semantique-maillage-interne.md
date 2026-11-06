@@ -105,6 +105,29 @@ La cannibalisation SEO se produit quand plusieurs pages de votre site ciblent le
 
 Un cocon sémantique bien construit évite ce problème par design : chaque page cible une requête précise et unique dans l'arborescence. Le mapping de mots-clés (associer chaque page à un mot-clé cible unique) est une étape préalable indispensable.
 
+## Comment auditer son maillage interne
+
+Avant d'optimiser, il faut mesurer. Un audit de maillage interne répond à trois questions :
+
+**Quelles pages reçoivent le plus de liens internes ?**
+Utilisez Screaming Frog ou Sitebulb pour crawler votre site et identifier la distribution des liens internes. Les pages qui reçoivent beaucoup de liens sont considérées comme importantes par votre propre site. Si ces pages ne correspondent pas à vos priorités SEO réelles, il faut rééquilibrer.
+
+**Quelles pages sont orphelines ?**
+Les [pages orphelines](/blog/page-orpheline-seo) sont des pages indexées qui ne reçoivent aucun lien interne. Elles n'existent pas dans la structure de navigation de votre site. Même si elles sont techniquement accessibles via sitemap.xml ou en direct, leur PageRank interne est nul. Ce sont des pages "mortes" du point de vue du crawl.
+
+**Quels liens utilisent des ancres pauvres ?**
+Screaming Frog permet d'exporter tous les liens internes avec leurs ancres. Passez-les en revue et identifiez les ancres génériques à remplacer par des ancres descriptives.
+
+## Les erreurs de maillage interne les plus fréquentes
+
+**Liens brisés (erreurs 404).** Un lien interne qui pointe vers une page supprimée ou déplacée transmet son PageRank vers un mur. Auditez régulièrement vos liens internes cassés et corrigez-les par des [redirections 301](/blog/codes-http-seo) ou en mettant à jour les URLs cibles.
+
+**Liens en nofollow inutiles.** L'attribut `rel="nofollow"` sur un lien interne bloque la transmission de PageRank. Il n'a aucun sens sur des liens internes standards. Réservez le nofollow aux liens externes vers des sources dont vous ne voulez pas cautionner l'autorité.
+
+**Navigation en JavaScript non crawlable.** Si votre menu de navigation est généré en JavaScript dynamique, Googlebot peut ne pas le crawler correctement. Vérifiez dans la [Google Search Console](/blog/google-search-console) que vos pages principales sont bien détectées et indexées.
+
+**Ancres sur-optimisées.** Utiliser exactement le même texte d'ancre sur tous vos liens internes vers une page peut être interprété comme une tentative de manipulation. Variez légèrement les formulations tout en restant descriptif.
+
 ## Les outils pour construire son cocon
 
 **Pour la cartographie sémantique** : Semrush (Keyword Magic Tool), Ahrefs (Keywords Explorer), YourTextGuru (pour l'optimisation sémantique des contenus).
@@ -114,6 +137,20 @@ Un cocon sémantique bien construit évite ce problème par design : chaque page
 **Pour auditer le maillage interne existant** : Screaming Frog (analyse des liens internes entrants et sortants par page), Ahrefs (Site Audit → Internal links).
 
 **Pour mesurer les résultats** : Google Search Console (évolution des positions et du trafic organique par page), Google Analytics (comportement des utilisateurs dans le cocon : pages vues par session, parcours de navigation).
+
+## Questions fréquentes sur le maillage interne
+
+**Combien de liens internes par article est-il recommandé ?**
+Il n'existe pas de nombre magique. Ce qui compte, c'est que chaque lien soit pertinent et utile pour le lecteur. En pratique, 3 à 7 liens internes contextuels par article de blog est une fourchette raisonnable. Évitez de forcer des liens juste pour atteindre un quota.
+
+**Les liens dans la sidebar ou le footer comptent-ils ?**
+Oui, mais moins que les liens éditoriaux dans le corps du texte. Google fait la distinction entre les liens de navigation (header, footer, sidebar) qui apparaissent sur toutes les pages, et les liens in-content qui sont spécifiques à chaque page. Ces derniers ont plus de valeur thématique.
+
+**Faut-il ouvrir les liens internes dans un nouvel onglet ?**
+Non. C'est une mauvaise pratique UX pour les liens internes. Réservez l'ouverture dans un nouvel onglet (`target="_blank"`) aux liens externes uniquement.
+
+**Le maillage interne peut-il compenser un manque de backlinks ?**
+Partiellement. Un bon maillage interne optimise la distribution du PageRank que vous avez déjà, mais ne le crée pas. Sans backlinks, votre PageRank total reste limité. Le maillage interne et le netlinking sont complémentaires, pas substituables.
 
 ## Pour conclure
 

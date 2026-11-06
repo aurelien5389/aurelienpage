@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { isNoindex } from '@/lib/indexation'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import DiagnosticCTA, { CALENDLY_URL } from '@/components/DiagnosticCTA'
@@ -23,6 +24,18 @@ export interface FicheEtape {
   texte: string
 }
 
+/** Section libre, placée entre « Pourquoi » et le déroulé (pages locales et offres détaillées) */
+export interface FicheSection {
+  /** Ancre HTML, unique dans la page */
+  id: string
+  titre: string
+  paragraphes?: string[]
+  liste?: string[]
+  tableau?: { colonnes: string[]; lignes: string[][] }
+  /** Paragraphes affichés après la liste ou le tableau */
+  suite?: string[]
+}
+
 export interface FicheData {
   path: string
   parent: Crumb
@@ -34,6 +47,8 @@ export interface FicheData {
   identite: { label: string; valeur: string }[]
   pourquoiTitre: string
   pourquoi: string[]
+  /** Sections libres après « Pourquoi » (optionnel) */
+  sections?: FicheSection[]
   derouleTitre: string
   deroule: FicheEtape[]
   pourquoiMoi: string[]
@@ -128,6 +143,52 @@ export default function FicheLayout({ data }: { data: FicheData }) {
             ))}
           </section>
 
+          {/* 4 bis. Sections libres */}
+          {(data.sections ?? []).map((sec) => (
+            <section key={sec.id} aria-labelledby={sec.id} className={styles.ficheBloc}>
+              <h2 id={sec.id} className={styles.ficheH2}>{sec.titre}</h2>
+              {(sec.paragraphes ?? []).map((p, i) => (
+                <p key={i} className={styles.fichePara}>{md(p, `${sec.id}-p-${i}`)}</p>
+              ))}
+              {sec.liste && (
+                <ul className={styles.ficheListe}>
+                  {sec.liste.map((l, i) => (
+                    <li key={i}>{md(l, `${sec.id}-l-${i}`)}</li>
+                  ))}
+                </ul>
+              )}
+              {sec.tableau && (
+                <div className={styles.ficheTableWrap}>
+                  <table className="tableau">
+                    <thead>
+                      <tr>
+                        {sec.tableau.colonnes.map((c) => (
+                          <th key={c} scope="col">{c}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {sec.tableau.lignes.map((ligne, i) => (
+                        <tr key={i}>
+                          {ligne.map((cell, j) =>
+                            j === 0 ? (
+                              <th key={j} scope="row">{md(cell, `${sec.id}-t-${i}-${j}`)}</th>
+                            ) : (
+                              <td key={j}>{md(cell, `${sec.id}-t-${i}-${j}`)}</td>
+                            ),
+                          )}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+              {(sec.suite ?? []).map((p, i) => (
+                <p key={i} className={styles.fichePara}>{md(p, `${sec.id}-s-${i}`)}</p>
+              ))}
+            </section>
+          ))}
+
           {/* 5. Déroulé */}
           <section aria-labelledby="deroule" className={styles.ficheBloc}>
             <h2 id="deroule" className={styles.ficheH2}>{data.derouleTitre}</h2>
@@ -208,11 +269,11 @@ export default function FicheLayout({ data }: { data: FicheData }) {
                 </li>
               ))}
             </ul>
-            {getCoconsDeFiche(data.path).length > 0 && (
+            {getCoconsDeFiche(data.path).filter((c) => !isNoindex(c.mere.href)).length > 0 && (
               <>
                 <h3 className={styles.ficheH3}>Dossiers thématiques</h3>
                 <ul className={styles.ficheListe}>
-                  {getCoconsDeFiche(data.path).map((c) => (
+                  {getCoconsDeFiche(data.path).filter((c) => !isNoindex(c.mere.href)).map((c) => (
                     <li key={c.id}>
                       <Link href={c.mere.href} className={styles.ficheLien}>{c.titre} : {c.mere.label}</Link>
                     </li>

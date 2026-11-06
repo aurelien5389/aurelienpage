@@ -1,6 +1,6 @@
 ---
 slug: "/consultant-seo-saint-malo"
-title: "Consultant SEO et GEO à Saint-Malo : tourisme, commerces, entreprises · Aurélien PAGE"
+title: "Consultant SEO à Saint-Malo : tourisme, commerces, PME"
 meta-description: "Consultant SEO et GEO à Saint-Malo : être trouvé sur Google Maps et recommandé par ChatGPT ou Perplexity. Audit de 800 à 2 500 €, déplacement sans frais depuis Rennes."
 ---
 
@@ -8,7 +8,7 @@ meta-description: "Consultant SEO et GEO à Saint-Malo : être trouvé sur Googl
 
 À Saint-Malo, une partie de vos clients ne connaît pas la ville. Ils préparent un séjour, cherchent un restaurant pour le soir ou un artisan pour une maison secondaire. Ils tapent leur question dans Google, regardent la carte, ou la posent directement à ChatGPT. Les établissements qui apparaissent dans ces réponses récupèrent la réservation ; les autres ne sont même pas comparés.
 
-**En bref :** je suis **consultant SEO et GEO**, basé à Rennes, et je me déplace **sans frais** à Saint-Malo et sur la Côte d'Émeraude. J'aide hôtels, gîtes, restaurants, commerces, artisans et entreprises de services à être trouvés sur Google, sur Google Maps et dans les réponses des IA. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site.
+**En bref :** je suis **consultant SEO et GEO**. Mon siège est à Laval, je travaille aussi depuis Rennes, et je me déplace **sans frais** à Saint-Malo et sur la Côte d'Émeraude. J'aide hôtels, gîtes, restaurants, commerces, artisans et entreprises de services à être trouvés sur Google, sur Google Maps et dans les réponses des IA. **Audit SEO et GEO de 800 à 2 500 €** selon la taille du site.
 
 ## Qu'est-ce qui fait qu'un établissement malouin est recommandé ?
 
@@ -34,6 +34,12 @@ D'autres exemples sont dans la ressource [questions à suivre dans les IA, secte
 - **SEO local** : fiche Google Business Profile complète, catégories, photos, réponses aux avis, cohérence de vos informations partout sur le web. La méthode est dans [le guide du SEO local et de la fiche Google](/blog/seo-local-google-my-business).
 - **[Rédaction web](/redaction-web)** : pages qui répondent aux questions des visiteurs (accès, prix, saison, spécialités), avec des informations exactes et à jour.
 - **[Accompagnement mensuel](/accompagnement-seo)** pour suivre la saison, les avis et votre visibilité dans les IA.
+
+## Référencement à Saint-Malo : consultant SEO ou agence web ?
+
+Une agence web malouine construit votre site. Un consultant SEO regarde ce qui se passe après la mise en ligne : sur quelles recherches le site apparaît, ce que montre la carte Google, et ce que répondent les IA quand on leur demande une adresse à Saint-Malo. Les deux métiers se complètent. Si une agence a réalisé votre site, je travaille avec elle et je lui remets des recommandations prêtes à appliquer.
+
+Les entreprises qui ne vivent pas du tourisme sont aussi concernées : négoce, nautisme, industrie, services aux entreprises du pays de Saint-Malo. Leurs clients cherchent un fournisseur, pas une chambre, et le travail porte alors sur les pages de produits et de services plus que sur la fiche Google.
 
 ## Comment se passe une mission à Saint-Malo ?
 

@@ -20,7 +20,7 @@ Chaque élément est un lien cliquable (sauf généralement la page actuelle) qu
 
 Le fil d'Ariane crée automatiquement des liens internes entre chaque page et ses pages parentes dans l'arborescence. Pour une page profonde (à 4 ou 5 clics de la page d'accueil), le fil d'Ariane génère des liens directs vers les niveaux supérieurs, réduisant mécaniquement la profondeur effective de la page aux yeux de Googlebot.
 
-C'est l'un des leviers les plus simples pour améliorer la profondeur de crawl sans modifier l'architecture du site. En combinaison avec une stratégie d'[optimisation des liens internes](/blog/optimiser-liens-internes), l'effet sur le crawl budget est significatif.
+C'est l'un des leviers les plus simples pour améliorer la profondeur de crawl sans modifier l'architecture du site. En combinaison avec une stratégie d'[optimisation des liens internes](/blog/cocon-semantique-maillage-interne), l'effet sur le crawl budget est significatif.
 
 ### Transmission du PageRank vers les pages parentes
 

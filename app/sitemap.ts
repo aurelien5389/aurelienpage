@@ -5,6 +5,7 @@ import { getBlogDrafts, getRessourceDrafts } from '@/lib/draft-parser'
 import { getContentDates } from '@/lib/content-dates'
 import { SITE_URL } from '@/lib/schema'
 import { REPONSES, reponseDates } from '@/lib/reponses'
+import { isNoindex } from '@/lib/indexation'
 
 // Pages exclues du sitemap (noindex ou techniques)
 const EXCLUDED = new Set(['/mentions-legales'])
@@ -41,13 +42,13 @@ function staticRoutes(dir = 'app', route = ''): { route: string; pageFile: strin
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = staticRoutes()
-    .filter((p) => !EXCLUDED.has(p.route))
+    .filter((p) => !EXCLUDED.has(p.route) && !isNoindex(p.route))
     .map(({ route, pageFile }) => ({
       url: route === '/' ? SITE_URL : `${SITE_URL}${route}`,
       lastModified: getContentDates(sourceFiles(route, pageFile)).modified,
     }))
 
-  const blogPages = getBlogDrafts().map((d) => ({
+  const blogPages = getBlogDrafts().filter((d) => !isNoindex(d.slug)).map((d) => ({
     url: `${SITE_URL}${d.slug}`,
     lastModified: getContentDates([`_drafts${d.slug.replace('/blog', '')}.md`]).modified,
   }))

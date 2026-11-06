@@ -1,12 +1,12 @@
 ---
 slug: "/consultant-geo-rennes"
-title: "Consultant GEO à Rennes : être cité par ChatGPT, Perplexity et les AI Overviews"
+title: "Consultant GEO à Rennes : être cité par ChatGPT et les IA"
 meta-description: "Consultant GEO à Rennes : accès des robots des IA, pages que ChatGPT et Perplexity citent, mesure de la part de voix avec Balise. Inclus dans l'audit SEO et GEO, de 800 à 2 500 €."
 ---
 
 # Consultant GEO à Rennes
 
-**Quel consultant GEO pour être cité par ChatGPT et les IA ?** Je suis Aurélien Page, consultant SEO et GEO présent à Rennes, avec mon siège à [Laval](/consultant-geo-laval). Le **GEO (Generative Engine Optimization)** consiste à faire citer votre site dans les réponses de ChatGPT, Perplexity, Gemini, Claude et des AI Overviews de Google. Je le travaille dans le cadre de l'[audit SEO et GEO](/prestations/consultant-seo-geo), de 800 à 2 500 € selon la taille du site, puis en suivi mensuel. Cette page résume le volet GEO ; la fiche complète, avec le déroulé, les tarifs et les questions fréquentes, est la page [consultant SEO et GEO](/prestations/consultant-seo-geo).
+**Quel consultant GEO pour être cité par ChatGPT et les IA ?** Je suis Aurélien Page, consultant SEO et GEO présent à Rennes, avec mon siège à [Laval](/consultant-geo-laval). Le **GEO (Generative Engine Optimization)** consiste à faire citer votre site dans les réponses de ChatGPT, Perplexity, Gemini, Claude et des AI Overviews de Google. Je le travaille dans le cadre de l'[audit SEO et GEO](/prestations/consultant-seo-geo), de 800 à 2 500 € selon la taille du site, puis en suivi mensuel. Rendez-vous à Rennes et en Ille-et-Vilaine sans frais de déplacement.
 
 ## Que fait un consultant GEO ?
 
@@ -23,6 +23,43 @@ Trois choses, dans cet ordre : vérifier l'accès, revoir les pages, mesurer.
 Parce que vos clients posent déjà leurs questions à une IA. « Quel cabinet d'expertise comptable à Rennes ? », « combien coûte une formation SST ? », « quelle agence web en Bretagne ? » : la réponse cite trois ou quatre sources, et la Search Console ne vous dira pas si vous en faites partie.
 
 Les fondations restent celles du SEO. Google écrit qu'aucune optimisation spéciale n'est nécessaire pour apparaître dans ses fonctionnalités IA : une page indexée et éligible à un extrait suffit ([Google Search Central](https://developers.google.com/search/docs/appearance/ai-features)). C'est pourquoi je ne vends pas le GEO seul : il fait partie de l'audit SEO et GEO. La comparaison des deux est dans [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
+
+## Quelles questions les clients rennais posent-ils aux IA ?
+
+Une IA ne reçoit pas des mots-clés, elle reçoit des questions entières. Voici celles que je relève, selon l'activité.
+
+| Votre activité | Question que pose votre client |
+|---|---|
+| Cabinet, profession de conseil | « Quel expert-comptable à Rennes pour une société qui démarre ? » |
+| Organisme de formation | « Quelle formation en management à Rennes, et à quel prix ? » |
+| Éditeur de logiciel, société du numérique | « Quel logiciel de [besoin] pour une PME, avec un support en France ? » |
+| Commerce, restaurant, artisan | « Quelle bonne adresse pour [besoin] à Rennes ? » |
+| Industrie, agroalimentaire | « Quel fournisseur breton de [produit] pour la grande distribution ? » |
+
+Posez ces questions à ChatGPT, à Perplexity et à Google. Notez qui est cité, et sur quelles sources la réponse s'appuie : c'est exactement ce que fait le relevé, à plus grande échelle et dans la durée. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
+
+## Que contient le volet GEO de l'audit ?
+
+- **Accès des robots** : robots.txt, pare-feu, rendu des pages, pour OAI-SearchBot, PerplexityBot, Claude-SearchBot, Googlebot et Bingbot.
+- **Relevé des réponses des IA** sur une liste de questions établie avec vous, IA par IA.
+- **Part de voix** : la proportion de réponses qui vous citent, comparée à celle de vos concurrents.
+- **Sources citées à votre place** : comparatifs, annuaires, médias, sites d'avis où il serait utile de figurer.
+- **Pages à reprendre**, avec pour chacune ce qui manque : réponse directe, source, auteur, données à jour.
+- **Plan d'action** classé par impact et par effort.
+
+Le volet mesure est décrit en détail sur la fiche [audit GEO](/prestations/audit-geo), et la liste de contrôle est en libre accès : [checklist GEO en 25 points](/ressources/checklist-geo).
+
+## Consultant GEO ou agence GEO à Rennes ?
+
+Des agences ajoutent le GEO à leur offre, et le choix se fait sur les mêmes critères que pour le SEO.
+
+| | Consultant GEO | Agence GEO |
+|---|---|---|
+| Interlocuteur | La personne qui fait les relevés et écrit les recommandations | Un chef de projet, puis une équipe |
+| Adapté à | Un site dont l'équipe ou le prestataire web applique les actions | De gros volumes de contenus à produire ou une refonte à mener |
+| Mesure | À demander dans les deux cas : la liste des questions suivies et la méthode de relevé | Idem |
+
+Dans les deux cas, méfiez-vous d'une promesse de citation : personne ne peut en garantir une. Ce qu'un prestataire peut promettre, c'est une méthode et une mesure. Les positions officielles sont rassemblées dans [ce que disent Google, OpenAI, Anthropic, Perplexity et Microsoft](/ressources/positions-officielles-ia).
 
 ## Comment je travaille
 
@@ -46,6 +83,9 @@ En posant régulièrement la même liste de questions aux IA et en relevant qui 
 
 **Travaillez-vous uniquement sur le GEO ou aussi sur le SEO ?**
 Les deux, toujours ensemble. L'audit couvre le SEO technique, les contenus et la visibilité dans les IA, avec un seul plan d'action. Si votre SEO est déjà solide, la part GEO du travail est simplement plus importante.
+
+**Proposez-vous une formation GEO à Rennes ?**
+Oui, pour les équipes marketing et communication, dans vos locaux ou à distance : robots des IA, écriture de pages citables, mesure de la part de voix. Le programme est sur la fiche [formation GEO](/formation-geo).
 
 **Intervenez-vous ailleurs qu'à Rennes ?**
 Oui. Le GEO se travaille à distance comme le SEO. Je me déplace à Rennes et en Ille-et-Vilaine sans frais, et plus loin avec des frais de déplacement. La page [consultant SEO à Rennes](/consultant-seo-rennes) décrit l'intervention sur place.

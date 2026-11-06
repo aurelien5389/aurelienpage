@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
+import { isNoindex } from '@/lib/indexation'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -15,10 +17,10 @@ const DESCRIPTION =
   "Comprendre et démarrer le GEO : positions officielles de Google, OpenAI et Anthropic, plan en 30 jours, checklist, gabarit de page, robots d'IA, modèles de relevé. Gratuit et sourcé."
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}${PATH}` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}${PATH}` },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: `${SITE_URL}${PATH}` },
 }
 
 const OUTILS_GROUPES = [
@@ -90,7 +92,7 @@ const OUTILS_GROUPES = [
 const OUTILS = OUTILS_GROUPES.flatMap((g) => g.items)
 
 const GUIDES = [
-  { href: '/blog/lexique-seo', titre: 'Lexique SEO', texte: 'Cinquante termes du référencement naturel expliqués.' },
+  { href: '/blog/lexique-geo', titre: 'Lexique GEO', texte: 'Les termes de la recherche par IA, définis et sourcés.' },
   { href: '/blog/audit-geo-etape-par-etape', titre: 'Faire un audit GEO, étape par étape', texte: 'La méthode complète, de la liste de questions au plan d’action.' },
   { href: '/blog/audit-seo', titre: 'Faire un audit SEO', texte: 'Technique, contenu, popularité : la méthode de diagnostic.' },
   { href: '/reponses', titre: 'Réponses courtes et sourcées', texte: 'Les questions SEO et GEO les plus fréquentes, réponse en tête de page.' },
@@ -168,14 +170,14 @@ export default function RessourcesPage() {
             <section key={famille} aria-labelledby={`dossiers-${famille}`} className={styles.resSection}>
               <h2 id={`dossiers-${famille}`} className={styles.resH2}>Dossiers {famille}</h2>
               <div className={styles.resDossiers}>
-                {COCONS.filter((c) => c.famille === famille).map((c) => (
+                {COCONS.filter((c) => c.famille === famille && !isNoindex(c.mere.href)).map((c) => (
                   <div key={c.id} className={styles.resDossier}>
                     <h3 className={styles.resH3}>{c.titre}</h3>
                     <p className={styles.resDepart}>
                       Guide de départ : <Link href={c.mere.href} className={styles.resLien}>{c.mere.label}</Link>
                     </p>
                     <ul className={styles.resSousListe}>
-                      {c.pages.map((p) => (
+                      {c.pages.filter((p) => !isNoindex(p.href)).map((p) => (
                         <li key={p.href}>
                           <Link href={p.href} className={styles.resSousLien}>{p.label}</Link>
                         </li>

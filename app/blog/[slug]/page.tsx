@@ -4,6 +4,8 @@ import { getBlogDrafts, parseDraft } from '@/lib/draft-parser'
 import { getBlogRelatedLinks } from '@/lib/internal-links'
 import BlogPostLayout from '@/components/BlogPostLayout'
 import { draftDates } from '@/lib/content-dates'
+import { robotsFor } from '@/lib/indexation'
+import { seoTitle } from '@/lib/titles'
 
 // Seuls les articles listés par generateStaticParams existent : toute autre adresse renvoie une 404
 export const dynamicParams = false
@@ -24,11 +26,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     const draft = parseDraft(filename)
     return {
-      title: `${draft.title} · Aurélien PAGE`,
+      title: seoTitle(draft.title),
       description: draft.metaDescription || draft.h1,
       alternates: { canonical: `https://aurelienpage.fr/blog/${params.slug}` },
+      ...robotsFor(`/blog/${params.slug}`),
       openGraph: {
-        title: `${draft.title} · Aurélien PAGE`,
+        title: seoTitle(draft.title),
         description: draft.metaDescription || draft.h1,
         url: `https://aurelienpage.fr/blog/${params.slug}`,
       },

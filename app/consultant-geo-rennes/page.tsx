@@ -3,16 +3,17 @@ import { parseDraft } from '@/lib/draft-parser'
 import BlogPostLayout from '@/components/BlogPostLayout'
 import { draftDates } from '@/lib/content-dates'
 import { getBlogRelatedLinks } from '@/lib/internal-links'
+import { seoTitle } from '@/lib/titles'
 
 const SLUG = 'consultant-geo-rennes'
 const draft = parseDraft(`${SLUG}.md`)
 
 export const metadata: Metadata = {
-  title: 'Consultant GEO à Rennes | Expert Generative Engine Optimization · Aurélien PAGE',
+  title: seoTitle(draft.title),
   description: draft.metaDescription || 'Consultant GEO freelance à Rennes. Optimisation pour AI Overviews, Perplexity et ChatGPT Search. Renforcement EEAT, structuration de contenu IA. Devis gratuit.',
   alternates: { canonical: `https://aurelienpage.fr/${SLUG}` },
   openGraph: {
-    title: 'Consultant GEO à Rennes | Expert Generative Engine Optimization · Aurélien PAGE',
+    title: seoTitle(draft.title),
     description: draft.metaDescription || 'Consultant GEO freelance à Rennes. Optimisation pour AI Overviews, Perplexity et ChatGPT Search.',
     url: `https://aurelienpage.fr/${SLUG}`,
   },

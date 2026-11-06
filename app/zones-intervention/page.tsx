@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import FicheLayout, { type FicheData } from '@/components/FicheLayout'
 import { getContentDates } from '@/lib/content-dates'
 import { REGIONS } from '@/lib/zones'
@@ -11,10 +12,10 @@ const DESCRIPTION =
   "Consultant SEO et GEO basé à Laval et à Rennes : sans frais autour de Laval et de Rennes, en Bretagne et en Pays de la Loire avec déplacement, partout en France à distance."
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: URL },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: URL },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: URL },
 }
 
 const data: FicheData = {

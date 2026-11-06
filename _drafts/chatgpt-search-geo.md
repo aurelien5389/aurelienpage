@@ -1,10 +1,10 @@
 ---
 slug: "/blog/chatgpt-search-geo"
-title: "Comment être cité par ChatGPT et Perplexity ?"
+title: "Comment se faire citer par ChatGPT et Perplexity : la méthode"
 meta-description: "Comment ChatGPT et Perplexity trouvent leurs sources, les conditions techniques à remplir, les contenus qu'ils reprennent et la façon de vérifier vos citations."
 ---
 
-# Comment être cité par ChatGPT et Perplexity ?
+# Comment se faire citer par ChatGPT et Perplexity : la méthode pas à pas
 
 Une responsable marketing demande à ChatGPT quel prestataire choisir pour refaire le site de son entreprise. La réponse cite trois sources : un comparatif, un annuaire, un concurrent. Elle pose la même question à Perplexity : autres sources, même absence de votre nom. Votre site est pourtant en ligne, à jour, bien classé sur Google.
 

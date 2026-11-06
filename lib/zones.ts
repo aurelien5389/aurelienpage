@@ -3,6 +3,7 @@
 // dans leurs environs, avec frais de déplacement ailleurs dans le Grand Ouest, à distance ailleurs
 // (déplacement ponctuel sur devis).
 import type { InternalLink } from '@/lib/internal-links'
+import { isNoindex } from '@/lib/indexation'
 
 export type Modalite = 'sans-frais' | 'deplacement' | 'distance'
 
@@ -102,8 +103,13 @@ export function nomDeVille(href: string): string | undefined {
 
 export const villePath = (v: Ville) => `/consultant-seo-${v.slug}`
 
+// Sur une page ville indexée, les villes hors index (lib/indexation.ts) ne sont pas listées.
+// Sans page courante (pages régionales), toutes les villes sont listées : la page régionale reste leur point d'accès.
 export function villesLiens(region: Region, sauf?: string): InternalLink[] {
-  return region.villes.filter((v) => villePath(v) !== sauf).map((v) => ({ href: villePath(v), label: v.nom }))
+  const masquerHorsIndex = Boolean(sauf) && !isNoindex(sauf as string)
+  return region.villes
+    .filter((v) => villePath(v) !== sauf && !(masquerHorsIndex && isNoindex(villePath(v))))
+    .map((v) => ({ href: villePath(v), label: v.nom }))
 }
 
 export function getRegionDeVille(path: string): { region: Region; ville: Ville } | undefined {

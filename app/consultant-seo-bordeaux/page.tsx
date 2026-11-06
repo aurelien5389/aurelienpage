@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import { parseDraft } from '@/lib/draft-parser'
 import { getCityLinks, LOCAL_BLOG_LINKS } from '@/lib/internal-links'
 import LocalSeoPageLayout from '@/components/LocalSeoPageLayout'
@@ -11,11 +12,11 @@ const FILENAME = `consultant-seo-bordeaux.md`
 const draft = parseDraft(FILENAME)
 
 export const metadata: Metadata = {
-  title: `Consultant SEO à Bordeaux | Expert SEO & GEO · Aurélien PAGE`,
+  title: seoTitle(`Consultant SEO à Bordeaux | Expert SEO & GEO`),
   description: draft.metaDescription || `Consultant SEO freelance à Bordeaux. Audit SEO, optimisation technique, stratégie GEO. Devis gratuit.`,
   alternates: { canonical: `https://aurelienpage.fr${SLUG}` },
   openGraph: {
-    title: `Consultant SEO à Bordeaux | Expert SEO & GEO · Aurélien PAGE`,
+    title: seoTitle(`Consultant SEO à Bordeaux | Expert SEO & GEO`),
     description: draft.metaDescription || `Consultant SEO freelance à Bordeaux. Audit SEO, optimisation technique, stratégie GEO.`,
     url: `https://aurelienpage.fr${SLUG}`,
   },

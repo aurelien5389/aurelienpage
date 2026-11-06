@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -7,8 +8,9 @@ import { pageGraph, breadcrumbSchema } from '@/lib/schema'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
-  title: 'Mentions légales · Aurélien PAGE',
+  title: seoTitle('Mentions légales'),
   description: "Mentions légales du site aurelienpage.fr : éditeur, hébergement, propriété intellectuelle, données personnelles.",
+  alternates: { canonical: 'https://aurelienpage.fr/mentions-legales' },
   robots: { index: false, follow: false },
 }
 

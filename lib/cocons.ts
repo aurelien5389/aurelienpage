@@ -1,6 +1,12 @@
 // Cocons sémantiques : chaque page de contenu appartient à un seul dossier.
 // Une page mère (guide de départ), des pages filles, une fiche commerciale liée.
 // CoconNav en tire le maillage : montée vers la mère, liens entre sœurs, renvoi vers la fiche.
+//
+// Depuis l'audit SEO de novembre 2026, une partie des articles est hors index (lib/indexation.ts).
+// CoconNav ne montre jamais un lien vers une page hors index depuis une page indexée : les pages
+// indexées se lient entre elles et vers les fiches. Les dossiers dont la mère est hors index
+// (fondamentaux, technique, rédaction, métier) forment la « bibliothèque » : ils restent maillés
+// entre eux et renvoient vers leur fiche.
 import type { InternalLink } from '@/lib/internal-links'
 
 export interface Cocon {
@@ -35,7 +41,7 @@ export const COCONS: Cocon[] = [
     id: 'geo-etre-cite',
     famille: 'GEO',
     titre: 'Être cité par les IA',
-    mere: { href: '/blog/chatgpt-search-geo', label: 'Comment être cité par ChatGPT et Perplexity ?' },
+    mere: { href: '/blog/chatgpt-search-geo', label: 'Se faire citer par ChatGPT et Perplexity : la méthode pas à pas' },
     pages: [
       { href: '/reponses/comment-etre-cite-par-chatgpt-et-perplexity', label: 'Être cité par ChatGPT et Perplexity : la réponse courte' },
       { href: '/reponses/comment-etre-cite-par-claude', label: 'Comment être cité par Claude ?' },
@@ -118,8 +124,7 @@ export const COCONS: Cocon[] = [
     pages: [
       { href: '/blog/choisir-mots-cles-seo', label: 'Choisir les bons mots-clés' },
       { href: '/blog/seo-on-page-optimisation', label: 'SEO on-page : les éléments à optimiser' },
-      { href: '/blog/cocon-semantique-maillage-interne', label: 'Cocon sémantique et maillage interne' },
-      { href: '/blog/optimiser-liens-internes', label: 'Optimiser ses liens internes' },
+      { href: '/blog/cocon-semantique-maillage-interne', label: 'Cocon sémantique et maillage interne : méthode et audit' },
       { href: '/blog/rediger-bon-article-blog', label: 'Rédiger un bon article de blog' },
       { href: '/blog/rediger-titre-seo', label: 'Rédiger un titre efficace' },
       { href: '/reponses/combien-de-mots-article-seo', label: 'Combien de mots pour un article SEO ?' },
@@ -144,15 +149,16 @@ export const COCONS: Cocon[] = [
   {
     id: 'seo-pilotage',
     famille: 'SEO',
-    titre: 'Audit, autorité et pilotage',
+    titre: 'Audit, suivi et autorité',
     mere: { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
     pages: [
+      { href: '/reponses/combien-coute-un-audit-seo', label: 'Combien coûte un audit SEO ?' },
+      { href: '/reponses/combien-de-temps-resultats-seo', label: 'Combien de temps pour voir les résultats du SEO ?' },
+      { href: '/blog/reporting-seo-kpis', label: 'Reporting SEO mensuel : les KPIs qui comptent' },
+      { href: '/blog/netlinking-backlinks-pagerank', label: 'Netlinking et backlinks : construire son autorité' },
+      { href: '/blog/tendances-seo-2026', label: 'Tendances SEO : ce qui compte vraiment' },
       { href: '/blog/erreurs-seo-frequentes', label: 'Les 10 erreurs SEO les plus fréquentes' },
       { href: '/blog/10-secrets-seo', label: '10 techniques SEO sous-exploitées' },
-      { href: '/blog/reporting-seo-kpis', label: 'Reporting SEO : les KPIs qui comptent' },
-      { href: '/reponses/combien-de-temps-resultats-seo', label: 'Combien de temps pour voir les résultats du SEO ?' },
-      { href: '/blog/netlinking-backlinks-pagerank', label: 'Netlinking et backlinks' },
-      { href: '/blog/netlinking-avance', label: 'Netlinking avancé' },
       { href: '/blog/seo-startups', label: 'SEO pour startups' },
     ],
     fiche: { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
@@ -166,15 +172,19 @@ export const COCONS: Cocon[] = [
     pages: [
       { href: '/blog/entreprise-locale-recommandee-par-ia', label: 'Comment une entreprise locale peut-elle être recommandée par les IA ?' },
       { href: '/blog/choisir-consultant-seo-geo', label: 'Comment choisir un consultant SEO ou GEO ?' },
+      { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
+      { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes' },
       { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
       { href: '/consultant-geo-laval', label: 'Consultant GEO à Laval' },
+      { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
+      { href: '/consultant-seo-dinard', label: 'Consultant SEO à Dinard' },
       { href: '/consultant-geo-nantes', label: 'Consultant GEO à Nantes' },
-      { href: '/zones-intervention', label: "Zones d'intervention : Laval, Rennes, Bretagne, Pays de la Loire, à distance" },
       { href: '/consultant-seo-bretagne', label: 'Consultant SEO en Bretagne' },
       { href: '/consultant-seo-pays-de-la-loire', label: 'Consultant SEO en Pays de la Loire' },
       { href: '/consultant-seo-a-distance', label: 'Consultant SEO à distance, partout en France' },
+      { href: '/zones-intervention', label: "Toutes les zones d'intervention" },
     ],
-    fiche: { href: '/zones-intervention', label: "Zones d'intervention" },
+    fiche: { href: '/prestations/consultant-seo-geo', label: 'Consultant SEO et GEO' },
     local: { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
   },
   {

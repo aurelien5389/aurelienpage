@@ -32,7 +32,7 @@ Le PageRank se distribue entre toutes les pages liées depuis une même page. Un
 
 Vos pages les plus importantes (pages de service, articles piliers, pages à fort potentiel commercial) doivent recevoir des liens depuis vos pages les plus autoritaires. Inversement, évitez de lier massivement depuis vos pages clés vers des contenus secondaires ou des pages qui n'ont pas besoin de PageRank.
 
-Auditez régulièrement votre maillage interne avec Screaming Frog : quelle page reçoit le plus de liens internes ? Est-ce que cette distribution correspond à vos priorités SEO réelles ? Voir l'article sur l'[optimisation des liens internes](/blog/optimiser-liens-internes).
+Auditez régulièrement votre maillage interne avec Screaming Frog : quelle page reçoit le plus de liens internes ? Est-ce que cette distribution correspond à vos priorités SEO réelles ? Voir l'article sur l'[optimisation des liens internes](/blog/cocon-semantique-maillage-interne).
 
 ## 4. Cibler les featured snippets
 

@@ -102,6 +102,57 @@ Ahrefs et Semrush sont les références pour un audit de backlinks complet. Goog
 
 **Le disavow** : si votre site a reçu (ou a acquis dans le passé) des liens toxiques de mauvaise qualité, l'outil Disavow de Google Search Console permet de demander à Google de ne pas les prendre en compte. À utiliser avec prudence, un disavow mal calibré peut désavouer des bons liens.
 
+## Évaluer la qualité d'un backlink : les métriques clés
+
+### Babbar.tech et le Babbar Authority Score (BAS)
+
+**Babbar.tech** est un crawler français qui propose une métrique propriétaire : le **BAS (Babbar Authority Score)**. Il mesure l'autorité réelle d'un domaine en tenant compte de la qualité des liens qu'il reçoit, du trafic estimé, et de la qualité du contenu.
+
+Le BAS est particulièrement pertinent sur les sites francophones, où l'index de Babbar est plus complet que celui d'outils anglo-saxons. Pour l'acquisition de liens sur des médias français, un BAS > 20-30 est un seuil minimal raisonnable.
+
+### Majestic : Trust Flow, Citation Flow et Topical Trust Flow
+
+**Majestic** propose deux métriques complémentaires :
+
+**Trust Flow (TF)** : mesure la qualité des liens reçus par un domaine, en partant d'une liste de domaines de confiance absolue (sites gouvernementaux, grandes universités, médias de référence) et en calculant la proximité dans le graphe de liens. Un TF élevé indique une chaîne de liens de qualité depuis des sources fiables.
+
+**Citation Flow (CF)** : mesure le volume des liens reçus, sans tenir compte de leur qualité. Un site peut avoir un CF élevé et un TF bas, signe d'un profil de liens artificiel ou spammé.
+
+**Le ratio TF/CF** est un indicateur de santé du profil de liens : un ratio proche de 1 (TF ≈ CF) est sain. Un ratio faible (TF << CF) signale de nombreux liens de mauvaise qualité.
+
+**Topical Trust Flow (TTF)** : catégorise le Trust Flow par thématique. Indispensable pour évaluer la cohérence sémantique d'un potentiel donneur de liens. Un site avec un TTF élevé dans la catégorie "Computers/Internet/Searching" sera un donneur de liens particulièrement pertinent pour un site SEO.
+
+### Ahrefs : Domain Rating et trafic organique
+
+**Ahrefs** est l'outil le plus complet pour l'analyse de backlinks. Le **Domain Rating (DR)** mesure la force du profil de liens d'un domaine sur une échelle de 0 à 100.
+
+Mais la métrique la plus fiable pour évaluer un donneur de liens potentiel n'est pas le DR seul, c'est le **trafic organique estimé**. Un site avec DR 40 et 10 000 visites organiques par mois vaut souvent plus qu'un site avec DR 55 et 500 visites (ce qui peut indiquer une pénalité ou un site "vide" sans vraie audience).
+
+Vérifiez systématiquement le graphique d'évolution du trafic organique d'un potentiel donneur de liens : un trafic stable ou en croissance est un signal positif, une chute brutale peut indiquer une pénalité Google récente.
+
+### SEObserver : la boîte à outils du netlinkeur
+
+**SEObserver** est un outil français spécialisé dans l'analyse de backlinks et la prospection de liens. Il intègre notamment un module de détection de liens "toxiques" et permet d'analyser finement le profil de liens de vos concurrents pour identifier des opportunités d'acquisition.
+
+### Les plateformes de vente de liens
+
+Des plateformes comme **Rocketlinks**, **Ereferer** ou **Getfluence** permettent d'acheter des articles sponsorisés ou des insertions de liens sur des sites médias sélectionnés. Ces plateformes proposent des filtres par thématique, DA/DR, trafic, et prix, ce qui facilite la prospection.
+
+**L'avantage** : gain de temps considérable par rapport à la prospection manuelle. **Le risque** : la majorité des sites proposés sur ces plateformes sont connus de Google comme des vendeurs de liens. À utiliser avec parcimonie, en complément d'une stratégie d'acquisition organique (guest blogging, linkbaiting).
+
+## Ancres de liens : éviter la sur-optimisation
+
+L'ancre d'un lien (son texte cliquable) indique à Google de quoi parle la page de destination. Un profil où la plupart des liens entrants reprennent exactement le mot-clé visé a l'air fabriqué : c'est le schéma que les règles de Google sur les systèmes de liens décrivent comme une manipulation.
+
+Un profil d'ancres crédible mélange plusieurs familles :
+
+- des ancres de marque (« Aurélien Page », « aurelienpage.fr »), qui doivent rester les plus nombreuses ;
+- des URL nues et des ancres génériques (« ce site », « en savoir plus ») ;
+- des ancres partiellement descriptives (une partie de l'expression visée, dans une phrase naturelle) ;
+- quelques ancres exactes, en minorité.
+
+Plus un site est récent et moins il a de liens, plus les ancres exactes doivent rester rares.
+
 ## Le maillage interne : le netlinking que vous maîtrisez à 100 %
 
 Le netlinking externe est difficile à contrôler. Le maillage interne, les liens entre les pages de votre propre site, est entièrement entre vos mains, et pourtant souvent négligé.

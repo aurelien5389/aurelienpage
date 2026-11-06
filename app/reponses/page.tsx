@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -13,10 +14,10 @@ const DESCRIPTION =
   "GEO, SEO, robots d'IA, llms.txt, contenus IA, audits : des réponses directes aux questions que l'on me pose, avec leurs sources officielles."
 
 export const metadata: Metadata = {
-  title: TITLE,
+  title: seoTitle(TITLE),
   description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/reponses` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/reponses` },
+  openGraph: { title: seoTitle(TITLE), description: DESCRIPTION, url: `${SITE_URL}/reponses` },
 }
 
 export default function ReponsesIndex() {

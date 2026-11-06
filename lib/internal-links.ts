@@ -1,4 +1,5 @@
 import { voisinsLiens } from '@/lib/zones'
+import { isNoindex } from '@/lib/indexation'
 
 export interface InternalLink {
   href: string
@@ -120,7 +121,6 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
   ],
   '10-secrets-seo': [
     { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
-    { href: '/blog/optimiser-liens-internes', label: 'Optimiser ses liens internes : méthode SEO' },
     { href: '/blog/erreurs-seo-frequentes', label: 'Les 10 erreurs SEO les plus fréquentes' },
     { href: '/blog/google-search-console', label: 'Google Search Console : guide complet' },
   ],
@@ -174,16 +174,11 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/analyse-logs-seo', label: 'Analyse de logs SEO : comprendre Googlebot' },
   ],
   'cocon-semantique-maillage-interne': [
-    { href: '/blog/optimiser-liens-internes', label: 'Optimiser ses liens internes : méthode SEO' },
+    { href: '/redaction-web', label: 'Rédaction web SEO' },
+    { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
     { href: '/blog/fil-ariane-seo', label: 'Fil d\'Ariane SEO' },
     { href: '/blog/page-orpheline-seo', label: 'Pages orphelines en SEO' },
     { href: '/blog/strategie-contenu-seo', label: 'Stratégie de contenu SEO' },
-  ],
-  'optimiser-liens-internes': [
-    { href: '/blog/cocon-semantique-maillage-interne', label: 'Cocon sémantique et maillage interne' },
-    { href: '/blog/page-orpheline-seo', label: 'Pages orphelines en SEO' },
-    { href: '/blog/fil-ariane-seo', label: 'Fil d\'Ariane SEO' },
-    { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
   ],
   'serp-typologies-intentions-recherche': [
     { href: '/prestations/traffic-manager-sea', label: "Traffic Manager SEA : Google Ads et Meta Ads" },
@@ -192,15 +187,11 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/seo-on-page-optimisation', label: 'SEO on-page : éléments clés à optimiser' },
   ],
   'netlinking-backlinks-pagerank': [
-    { href: '/blog/netlinking-avance', label: 'Netlinking avancé : PageRank sculpting' },
+    { href: '/accompagnement-seo', label: 'Accompagnement SEO mensuel' },
+    { href: '/blog/cocon-semantique-maillage-interne', label: 'Cocon sémantique et maillage interne' },
     { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
     { href: '/blog/google-eeat', label: 'Google EEAT : définition et amélioration' },
     { href: '/prestations/consultant-seo-geo', label: 'Prestations SEO & GEO · Aurélien PAGE' },
-  ],
-  'netlinking-avance': [
-    { href: '/blog/netlinking-backlinks-pagerank', label: 'Netlinking et backlinks : construire votre autorité' },
-    { href: '/blog/audit-seo', label: 'Audit SEO : méthode complète' },
-    { href: '/blog/seo-technique-core-web-vitals', label: 'SEO technique : les fondations' },
   ],
   'geo-ia-search-ai-overviews': [
     { href: '/reponses/difference-ai-overviews-ai-mode', label: "Réponse : AI Overviews ou AI Mode, quelle différence ?" },
@@ -405,6 +396,8 @@ const BLOG_RELATED: Record<string, InternalLink[]> = {
     { href: '/blog/strategie-contenu-seo', label: 'Stratégie de contenu SEO' },
   ],
   'seo-local-google-my-business': [
+    { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
+    { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
     { href: '/blog/seo-on-page-optimisation', label: 'SEO on-page : éléments clés à optimiser' },
     { href: '/blog/choisir-mots-cles-seo', label: 'Comment choisir les bons mots-clés' },
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
@@ -469,9 +462,13 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
     { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
   ],
+  // Bordeaux reçoit un lien externe : ses liens sortants vont vers les pages à faire monter
   bordeaux: [
-    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
-    { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
+    { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
+    { href: '/consultant-geo-rennes', label: 'Consultant GEO à Rennes' },
+    { href: '/consultant-seo-laval', label: 'Consultant SEO à Laval' },
+    { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
+    { href: '/consultant-seo-a-distance', label: 'Consultant SEO à distance' },
   ],
   caen: [
     { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
@@ -525,11 +522,14 @@ export const LOCAL_BLOG_LINKS: InternalLink[] = [
   { href: '/cout-prestation-seo', label: 'Combien coûte une prestation SEO ?' },
 ]
 
+// Depuis une page indexée, on ne propose pas de lien vers une page hors index (lib/indexation.ts)
 export function getBlogRelatedLinks(slug: string): InternalLink[] {
-  return BLOG_RELATED[slug] || []
+  const liens = BLOG_RELATED[slug] || []
+  return isNoindex(`/blog/${slug}`) ? liens : liens.filter((l) => !isNoindex(l.href))
 }
 
 export function getCityLinks(cityKey: string): InternalLink[] {
   const proches = voisinsLiens(cityKey)
-  return proches.length > 0 ? proches : NEARBY_CITIES[cityKey] || []
+  const liens = proches.length > 0 ? proches : NEARBY_CITIES[cityKey] || []
+  return isNoindex(`/consultant-seo-${cityKey}`) ? liens : liens.filter((l) => !isNoindex(l.href))
 }

@@ -1,6 +1,6 @@
 ---
 slug: "/consultant-seo-dinard"
-title: "Consultant SEO et GEO à Dinard : hôtels, restaurants, immobilier, événementiel · Aurélien PAGE"
+title: "Consultant SEO à Dinard : hôtels, restaurants, immobilier"
 meta-description: "Consultant SEO et GEO à Dinard : être trouvé sur Google et recommandé par ChatGPT et Perplexity par une clientèle exigeante. Audit de 800 à 2 500 €, sans frais de déplacement."
 ---
 
@@ -28,20 +28,26 @@ Pour un hôtel, une agence immobilière ou un traiteur, chaque client gagné a u
 
 Posez ces questions vous-même à ChatGPT et à Google : si vous n'apparaissez pas, l'audit dira pourquoi. D'autres exemples sont dans la ressource [questions à suivre dans les IA, secteur par secteur](/ressources/questions-geo-par-secteur).
 
-## Ce que je fais pour une entreprise de Dinard
+## Quel travail de référencement pour un établissement de Dinard ?
 
-- **[Audit SEO et GEO](/prestations/audit-geo)** : accès des robots de Google et des IA, indexation, pages clés, fiche Google, relevé des réponses des IA sur vos questions, sites cités à votre place, plan d'action classé par impact.
-- **SEO local** : fiche Google Business Profile, avis, informations cohérentes sur le web. Google indique que le classement local repose sur la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
-- **[Rédaction web](/redaction-web)** : pages qui répondent précisément aux questions de vos clients, faciles à reprendre par une IA.
-- **[Accompagnement mensuel](/accompagnement-seo)** : mise en œuvre et relevé mensuel de votre visibilité dans Google et les IA.
-- **[Formation SEO](/formation-seo)** ou **[formation GEO](/formation-geo)** si vous préférez faire vous-même.
+À Dinard, la demande suit la saison et se décide souvent à distance. Le travail porte donc sur trois points.
+
+- **La fiche Google Business Profile.** C'est elle qui s'affiche sur la carte quand un visiteur cherche un hôtel ou une table. Catégories, horaires de saison, photos, réponses aux avis : Google classe les établissements selon la pertinence, la distance et la notoriété ([Aide Google Business Profile](https://support.google.com/business/answer/7091?hl=fr)).
+- **Les pages qui répondent avant la réservation.** Tarifs, accès, stationnement, distance de la plage, capacité d'une salle : ce sont les informations qu'un client compare, et celles qu'une IA reprend quand elle recommande un établissement. Je peux les écrire en **[rédaction web](/redaction-web)**.
+- **Ce que les autres sites disent de vous.** Guides, sites d'avis, office de tourisme, presse : les IA s'appuient aussi sur eux. L'**[audit SEO et GEO](/prestations/audit-geo)** relève qui est cité sur vos questions, et sur quelles sources.
+
+Le suivi se cale sur votre calendrier : un **[accompagnement mensuel](/accompagnement-seo)** pendant la préparation de la saison, ou une **[formation SEO](/formation-seo)** si vous tenez vous-même votre site et votre fiche.
+
+## Consultant SEO ou agence web à Dinard et Saint-Malo ?
+
+Une agence web construit votre site. Un consultant SEO s'occupe de ce qui se passe ensuite : est-ce que le site apparaît, sur quelles recherches, et est-ce qu'il amène des réservations ou des demandes. Si une agence de la Côte d'Émeraude a réalisé votre site, je travaille avec elle et je lui remets des recommandations prêtes à appliquer.
 
 ## Comment se passe une mission à Dinard ?
 
-1. **Diagnostic offert de 30 minutes**, en visio ou dans vos locaux, sans frais.
+1. **Diagnostic offert de 30 minutes**, dans votre établissement ou en visio.
 2. **Devis** avec le périmètre et le prix, avant toute intervention.
-3. **Audit**, puis **restitution** dans vos locaux, sans frais.
-4. **Suivi** mensuel si vous le souhaitez.
+3. **Audit**, puis **restitution** sur place, hors des heures de service si vous recevez du public.
+4. **Suivi** si vous le souhaitez, avec un point avant chaque saison.
 
 ## Combien ça coûte ?
 
@@ -62,11 +68,11 @@ Oui : elle cherche depuis l'étranger, souvent dans sa langue, et compare davant
 **Intervenez-vous à Saint-Lunaire et Saint-Briac-sur-Mer ?**
 Oui, sans frais de déplacement, comme à Dinard.
 
-**Combien de temps avant de voir des résultats ?**
-Cela dépend de votre point de départ et de la concurrence sur vos questions. Personne ne peut garantir un délai ; ce qui le fait varier est expliqué dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
+**Quand faut-il commencer pour être visible en saison ?**
+Avant la saison, pas pendant. Une page réécrite se juge après quelques semaines et la notoriété se construit sur des mois : l'automne et l'hiver sont le bon moment pour corriger le site et la fiche Google. Les délais sont détaillés dans [combien de temps pour avoir des résultats en SEO](/reponses/combien-de-temps-resultats-seo).
 
-**Le GEO remplace-t-il le SEO ?**
-Non, il s'appuie dessus : une page mal indexée n'est citée ni par Google ni par les IA. Voir [quelle différence entre SEO et GEO](/reponses/difference-seo-geo).
+**Les plateformes de réservation suffisent-elles ?**
+Elles apportent des clients, et elles prennent une commission. Un site et une fiche Google bien tenus servent à recevoir aussi des demandes en direct. L'audit montre sur quelles recherches votre établissement apparaît lui-même, et sur lesquelles seules les plateformes sortent.
 
 ## Parlons de votre visibilité à Dinard
 

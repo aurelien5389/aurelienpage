@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import { notFound } from 'next/navigation'
 import ReponseLayout from '@/components/ReponseLayout'
 import { REPONSES, getReponse, reponseLien, reponseDates } from '@/lib/reponses'
@@ -16,7 +17,7 @@ export function generateMetadata({ params }: Props): Metadata {
   const r = getReponse(params.slug)
   if (!r) return {}
   const url = `https://aurelienpage.fr/reponses/${r.slug}`
-  const title = `${r.titre} · Aurélien PAGE`
+  const title = seoTitle(r.titre)
   return {
     title,
     description: r.metaDescription,

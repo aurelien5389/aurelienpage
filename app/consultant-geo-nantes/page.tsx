@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { seoTitle } from '@/lib/titles'
 import { parseDraft } from '@/lib/draft-parser'
 import BlogPostLayout from '@/components/BlogPostLayout'
 import { draftDates } from '@/lib/content-dates'
@@ -8,11 +9,11 @@ const SLUG = 'consultant-geo-nantes'
 const draft = parseDraft(`${SLUG}.md`)
 
 export const metadata: Metadata = {
-  title: 'Consultant GEO à Nantes : être cité par ChatGPT et les IA · Aurélien PAGE',
+  title: seoTitle('Consultant GEO à Nantes : être cité par ChatGPT et les IA'),
   description: draft.metaDescription || 'Consultant GEO à Nantes. Optimisation pour AI Overviews, Perplexity et ChatGPT Search. Renforcement EEAT, structuration de contenu IA. Devis gratuit.',
   alternates: { canonical: `https://aurelienpage.fr/${SLUG}` },
   openGraph: {
-    title: 'Consultant GEO à Nantes : être cité par ChatGPT et les IA · Aurélien PAGE',
+    title: seoTitle('Consultant GEO à Nantes : être cité par ChatGPT et les IA'),
     description: draft.metaDescription || 'Consultant GEO à Nantes. Optimisation pour AI Overviews, Perplexity et ChatGPT Search.',
     url: `https://aurelienpage.fr/${SLUG}`,
   },
