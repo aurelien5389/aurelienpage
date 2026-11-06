@@ -163,6 +163,13 @@ export default function AProposPage() {
               , ou en réservant directement un diagnostic offert de 30 minutes.
             </p>
             <p className={styles.apPara}>
+              Je suis aussi référencé dans l&apos;annuaire des experts du digital{' '}
+              <a href="https://www.jesuisnumerique.fr" className={styles.apLien} target="_blank" rel="noopener">
+                jesuisnumerique.fr
+              </a>
+              , à la rubrique des consultants SEO de Rennes.
+            </p>
+            <p className={styles.apPara}>
               <a href="/cv-aurelien-page.pdf.pdf" download className="btn btn-secondaire">
                 <Icon name="download" size={18} /> Télécharger mon CV (PDF)
               </a>
