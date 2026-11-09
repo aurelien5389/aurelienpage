@@ -127,8 +127,7 @@ const data: FicheData = {
     { href: '/reponses/formation-seo-cpf-opco', label: "Une formation SEO est-elle finançable par le CPF ou l'OPCO ?" },
     { href: '/reponses/combien-de-mots-article-seo', label: 'Combien de mots doit contenir un article pour le SEO ?' },
     { href: '/formation-geo', label: 'Formation GEO pour les équipes marketing' },
-    { href: '/blog/apprendre-le-seo-principes-debutants', label: 'Apprendre le SEO : les principes de base' },
-    { href: '/blog/google-search-console', label: 'Google Search Console : le guide' },
+    { href: '/blog/reporting-seo-kpis', label: 'Reporting SEO : les indicateurs qui comptent' },
   ],
   sources: [SRC.l6316],
   schema: {

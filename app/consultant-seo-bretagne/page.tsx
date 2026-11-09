@@ -29,8 +29,8 @@ const data: FicheData = {
   identite: [
     { label: 'Public', valeur: 'Entreprises bretonnes : PME, commerces et e-commerce, organismes de formation, cabinets, tourisme, collectivités' },
     { label: 'Prérequis', valeur: 'Un site en ligne' },
-    { label: 'Sans frais de déplacement', valeur: '[Rennes](/consultant-seo-rennes), [Vitré](/consultant-seo-vitre), [Fougères](/consultant-seo-fougeres), [Saint-Malo](/consultant-seo-saint-malo), [Dinard](/consultant-seo-dinard), [Cancale](/consultant-seo-cancale), [Dinan](/consultant-seo-dinan)' },
-    { label: 'Avec déplacement', valeur: '[Saint-Brieuc](/consultant-seo-saint-brieuc), [Lannion](/consultant-seo-lannion), [Vannes](/consultant-seo-vannes), [Lorient](/consultant-seo-lorient), [Quimper](/consultant-seo-quimper), [Brest](/consultant-seo-brest) : frais au réel, précisés dans le devis' },
+    { label: 'Sans frais de déplacement', valeur: '[Rennes](/consultant-seo-rennes), [Vitré](/consultant-seo-vitre), [Fougères](/consultant-seo-fougeres), [Saint-Malo](/consultant-seo-saint-malo), [Dinard](/consultant-seo-dinard), Cancale, Dinan' },
+    { label: 'Avec déplacement', valeur: 'Saint-Brieuc, Lannion, [Vannes](/consultant-seo-vannes), Lorient, Quimper, [Brest](/consultant-seo-brest) : frais au réel, précisés dans le devis' },
     { label: 'Tarif', valeur: TARIF_ZONE },
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },
     { label: 'Livrables', valeur: "Rapport d'audit, relevé de visibilité dans les IA, plan d'action, reporting mensuel" },

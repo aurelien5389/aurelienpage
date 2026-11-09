@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Fragment } from 'react'
 import styles from './MarkdownRenderer.module.css'
+import { lienFinal } from '@/lib/redirections'
 
 // Lien partenaire ouvert dans le même onglet (échange de liens Digital 64)
 const SAME_TAB_LINK_PREFIX = 'https://www.digital64.fr/'
@@ -54,7 +55,8 @@ export function renderInline(text: string, key: string | number): React.ReactNod
         </code>
       )
     } else {
-      const href = earliest[3]
+      // Un lien vers une page fusionnée pointe directement vers sa destination (pas de redirection)
+      const href = lienFinal(earliest[3])
       const isExternal = href.startsWith('http')
       parts.push(
         isExternal ? (

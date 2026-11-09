@@ -4,6 +4,7 @@
 // (déplacement ponctuel sur devis).
 import type { InternalLink } from '@/lib/internal-links'
 import { isNoindex } from '@/lib/indexation'
+import { estRedirige } from '@/lib/redirections'
 
 export type Modalite = 'sans-frais' | 'deplacement' | 'distance'
 
@@ -25,7 +26,7 @@ export interface Region {
 
 export const ZONES_PATH = '/zones-intervention'
 
-export const REGIONS: Region[] = [
+const REGIONS_DECLAREES: Region[] = [
   {
     id: 'bretagne',
     path: '/consultant-seo-bretagne',
@@ -84,6 +85,12 @@ export const REGIONS: Region[] = [
     ],
   },
 ]
+
+// Les villes dont la page a été fusionnée (config/redirections-seo.json) ne sont plus listées nulle part.
+export const REGIONS: Region[] = REGIONS_DECLAREES.map((r) => ({
+  ...r,
+  villes: r.villes.filter((v) => !estRedirige(`/consultant-seo-${v.slug}`)),
+}))
 
 /** « à Nantes », « au Mans » */
 export function aLaVille(nom: string): string {

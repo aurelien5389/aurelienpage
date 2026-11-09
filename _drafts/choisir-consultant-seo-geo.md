@@ -55,7 +55,7 @@ C'est la logique que j'applique : basé à Rennes, je me déplace en [Bretagne](
 
 ## Combien faut-il prévoir ?
 
-Les tarifs varient beaucoup selon le statut (freelance, agence) et la taille du site. Pour repère, mes tarifs : **audit SEO et GEO de 800 à 2 500 €** selon la taille du site, **suivi mensuel de 500 à 2 000 €**. Le détail de ce qui fait varier le prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo), et l'ensemble de mes tarifs dans [combien coûte une prestation SEO](/cout-prestation-seo).
+Les tarifs varient beaucoup selon le statut (freelance, agence) et la taille du site. Pour repère, mes tarifs : **audit SEO et GEO de 800 à 2 500 €** selon la taille du site, **[suivi SEO mensuel](/accompagnement-seo) de 500 à 2 000 €**. Le détail de ce qui fait varier le prix est dans [combien coûte un audit SEO](/reponses/combien-coute-un-audit-seo), et l'ensemble de mes tarifs dans [combien coûte une prestation SEO](/cout-prestation-seo).
 
 Un conseil : comparez des devis qui décrivent les mêmes livrables. Un audit à 500 € qui se limite à un export d'outil et un audit à 2 000 € avec un plan d'action priorisé ne vendent pas la même chose.
 

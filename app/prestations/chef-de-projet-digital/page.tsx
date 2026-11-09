@@ -93,7 +93,7 @@ const data: FicheData = {
     },
   ],
   liens: [
-    { href: '/blog/codes-http-seo', label: 'Codes HTTP et redirections : ce qui compte en SEO' },
+    { href: '/blog/audit-seo', label: 'Audit SEO : la méthode complète' },
     { href: '/prestations/consultant-seo-geo', label: 'Consultant SEO et GEO' },
   ],
   sources: [],

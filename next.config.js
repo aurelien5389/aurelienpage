@@ -20,6 +20,15 @@ function blogDuplicateRedirects() {
     .map((d) => ({ source: `/blog/${d.file}`, destination: d.slug, statusCode: 301 }))
 }
 
+// Pages fusionnées (audit Search Console du 9 novembre 2026) : config/redirections-seo.json
+const FUSIONS = Object.fromEntries(
+  Object.entries(require('./config/redirections-seo.json')).filter(([source]) => source.startsWith('/')),
+)
+const fusionRedirects = () =>
+  Object.entries(FUSIONS).map(([source, destination]) => ({ source, destination, statusCode: 301 }))
+// Une ancienne redirection qui menait vers une page fusionnée mène directement à la destination finale
+const sansChaine = (r) => (FUSIONS[r.destination] ? { ...r, destination: FUSIONS[r.destination] } : r)
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -27,6 +36,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      ...fusionRedirects(),
       ...blogDuplicateRedirects(),
       // Pages rédaction fusionnées dans /redaction-web
       { source: '/redacteur-web-juridique', destination: '/redaction-web', statusCode: 301 },
@@ -289,7 +299,7 @@ const nextConfig = {
         destination: '/blog/tendances-seo-2026',
         permanent: true,
       },
-    ]
+    ].map(sansChaine)
   },
   async headers() {
     return [

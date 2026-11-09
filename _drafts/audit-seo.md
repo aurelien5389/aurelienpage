@@ -145,6 +145,8 @@ Un bon audit SEO ne se termine pas par un rapport de 80 pages illisible. Il déb
 
 **Des indicateurs de suivi** : quelles métriques mesurer pour évaluer l'impact des actions ? Trafic organique global, positions sur les requêtes cibles, nombre de pages indexées, Core Web Vitals, conversions depuis le canal organique.
 
+Un audit dit quoi faire. Pour que le plan soit appliqué mois après mois, avec un relevé des résultats, voyez l'[accompagnement SEO mensuel](/accompagnement-seo).
+
 ## Audit SEO et IA générative : les nouvelles dimensions
 
 En 2026, un audit SEO complet intègre une dimension supplémentaire : la **visibilité dans les moteurs génératifs** (Google AI Overviews, Perplexity, ChatGPT Search).

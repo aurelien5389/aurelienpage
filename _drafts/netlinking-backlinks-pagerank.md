@@ -167,4 +167,4 @@ Le netlinking est l'axe SEO le plus long à construire, et le plus difficile à 
 
 La priorité : produire du contenu qui mérite d'être cité, développer sa présence dans les communautés de son secteur, et cultiver des relations avec les acteurs de son écosystème digital. Les liens viendront naturellement, et ils seront les meilleurs qui soient.
 
-Vous voulez analyser votre profil de liens actuel et identifier vos opportunités ? [Contactez-moi](/#contact).
+Vous voulez analyser votre profil de liens actuel et identifier vos opportunités ? [Contactez-moi](/#contact). Le travail sur les liens fait aussi partie de l'[accompagnement SEO mensuel](/accompagnement-seo).

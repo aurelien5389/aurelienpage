@@ -143,4 +143,6 @@ Le contenu qui performe en 2026 répond à trois critères : il est utile (il r�
 
 Ce n'est pas le volume qui fait la différence. C'est la stratégie derrière chaque contenu publié.
 
+Si vous manquez de temps pour la tenir, un [suivi SEO mensuel](/accompagnement-seo) prend en charge les contenus, le maillage et le reporting.
+
 Vous voulez construire une stratégie de contenu SEO adaptée à votre secteur et à vos objectifs ? [Contactez-moi](/#contact), c'est une partie centrale de mes missions de consultant.

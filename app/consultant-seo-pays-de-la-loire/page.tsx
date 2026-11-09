@@ -30,7 +30,7 @@ const data: FicheData = {
     { label: 'Public', valeur: 'Entreprises ligériennes : PME industrielles et de services, e-commerce, organismes de formation, cabinets' },
     { label: 'Prérequis', valeur: 'Un site en ligne' },
     { label: 'Sans frais de déplacement', valeur: '[Laval](/consultant-seo-laval) (siège), [Mayenne](/consultant-seo-mayenne), [Château-Gontier](/consultant-seo-chateau-gontier) et la Mayenne' },
-    { label: 'Avec déplacement', valeur: '[Nantes](/consultant-seo-nantes), [Saint-Nazaire](/consultant-seo-saint-nazaire), [La Baule](/consultant-seo-la-baule), [Angers](/consultant-seo-angers), [Cholet](/consultant-seo-cholet), [Saumur](/consultant-seo-saumur), [Le Mans](/consultant-seo-le-mans) : frais au réel, précisés dans le devis' },
+    { label: 'Avec déplacement', valeur: '[Nantes](/consultant-seo-nantes), Saint-Nazaire, La Baule, [Angers](/consultant-seo-angers), Cholet, Saumur, [Le Mans](/consultant-seo-le-mans) : frais au réel, précisés dans le devis' },
     { label: 'Format', valeur: 'Travail courant à distance ; diagnostic, restitution et ateliers sur place, frais de déplacement au réel précisés dans le devis' },
     { label: 'Tarif', valeur: TARIF_ZONE },
     { label: 'Financement', valeur: FINANCEMENT_CONSEIL },

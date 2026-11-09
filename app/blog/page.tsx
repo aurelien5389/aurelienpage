@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd'
 import { breadcrumbSchema, pageGraph, personRef } from '@/lib/schema'
 import { getBlogDrafts } from '@/lib/draft-parser'
 import { isNoindex } from '@/lib/indexation'
+import { estRedirige } from '@/lib/redirections'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -93,7 +94,8 @@ function getClusters() {
   const listed = new Set(RUBRIQUES.flatMap((r) => r.slugs))
   const autres = Array.from(titles.keys()).filter((slug) => !listed.has(slug) && !horsIndex(slug))
   const ordre = [...RUBRIQUES.flatMap((r) => r.slugs), ...Array.from(titles.keys())]
-  const bibliotheque = Array.from(new Set(ordre)).filter((slug) => titles.has(slug) && horsIndex(slug))
+  // Les articles fusionnés par redirection (config/redirections-seo.json) ne sont plus listés
+  const bibliotheque = Array.from(new Set(ordre)).filter((slug) => titles.has(slug) && horsIndex(slug) && !estRedirige(`/blog/${slug}`))
   return [
     ...RUBRIQUES.map((r) => ({ label: r.label, slugs: r.slugs.filter((slug) => !horsIndex(slug)) })),
     ...(autres.length ? [{ label: 'Autres guides', slugs: autres }] : []),

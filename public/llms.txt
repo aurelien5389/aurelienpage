@@ -86,8 +86,8 @@
 
 - [Blog SEO](https://aurelienpage.fr/blog): tous les guides SEO, GEO et rédaction web.
 - [Audit SEO](https://aurelienpage.fr/blog/audit-seo): méthode complète pour diagnostiquer un site.
-- [Robots.txt et meta robots](https://aurelienpage.fr/blog/robots-txt-meta-robots): contrôler l'exploration et l'indexation.
-- [Données structurées](https://aurelienpage.fr/blog/donnees-structurees-schema-org): Schema.org pour les résultats enrichis et la recherche par IA.
+- [Robots des IA](https://aurelienpage.fr/ressources/robots-ia): référentiel des robots d'IA et modèles de robots.txt.
+- [Données structurées et IA](https://aurelienpage.fr/reponses/donnees-structurees-ia): ce que Schema.org apporte vraiment aux réponses des IA.
 
 ## Optional
 
