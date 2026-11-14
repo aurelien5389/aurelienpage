@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, type FormEvent } from 'react'
+import { useAntiRobot } from './useAntiRobot'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import styles from './RessourcesEmail.module.css'
@@ -15,6 +16,7 @@ export default function RessourcesEmail() {
   const [consent, setConsent] = useState(false)
   const [website, setWebsite] = useState('')
   const [etat, setEtat] = useState<Etat>('repos')
+  const antiRobot = useAntiRobot()
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault()
@@ -23,7 +25,7 @@ export default function RessourcesEmail() {
       const res = await fetch('/api/ressources', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, consent, page: pathname, website }),
+        body: JSON.stringify({ email, consent, page: pathname, website, ...(await antiRobot.donnees()) }),
       })
       setEtat(res.ok ? 'ok' : 'erreur')
       if (res.ok) suivre('ressources_email')
@@ -46,7 +48,7 @@ export default function RessourcesEmail() {
             C&apos;est envoyé. Vérifiez votre boîte de réception (et les indésirables) dans quelques minutes.
           </p>
         ) : (
-          <form onSubmit={onSubmit} className={styles.reForm}>
+          <form onSubmit={onSubmit} onFocus={antiRobot.demarrer} onPointerDown={antiRobot.demarrer} className={styles.reForm}>
             <div className={styles.reLigne}>
               <label htmlFor="re-email" className={styles.reLabel}>Votre adresse e-mail</label>
               <input
@@ -73,6 +75,7 @@ export default function RessourcesEmail() {
               onChange={(e) => setWebsite(e.target.value)}
               className={styles.rePiege}
             />
+            <div ref={antiRobot.zone} />
             <label className={styles.reConsent}>
               <input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} />
               <span>

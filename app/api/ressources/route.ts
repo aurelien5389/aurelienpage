@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 import { Resend } from 'resend'
+import { controler } from '@/lib/securite'
 
 // Liste Resend « Ressources GEO (aurelienpage.fr) » : seuls les visiteurs qui cochent la case y sont ajoutés
 const SEGMENT_ID = process.env.RESEND_SEGMENT_RESSOURCES ?? '43ca850f-0541-41ba-b0ef-79ba6605dae5'
@@ -54,7 +55,14 @@ const html = () => `<!DOCTYPE html>
 
 export async function POST(request: NextRequest) {
   try {
-    const result = schema.safeParse(await request.json())
+    const body = await request.json()
+
+    // Cette route envoie un e-mail à l'adresse saisie : sans ces contrôles, elle sert de relais de spam.
+    // Origine, limite d'envois, champ piège, durée, Turnstile : voir lib/securite.ts
+    const refus = await controler(request, body && typeof body === 'object' ? body : {}, 'ressources')
+    if (refus) return refus
+
+    const result = schema.safeParse(body)
     if (!result.success) {
       return NextResponse.json({ error: 'Adresse email invalide' }, { status: 400 })
     }

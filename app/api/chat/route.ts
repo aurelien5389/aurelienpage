@@ -26,11 +26,12 @@ const schema = z.object({
 })
 
 // Origines autorisées : le site, ses domaines Vercel, le poste local
+// (une requête sans en-tête Origin, typique d'un script, est refusée)
 const origineAutorisee = (origin: string | null) =>
-  !origin ||
-  /^https:\/\/(www\.)?aurelienpage\.fr$/.test(origin) ||
-  /^https:\/\/aurelienpage[a-z0-9-]*\.vercel\.app$/.test(origin) ||
-  /^http:\/\/localhost(:\d+)?$/.test(origin)
+  !!origin &&
+  (/^https:\/\/(www\.)?aurelienpage\.fr$/.test(origin) ||
+    /^https:\/\/aurelienpage[a-z0-9-]*\.vercel\.app$/.test(origin) ||
+    /^http:\/\/localhost(:\d+)?$/.test(origin))
 
 // Limite simple par adresse IP (best effort : la mémoire est propre à chaque instance)
 const FENETRE_MS = 10 * 60 * 1000

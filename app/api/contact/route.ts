@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { z } from 'zod'
+import { controler } from '@/lib/securite'
 
 const contactSchema = z.object({
   name: z
@@ -37,6 +38,10 @@ export async function POST(request: NextRequest) {
   try {
     const resend = new Resend(process.env.RESEND_API_KEY)
     const body = await request.json()
+
+    // Origine, limite d'envois, champ piège, durée, liste de blocage, Turnstile : voir lib/securite.ts
+    const refus = await controler(request, body && typeof body === 'object' ? body : {}, 'contact')
+    if (refus) return refus
 
     const result = contactSchema.safeParse(body)
     if (!result.success) {

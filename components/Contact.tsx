@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState, type FormEvent } from 'react'
+import { useAntiRobot } from './useAntiRobot'
 import Icon, { type IconName } from '@/components/Icon'
 import { CALENDLY_URL } from '@/components/DiagnosticCTA'
 import { lireSource, suivre } from '@/components/SourceTracker'
@@ -49,6 +50,9 @@ export default function Contact({ niveauTitre = 2 }: Props) {
   const [erreurs, setErreurs] = useState<Erreurs>({})
   // Source technique mémorisée au premier chargement (SourceTracker) : référent et utm_source
   const [technique, setTechnique] = useState({ referrer: '', utmSource: '', landing: '' })
+  // Anti-robots : champ piège invisible, durée de remplissage, Turnstile
+  const [piege, setPiege] = useState('')
+  const antiRobot = useAntiRobot()
 
   useEffect(() => {
     setTechnique(lireSource())
@@ -81,6 +85,8 @@ export default function Contact({ niveauTitre = 2 }: Props) {
           referrer: technique.referrer || undefined,
           utmSource: technique.utmSource || undefined,
           landing: technique.landing || undefined,
+          website: piege,
+          ...(await antiRobot.donnees()),
         }),
       })
       if (res.ok) {
@@ -125,7 +131,13 @@ export default function Contact({ niveauTitre = 2 }: Props) {
         </div>
 
         <div className={styles.contactGrille}>
-          <form onSubmit={onSubmit} noValidate className={styles.formulaire}>
+          <form
+            onSubmit={onSubmit}
+            onFocus={antiRobot.demarrer}
+            onPointerDown={antiRobot.demarrer}
+            noValidate
+            className={styles.formulaire}
+          >
             <div>
               <label htmlFor="name" className={styles.champLabel}>
                 Prénom / Nom <span className={styles.champRequis} aria-hidden="true">*</span>
@@ -239,6 +251,19 @@ export default function Contact({ niveauTitre = 2 }: Props) {
             <input type="hidden" name="referrer" value={technique.referrer} readOnly />
             <input type="hidden" name="utm_source" value={technique.utmSource} readOnly />
             <input type="hidden" name="landing" value={technique.landing} readOnly />
+
+            {/* Champ piège : invisible pour un humain, rempli par les robots */}
+            <input
+              type="text"
+              name="website"
+              tabIndex={-1}
+              autoComplete="off"
+              aria-hidden="true"
+              value={piege}
+              onChange={(e) => setPiege(e.target.value)}
+              style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, opacity: 0 }}
+            />
+            <div ref={antiRobot.zone} />
 
             <button
               type="submit"
