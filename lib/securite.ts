@@ -13,6 +13,8 @@ import { NextRequest, NextResponse } from 'next/server'
  *
  * Variables d'environnement :
  *   TURNSTILE_SECRET_KEY : clé secrète Turnstile. Tant qu'elle n'est pas définie, l'étape 5 est ignorée.
+ *   TURNSTILE_MODE       : par défaut, Turnstile est en mode OBSERVATION (un échec est journalisé avec sa raison,
+ *                          mais l'envoi passe). Mettre « bloquant » seulement après un test humain réussi.
  *   EXPEDITEURS_BLOQUES  : facultatif, liste séparée par des virgules (noms, e-mails, domaines, mots).
  */
 
@@ -38,23 +40,25 @@ function tropDEnvois(cle: string) {
   return recents.length > MAX_ENVOIS
 }
 
-async function turnstileValide(jeton: unknown, ip: string) {
+async function turnstileValide(jeton: unknown, ip: string): Promise<{ ok: boolean; raison?: string }> {
   const secret = process.env.TURNSTILE_SECRET_KEY
   if (!secret) {
     console.warn('[securite] TURNSTILE_SECRET_KEY non configurée : vérification Turnstile ignorée.')
-    return true
+    return { ok: true }
   }
-  if (typeof jeton !== 'string' || !jeton || jeton.length > 2048) return false
+  if (typeof jeton !== 'string' || !jeton) return { ok: false, raison: "jeton absent (le widget n'a rien délivré au navigateur)" }
+  if (jeton.length > 2048) return { ok: false, raison: 'jeton trop long' }
   try {
     const params = new URLSearchParams({ secret, response: jeton })
     if (ip !== 'inconnue') params.set('remoteip', ip)
     const r = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', { method: 'POST', body: params })
-    const json = (await r.json()) as { success?: boolean }
-    return json.success === true
+    const json = (await r.json()) as { success?: boolean; hostname?: string; 'error-codes'?: string[] }
+    if (json.success === true) return { ok: true }
+    return { ok: false, raison: `siteverify refuse : ${JSON.stringify(json['error-codes'] ?? [])} hostname=${json.hostname ?? ''}` }
   } catch (e) {
     // Panne de Cloudflare : on refuse plutôt que d'ouvrir le formulaire aux robots.
     console.error('[securite] Turnstile injoignable :', e instanceof Error ? e.message : e)
-    return false
+    return { ok: false, raison: 'siteverify injoignable' }
   }
 }
 
@@ -96,8 +100,11 @@ export async function controler(
     }
   }
 
-  if (!(await turnstileValide(body.turnstile, ip))) {
-    console.warn(`[${nom}] Turnstile refusé`, { ip })
+  const verif = await turnstileValide(body.turnstile, ip)
+  if (!verif.ok) {
+    const bloquant = process.env.TURNSTILE_MODE === 'bloquant'
+    console.warn(`[${nom}] Turnstile en échec (${bloquant ? 'bloqué' : 'observation : envoi accepté'}) : ${verif.raison}`, { ip })
+    if (!bloquant) return null
     return NextResponse.json(
       { error: 'La vérification anti-robot a échoué. Rechargez la page et réessayez.' },
       { status: 403 }
