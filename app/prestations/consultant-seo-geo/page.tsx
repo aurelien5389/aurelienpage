@@ -19,10 +19,8 @@ export const metadata: Metadata = {
 }
 
 const LOCAL_PAGES = [
-  ['rennes', 'Rennes'], ['nantes', 'Nantes'], ['paris', 'Paris'], ['lyon', 'Lyon'],
-  ['bordeaux', 'Bordeaux'], ['marseille', 'Marseille'], ['toulouse', 'Toulouse'], ['lille', 'Lille'],
-  ['brest', 'Brest'], ['montpellier', 'Montpellier'], ['nice', 'Nice'], ['strasbourg', 'Strasbourg'],
-  ['caen', 'Caen'], ['vannes', 'Vannes'], ['lorient', 'Lorient'], ['quimper', 'Quimper'],
+  ['rennes', 'Rennes'], ['nantes', 'Nantes'], ['bordeaux', 'Bordeaux'],
+  ['brest', 'Brest'], ['caen', 'Caen'], ['vannes', 'Vannes'], ['lorient', 'Lorient'], ['quimper', 'Quimper'],
   ['saint-malo', 'Saint-Malo'], ['dinard', 'Dinard'], ['saint-nazaire', 'Saint-Nazaire'],
   ['laval', 'Laval'], ['le-mans', 'Le Mans'], ['angers', 'Angers'],
 ]

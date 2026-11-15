@@ -40,7 +40,9 @@ const BLOG_NOINDEX = [
 ]
 
 // Bordeaux reste indexée : la page reçoit un lien externe (échange Digital 64).
-const VILLES_LOINTAINES = ['paris', 'lyon', 'marseille', 'lille', 'toulouse', 'nice', 'strasbourg', 'montpellier', 'caen']
+// Paris, Lyon, Marseille, Lille, Toulouse, Nice, Strasbourg et Montpellier : pages supprimées et redirigées
+// vers /consultant-seo-a-distance (novembre 2026), voir next.config.js.
+const VILLES_LOINTAINES = ['caen']
 
 // Villes du Grand Ouest dont la page partage 65 à 72 % de ses phrases avec les autres pages villes
 // (mesure du 6 novembre 2026). Presque toutes étaient inconnues de Google. À retirer de la liste

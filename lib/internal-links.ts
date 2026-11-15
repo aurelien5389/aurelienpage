@@ -474,40 +474,6 @@ const NEARBY_CITIES: Record<string, InternalLink[]> = {
     { href: '/consultant-seo-saint-malo', label: 'Consultant SEO à Saint-Malo' },
     { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
   ],
-  marseille: [
-    { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
-    { href: '/consultant-seo-nice', label: 'Consultant SEO à Nice' },
-    { href: '/consultant-seo-bordeaux', label: 'Consultant SEO à Bordeaux' },
-  ],
-  montpellier: [
-    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
-    { href: '/consultant-seo-toulouse', label: 'Consultant SEO à Toulouse' },
-  ],
-  nice: [
-    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
-  ],
-  strasbourg: [
-    { href: '/consultant-seo-paris', label: 'Consultant SEO à Paris' },
-    { href: '/consultant-seo-lyon', label: 'Consultant SEO à Lyon' },
-    { href: '/consultant-seo-lille', label: 'Consultant SEO à Lille' },
-  ],
-  lille: [
-    { href: '/consultant-seo-paris', label: 'Consultant SEO à Paris' },
-    { href: '/consultant-seo-freelance', label: 'Consultant SEO freelance' },
-  ],
-  paris: [
-    { href: '/consultant-seo-lille', label: 'Consultant SEO à Lille' },
-    { href: '/consultant-seo-rennes', label: 'Consultant SEO à Rennes' },
-  ],
-  lyon: [
-    { href: '/consultant-seo-marseille', label: 'Consultant SEO à Marseille' },
-    { href: '/consultant-seo-bordeaux', label: 'Consultant SEO à Bordeaux' },
-    { href: '/consultant-seo-strasbourg', label: 'Consultant SEO à Strasbourg' },
-  ],
-  toulouse: [
-    { href: '/consultant-seo-montpellier', label: 'Consultant SEO à Montpellier' },
-    { href: '/consultant-seo-bordeaux', label: 'Consultant SEO à Bordeaux' },
-  ],
 }
 
 export const LOCAL_BLOG_LINKS: InternalLink[] = [
