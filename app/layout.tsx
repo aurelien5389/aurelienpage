@@ -89,6 +89,7 @@ export default function RootLayout({
     <html lang="fr" className={`${titre.variable} ${corps.variable}`}>
       <head>
         <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <meta name="linkavista" content="827c28e9c1345e8c219346980b36d6ff361aa478" />
       </head>
       <body>
         {/* Google Analytics */}
