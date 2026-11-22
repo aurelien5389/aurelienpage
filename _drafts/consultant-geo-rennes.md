@@ -1,6 +1,6 @@
 ---
 slug: "/consultant-geo-rennes"
-title: "Consultant GEO freelance à Rennes : être cité par les IA"
+title: "Consultant GEO à Rennes : l'alternative à une agence GEO"
 meta-description: "Consultant GEO freelance à Rennes, alternative à une agence GEO : accès des robots des IA, pages que ChatGPT et Perplexity citent, mesure avec Balise. Audit de 800 à 2 500 €."
 ---
 
