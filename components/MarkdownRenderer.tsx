@@ -45,9 +45,18 @@ export function renderInline(text: string, key: string | number): React.ReactNod
     }
 
     if (matchType === 0) {
-      parts.push(<strong key={`${key}-b-${i}`} className={styles.mdGras}>{earliest[2]}</strong>)
+      // Le contenu du gras peut porter un lien ou du code : **[Audit SEO](/prestations/audit-geo)**
+      parts.push(
+        <strong key={`${key}-b-${i}`} className={styles.mdGras}>
+          {renderInline(earliest[2], `${key}-b-${i}`)}
+        </strong>
+      )
     } else if (matchType === 1) {
-      parts.push(<em key={`${key}-i-${i}`} className={styles.mdItalique}>{earliest[2]}</em>)
+      parts.push(
+        <em key={`${key}-i-${i}`} className={styles.mdItalique}>
+          {renderInline(earliest[2], `${key}-i-${i}`)}
+        </em>
+      )
     } else if (matchType === 2) {
       parts.push(
         <code key={`${key}-c-${i}`} className={styles.mdCode}>
